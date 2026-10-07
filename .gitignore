@@ -9,3 +9,4 @@ THESIS_SCRAPE/raw/
 *.env
 __pycache__/
 *.pyc
+FL_INVENTORY_SCRAPE/raw/
