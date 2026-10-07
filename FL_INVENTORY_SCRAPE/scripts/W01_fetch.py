@@ -1,35 +1,32 @@
-import re, json, sys, time, subprocess
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-
-
-def get_html(url, tries=4):
-    for i in range(tries):
+import re,json,sys,time,urllib.parse
+from curl_cffi import requests as r
+def get(url):
+    for _ in range(3):
         try:
-            r = subprocess.run(["curl", "-sS", "-m", "60", "-A", UA, "-H", "Accept-Language: en-US,en;q=0.9",
-                                "-w", "\n%{http_code}", url], capture_output=True)
-            out = r.stdout.decode("utf8", "replace")
-            body, code = out.rsplit("\n", 1)
-            if code == "200":
-                return body
-            print("status", code, url, file=sys.stderr)
-        except Exception as e:
-            print("err", e, file=sys.stderr)
-        time.sleep(3 * (i + 1))
+            x=r.get(url,impersonate="chrome",timeout=45)
+            if x.status_code==200: return x.text
+        except Exception as e: pass
+        time.sleep(2)
     return None
-
-
-def hydration(h):
-    i = h.find('STATE_FROM_SERVER:')
-    if i < 0:
-        return None
-    j = h.index('{', i)
-    obj, end = json.JSONDecoder().raw_decode(h, j)
-    return obj
-
-
-def search(url):
-    h = get_html(url)
-    if h is None:
-        return None
-    d = hydration(h)
-    return d.get('search') if d else None
+def brk(t,key):
+    i=t.find('"'+key+'":')
+    if i<0:return None
+    s=i+len(key)+3
+    o=t[s]; c=']' if o=='[' else '}'
+    d=0
+    for k in range(s,len(t)):
+        if t[k]==o:d+=1
+        elif t[k]==c:
+            d-=1
+            if d==0:return json.loads(t[s:k+1])
+def parse(t):
+    pg=re.search(r'"pagination":(\{[^}]*\})',t)
+    fac=brk(t,'facets')
+    prods=brk(t,'products')
+    return (json.loads(pg.group(1)) if pg else None),fac,prods
+if __name__=="__main__":
+    for u in sys.argv[1:]:
+        t=get(u)
+        if not t: print(u,"FAIL");continue
+        pg,f,p=parse(t)
+        print(u,len(t),pg and pg['totalResults'],len(p or []))
