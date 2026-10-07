@@ -84,7 +84,27 @@ def collect(kind, sub, term):
     print(f"{slug}: {n} rows", flush=True)
 
 
-for sub in subs:
-    for term in terms:
-        for kind in ("posts", "comments"):
-            collect(kind, sub, term)
+MONTHLY = os.environ.get("MONTHLY") == "1"
+if MONTHLY:
+    import datetime as dt
+    months = []
+    d = dt.date.fromisoformat(AFTER)
+    end = dt.date.fromisoformat(BEFORE)
+    while d < end:
+        nd = (d.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
+        months.append((d.isoformat(), min(nd, end).isoformat()))
+        d = nd
+    base_out = outdir
+    for sub in subs:
+        for term in terms:
+            for kind in ("posts", "comments"):
+                for a, b in months:
+                    AFTER, BEFORE = a, b
+                    outdir = os.path.join(base_out, "m", a[:7])
+                    os.makedirs(outdir, exist_ok=True)
+                    collect(kind, sub, term)
+else:
+    for sub in subs:
+        for term in terms:
+            for kind in ("posts", "comments"):
+                collect(kind, sub, term)
