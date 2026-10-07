@@ -1,0 +1,2 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/ASO/sec_filings/ASO_10-K_FY2025_filed-2026-03-17.md	full	3553	3553	SEC cover checkboxes, TOC, forward-looking/safe-harbor, generic risk-factor phrasing, generic GAAP policy text (fair value hierarchy defs, ICFR definitions), auditor boilerplate, non-GAAP caveat text, XBRL exhibit entries, signature formatting, perf-graph disclaimer	WORKING_NOTES/P_ASO_10K.md	67126

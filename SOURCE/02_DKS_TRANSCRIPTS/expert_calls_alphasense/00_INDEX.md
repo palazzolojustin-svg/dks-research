@@ -1,0 +1,20 @@
+# DKS expert calls (AlphaSense) — index
+
+14 channel-check interviews with DKS suppliers, June–July 2026 (13 AlphaSense exports; one export contained two interviews). Filenames use the INTERVIEW date where AlphaSense gave one; the date in the AlphaSense title is the publish date. Synthesis: `00_DKS_SYNTHESIS/DKS_Expert_Calls_AlphaSense_Key_Insights_and_Quote_Bank.md`.
+
+| Interview date | Expert | Perspective | Words | File |
+|---|---|---|---|---|
+| 2026-06-13 | Sales Director at a Global Apparel Manufacturer The expert is the Sales Director at a global apparel manufacturer, who has an extremely large knowledge of the industry as a whole and sells directly into these targeted companies. | — | 2,694 | `DKS_Expert-Call_2026-06-13_Sales-Director_Global-Apparel-Manufacturer.md` |
+| 2026-07-02 | Executive at a Men's Uniform Apparel Manufacturer; oversees commercial and operational relationships with major department stores. | Partner | 2,913 | `DKS_Expert-Call_2026-07-02_Executive_Mens-Uniform-Apparel-Manufacturer.md` |
+| 2026-07-06 | Executive at a Retail Shoe Chain; oversees forecasting and retail logistics | Partner | 3,432 | `DKS_Expert-Call_2026-07-06_Executive_Footwear-Brand-Planner_forecasting-logistics.md` |
+| 2026-07-06 | Senior Manager, supplier, at a major global footwear brand; manages retail go-to-market execution, pricing, and supply chain delivery. | Partner | 5,409 | `DKS_Expert-Call_2026-07-06_Senior-Manager_Major-Global-Footwear-Brand_go-to-market-pricing.md` |
+| 2026-07-07 | Senior Director at a Major Apparel Manufacturer; focus on eCommerce and omni-channel wholesale partnerships. | Partner | 2,927 | `DKS_Expert-Call_2026-07-07_Senior-Director_Major-Apparel-Manufacturer_ecommerce-omni-wholesale.md` |
+| 2026-07-08 | Director of Sales, supplier brand, at a premium apparel and accessories brand Expert is the Director of Sales for the DKS account. | Partner | 5,912 | `DKS_Expert-Call_2026-07-08_Director-of-Sales_Premium-Apparel-Accessories-Brand_DKS-account.md` |
+| 2026-07-09 | VP of Wholesale Planning at a Footwear Company; focus on forecasting and inventory control. | Partner | 4,233 | `DKS_Expert-Call_2026-07-09_VP-Wholesale-Planning_Footwear-Company.md` |
+| 2026-07-10 | Director at a Major Athletic Manufacturer. The expert works in merchandising at Under Armour across Team Sports, Footwear, Apparel, with Dicks. | Partner | 5,655 | `DKS_Expert-Call_2026-07-10_Director-Merchandising_Under-Armour_team-sports-footwear-apparel.md` |
+| 2026-07-10 | Director of Planning, Supplier-side Category Manager, at global apparel brand in North America; oversees demand planning for national retail accounts. | Partner | 2,646 | `DKS_Expert-Call_2026-07-10_Director-of-Planning_Global-Apparel-Brand_workwear.md` |
+| 2026-07-13 | Merchandising Director, supplier-side category manager, at a global athletic apparel brand in NA; oversees seasonal assortment and franchise health. | Partner | 4,579 | `DKS_Expert-Call_2026-07-13_Merchandising-Director_Global-Athletic-Apparel-Brand.md` |
+| 2026-07-14 | Planning Manager, supplier, at a global athletic brand in the Americas; oversees seasonal forecasting and inventory optimization. | Partner | 6,857 | `DKS_Expert-Call_2026-07-14_Planning-Manager_Global-Athletic-Brand_forecasting-inventory.md` |
+| 2026-07-14 | Second interview embedded in the same AlphaSense export (apparel director: casual/golf/swim); no AlphaSense headline or metadata | — | 1,767 | `DKS_Expert-Call_2026-07-14_SECOND-INTERVIEW-same-export_Casual-Golf-Swim-Apparel-Director.md` |
+| 2026-07-28 | Manager at Footwear Manufacturer Views DICK'S Sporting Goods as a Key Growth Partner with Strong Collaboration Dynamics | — | 2,745 | `DKS_Expert-Call_2026-07-28_Manager_Footwear-Manufacturer_sporting-goods-and-value-accounts.md` |
+| 2026-07-29 | Senior Director at Global Footwear Brand Optimistic About Partnership Growth with Major Sporting Goods Retailer | — | 3,533 | `DKS_Expert-Call_2026-07-29_Senior-Director_Global-Footwear-Brand_womens-footwear-apparel.md` |

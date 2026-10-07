@@ -1,0 +1,1126 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>DKS Pitch Primer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one calm reading column (~72ch) for prose; tables may run wider inside their own scroll box. Every section opens with a "bottom line" box. */
+:root{
+  --bg:#f5f7f4; --surface:#ffffff; --fg:#1b2420; --muted:#56655c; --rule:#d7ded7; --fill:#eaefe9; --fill2:#dfe7df;
+  --accent:#1f6a40; --accent2:#8c5a2b; --pos:#1f6a40; --neg:#a1402a; --neu:#56655c; --link:#1f5a8a;
+  --display:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --body:"IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono:"IBM Plex Mono", Consolas, "SF Mono", monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121714; --surface:#171d19; --fg:#e4e9e4; --muted:#a3b3a8; --rule:#2a332d; --fill:#1b231e; --fill2:#232d26;
+    --accent:#62c08a; --accent2:#d9a066; --pos:#62c08a; --neg:#e58a6f; --neu:#a3b3a8; --link:#7fb3e6; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121714; --surface:#171d19; --fg:#e4e9e4; --muted:#a3b3a8; --rule:#2a332d; --fill:#1b231e; --fill2:#232d26;
+  --accent:#62c08a; --accent2:#d9a066; --pos:#62c08a; --neg:#e58a6f; --neu:#a3b3a8; --link:#7fb3e6; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:16px/1.65 var(--body);margin:0;padding-block:32px 72px;padding-inline:16px;overflow-x:hidden}
+.wrap{max-width:1080px;margin:0 auto}
+.prose{max-width:760px}
+h1{font:600 2.2rem/1.15 var(--display);margin:0 0 .5rem;text-wrap:balance;letter-spacing:-.01em}
+h2{font:600 1.55rem/1.2 var(--display);margin:3rem 0 .9rem;padding-top:1.3rem;border-top:2px solid var(--rule);text-wrap:balance}
+h3{font:600 1.15rem/1.3 var(--display);margin:2rem 0 .5rem;text-wrap:balance}
+h4{font:600 1rem/1.35 var(--body);margin:1.5rem 0 .3rem}
+p{margin:.6rem 0}
+ul,ol{margin:.4rem 0 .9rem;padding-left:1.3rem}
+li{margin:.35rem 0}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+strong{font-weight:600}
+.kicker{font:500 .78rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:.6rem}
+.sub{font:500 1.05rem/1.5 var(--display);color:var(--muted);margin:.2rem 0 1rem;max-width:760px}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px 20px;margin:1.2rem 0;padding:14px 16px;background:var(--fill);border-radius:6px}
+.meta div{font-size:.88rem;line-height:1.5;min-width:0}
+.meta b{display:block;font:500 .7rem/1.2 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:3px}
+.bl{background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--accent);border-radius:0 6px 6px 0;padding:12px 16px;margin:.4rem 0 1.4rem;max-width:760px}
+.bl b.lab{display:block;font:500 .7rem/1.2 var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--accent);margin-bottom:4px}
+.bl p{margin:.3rem 0}
+.take{font-weight:500;margin:1.2rem 0 .3rem;max-width:760px}
+.take::before{content:"What this shows: ";font:500 .72rem/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--accent);margin-right:4px}
+.idea{margin:1.1rem 0 1.3rem}
+.idea>h4{margin:0 0 .25rem}
+.idea>h4 .stars{font:500 .8rem/1 var(--mono);color:var(--accent2);margin-left:6px;letter-spacing:.05em}
+.idea .lead{margin:.15rem 0 .4rem}
+.tbl{overflow-x:auto;margin:.5rem 0 1rem;border:1px solid var(--rule);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.86rem;line-height:1.45;font-variant-numeric:tabular-nums}
+th,td{padding:7px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}
+th{background:var(--fill);font-weight:600;white-space:nowrap}
+td.n,th.n{text-align:right;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--fill) 45%,transparent)}
+tr.key td{font-weight:600}
+.note{font-size:.82rem;color:var(--muted);margin:-.4rem 0 1.2rem;max-width:860px}
+.callout{border-left:3px solid var(--accent2);background:var(--fill);padding:12px 16px;border-radius:0 6px 6px 0;margin:1.2rem 0;max-width:760px}
+.pos{color:var(--pos);font-weight:600}
+.neg{color:var(--neg);font-weight:600}
+.neu{color:var(--neu);font-weight:600}
+.toc{columns:2;column-gap:28px;font-size:.95rem;margin:1rem 0 .4rem;padding-left:1.4rem}
+.toc li{break-inside:avoid}
+.var{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px 16px;margin:.8rem 0;max-width:760px}
+.var h4{margin:0 0 .4rem}
+.var dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;margin:0;font-size:.93rem}
+.var dt{font:500 .72rem/1.9 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.var dd{margin:0;min-width:0}
+.pill{display:inline-block;font:600 .7rem/1.2 var(--mono);padding:2px 7px;border-radius:999px;background:var(--fill2);color:var(--fg);vertical-align:middle}
+.pill.up{color:var(--pos)}
+.pill.down{color:var(--neg)}
+@media (max-width:640px){.toc{columns:1}h1{font-size:1.65rem}table{font-size:.8rem}.var dl{grid-template-columns:1fr}.var dt{line-height:1.3;margin-top:4px}}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto}}
+</style>
+
+<div class="wrap">
+<div class="kicker">Buy-side primer · NYSE: DKS · data current to 5-Oct-2026</div>
+<h1>DICK'S Sporting Goods, with Foot Locker at the center</h1>
+<p class="sub">A plain-English version of the full breakdown: how the business makes money, how each part is performing, what the Street expects, and where we disagree.</p>
+
+<div class="meta">
+  <div><b>Fiscal years</b>DKS's year ends around 31 January. "FY26" here means the year ending 30-Jan-2027. Bloomberg calls that same year "2027".</div>
+  <div><b>Price</b>$137.26 (close 5-Oct-26). ~90M shares, so a market value of ~$12.4B. Down 45% from the 52-week high of $239 (26-Jun-26).</div>
+  <div><b>Consensus used</b>Bloomberg screens printed 4-Oct-26. FY26 EPS $11.49, FY27 EPS $13.36, FY28 EPS $15.03.</div>
+  <div><b>Next catalyst</b>Q3 FY26 earnings, expected 24 or 25-Nov-2026.</div>
+</div>
+
+<h3>Contents</h3>
+<ol class="toc" start="0">
+<li><a href="#s0">Key terms</a></li>
+<li><a href="#s1">How DKS makes money</a></li>
+<li><a href="#s2">Results by segment, last six quarters</a></li>
+<li><a href="#s3">Suppliers, customers and store economics</a></li>
+<li><a href="#s4">Management guidance and its track record</a></li>
+<li><a href="#s5">What the Street expects</a></li>
+<li><a href="#s6">Competition and pricing</a></li>
+<li><a href="#s7">Valuation</a></li>
+<li><a href="#s8">What moves the stock</a></li>
+<li><a href="#s9">How the key drivers are trending</a></li>
+<li><a href="#s10">Foot Locker deep dive</a></li>
+<li><a href="#s11">The 14 expert calls</a></li>
+<li><a href="#s12">Where we differ from the Street</a></li>
+<li><a href="#s13">Caveats and data conflicts</a></li>
+</ol>
+
+<div class="callout">
+<strong>The story in five points</strong>
+<ol>
+<li><strong>DKS is now two businesses with very different health.</strong> The original DICK'S stores (~$14.7B of sales, ~11% profit margin) keep growing and taking share. Foot Locker (~$7.4B of sales, bought in September 2025) is losing money.</li>
+<li><strong>The DICK'S core is growing, but the growth isn't reaching profit.</strong> Same-store sales have grown 4%+ in seven of the last eight quarters. Over the same period DKS has been spending heavily on new flagship stores, marketing and matching brand discounts, so profit has barely grown.</li>
+<li><strong>The Foot Locker turnaround slipped by about a year.</strong> DKS cleared out Foot Locker's old inventory, cut ~30% of the shoe styles and closed 135 stores. The promised recovery at back-to-school 2026 still didn't happen. Foot Locker depends on Nike and Jordan lifestyle sneakers, which are oversupplied and discounted, and Nike says that lasts past May 2028.</li>
+<li><strong>The 25-Aug-2026 guidance cut reset the stock.</strong> DKS cut FY26 EPS guidance from $13.50–14.50 to $11.00–12.00, and the stock fell 31% that day. It now trades at ~10x next year's consensus EPS, near its historical low.</li>
+<li><strong>Consensus for FY27 ($13.36, +16%) leaves out several known items.</strong> It doesn't include the interest on the $1B of new bonds, any buyback with that cash, any further Foot Locker store closures, or a possible exit from Foot Locker's money-losing international business. The downside items are likely but gradual. The upside items are less certain but large. On average they roughly cancel out (Section 12).</li>
+</ol>
+</div>
+
+<h2 id="s0">0. Key terms</h2>
+<div class="bl"><b class="lab">How to use this</b><p>Terms are defined once here and then used plainly. Dollar figures are in millions ($M) or billions ($B). "bps" means basis points: 100bps = 1 percentage point.</p></div>
+<div class="tbl"><table>
+<thead><tr><th style="width:26%">Term</th><th>Meaning</th></tr></thead>
+<tbody>
+<tr><td><strong>DICK'S Business ("the core")</strong></td><td>Everything DKS owned before Foot Locker: DICK'S stores, House of Sport, Field House, Golf Galaxy, Going Going Gone!, e-commerce, GameChanger and the media network. Reported as its own segment since Q3 FY25.</td></tr>
+<tr><td><strong>Foot Locker Business (FL)</strong></td><td>Foot Locker, Kids Foot Locker, Champs Sports, WSS and atmos stores in the US, Canada, Europe, Asia Pacific and Japan, plus 266 licensed stores run by partners. Owned since 8-Sep-2025. DKS reports it as one segment, so there is no separate profit figure for international.</td></tr>
+<tr><td><strong>Comp (comparable sales)</strong></td><td>Sales growth at stores and websites open at least ~14 months. The main measure of underlying demand. Only covers the DICK'S core until Foot Locker enters the comp base in Q4 FY26.</td></tr>
+<tr><td><strong>Pro forma comp (FL)</strong></td><td>Foot Locker's comp measured as if DKS had owned it a year earlier too. Disclosed separately each quarter.</td></tr>
+<tr><td><strong>Segment profit / margin</strong></td><td>Each segment's operating profit before interest, tax and one-off corporate items. Used here as each segment's "EBIT".</td></tr>
+<tr><td><strong>Merchandise margin</strong></td><td>Gross margin on the products alone, before store rent and shipping costs. Discounting shows up here first.</td></tr>
+<tr><td><strong>SG&amp;A leverage / deleverage</strong></td><td>Leverage means operating costs grew slower than sales, so they fell as a % of sales (good). Deleverage means costs grew faster than sales (bad).</td></tr>
+<tr><td><strong>Incremental margin</strong></td><td>How much of each extra dollar of sales becomes extra profit. If sales rise $100M and profit rises $10M, the incremental margin is 10%.</td></tr>
+<tr><td><strong>House of Sport / Field House</strong></td><td>DKS's new store formats. House of Sport: a ~120K sq ft flagship with a climbing wall, turf field and batting cages (41 open). Field House: a ~50K sq ft version that can replace most regular DICK'S stores (52 open). Most openings replace existing stores.</td></tr>
+<tr><td><strong>Golf Galaxy / Going Going Gone!</strong></td><td>Golf Galaxy is DKS's golf chain (114 stores). Going Going Gone! is its off-price clearance chain (52 stores), now also used to clear Foot Locker inventory.</td></tr>
+<tr><td><strong>Own brands (vertical brands)</strong></td><td>Brands DKS owns, such as DSG, CALIA, VRST and Maxfli. ~$1.8B, ~13% of core sales, and 7–9 points more gross margin than comparable national brands.</td></tr>
+<tr><td><strong>GameChanger</strong></td><td>A youth-sports app for scorekeeping and live-streaming, sold as a subscription. ~$150M of revenue, growing ~40% a year, ~80% gross margin.</td></tr>
+<tr><td><strong>DICK'S Media Network</strong></td><td>DKS sells advertising to brands on its screens, website and app. Turned profitable in Q2 FY26.</td></tr>
+<tr><td><strong>ScoreCard</strong></td><td>The loyalty program: ~30M active members who drive over 75% of core sales. ScoreCard+ is a $99/year paid tier launched July 2026.</td></tr>
+<tr><td><strong>Fast Break</strong></td><td>DKS's quick, low-cost refit of Foot Locker stores: ~30% of shoe styles removed, shoes grouped by sport, apparel added back. ~250 stores done by August 2026, 300–350 planned by year-end.</td></tr>
+<tr><td><strong>Launch / retro / "legacy silhouettes"</strong></td><td>Launches are limited sneaker releases (Jordan Retros, Dunks) that used to sell out. "Legacy silhouettes" is management's term for the classic lifestyle styles (Air Force 1, Dunk, Jordan 1, Samba) that are now oversupplied and discounted. This is Foot Locker's core product.</td></tr>
+<tr><td><strong>Sell-in vs sell-through</strong></td><td>Sell-in is what a brand ships to DKS. Sell-through is what DKS sells to customers. Sell-in growing faster than sell-through means inventory is building up.</td></tr>
+<tr><td><strong>MAP / price matching</strong></td><td>MAP (minimum advertised price) is the lowest price a brand lets retailers advertise. In summer 2026 brands discounted below it on their own websites, and DKS chose to match. That is the main reason it cut its FY26 gross-margin outlook.</td></tr>
+<tr><td><strong>Tariff refunds</strong></td><td>The Supreme Court struck down the 2025 emergency tariffs on 20-Feb-2026, and DKS received $59M of refunds in Q2 FY26. About $21M of that boosted core gross margin and will not repeat.</td></tr>
+<tr><td><strong>Acquisition charges</strong></td><td>One-time Foot Locker costs (integration, inventory write-downs, closures) that DKS excludes from adjusted EPS. Up to $750M in total; $516M used through Q2 FY26.</td></tr>
+<tr><td><strong>Synergies</strong></td><td>The $100–125M of annual cost savings DKS promised from the deal, mostly from buying product more cheaply. None have been shown in Foot Locker's margin yet.</td></tr>
+<tr><td><strong>Valuation allowance</strong></td><td>An accounting reserve that stops a company booking tax benefits on losses it doesn't expect to recover. Foot Locker's European losses carry a full allowance, so they get no tax benefit. That is why DKS's tax rate rose from ~25.5% to ~29%.</td></tr>
+<tr><td><strong>"The menu"</strong></td><td>CEO Ed Stack's phrase (Sep-2026) for the list of structural options DKS is preparing for Foot Locker: closures, selling or licensing assets, and so on.</td></tr>
+<tr><td><strong>EV (enterprise value)</strong></td><td>Market value plus net debt. Shown here excluding store leases (~$13.3B) unless stated.</td></tr>
+</tbody></table></div>
+
+<h2 id="s1">1. How DKS makes money</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>DKS buys finished products from ~1,500 brands (Nike is ~31% of purchases) and sells them through stores, its website and app. Most of the profit comes from the DICK'S core, so two numbers matter most: how fast core sales grow, and how much of that growth turns into profit. Foot Locker is about a third of sales but currently loses money. A few small side businesses (GameChanger, advertising, own brands) carry much higher margins than the stores and are growing.</p></div>
+
+<div class="prose">
+<p>In FY25 the core had $14.1B of sales from 892 stores at an 11.1% segment margin. Foot Locker runs at ~$7.4B a year from 2,212 owned stores and loses money. On a full-year basis the combined company would have had $21.8B of sales in FY25.</p>
+
+<h3>1.1 Why Foot Locker earns so much less than DICK'S</h3>
+<p class="take">Foot Locker's costs are worse on every major line. It earns a lower margin on each product, pays higher mall rents, and its small stores can't spread labor costs the way large DICK'S boxes can.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>FY25, % of each segment's sales</th><th class="n">DICK'S</th><th class="n">Foot Locker</th><th>Why the gap</th></tr></thead>
+<tbody>
+<tr><td>Cost of the products</td><td class="n">50.3%</td><td class="n">60.3%</td><td>Foot Locker sells mostly Nike at lower markups with heavier discounting. DICK'S has ~13% own brands at much higher margins.</td></tr>
+<tr><td>Rent (occupancy)</td><td class="n">8.5%</td><td class="n">13.3%</td><td>~2,200 small mall stores versus large suburban boxes.</td></tr>
+<tr><td>Store labor</td><td class="n">14.0%</td><td class="n">16.0%</td><td>A ~$4.4M Foot Locker store can't spread staff costs like a $15–35M DICK'S store.</td></tr>
+<tr><td>Other costs (marketing, tech, new-store costs)</td><td class="n">16.1%</td><td class="n">12.0%</td><td>This is the DICK'S line that keeps rising (15.4% in FY23) as DKS invests.</td></tr>
+<tr class="key"><td>Segment profit margin</td><td class="n">11.1%</td><td class="n">(1.7)%</td><td>Foot Locker earned ~9% before COVID (FY19) and 11.7% at the FY21 peak.</td></tr>
+</tbody></table></div>
+<p class="note">Foot Locker figures cover only the 21 weeks DKS owned it in FY25. The two segments book supply-chain costs on different lines, so gross margins aren't perfectly comparable.</p>
+
+<div class="prose"><h3>1.2 Every way DKS makes money</h3>
+<p class="take">Store sales are almost all of the revenue. GameChanger, advertising and own brands are small but add meaningfully to margin. Foot Locker international and licensing matter mainly because of a possible exit (Section 10).</p></div>
+<div class="tbl"><table>
+<thead><tr><th>Revenue stream</th><th>What it is</th><th>Size and current state</th></tr></thead>
+<tbody>
+<tr><td><strong>Regular DICK'S stores</strong></td><td>630 stores (~53K sq ft) selling footwear, apparel and equipment from national and own brands.</td><td>Core comps of +4.5%, +5.0%, +5.7%, +3.1%, +6.0%, +4.9% over the last six quarters, ~2 points ahead of the industry.</td></tr>
+<tr><td><strong>House of Sport</strong></td><td>Experiential flagships. ~$35M of first-year sales, ~20% store-level profit margin, payback in under 4 years.</td><td>41 open, ~14 opening in FY26, ~18 under construction for 2027. Target is 67–68 by end-2027, down from the earlier "75 to 100". UBS estimates they add ~1.5 points to the core comp.</td></tr>
+<tr><td><strong>Field House</strong></td><td>A ~50K sq ft next-generation store. ~$14M of first-year sales, ~20% margin, ~2.5-year payback.</td><td>52 open, ~20 in FY26. The best return on capital in the business.</td></tr>
+<tr><td><strong>Golf Galaxy</strong></td><td>114 golf stores, 37 with club-fitting studios.</td><td>Golf was soft in Q2 FY26.</td></tr>
+<tr><td><strong>Going Going Gone!</strong></td><td>52 off-price clearance stores.</td><td>Lower margin by design. Now also clears Foot Locker's excess stock at better prices than selling it to liquidators.</td></tr>
+<tr><td><strong>E-commerce</strong></td><td>Online sales, mostly shipped from stores. ~70% of customers shop both online and in store.</td><td>Included in the comp. Fuel and shipping costs hurt gross margin in 1H FY26.</td></tr>
+<tr><td><strong>Own brands</strong></td><td>DSG, CALIA, VRST, Maxfli and others. ~$1.8B, ~13% of core sales.</td><td>7–9 points more gross margin than national brands. Share of sales has been flat since FY22. Collectively DKS's #2 "vendor" after Nike.</td></tr>
+<tr><td><strong>GameChanger</strong></td><td>Youth-sports streaming and scorekeeping subscription.</td><td>~$150M in FY25, growing ~40%. JPM estimates it added ~35bps to core gross margin in Q2 FY26.</td></tr>
+<tr><td><strong>DICK'S Media Network</strong></td><td>Advertising sold to brands on DKS screens, site, app and GameChanger.</td><td>Profitable since Q2 FY26. JPM estimates ~25bps of core gross margin. GameChanger and the media network together add ~60–80bps.</td></tr>
+<tr><td><strong>ScoreCard loyalty</strong></td><td>~30M active members, over 75% of core sales. Paid ScoreCard+ tier at $99/year.</td><td>Gives DKS customer data it uses for advertising and for winning brand allocations.</td></tr>
+<tr><td><strong>Shop-in-shops and exclusives</strong></td><td>Fanatics trading cards, Gymshark, Vuori, and DKS-only product from Nike, adidas, On and HOKA.</td><td>Brings traffic and newness. Trading cards carry low margins and hurt Q1 FY26 gross margin.</td></tr>
+<tr><td><strong>Brand funding</strong></td><td>Brands pay for co-op advertising and markdowns. None of this is contractually guaranteed.</td><td>Brands that hold prices firm (On, HOKA, UGG) give no markdown money. DKS plus Foot Locker is roughly 22% of Nike's wholesale business (JPM estimate), which gives DKS bargaining power.</td></tr>
+<tr><td><strong>Foot Locker North America</strong></td><td>Foot Locker (715), Kids Foot Locker (353), Champs (364) and WSS (99). Mostly mall stores, 84% footwear, ~60% Nike.</td><td>Comp +1.4% in Q1 FY26, then about −3.8% in Q2.</td></tr>
+<tr><td><strong>Foot Locker International</strong></td><td>559 stores in Europe, 92 in Asia Pacific, 30 atmos stores in Japan. Largest markets are Italy, France, Canada and Australia.</td><td>~$2.2B a year (~10% of DKS sales). Comps negative six quarters in a row. Losses carry no tax benefit.</td></tr>
+<tr><td><strong>Foot Locker licensing</strong></td><td>266 stores run by partners (Middle East, Asia, India, SE Europe) that pay royalties.</td><td>Small (~$17M of royalties in FY24) but nearly all profit. This is how an international exit would most likely be done.</td></tr>
+</tbody></table></div>
+
+<div class="prose">
+<h3>1.3 Which levers move earnings the most</h3>
+<p class="take">The core's sales growth and margin matter most. Foot Locker margin is the second big lever. These rules of thumb are used throughout the document.</p>
+<ul>
+<li><strong>Core comp:</strong> each 1 point of core comp is ~$147M of sales and ~$0.33–0.42 of EPS, assuming 28–35% of the extra sales becomes profit.</li>
+<li><strong>Core margin:</strong> each 50bps of core segment margin is ~$75M of profit, or ~$0.62 of EPS. The core margin has fallen year over year in four of the last five quarters, mostly because of rising costs.</li>
+<li><strong>Foot Locker margin:</strong> on ~$7.4B of sales, each 1 point of Foot Locker margin is ~$74M, or ~$0.60 of EPS.</li>
+<li><strong>Cash:</strong> capex is ~$1.4B a year after landlord contributions, 2.3x depreciation. The $5.00 dividend costs ~$450M a year, more than the last twelve months of free cash flow ($239M). A $3.0B buyback authorization is unused, and DKS just raised $1.0B of new bonds at 6.2–6.9%.</li>
+</ul>
+
+<h3>1.4 What DKS sells</h3>
+<p class="take">Footwear is now nearly half of sales because Foot Locker is almost all shoes. Even before the deal, footwear was the growth engine at DICK'S while equipment sales shrank.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>% of total sales</th><th class="n">FY22</th><th class="n">FY24</th><th class="n">FY25 (incl. 21 wks of FL)</th><th class="n">Q2 FY26 (incl. FL)</th></tr></thead>
+<tbody>
+<tr><td>Footwear</td><td class="n">24%</td><td class="n">28%</td><td class="n">40%</td><td class="n">47%</td></tr>
+<tr><td>Apparel</td><td class="n">34%</td><td class="n">33%</td><td class="n">28%</td><td class="n">23%</td></tr>
+<tr><td>Equipment (hardlines)</td><td class="n">40%</td><td class="n">36%</td><td class="n">29%</td><td class="n">28%</td></tr>
+<tr><td>Other (GameChanger, advertising, royalties)</td><td class="n">2%</td><td class="n">3%</td><td class="n">3%</td><td class="n">2%</td></tr>
+</tbody></table></div>
+<p class="note">Equipment sales in dollars have fallen every year since FY21, while footwear dollars more than doubled.</p>
+
+
+<h2 id="s2">2. Results by segment, last six quarters</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>The core keeps growing ~5%, but its margin fell year over year in four of the last five quarters because costs grew faster than sales. Foot Locker's comp was negative in five of the last six quarters and it is losing money again. The company's overall margin fell from 13.0% to 8.1% in a year, mostly because a lower-margin business (Foot Locker) was added.</p></div>
+
+<div class="prose"><h3>2.1 The DICK'S core</h3>
+<p class="take">Sales grow every quarter, but profit is flat. Gross margin was helped in Q2 FY26 by one-time tariff refunds. Without them, margin fell about 90bps.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>$M</th><th class="n">Q1 FY25</th><th class="n">Q2 FY25</th><th class="n">Q3 FY25</th><th class="n">Q4 FY25</th><th class="n">Q1 FY26</th><th class="n">Q2 FY26</th></tr></thead>
+<tbody>
+<tr><td>Net sales</td><td class="n">3,175</td><td class="n">3,647</td><td class="n">3,237</td><td class="n">4,051</td><td class="n">3,377</td><td class="n">3,850</td></tr>
+<tr><td>Comp</td><td class="n">+4.5%</td><td class="n">+5.0%</td><td class="n">+5.7%</td><td class="n">+3.1%</td><td class="n">+6.0%</td><td class="n">+4.9%</td></tr>
+<tr><td>Gross margin change y/y</td><td class="n">+41bps</td><td class="n">+33bps</td><td class="n">+27bps</td><td class="n">+67bps</td><td class="n">−36bps</td><td class="n">+79bps (~+30 without refunds)</td></tr>
+<tr><td>Operating costs vs sales (+ = leverage)</td><td class="n">−42bps</td><td class="n">−105bps</td><td class="n">−45bps</td><td class="n">+22bps</td><td class="n">−31bps</td><td class="n">−96bps</td></tr>
+<tr class="key"><td>Segment profit</td><td class="n">360</td><td class="n">475</td><td class="n">289</td><td class="n">445</td><td class="n">361</td><td class="n">485</td></tr>
+<tr class="key"><td>Segment margin (change y/y)</td><td class="n">11.4% (~0)</td><td class="n">13.0% (−81)</td><td class="n">8.9% (−55)</td><td class="n">11.0% (+88)</td><td class="n">10.7% (−66)</td><td class="n">12.6% (−42; ~−91 without refunds)</td></tr>
+<tr><td>Stores: total / House of Sport / Field House</td><td class="n">885 / 21 / 31</td><td class="n">889 / 22 / 35</td><td class="n">891 / 35 / 41</td><td class="n">888 / 35 / 42</td><td class="n">888 / 36 / 44</td><td class="n">892 / 41 / 52</td></tr>
+</tbody></table></div>
+<p class="note">Comps have been ticket-led (customers spending more per visit, +3.6% to +5.5%), while the number of transactions has been roughly flat (−1.3% to +1.3%). The Q2 FY26 cost jump came from World Cup advertising, new-store opening costs and healthcare.</p>
+
+<div class="prose"><h3>2.2 Foot Locker</h3>
+<p class="take">One positive quarter (Q1 FY26) looked like a turnaround, and Q2 reversed it. Inventory is rising while sales fall, which usually leads to more discounting.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>$M</th><th class="n">Q1 FY25*</th><th class="n">Q2 FY25*</th><th class="n">Q3 FY25 (8 wks)</th><th class="n">Q4 FY25</th><th class="n">Q1 FY26</th><th class="n">Q2 FY26</th></tr></thead>
+<tbody>
+<tr><td>Net sales</td><td class="n">1,788</td><td class="n">1,851</td><td class="n">931</td><td class="n">2,175</td><td class="n">1,787</td><td class="n">1,737</td></tr>
+<tr><td>Comp</td><td class="n">−2.6%</td><td class="n">−2.0%</td><td class="n">−4.7%</td><td class="n">−3.4%</td><td class="n">+0.6%</td><td class="n">−3.6%</td></tr>
+<tr><td>International comp</td><td class="n">−10.2% (Europe)</td><td class="n">−11.4% (Europe)</td><td class="n">−10.2%</td><td class="n">−3.2%</td><td class="n">−1.7%</td><td class="n">−3.3%</td></tr>
+<tr><td>Gross margin</td><td class="n">28.4%</td><td class="n">27.1%</td><td class="n">23.0%</td><td class="n">25.0%</td><td class="n">27.9%</td><td class="n">25.7%</td></tr>
+<tr class="key"><td>Segment profit (margin)</td><td class="n">~4 (0.2%)</td><td class="n">~(13) (−0.7%)</td><td class="n">(46) (−5.0%)</td><td class="n">(6) (−0.3%)</td><td class="n">18 (1.0%)</td><td class="n">(32) (−1.8%)</td></tr>
+<tr><td>Owned stores</td><td class="n">2,363</td><td class="n">2,354</td><td class="n">2,339</td><td class="n">2,307</td><td class="n">2,227</td><td class="n">2,212</td></tr>
+<tr><td>Inventory ($B)</td><td class="n">1.67</td><td class="n">1.71</td><td class="n">~1.8</td><td class="n">~1.5</td><td class="n">~1.7</td><td class="n">~2.0</td></tr>
+</tbody></table></div>
+<p class="note">*Before DKS owned it (Foot Locker's own reports, adjusted figures). The Q3 FY25 stub is only 8 weeks and misses back-to-school, Foot Locker's most profitable season. Q2 FY26 margin was hit by discounting of "legacy" Nike and Jordan styles.</p>
+
+<div class="prose"><h3>2.3 The whole company</h3>
+<p class="take">Q2 FY26 was the first clear miss since the deal, and the stock fell 31%. Before that, DKS had met or beaten consensus EPS every quarter.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>$M, adjusted</th><th class="n">Q1 FY25</th><th class="n">Q2 FY25</th><th class="n">Q3 FY25</th><th class="n">Q4 FY25</th><th class="n">Q1 FY26</th><th class="n">Q2 FY26</th></tr></thead>
+<tbody>
+<tr><td>Net sales</td><td class="n">3,175</td><td class="n">3,647</td><td class="n">4,168</td><td class="n">6,226</td><td class="n">5,165</td><td class="n">5,587</td></tr>
+<tr><td>Gross margin</td><td class="n">36.7%</td><td class="n">37.1%</td><td class="n">33.1%</td><td class="n">31.9%</td><td class="n">33.4%</td><td class="n">34.1%</td></tr>
+<tr class="key"><td>Operating margin</td><td class="n">11.4%</td><td class="n">13.0%</td><td class="n">5.8%</td><td class="n">7.0%</td><td class="n">7.3%</td><td class="n">8.1%</td></tr>
+<tr><td>Tax rate</td><td class="n">~24%</td><td class="n">24.9%</td><td class="n">24.7%</td><td class="n">26.8%</td><td class="n">28.8%</td><td class="n">28.1%</td></tr>
+<tr class="key"><td>Adjusted EPS vs consensus</td><td class="n">$3.37 vs 3.30</td><td class="n">$4.38 vs 4.30</td><td class="n">$2.07</td><td class="n">$3.45 vs ~2.90</td><td class="n">$2.90 vs 2.90</td><td class="n">$3.53 vs 3.75</td></tr>
+<tr><td>Free cash flow</td><td class="n">(87)</td><td class="n">296</td><td class="n">(516)</td><td class="n">706</td><td class="n">(84)</td><td class="n">133</td></tr>
+<tr><td>Stock move on results day</td><td class="n">+1.7%</td><td class="n">−4.8%</td><td class="n">+0.2%</td><td class="n">+1.1%</td><td class="n">−6.0%</td><td class="n">−30.7%</td></tr>
+</tbody></table></div>
+<p class="note">Q3 FY25 consensus was on a DICK'S-only basis, so it isn't comparable. Last twelve months to 1-Aug-26: sales $21.1B, adjusted operating margin 7.2%, free cash flow $239M against ~$450M of dividends.</p>
+
+<div class="callout"><strong>The key point from these tables.</strong> In 1H FY26 the core added $406M of sales but only $11M of segment profit. Foot Locker's gross margin (25–28%) is back where it was before the deal; the 5–6 point recovery management talks about hasn't started. The market now pays ~10x next year's EPS for the combined company.</div>
+
+<h2 id="s3">3. Suppliers, customers and store economics</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>Nike is the supplier that matters most: ~25% of core purchases and ~59% of Foot Locker's. The DICK'S customer is suburban, family-oriented and holding up well. The Foot Locker customer is younger, lower-income, mall-based and under pressure. New House of Sport and Field House stores earn excellent returns. Foot Locker stores, especially WSS and Europe, earn poor ones.</p></div>
+
+<div class="prose"><h3>3.1 Suppliers</h3>
+<p class="take">DKS has no long-term contracts with any brand, and all brand funding is discretionary. The fastest-growing brands (On, HOKA, UGG) control their own distribution and won't fund discounts.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>Supplier</th><th>How big</th><th>What matters now</th></tr></thead>
+<tbody>
+<tr><td><strong>Nike (incl. Jordan)</strong></td><td>~31% of total purchases: ~25% at DICK'S, ~59% at Foot Locker (down from 75% in FY20).</td><td>Nike chooses which retailers get scarce launch product. Foot Locker's share of Nike's hottest product roughly halved after COVID. Nike now expects FY27 revenue to fall high-single digits, and says its lifestyle and Jordan reset runs "beyond fiscal 2027" (past May 2028).</td></tr>
+<tr><td><strong>adidas</strong></td><td>#2 national brand at DICK'S.</td><td>Growing ~15% in North America and gaining shelf space as Nike resets. Its Samba/Gazelle trend is past its peak.</td></tr>
+<tr><td><strong>On</strong></td><td>In ~50% of DKS, Foot Locker and JD doors (from ~20% in 2023), targeting ~75% by 2029.</td><td>Holds prices firm with very little discounting. Deliberately holding back shipments in 2H26 to keep prices clean. Its newest shoe goes to running specialty stores first.</td></tr>
+<tr><td><strong>HOKA / UGG (Deckers)</strong></td><td>DKS and Foot Locker are HOKA's key US wholesale partners. UGG shipments to DKS were up 238% in May–Jul 2026.</td><td>Strict price controls and no markdown support. When product drops below the minimum price, DKS pays for the discount itself.</td></tr>
+<tr><td><strong>Under Armour</strong></td><td>"Hundreds of millions" of revenue from DKS.</td><td>The one supplier that warned before the print that DKS was "getting more promotional."</td></tr>
+<tr><td><strong>Own brands</strong></td><td>~$1.8B; DKS's #2 "vendor".</td><td>Sourced overseas, so exposed to tariffs. DKS has removed mid-tier national brands when its own brand covers the same slot (Reebok apparel is the example a supplier gave).</td></tr>
+<tr><td><strong>Landlords</strong></td><td>Almost all stores are leased; $6.1B of lease liabilities.</td><td>DICK'S leases run 10–15 years. Foot Locker leases run 5–10 years, which makes closing Foot Locker stores easier.</td></tr>
+</tbody></table></div>
+
+<div class="prose">
+<h3>3.2 Customers</h3>
+<ul>
+<li><strong>The DICK'S customer is holding up.</strong> Suburban and family-oriented. Management said every quarter from Nov-24 to May-26 that it saw "no signs of trading down." By Sep-26 it said the consumer is "under pressure" but the DICK'S customer is "holding up very, very well." DKS adds ~1.5M new loyalty members a quarter, skewing younger and more female.</li>
+<li><strong>The Foot Locker customer is under pressure.</strong> Mostly young men aged 12–25 buying sneakers as fashion, lower-income and mall-dependent. Management: this customer "may be a little bit more under pressure." A Bloomberg Intelligence survey (May-26) found 38% of households earning under $50K are waiting for sales (31% a year earlier). Exclusivity ranked low as a reason to buy, which hurts Foot Locker's launch-driven model.</li>
+<li><strong>Brands are customers too.</strong> They buy advertising on DKS's media network and pay for exclusive product and joint marketing.</li>
+<li><strong>Trade-down is uneven.</strong> Suppliers of premium goods (Under Armour, UGG) see DKS customers trading up. Suppliers of basics (workwear, denim, socks, Crocs) see smaller baskets and shoppers moving to cheaper own brands.</li>
+</ul>
+
+<h3>3.3 What each store and product earns</h3>
+<p class="take">DKS's new store formats earn 25–40% cash returns. Foot Locker's weaker banners (WSS, Champs, Europe) are where closures and exits would come from.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>Format / product</th><th>Scale</th><th>Economics</th></tr></thead>
+<tbody>
+<tr><td>House of Sport</td><td>~$35M first-year sales; ~$20M net investment</td><td>~20% store-level profit margin (~$7M), ~25% cash return, payback under 4 years.</td></tr>
+<tr><td>Field House</td><td>~$14M first-year sales; ~$4.5M net investment</td><td>~20% margin (~$3M), ~40% cash return, ~2.5-year payback.</td></tr>
+<tr><td>Regular DICK'S store</td><td>~$15–16M sales, ~53K sq ft</td><td>~11% segment margin. Being converted into the new formats (677 → 630 regular stores in 18 months).</td></tr>
+<tr><td>GameChanger</td><td>~$150M revenue, growing ~40%</td><td>~80% gross margin, so ~$120M of gross profit.</td></tr>
+<tr><td>Own brands</td><td>~$1.8B</td><td>7–9 points more gross margin than national brands.</td></tr>
+<tr><td>Foot Locker North America store</td><td>~$4.4M sales per store</td><td>Loss-making as a segment. Fast Break stores comp "double-digit"; the rest of the fleet was roughly −4% to −5% in Q2 FY26 (our estimate).</td></tr>
+<tr><td>WSS</td><td>99 stores (from 151), ~$4.5–5.0M each</td><td>Off-mall value banner. Comp negative every quarter since Jan-2023. $140M brand write-down in 2025.</td></tr>
+<tr><td>Champs</td><td>364 stores, ~$2.9M each</td><td>Sales down 40% from the FY21 peak. Over 75% of stores are within a mile of a Foot Locker.</td></tr>
+<tr><td>Foot Locker Europe</td><td>559 stores, ~$1.6–1.7B sales</td><td>Loses money with no tax benefit. Labor councils make exits expensive.</td></tr>
+<tr><td>Foot Locker licensing</td><td>266 partner-run stores</td><td>Royalties are almost pure profit. This is the template for an international exit.</td></tr>
+</tbody></table></div>
+
+<h2 id="s4">4. Management guidance and its track record</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>On the DICK'S core, management has guided conservatively and beaten every year from FY22 to FY25. On Foot Locker, guidance has been wrong twice in nine months: too gloomy for Q4 FY25, then far too optimistic for FY26. The August cut was mostly Foot Locker, plus a lower core margin from matching brand discounts.</p></div>
+
+<div class="prose"><h3>4.1 Track record</h3>
+<p class="take">Core guidance was beaten or raised every year, though DKS missed its own gross margin plan in FY25.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>Year</th><th>Initial guide</th><th>What happened during the year</th><th>Actual</th></tr></thead>
+<tbody>
+<tr><td>FY23</td><td>Comp flat to +2%; EPS $12.90–13.80</td><td>Cut in Aug-23 (theft and margin; stock −24%), then partly raised back</td><td>Comp +2.4%; EPS $12.91</td></tr>
+<tr><td>FY24</td><td>Comp +1–2%; EPS $12.85–13.25</td><td>Raised three times</td><td>Comp +5.2%; EPS $14.05</td></tr>
+<tr><td>FY25 (core)</td><td>Comp +1–3%; gross margin +~75bps; EPS $13.80–14.40</td><td>Raised twice, but margin language softened in Aug-25 (stock −4.8%)</td><td>Comp +4.5%; margin only +43bps; EPS $14.58</td></tr>
+<tr><td>Foot Locker Q4 FY25</td><td>Comp down mid-to-high single digits; slightly negative profit</td><td>First Foot Locker guide</td><td>Comp −3.4% (better); loss $6M (in line)</td></tr>
+</tbody></table></div>
+
+<div class="prose"><h3>4.2 How FY26 guidance moved</h3>
+<p class="take">Almost all of the August cut came from Foot Locker. The core sales and comp guide was unchanged, but the core margin was lowered because DKS chose to match brand discounts.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>Line</th><th>March 2026</th><th>May 2026</th><th>August 2026</th></tr></thead>
+<tbody>
+<tr><td>Total sales</td><td>$22.1–22.4B</td><td>unchanged</td><td><strong>$21.9–22.2B</strong></td></tr>
+<tr><td>Adjusted operating income</td><td>$1.68–1.81B</td><td>$1.71–1.83B</td><td><strong>$1.46–1.56B</strong></td></tr>
+<tr class="key"><td>Adjusted EPS</td><td>$13.50–14.50</td><td>$13.50–14.50</td><td><strong>$11.00–12.00</strong></td></tr>
+<tr><td>Tax rate</td><td>~25.5%</td><td>~27%</td><td><strong>~29%</strong></td></tr>
+<tr><td>Core comp</td><td>+2.0–4.0%</td><td>+2.5–4.0%</td><td>+2.5–4.0%</td></tr>
+<tr><td>Core gross margin</td><td>up</td><td>up every quarter</td><td><strong>down slightly</strong>, worst in Q3</td></tr>
+<tr><td>Core segment margin</td><td>11.0–11.2%</td><td>11.0–11.4%</td><td><strong>10.6–10.9%</strong></td></tr>
+<tr><td>Foot Locker sales</td><td>$7.6–7.7B</td><td>unchanged</td><td><strong>$7.4–7.5B</strong></td></tr>
+<tr><td>Foot Locker comp</td><td>+1.0–3.0%</td><td>+1.5–3.0%</td><td><strong>−2.0% to 0%</strong></td></tr>
+<tr class="key"><td>Foot Locker profit</td><td>$100–150M</td><td>$110–150M</td><td><strong>$(80)–(40)M loss</strong></td></tr>
+<tr><td>Capex (net)</td><td>~$1.5B</td><td>~$1.4B</td><td>~$1.4B</td></tr>
+</tbody></table></div>
+<p class="note">Guidance doesn't include the $1B of bonds issued on 22-Sep-26, which add ~$66M a year of interest. The dividend is $5.00 a year (+3%, the smallest raise since 2021).</p>
+
+<div class="prose">
+<h3>4.3 What management has said, topic by topic</h3>
+<div class="idea"><h4>Comps: "I don't think this is a demand issue."</h4>
+<p class="lead">Management kept the core comp guide unchanged in August. Since 1H was +5.4%, the full-year guide implies only about +1.3% for 2H. That is a big slowdown, partly because 2H laps tough comparisons (+5.7% and +3.1% last year).</p></div>
+<div class="idea"><h4>Gross margin: guidance went from "up" to "down" in five months.</h4>
+<p class="lead">FY26 started at "expand," became "expand every quarter" in May, then "decline slightly" in August. The reason given: "a number of brands got very promotional on their sites," DKS matched them to stay competitive, and fuel and supply-chain costs rose. Q2's reported +79bps included ~50bps of tariff refunds and ~60bps from GameChanger and advertising, so the margin on products alone was already down ~30bps. Management expects 2H pricing to look like Q2.</p></div>
+<div class="idea"><h4>Costs: the recurring bear question.</h4>
+<p class="lead">In Aug-25 management said costs would leverage at a "low single digits comp." Since then costs have grown faster than sales in six of seven quarters. Asked in Sep-26 whether flow-through "has not been awesome," the CFO answered "That's fair." Q3 FY26 is guided to ~50bps of cost deleverage, with leverage returning in Q4.</p></div>
+<div class="idea"><h4>New stores: fewer than first promised.</h4>
+<p class="lead">The House of Sport target fell from "75 to 100 by end of 2027" to "67, 68," limited by the availability of top-mall locations. FY26 Field House openings were trimmed from ~22 to ~20. Opening costs are ~$90M a year, peaking at ~$36M in Q3.</p></div>
+<div class="idea"><h4>Capex and cash: spending stays high.</h4>
+<p class="lead">Capex has risen from $364M (FY22) to $1,137M (FY25) to ~$1.4B net in FY26, and 2027 is "likely at the high end of $1.0–1.5B." DKS bought back no stock in Q2 FY26. On 14-Sep Stack said "We've got $1 billion on the balance sheet." Eight days later DKS raised another $1B.</p></div>
+<div class="idea"><h4>Tax: up 3.5 points in six months.</h4>
+<p class="lead">The guide went 25.5% → 27% → 29%, all because Foot Locker's European losses get no tax benefit. Each point of tax is ~$0.18 of EPS.</p></div>
+<div class="idea"><h4>Foot Locker: from "accretive" to "taking longer than we anticipated."</h4>
+<p class="lead">The tone went from confident to cautious in a year:</p>
+<ul>
+<li>May-25: the deal will add to EPS in the first full year; few store closures expected.</li>
+<li>Nov-25: Foot Locker "strayed from Retail 101"; DKS will "clean out the garage."</li>
+<li>Mar-26: clean-out "essentially complete"; FY26 profit $100–150M with a back-to-school turnaround.</li>
+<li>May-26: "Our plan is working."</li>
+<li>Aug-26: guided to a loss. Asked whether DKS would shrink the fleet and sell assets: "the answer to your question is simply yes."</li>
+<li>Sep-26: "It's just taking longer than we anticipated." Legacy brands hadn't supported Foot Locker as quickly as hoped. "We are creating a menu… no preconceived ideas."</li>
+</ul></div>
+<div class="idea"><h4>2027: not guided yet.</h4>
+<p class="lead">The only framework is "drive gross margin expansion" while continuing to invest. Synergies come "a couple of years after" 2026. DKS-designed exclusives for Foot Locker arrive "to even greater degree in Q1 of next year." Discounting continues "at least through the fourth quarter."</p></div>
+
+<h3>4.4 What the guidance implies for the second half of FY26</h3>
+<p class="take">Bloomberg consensus already sits inside the guided ranges for 2H, so the Street isn't expecting a beat.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>Item</th><th>Implied by guidance (our math)</th><th>Bloomberg consensus</th></tr></thead>
+<tbody>
+<tr><td>2H core comp</td><td>−0.4% to +2.6% (~+1.3% midpoint)</td><td>Q3 +1.7%, Q4 +1.6%</td></tr>
+<tr><td>2H core segment profit</td><td>$694–754M vs $733M last year</td><td>$704M (−4%)</td></tr>
+<tr><td>2H core gross margin</td><td>Down ~40–80bps</td><td>Q3 −62bps, Q4 −21bps</td></tr>
+<tr><td>2H Foot Locker comp</td><td>−2.5% to +1.5%</td><td>Q3 +0.3%, Q4 +1.0%</td></tr>
+<tr><td>2H Foot Locker profit</td><td>$(66)M to $(26)M loss</td><td>$(57)M (Q3 −$71M, Q4 +$14M)</td></tr>
+<tr class="key"><td>2H EPS</td><td>$4.57–5.57 vs $5.52 last year</td><td>$5.01 (Q3 $1.39, Q4 $3.62)</td></tr>
+<tr><td>Foot Locker's drag on FY26 EPS</td><td colspan="2">Roughly −$2.50 to −$3.00 per share, from its losses, 9.6M extra shares issued, and ~3.5 points of extra tax.</td></tr>
+<tr><td>Dividend coverage</td><td colspan="2">$450M of dividends vs $500M of consensus FY26 free cash flow (~90% payout).</td></tr>
+</tbody></table></div>
+
+
+<h2 id="s5">5. What the Street expects</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>For FY26 the Street sits right on management's guidance. For FY27 it expects EPS of $13.36 (+16%) on sales growth of only 2%, so it is counting on margins to recover: Foot Locker returns to a small profit, the core margin rises ~30bps, and the tax rate falls ~1 point. The Bloomberg numbers haven't been updated for the $1B bond deal, and they include no buyback with that cash, no extra store closures and no international exit.</p></div>
+
+<div class="prose"><p>All figures come from the Bloomberg consensus screens printed 4-Oct-2026. Bloomberg labels each year one ahead of DKS ("2027 Y" = DKS FY26), so columns are relabeled to DKS fiscal years.</p>
+<h3>5.1 Annual consensus</h3>
+<p class="take">FY27 is a margin-recovery year: operating income +10% and EPS +16% on sales +2%. Free cash flow stays below ~$500M through FY28 because capex stays high.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>$M</th><th class="n">FY25 actual</th><th class="n">FY26E</th><th class="n">FY27E</th><th class="n">FY28E (53 wks)</th></tr></thead>
+<tbody>
+<tr><td>Total revenue</td><td class="n">17,215</td><td class="n">22,112</td><td class="n">22,611</td><td class="n">23,409</td></tr>
+<tr><td>Core revenue</td><td class="n">14,109</td><td class="n">14,753</td><td class="n">15,203</td><td class="n">15,742</td></tr>
+<tr><td>Core comp</td><td class="n">4.5%</td><td class="n">3.4%</td><td class="n">2.6%</td><td class="n">2.8%</td></tr>
+<tr><td>Core segment margin</td><td class="n">11.1%</td><td class="n">10.5%</td><td class="n">10.8%</td><td class="n">11.0%</td></tr>
+<tr><td>Foot Locker revenue</td><td class="n">3,106 (21 wks)</td><td class="n">7,402</td><td class="n">7,367</td><td class="n">7,586</td></tr>
+<tr><td>Foot Locker gross margin</td><td class="n">24.4%</td><td class="n">25.9%</td><td class="n">26.8%</td><td class="n">27.6%</td></tr>
+<tr><td>Foot Locker profit (margin)</td><td class="n">(52) (−1.7%)</td><td class="n">(73) (−1.0%)</td><td class="n">20 (0.3%)</td><td class="n">109 (1.4%)</td></tr>
+<tr class="key"><td>Adjusted operating income (margin)</td><td class="n">1,516 (8.8%)</td><td class="n">1,498 (6.8%)</td><td class="n">1,650 (7.3%)</td><td class="n">1,848 (7.9%)</td></tr>
+<tr><td>Interest expense</td><td class="n">56</td><td class="n">71</td><td class="n">75</td><td class="n">78</td></tr>
+<tr><td>Tax rate</td><td class="n">25.6%</td><td class="n">28.6%</td><td class="n">27.5%</td><td class="n">26.8%</td></tr>
+<tr><td>Diluted shares (M)</td><td class="n">85.1</td><td class="n">90.0</td><td class="n">89.1</td><td class="n">89.7</td></tr>
+<tr class="key"><td>Adjusted EPS (growth)</td><td class="n">$13.20</td><td class="n">$11.49 (−13%)</td><td class="n">$13.36 (+16%)</td><td class="n">$15.03 (+13%)</td></tr>
+<tr><td>Free cash flow</td><td class="n">400</td><td class="n">500</td><td class="n">458</td><td class="n">423</td></tr>
+<tr><td>Buybacks</td><td class="n">347</td><td class="n">252</td><td class="n">275</td><td class="n">190</td></tr>
+<tr><td>House of Sport / Field House stores</td><td class="n">35 / 42</td><td class="n">49 / 63</td><td class="n">68 / 81</td><td class="n">86 / 93</td></tr>
+</tbody></table></div>
+<p class="note">Known errors on the Bloomberg screen: the Foot Locker comp row doesn't match reported actuals; the core "operating margin" row doesn't equal profit divided by revenue, so margins above are recalculated; FY26 GAAP EPS ($12.00) is stale and sits above adjusted EPS; long-term debt stays at ~$1.9B even though it is now ~$2.9B.</p>
+
+<div class="prose"><h3>5.2 Quarterly consensus</h3>
+<p class="take">The Street expects Q3 FY26 to be the low point for both segments, with steady recovery through FY27.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>$M</th><th class="n">Q3 FY26E</th><th class="n">Q4 FY26E</th><th class="n">Q1 FY27E</th><th class="n">Q2 FY27E</th><th class="n">Q3 FY27E</th><th class="n">Q4 FY27E</th></tr></thead>
+<tbody>
+<tr><td>Total revenue</td><td class="n">5,073</td><td class="n">6,262</td><td class="n">5,251</td><td class="n">5,726</td><td class="n">5,215</td><td class="n">6,452</td></tr>
+<tr><td>Core comp</td><td class="n">1.7%</td><td class="n">1.6%</td><td class="n">2.4%</td><td class="n">2.2%</td><td class="n">3.2%</td><td class="n">3.2%</td></tr>
+<tr><td>Foot Locker comp</td><td class="n">0.3%</td><td class="n">1.0%</td><td class="n">1.2%</td><td class="n">1.9%</td><td class="n">2.8%</td><td class="n">2.7%</td></tr>
+<tr><td>Core segment margin</td><td class="n">7.2%</td><td class="n">10.6%</td><td class="n">10.1%</td><td class="n">11.7%</td><td class="n">7.8%</td><td class="n">10.8%</td></tr>
+<tr><td>Foot Locker profit</td><td class="n">(71)</td><td class="n">14</td><td class="n">18</td><td class="n">(13)</td><td class="n">(23)</td><td class="n">51</td></tr>
+<tr class="key"><td>Adjusted EPS</td><td class="n">$1.39</td><td class="n">$3.62</td><td class="n">$3.11</td><td class="n">$3.83</td><td class="n">$2.04</td><td class="n">$4.19</td></tr>
+</tbody></table></div>
+<p class="note">Estimates have been falling fast. Q3 FY26 EPS fell from $2.92 to $1.37 in 60 days, and in the last 30 days there were 25 cuts and no raises to FY26. Analysts disagree widely: Q3 estimates range from $0.72 to $1.90, and FY27 from $11.00 to $15.10.</p>
+
+<div class="prose">
+<h3>5.3 What consensus is assuming</h3>
+<ol>
+<li><strong>FY26 sits on the guide.</strong> EPS $11.49 is the guide midpoint and nobody is below the range (the lowest FY26 estimate is $10.95).</li>
+<li><strong>The core revenue estimate is too high and the Foot Locker estimate is at the low end.</strong> Consensus core FY26 revenue ($14,753M) is above the top of the guide ($14.5–14.7B). Q3 core revenue is forecast up 6.2% on a comp of only +1.7%, which doesn't add up: new stores add roughly 0.5 points, not 4.5. The overall FY26 revenue figure still lands inside the guide.</li>
+<li><strong>No core margin recovery is expected in 2H FY26.</strong> Q3 core margin is forecast at 7.2%, down 175bps, and Q4 at 10.6%, down 39bps.</li>
+<li><strong>FY27 is a margin recovery on flat sales.</strong> EPS +16% comes from: core profit +$92M (all from costs leveraging on a 2.6% comp; gross margin is flat), Foot Locker profit +$92M (from a loss to a small profit on flat sales), tax 1.1 points lower (+$0.21), and 1% fewer shares from buybacks. Interest stays flat at ~$75M.</li>
+<li><strong>The quarterly Foot Locker comps are stale.</strong> Q3 and Q4 FY26 comps of +0.3% and +1.0% conflict with a full-year guide of −2% to 0% after 1H was −1.6%. The quarterly revenue numbers look more realistic than the comp numbers.</li>
+<li><strong>Foot Locker stays below its pre-deal profit for years.</strong> FY24 adjusted EBIT was ~$193M; consensus doesn't get back there until FY29 ($212M). The ~$395M of EBITDA DKS paid ~6x for isn't reached at all in the forecast.</li>
+<li><strong>No balance-sheet events.</strong> Debt stays at ~$1.9B, buybacks stay at $250–275M a year, and nothing reflects the $1B raised in September or the lower share price (at $137, the same buyback dollars would retire 40–70% more shares than the Street assumes).</li>
+<li><strong>Only WSS closures are modeled.</strong> Foot Locker Europe stays at ~550 stores through FY30. No international exit, and no Champs or WSS decision beyond what has already happened.</li>
+<li><strong>Opening costs and tax look too low.</strong> Opening costs are flat at ~$88M in FY27 even though more House of Sport stores are opening (18 vs ~14). Tax falls to 25% by FY29, which only works if Foot Locker Europe stops losing money, and nobody models how that happens.</li>
+<li><strong>The wide range is the real signal.</strong> The FY27 range of $11.00–15.10 means "consensus" is an average of two different views. JPM ($14.79) sees a clean 2027; Barclays ($12.28) sees the stock stuck until new products arrive in 2027.</li>
+</ol>
+</div>
+
+<h2 id="s6">6. Competition and pricing</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>DKS is clearly winning against other sporting goods chains and keeps gaining share. But brands set the price on most of what it sells. When Nike and other brands discounted on their own websites in summer 2026, DKS matched them, and that is what cut its gross margin. Foot Locker has even less pricing power because ~60% of what it sells is Nike, so its margin depends largely on Nike's launches and discounting.</p></div>
+
+<div class="prose"><h3>6.1 Who DKS competes with</h3>
+<p class="take">The chains DKS competes with are losing ground, except SCHEELS. The real pressure on pricing comes from the brands' own websites and from off-price stores clearing excess Nike product.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>Competitor</th><th>Recent trend</th><th>What it means for DKS</th></tr></thead>
+<tbody>
+<tr><td><strong>DKS itself</strong></td><td>~9% of a ~$140B US sporting goods market, up from ~7% in 2019. With Foot Locker, roughly a third of US athletic footwear (UBS).</td><td>The only national full-line sporting goods chain. Suppliers say its new stores are something competitors "just cannot beat."</td></tr>
+<tr><td><strong>Academy Sports</strong></td><td>327 Sunbelt stores, ~$6.1B. Comp −0.4% in the latest quarter with transactions −5.3%. Expanding into DKS markets at 20–25 stores a year.</td><td>The value player, losing to DKS at the top and to Walmart at the bottom. Suppliers say it is retreating to smaller markets. It now carries Jordan and HOKA, which dilutes Foot Locker's exclusivity.</td></tr>
+<tr><td><strong>Amazon and marketplaces</strong></td><td>~13% share, flat. Nike returned to Amazon after six years.</td><td>DKS's price premium to Amazon has narrowed to 2.1% (3-year average 3.1%, UBS).</td></tr>
+<tr><td><strong>SCHEELS</strong></td><td>Private, ~30+ large stores, growing.</td><td>The only chain with a similar experiential format. The one competitor suppliers say DKS could lose share to.</td></tr>
+<tr><td><strong>JD Sports (incl. Finish Line, Hibbett)</strong></td><td>North America comp went from +0.2% to −6.8% (May–Jul 2026). Trades at 6.9x earnings.</td><td>The closest comparable to Foot Locker: same Nike-lifestyle exposure and same back-to-school problems. A useful read-across for Foot Locker's quarter.</td></tr>
+<tr><td><strong>Brand websites and stores (Nike etc.)</strong></td><td>Nike's own-channel sales are falling while its wholesale grows. Nike.com sale items +63% y/y in Jun–Aug 2026.</td><td>Nike returning to wholesale helps DKS. Nike discounting online forces DKS to match. Nike pushing Jordan into Famous Footwear and Academy hurts Foot Locker.</td></tr>
+<tr><td><strong>Running specialty stores</strong></td><td>US demand has slowed since April. On and HOKA give them new shoes first.</td><td>The only channel suppliers say DKS loses share to, because of staff expertise.</td></tr>
+<tr><td><strong>Off-price and Famous Footwear</strong></td><td>Famous Footwear carries ~143 Jordan styles for back-to-school (+63%), ~25% of them on sale.</td><td>Where excess Nike product ends up. Directly undercuts Foot Locker's core franchise.</td></tr>
+</tbody></table></div>
+
+<div class="prose">
+<p><strong>Shoppers are spreading across more brands, which favors multi-brand stores.</strong> In US sports footwear (Barclays, 2016 → 2024), Nike's share fell from 49% to 37% while HOKA (0% → 4%), On (0% → 4%) and Crocs (2% → 7%) grew. A Bloomberg Intelligence survey found 58% of shoppers bought directly from Nike in the past year, down from 66%. Comfort is now the top reason to buy, and exclusivity ranks low.</p>
+
+<h3>6.2 How competition turns into pricing</h3>
+<div class="idea"><h4>DKS doesn't set the price on ~87% of what it sells.</h4>
+<p class="lead">Brands do, through minimum advertised prices and their own websites. DKS's pricing power comes from two places: its mix (own brands and firmly priced brands like On, HOKA and UGG), and its discipline in not following brands down. In Q2 FY26 it chose to follow. Stack (14-Sep-26): "we're not leading this margin erosion. We are participating in it… I use the word investment very purposely."</p></div>
+<div class="idea"><h4>The discounting is concentrated in Nike lifestyle product and apparel.</h4>
+<p class="lead">Needham found over 30% of Nike's range discounted across 14 retailers (25% a year earlier). UBS data shows US wholesale Nike footwear inventory is actually lean (~27 weeks, 14 fewer than last year). The glut is in Nike apparel (~43 weeks, +12) and Nike's own websites. Deutsche Bank's July checks found retailer inventory "relatively controlled" and Nike running strong. Taken together, the problem is specific franchises, not footwear as a whole.</p></div>
+<div class="idea"><h4>DKS's own promotions have deepened.</h4>
+<p class="lead">JPM tracked 70%-off clearance events in Mar–Apr 2026, "rational" promotions in May, and a "modest uptick" in August. Barclays' promotion score for DKS fell from 65 (1Q25) to 42 (1Q26).</p></div>
+<div class="idea"><h4>Tariffs were a cost, then a refund, and now a tough comparison.</h4>
+<p class="lead">DKS absorbed 2025 tariffs in its margin rather than raising prices, then got $59M back after the Supreme Court ruling. Brands raised prices ~$10 on basics and up to ~$50 on top products. The refund boosted Q2 FY26 and won't repeat in FY27.</p></div>
+<div class="idea"><h4>Brands have less money to fund discounts in 2027.</h4>
+<p class="lead">Nike expects its FY27 operating margin to fall, partly because it laps its own $986M tariff refund, so it has less room to help retailers with markdowns. Firmly priced brands give no markdown money. Suppliers said that in Jun–Jul DKS hadn't asked for extra markdown money except to clear World Cup product.</p></div>
+<div class="idea"><h4>Where it lands.</h4>
+<p class="lead">DKS has pricing power in running, own brands and exclusives. It has little in Nike/Jordan lifestyle, where Nike sets both the wholesale and the retail price and is currently clearing stock. Foot Locker is ~60% Nike, so its margin follows Nike's launch calendar and discounting. That, more than anything DKS can control, is why the Foot Locker recovery slipped.</p></div>
+</div>
+
+<h2 id="s7">7. Valuation</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>At $137 the stock trades at ~10x FY27 consensus EPS and ~5.7x EBITDA, near the bottom of its history. Valuing the DICK'S core on its own implies the market is treating Foot Locker as worth negative $1.1–1.5B. Our base fair value is ~$155–165, and ~$150–160 after weighting the bull and bear cases. Two possible events, a large buyback and an international exit, are not in that number.</p></div>
+
+<div class="prose"><p>Market value ~$12.4B (90.1M shares). Gross debt is ~$2.9B including the new $1B of bonds, and cash ~$1.9B, so net debt excluding leases is ~$1.0B and EV is ~$13.3B (~$19.4B including $6.1B of store leases). Short interest is 13.7% of the float, up 29% in a month. Options imply a 13–17% move on the next earnings day; the average move has been 8.5%.</p>
+<h3>7.1 Multiples on consensus</h3>
+<p class="take">Cheap on earnings and EBITDA. Less cheap on free cash flow, because capex is 2.3x depreciation.</p></div>
+<div class="tbl"><table>
+<thead><tr><th></th><th class="n">FY26E</th><th class="n">FY27E</th><th class="n">FY28E</th></tr></thead>
+<tbody>
+<tr class="key"><td>P/E</td><td class="n">11.9x</td><td class="n">10.3x</td><td class="n">9.1x</td></tr>
+<tr><td>EV/EBITDA (excluding leases)</td><td class="n">6.2x</td><td class="n">5.7x</td><td class="n">5.2x</td></tr>
+<tr><td>Free cash flow yield</td><td class="n">4.0%</td><td class="n">3.7%</td><td class="n">3.4%</td></tr>
+<tr><td>Dividend yield</td><td class="n">3.6%</td><td class="n">3.6%</td><td class="n">3.6%</td></tr>
+</tbody></table></div>
+<p class="note">History: 17–18x forward P/E at the Jan-25 and Jan-26 peaks; ~10–12x on 3–5 year averages (JPM, UBS); JPM calls 5–6x EBITDA a "trough valuation range."</p>
+
+<div class="prose"><h3>7.2 What brokers say it's worth (as of 5-Oct-26)</h3>
+<p class="take">Most brokers still rate it a Buy, but their FY27 EPS estimates are below consensus, and every Buy case depends on Foot Locker eventually working.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>Broker</th><th>Rating</th><th class="n">Target</th><th>Key view</th></tr></thead>
+<tbody>
+<tr><td>JPM</td><td>Overweight</td><td class="n">$188</td><td>~13x 2027 EPS of $14.79. "Short the inventory build, own the clean up."</td></tr>
+<tr><td>Wells Fargo</td><td>Overweight</td><td class="n">$185</td><td>13.5x FY27 EPS of $13.70. Bull $210, bear $110. "Minimal upside from FL embedded."</td></tr>
+<tr><td>UBS</td><td>Buy</td><td class="n">$178</td><td>12.5x CY28 EPS of $14.25. Upside $210, downside $90.</td></tr>
+<tr><td>Barclays</td><td>Overweight</td><td class="n">$150</td><td>11x FY28 EPS of $13.62. Likes the core, sees Foot Locker as a trap. Range-bound until new products arrive in 2027.</td></tr>
+<tr><td>Other Buys</td><td>Buy / OW</td><td class="n">$150–205</td><td>DA Davidson $205, BofA $200, Citi $190, Morgan Stanley $180, BTIG $180, Goldman $170, Oppenheimer $150.</td></tr>
+<tr><td>Holds</td><td>Neutral / Hold</td><td class="n">$128–150</td><td>Baird $150 and Telsey $145 (both downgraded), Williams Trading $130 ("too early to tell if Foot Locker will work"), Truist $128.</td></tr>
+<tr><td>BMO</td><td>Underperform</td><td class="n">$110</td><td>Initiated 9-Sep-26.</td></tr>
+<tr class="key"><td>Overall</td><td>11 Buy / 5 Hold / 1 Sell</td><td class="n">mean $158</td><td>The average target of the four main brokers fell from $260 to $175 after the August print.</td></tr>
+</tbody></table></div>
+
+<div class="prose"><h3>7.3 Peers</h3>
+<p class="take">DKS trades at a discount to specialty retail on P/E, but at roughly double JD Sports, the closest Foot Locker comparable.</p></div>
+<div class="tbl"><table>
+<thead><tr><th></th><th class="n">Forward P/E</th><th class="n">2026 price change</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td>DKS</td><td class="n">10.4x</td><td class="n">−29%</td><td>13% below the specialty-retail median</td></tr>
+<tr><td>Academy</td><td class="n">7.4x</td><td class="n">+5%</td><td>Value sporting goods</td></tr>
+<tr><td>JD Sports</td><td class="n">6.9x</td><td class="n">−6%</td><td>Mall-sneaker comparable for Foot Locker</td></tr>
+<tr><td>Boot Barn / Best Buy / Ulta</td><td class="n">12.3x / 12.1x / 17.0x</td><td class="n">−31% / +35% / −10%</td><td>Specialty retail median ~12x</td></tr>
+<tr><td>Nike</td><td class="n">19.2x</td><td class="n">−46%</td><td>On depressed earnings</td></tr>
+<tr><td>Deckers / On / adidas</td><td class="n">9.6x / 15.6x / 12.3x</td><td class="n">−23% / −32% / −14%</td><td>Brands de-rating with the US athletic cycle</td></tr>
+</tbody></table></div>
+<p class="note">Since the Foot Locker deal was announced (14-May-25), DKS has returned −32% versus Academy +16% and the S&amp;P 500 +34%. Most of the 2026 fall is specific to DKS.</p>
+
+<div class="prose">
+<h3>7.4 What it should trade at</h3>
+<div class="idea"><h4>The market is treating Foot Locker as a liability.</h4>
+<p class="lead">Value the core on its own: FY27 consensus core profit of $1,647M, less ~$137M of interest (including the new bonds), plus ~$25M of other income, taxed at ~25% gives ~$1,150M, or ~$12.90 per share. At the 12–13x DICK'S traded at before the deal, that is $155–168 per share. At $137, the market is implicitly valuing Foot Locker at about −$12 to −$17 per share (−$1.1 to −$1.5B).</p></div>
+<div class="idea"><h4>A fair multiple for the core is 12–13x.</h4>
+<p class="lead">In its favor: ~9% market share gaining ~0.5 points a year, 4–6% comps, a margin that has structurally risen from ~5% before COVID to ~11%, and new stores with 20–40% cash returns. Against it: heavy capex, profit that hasn't grown with sales for a year, Nike at ~25% of purchases, and a choice to match brand discounts. Specialty retailers trade at ~12x. 15x would need proof of the 2027 recovery.</p></div>
+<div class="idea"><h4>Our fair value range.</h4>
+<ul>
+<li><strong>Base ~$155–165:</strong> 12–13x core EPS of ~$12.90, with Foot Locker valued at zero.</li>
+<li><strong>Bull ~$195–210:</strong> core at 14x on $13.50–14.00 as costs finally leverage, plus Foot Locker reaching a 2–3% margin by FY28 (worth $1.50–2.50 of EPS).</li>
+<li><strong>Bear ~$100–110:</strong> core margin slips to ~10% on a 1–2% comp, Foot Locker loses $100M+ again in FY27, tax stays at 29%. EPS of ~$10–11 at 10x.</li>
+<li><strong>Weighted:</strong> roughly $150–160, before two possible events (a buyback funded by the new bonds, an international exit). Each could add $0.50–1.20 to FY27 EPS (Section 12).</li>
+</ul></div>
+<div class="idea"><h4>Why the discount persists.</h4>
+<p class="lead">The multiple fell from ~15x to ~10x in one print because the market lost faith in two things at once: that the core margin had been permanently reset at 11–12% (DKS cut it to 10.6–10.9% despite a 4.9% comp), and that Foot Locker could be fixed with "Retail 101" (DKS guided to a loss just 90 days after raising). Only results will fix that. The next test is 24-Nov-26.</p></div>
+</div>
+
+<h2 id="s8">8. What moves the stock</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>The stock moves on guidance, and it is punished for cuts much more than it is rewarded for raises. A strong comp with a weak margin still sells off. Since 2023 every big drop has been about margin or guidance, never about demand.</p></div>
+
+<div class="prose"><h3>8.1 Drivers, ranked by how much they move the price</h3>
+<ol>
+<li><strong>Annual guidance versus expectations.</strong> All five of the largest moves were guidance events: −30.7% (25-Aug-26 cut), −24.1% (22-Aug-23 cut), +15.9% and +15.5% (2024 raises), −5.7% (11-Mar-25 initial guide below the Street). The average results-day move is 8.5%, and only 8 of the last 16 were positive.</li>
+<li><strong>Core gross margin relative to the comp.</strong> 27-May-26: −6.0% on a strong 6.0% comp, because core gross margin fell 36bps when a 40bps rise was expected. JPM: missing on both comp and gross margin is "a surefire way to de-rate a retail stock."</li>
+<li><strong>Foot Locker news.</strong> The deal announcement cost 14.6% in a day and the stock never recovered. Foot Locker beats have helped less than Foot Locker misses have hurt.</li>
+<li><strong>Macro and tariff headlines.</strong> In April–May 2025: −12.5%, +15.6% and +11.3% on tariff news. The stock is high-beta, with ~48% realized volatility.</li>
+<li><strong>Read-through from brands and peers.</strong> DKS fell 25% in the eight weeks before the August print as Nike, On, JD Sports and lululemon reported badly.</li>
+<li><strong>Capital-return signals.</strong> +11.1% when the dividend doubled (Mar-23); +8.3% on the day the bond deal priced and the CFO bought $1.0M of stock (22-Sep-26). Seven insiders have bought $5.6M since the crash.</li>
+</ol>
+
+<h3>8.2 Timeline of the big moves</h3>
+<p class="take">The Foot Locker deal changed how the market sees the stock, from a steady compounder at ~15x to an integration story at ~10x.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>Date</th><th>What happened</th><th class="n">Move</th></tr></thead>
+<tbody>
+<tr><td>22-Aug-23</td><td>EPS miss on theft and apparel markdowns; FY23 guide cut</td><td class="n neg">−24.1%</td></tr>
+<tr><td>14-Mar-24 / 29-May-24</td><td>Beats and raises on accelerating comps</td><td class="n pos">+15.5% / +15.9%</td></tr>
+<tr><td>30-Jan-25</td><td>All-time high close of $250.04 (17–18x forward)</td><td class="n">—</td></tr>
+<tr><td>11-Mar-25</td><td>FY25 guide below the Street</td><td class="n neg">−5.7%</td></tr>
+<tr><td>Apr-May 2025</td><td>Tariff announcement, pause, US-China truce</td><td class="n">−12.5% / +15.6% / +11.3%</td></tr>
+<tr><td>15-May-25</td><td>Foot Locker deal announced ($24/share, ~$2.5B)</td><td class="n neg">−14.6%</td></tr>
+<tr><td>28-Aug-25</td><td>Comp +5.0%, but gross margin guide softened</td><td class="n neg">−4.8%</td></tr>
+<tr><td>25-Nov-25</td><td>"Clean out the garage" plan; Foot Locker accretion claimed for FY26</td><td class="n pos">+10.5% over 5 days</td></tr>
+<tr><td>12-Mar-26</td><td>Q4 beat ("better than feared"); FY26 guide below consensus</td><td class="n">+1.1%</td></tr>
+<tr><td>27-May-26</td><td>Comp +6.0%, Foot Locker positive, but core gross margin down</td><td class="n neg">−6.0%</td></tr>
+<tr><td>26-Jun-26</td><td>52-week high of $239 on back-to-school turnaround hopes</td><td class="n">—</td></tr>
+<tr><td>Jul–Aug 2026</td><td>Nike, On, JD Sports and lululemon all disappoint</td><td class="n neg">−25%</td></tr>
+<tr><td>25-Aug-26</td><td>Q2 miss; FY26 EPS cut ~18%; Foot Locker guided to a loss</td><td class="n neg">−30.7%</td></tr>
+<tr><td>18-Sep-26</td><td>Low close of $121.15 (−52% from the all-time high)</td><td class="n">—</td></tr>
+<tr><td>22-Sep-26</td><td>$1B bonds priced (proceeds can fund buybacks); CFO buys stock</td><td class="n pos">+8.3%</td></tr>
+<tr><td>1-Oct-26</td><td>Nike: lifestyle/Jordan reset runs "beyond fiscal 2027"</td><td class="n">~flat</td></tr>
+</tbody></table></div>
+
+<h2 id="s9">9. How the key drivers are trending</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>Most core demand indicators are still healthy (share gains, running, new stores, inventory). Most margin and Foot Locker indicators are getting worse (gross margin, cost growth, Foot Locker comps and inventory, discounting). The core problem is that extra sales are producing almost no extra profit.</p></div>
+
+<div class="tbl"><table>
+<thead><tr><th>Driver</th><th>Direction</th><th>Latest evidence</th></tr></thead>
+<tbody>
+<tr><td>Core comp</td><td class="pos">Strong, slowing in 2H</td><td>+4.5% to +6.0% for six quarters; guide implies ~+1.3% in 2H</td></tr>
+<tr><td>New store contribution</td><td class="pos">Rising</td><td>House of Sport 21 → 41, Field House 31 → 52. Relocated stores add ~2 points to the comp (Wells).</td></tr>
+<tr><td>Core gross margin</td><td class="neg">Turning down</td><td>Guided "down slightly" for FY26, worst in Q3. Price matching, fuel and the new distribution center weigh on it; GameChanger and advertising help.</td></tr>
+<tr><td>Core cost growth</td><td class="neg">Worsening</td><td>Costs grew faster than sales in five of the last six quarters (−96bps in Q2 FY26).</td></tr>
+<tr><td>Core inventory</td><td class="pos">Healthy</td><td>+6% y/y, in line with sales. Suppliers call DKS "extremely diligent."</td></tr>
+<tr><td>Foot Locker comp</td><td class="neg">False start, worsening</td><td>+0.6% in Q1 FY26, then −3.6%. Management says Q3 will be "a bit more difficult than Q4."</td></tr>
+<tr><td>Foot Locker gross margin</td><td class="neu">Flat, volatile</td><td>25–28%, back to pre-deal levels. No buying savings yet.</td></tr>
+<tr><td>Foot Locker inventory</td><td class="neg">Rising while sales fall</td><td>~$1.5B (Jan) → ~$2.0B (Aug), raising the risk of holiday markdowns</td></tr>
+<tr><td>Foot Locker store count</td><td class="pos">Shrinking (good), slower than possible</td><td>2,363 → 2,212 owned stores; WSS 151 → 99; 67 more under review</td></tr>
+<tr><td>Nike shipments to retailers</td><td class="neg">Turning negative</td><td>Nike North America wholesale expected −10% in Sep–Nov 2026, then −5%, −4%, −2%. Less Nike product for the next year; a cleaner channel by mid-2027.</td></tr>
+<tr><td>Running demand</td><td class="pos">Strong, slowing</td><td>Nike running +20%+; HOKA slowed from +34% to +8%; On from +40% to +22%</td></tr>
+<tr><td>Lifestyle / Jordan demand</td><td class="neg">Weak, and lasting</td><td>Jordan down mid-teens; only 26% of retro launches resell above retail (90–100% before COVID); Nike reset runs "beyond fiscal 2027"</td></tr>
+<tr><td>Discounting</td><td class="neg">Rising</td><td>Nike.com sale items +63%; over 30% of Nike's range discounted at retailers; "at least through the fourth quarter"</td></tr>
+<tr><td>Consumer</td><td class="neu">Split by income</td><td>The DICK'S customer is holding up; the Foot Locker customer is under pressure (gas prices come up in every supplier call)</td></tr>
+<tr><td>Card and foot-traffic data</td><td class="neg">Slowing</td><td>Weekly card spend −2% to −3% y/y in late September including Foot Locker; foot traffic −3.8% in the week of 27-Sep</td></tr>
+<tr><td>Free cash flow</td><td class="neg">Below the dividend</td><td>Last twelve months $239M vs ~$450M of dividends</td></tr>
+<tr><td>Balance sheet</td><td class="neu">More debt, still investment grade</td><td>~$1.0B net debt excluding leases (0.5x EBITDA), ~3.3x including leases. Rated Baa2/BBB.</td></tr>
+<tr><td>GameChanger / advertising</td><td class="pos">Growing, high margin</td><td>~60–80bps of core gross margin. The only margin lever that doesn't depend on Nike. (GameChanger app time −9.6% y/y in August.)</td></tr>
+<tr><td>Insiders</td><td class="pos">Buying</td><td>7 insiders bought $5.6M at $129–136 from 26-Aug to 30-Sep, including the CFO and the head of Foot Locker International. Stack and Hobart didn't buy.</td></tr>
+</tbody></table></div>
+
+<div class="prose">
+<h3>9.1 Incremental margin: the heart of the margin debate</h3>
+<p>Incremental margin is how much of each extra dollar of sales becomes extra profit. When a mature retailer grows, its fixed costs (rent, head office) stay roughly flat, so it should keep ~20–35 cents of each extra dollar. DKS has kept almost nothing for a year.</p>
+<p class="take">A 5.4% comp in 1H FY26 produced only $11M of extra core profit. Consensus assumes FY27 snaps back to a ~20% incremental margin.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>DICK'S core, vs prior year</th><th class="n">Extra sales ($M)</th><th class="n">Extra segment profit ($M)</th><th class="n">Incremental margin</th></tr></thead>
+<tbody>
+<tr><td>FY25</td><td class="n">+666</td><td class="n">+71</td><td class="n">11%</td></tr>
+<tr><td>Q3 FY25</td><td class="n">+180</td><td class="n">−1</td><td class="n">~0%</td></tr>
+<tr><td>Q4 FY25</td><td class="n">+157</td><td class="n">+52</td><td class="n">33%</td></tr>
+<tr><td>Q1 FY26</td><td class="n">+203</td><td class="n">+1</td><td class="n">~0%</td></tr>
+<tr><td>Q2 FY26 (without tariff refunds)</td><td class="n">+203</td><td class="n">+10 (−9)</td><td class="n">5% (−4%)</td></tr>
+<tr class="key"><td>1H FY26</td><td class="n">+406</td><td class="n">+11</td><td class="n">3%</td></tr>
+<tr><td>Consensus FY26E</td><td class="n">+644</td><td class="n">−14</td><td class="n">negative</td></tr>
+<tr class="key"><td>Consensus FY27E</td><td class="n">+450</td><td class="n">+93</td><td class="n">21%</td></tr>
+</tbody></table></div>
+<p class="note">For reference, from FY19 to FY25 core sales rose 61% and the margin went from 5.2% to 11.1%, an incremental margin of ~21%. Management calls the current spending "deliberate" and expects costs to leverage again in Q4 FY26.</p>
+
+<div class="prose"><h3>9.2 What pushes the core margin up or down</h3>
+<p class="take">More forces push the margin down than up right now. The positives (GameChanger, own brands, lower tariff costs) build slowly. The negatives (discount matching, marketing, opening costs) hit straight away.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>Lever</th><th>Effect</th><th>Size</th></tr></thead>
+<tbody>
+<tr><td>GameChanger + media network</td><td class="pos">Up</td><td>~60bps of core gross margin in Q2 FY26 (JPM); ~20bps more a year (UBS)</td></tr>
+<tr><td>Own brands</td><td class="pos">Up</td><td>Each +1 point of sales mix ≈ +8bps of gross margin</td></tr>
+<tr><td>Lower tariff costs after the court ruling</td><td class="pos">Up</td><td>A 2H26/FY27 tailwind; not sized</td></tr>
+<tr><td>Foot Locker buying savings</td><td class="pos">Up</td><td>$100–125M program; none visible yet</td></tr>
+<tr><td>Matching brand discounts</td><td class="neg">Down</td><td>JPM: ~90bps of Q3 core gross margin pressure</td></tr>
+<tr><td>Tariff refunds not repeating</td><td class="neg">Down</td><td>~50bps in Q2 FY26; a headwind in Q2 FY27</td></tr>
+<tr><td>New Fort Worth distribution center</td><td class="neg">Down, then up</td><td>Start-up costs in 1H FY26; laps from Q2 FY27</td></tr>
+<tr><td>Fuel and shipping</td><td class="neg">Down</td><td>Cited every quarter in 2026</td></tr>
+<tr><td>Marketing (World Cup, Foot Locker campaign)</td><td class="neg">Down (temporary)</td><td>Most of the ~96bps of Q2 cost deleverage</td></tr>
+<tr><td>New-store opening costs</td><td class="neg">Down</td><td>~$90M in FY26 (~60bps of core sales); similar or higher in FY27</td></tr>
+<tr><td>Interest on new bonds</td><td class="neg">Down (below operating profit)</td><td>~$66M a year</td></tr>
+<tr><td>Tax on Foot Locker Europe losses</td><td class="neg">Down (below operating profit)</td><td>~4 points ≈ $58M ≈ $0.65 per share</td></tr>
+</tbody></table></div>
+
+
+<h2 id="s10">10. Foot Locker deep dive</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>Foot Locker is struggling for five reasons: too dependent on Nike, too many small mall stores, a business built on sneaker launches that stopped selling out, weak operations, and acquisitions that didn't work. DKS has fixed the operational problems quickly but can't fix the demand problem. The new strategy (fewer styles, more running brands, apparel back in) points in the right direction, but brands like On and HOKA control how fast Foot Locker can get their product. There are many signs DKS may exit or shrink the money-losing international business, and none of it is in consensus.</p></div>
+
+<div class="prose">
+<h3>10.1 The deal</h3>
+<p><strong>DKS bought Foot Locker cheaply because it was in bad shape.</strong> DKS paid ~$2.5B ($24 per share, mostly in DKS stock) for ~$8B of sales and ~$395M of FY24 adjusted EBITDA: about 6x EBITDA and 0.3x sales. DKS had walked away in Nov-2024 after diligence showed the turnaround was bigger than expected, then came back at a price 40% below its earlier $40 offer. Foot Locker's board accepted because its standalone plan had become unreachable (weak Nike, weak international, tariffs). DKS promised the deal would add to EPS in the first full year. Instead FY26 is guided to a $40–80M loss on 9.6M extra shares.</p>
+
+<h3>10.2 How Foot Locker declined before the deal</h3>
+<p class="take">Operating margin fell from ~12% at the FY21 peak to slightly negative by 2025, as Nike pulled back its best product and costs kept rising. Store count fell 24% but total square footage only 3%.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>Foot Locker fiscal year</th><th class="n">FY19</th><th class="n">FY21</th><th class="n">FY22</th><th class="n">FY23</th><th class="n">FY24</th><th class="n">1H FY25</th></tr></thead>
+<tbody>
+<tr><td>Sales ($M)</td><td class="n">8,005</td><td class="n">8,958</td><td class="n">8,747</td><td class="n">8,154</td><td class="n">7,971</td><td class="n">3,639</td></tr>
+<tr><td>Comp</td><td class="n">+2.2%</td><td class="n">+15.4%</td><td class="n">−1.9%</td><td class="n">−6.7%</td><td class="n">+1.4%</td><td class="n">−2.3%</td></tr>
+<tr><td>Gross margin</td><td class="n">31.8%</td><td class="n">34.4%</td><td class="n">31.9%</td><td class="n">27.7%</td><td class="n">28.9%</td><td class="n">27.8%</td></tr>
+<tr><td>Operating costs % of sales</td><td class="n">20.6%</td><td class="n">20.7%</td><td class="n">21.8%</td><td class="n">22.7%</td><td class="n">24.1%</td><td class="n">25.4%</td></tr>
+<tr class="key"><td>Adjusted operating margin</td><td class="n">9.0%</td><td class="n">11.7%</td><td class="n">7.9%</td><td class="n">2.6%</td><td class="n">2.4%</td><td class="n">≈ −0.2%</td></tr>
+<tr><td>Owned stores</td><td class="n">3,129</td><td class="n">2,858</td><td class="n">2,714</td><td class="n">2,523</td><td class="n">2,410</td><td class="n">2,354</td></tr>
+<tr><td>Nike % of purchases</td><td class="n">~71%</td><td class="n">~68%</td><td class="n">~65%</td><td class="n">~65%</td><td class="n">~59%</td><td class="n">~57%</td></tr>
+</tbody></table></div>
+<p class="note">FY21 was inflated by stimulus checks and product shortages that limited discounting. From FY21 to FY23 the operating margin lost ~9 points: ~6 from product margin, ~1 from rent and ~2 from other costs.</p>
+
+<div class="prose">
+<h3>10.3 Why Foot Locker is in trouble: five causes</h3>
+<div class="idea"><h4>1. It depends on Nike, and Nike cut back its best product.</h4>
+<p class="lead">Nike was 75% of purchases at the FY20 peak. From 2021 to 2023 Nike shifted to selling directly to consumers and cut what it sent to Foot Locker. The biggest loss was "high-heat" product, the scarce launches that sell out at full price.</p>
+<ul>
+<li>Foot Locker's share of Nike's hottest product fell from ~40% to ~20% (Wells estimate).</li>
+<li>Foot Locker's sales of that product fell from $1.6B (FY21) to $0.7B (FY23).</li>
+<li>Wells attributes ~5 of the ~9 points of margin lost to Nike.</li>
+<li>Stack's diagnosis: Foot Locker "did not react quickly enough when its largest brand pivoted toward a direct-to-consumer model, leaving Foot Locker with the wrong inventory."</li>
+</ul></div>
+<div class="idea"><h4>2. Too many small stores in malls.</h4>
+<p class="lead">A typical US Foot Locker has ~3,500 sq ft of selling space. Rent is 13.3% of sales versus 8.5% at DICK'S. Over 75% of Champs stores are within a mile of a Foot Locker, often in the same mall. Foot Locker's own 2023 plan called for closing 400+ weaker mall stores. About 35% of its mall stores are in lower-quality malls (Wells).</p></div>
+<div class="idea"><h4>3. Its model relied on launches that stopped selling out.</h4>
+<p class="lead">Footwear is 84% of sales, mostly bought by young men as fashion. Stack says Foot Locker was "too dependent" on Jordan Retro, "pretty much missed" the retro running trend, and let apparel deteriorate. In summer 2026 the launches themselves failed. None of July's six retro Jordans resold above retail, and 7 of 10 in August sold at a discount (Needham).</p></div>
+<div class="idea"><h4>4. Weak operations ("Retail 101").</h4>
+<p class="lead">Inventory rose 37% in FY21 and 30% in FY22 while sales fell. There was no planning or replenishment team, Foot Locker had three CFOs in fifteen months, and no outdoor advertising since ~2013. Operating costs rose from 20.6% of sales (FY19) to 25.4% (1H25).</p></div>
+<div class="idea"><h4>5. Acquisitions and diversification that failed.</h4>
+<p class="lead">WSS (bought 2021 for $809M) was meant to reach 300+ stores and ~$1.3B. It peaked at 151 stores and $660M, has comped negative since Jan-2023, and is now down to 99 stores. atmos (bought for $372M) has been written down twice. Champs fell from $1.9B to $1.2B of sales. Foot Locker also exited or licensed out nine countries before the deal (Singapore, Malaysia, Greece, Romania and others).</p></div>
+
+<h4>Foot Locker's own 2023 turnaround plan ("Lace Up") missed every target</h4>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>Target (March 2023)</th><th>What happened</th></tr></thead>
+<tbody>
+<tr><td>Sales +5–6% a year; comp +3–4%</td><td>FY24 sales −2.2%; 1H25 −3.5%</td></tr>
+<tr><td>8.5–9.0% operating margin by 2026</td><td>2.4% in FY24, slightly negative in 1H25</td></tr>
+<tr><td>Nike down to 55–60% of sales</td><td>~59% of purchases in FY24 (the one target roughly met)</td></tr>
+<tr><td>WSS 300+ stores; atmos $250M+; Champs ~$1B</td><td>WSS 151 stores; atmos $138M; Champs $1.16B</td></tr>
+<tr><td>Loyalty members 50% of sales; digital 25%</td><td>49% (through heavy loyalty discounts); 18%</td></tr>
+<tr><td>EPS growth in the low-to-mid 20s % a year</td><td>EPS $1.42 (FY23) → $1.37 (FY24)</td></tr>
+</tbody></table></div>
+<p class="note">Foot Locker management's forecast given to DKS during the deal (EBITDA rising from $453M to $830M by FY29) was far above what has happened since.</p>
+
+<div class="prose">
+<h3>10.4 What DKS has done since buying it</h3>
+<p class="take">DKS moved fast on the things it controls: inventory, store layout, leadership and closures. The results swung from encouraging in Q1 FY26 to disappointing in Q2.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>When</th><th>Action</th><th>Result</th></tr></thead>
+<tbody>
+<tr><td>Sep-25</td><td>Deal closes. Foot Locker reports directly to Stack. Old executives leave; Ann Freeman (26 years at Nike) runs North America.</td><td>—</td></tr>
+<tr><td>Sep–Oct-25</td><td>11-store Fast Break test: ~30% of shoe styles removed, shoes grouped by sport, apparel added back.</td><td>Test stores comp "very strong positive" in Q4.</td></tr>
+<tr><td>Nov-25</td><td>"Clean out the garage": heavy markdowns to clear old inventory; up to $750M of charges. Matthew Barnes (ex-Aldi, ex-Tesco) hired to run International.</td><td>Q4: $218M inventory write-down; comp −3.4%, better than guided.</td></tr>
+<tr><td>Mar-26</td><td>Inventory "cleaner than it has ever been." Fewer closures planned because Fast Break fixes weaker stores. FY26 guided to $100–150M profit.</td><td>—</td></tr>
+<tr><td>Q1 FY26</td><td>~100 Fast Break stores; 85 stores closed (43 WSS).</td><td>Comp +0.6%, the first positive in over a year; profit $18M. "Our plan is working."</td></tr>
+<tr><td>Jul–Aug-26</td><td>&gt;250 Fast Break stores; first brand campaign in 10+ years; more store staff; first back-to-school assortment fully bought by DKS.</td><td>Q2: comp −3.6%, loss $32M. Launches "performed below industry and our expectations."</td></tr>
+<tr><td>Aug–Sep-26</td><td>FY26 cut to a loss. "Simply yes" to shrinking the fleet and selling assets. "Creating a menu."</td><td>Stock −30.7%. Barnes bought $500K of stock on 30-Sep.</td></tr>
+</tbody></table></div>
+<p class="note">Through Q2 FY26: owned stores 2,347 → 2,212; licensed stores 246 → 266; $516M of the $750M charge budget used; ~$234M of Foot Locker capex since the deal.</p>
+
+<div class="prose">
+<h3>10.5 The product shift, and whether consumer data support it</h3>
+<p><strong>What DKS is changing at Foot Locker:</strong></p>
+<ul>
+<li><strong>Fewer styles.</strong> ~30% of shoe styles cut in Fast Break stores. A Deckers executive described it as "edit to amplify": the cut isn't meant to lower sales, and margins are "much stronger." Stack says there are still "too many SKUs."</li>
+<li><strong>Less reliance on launches and retro.</strong> The plan is to broaden into running and other brands (On, HOKA, Saucony, Salomon, ASICS, UGG, Birkenstock, Nike running), the same shift that worked at DICK'S.</li>
+<li><strong>Apparel back in.</strong> Foot Locker had largely walked away from national-brand apparel. DKS wants to "dress the kid toe to head."</li>
+<li><strong>DKS doing the buying.</strong> Product through Q2 FY26 was bought by prior management. Back-to-school 2026 was the first season fully bought by DKS, and DKS-designed exclusives arrive mostly in Q1 FY27.</li>
+<li><strong>Inventory is rising again.</strong> ~$1.5B in January, ~$2.0B in August, against a −3.6% comp.</li>
+</ul>
+<p class="take">The direction is right, but timing is against it. Running demand is slowing, the running brands are limiting supply, and Foot Locker's legacy Nike business is deteriorating faster than it can shift away.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>Category</th><th>Evidence for the shift</th><th>Evidence against</th><th>Net</th></tr></thead>
+<tbody>
+<tr><td><strong>Performance running</strong></td><td>Nike running +20%+; HOKA and On each went from 0% to 4% of US sports footwear in eight years; comfort is the #1 reason to buy.</td><td>Growth is slowing: HOKA +34% → +8%, On +40% → +22%. US running specialty demand slowed from April.</td><td class="pos">Right place to be, with less upside than in 2024–25</td></tr>
+<tr><td><strong>Getting On and HOKA into Foot Locker stores</strong></td><td>HOKA is in only ~25% of athletic specialty doors versus ~50% of sporting goods doors. On targets ~75% of doors by 2029.</td><td>Both brands are holding back supply to protect pricing, and they allocate based on proven sell-through, which Foot Locker hasn't shown yet. On's newest shoe goes to running stores first.</td><td class="neu">Real opportunity, but the brands control the pace</td></tr>
+<tr><td><strong>Nike / Jordan lifestyle (still ~60% of Foot Locker)</strong></td><td>Jordan is still 31% of Gen Z purchases. Some launches still sell out (Space Jam AJ11, Caitlin Clark shoe).</td><td>Jordan is down mid-teens and Nike's reset runs past May 2028. Nike is putting Jordan into Famous Footwear and Academy, which erodes Foot Locker's exclusivity. Its core under-$50K customer is the most discount-driven.</td><td class="neg">Deteriorating faster than Foot Locker can pivot</td></tr>
+<tr><td><strong>Apparel</strong></td><td>Base layers and team sports are strong; apparel carries better margins at full price.</td><td>Nike apparel is the most over-stocked part of the market (~43 weeks of inventory, discounts +4 points).</td><td class="neu">Right move, bad timing</td></tr>
+<tr><td><strong>UGG, Birkenstock, casual</strong></td><td>UGG shipments to DKS +238%; sandals are back.</td><td>UGG controls distribution tightly; UGG search interest is down 7–20%.</td><td class="pos">Works at DICK'S; unproven in Foot Locker's mall stores</td></tr>
+<tr><td><strong>The Foot Locker customer</strong></td><td>The loyalty program covers ~49% of North American sales, giving DKS data it never had.</td><td>Lower-income shoppers hurt by gas prices; JD Sports North America −6.8%; Europe cautious.</td><td class="neg">The macro works against the mall sneaker customer into holiday</td></tr>
+</tbody></table></div>
+
+<div class="prose">
+<h4>Does consensus reflect the shift?</h4>
+<ul>
+<li><strong>Revenue: only partly.</strong> Bloomberg has Foot Locker flat for two years ($7.40B → $7.37B → $7.59B) with 2–3% comps. A Foot Locker with fewer styles, fewer launch spikes and ~6% fewer stores is more likely to shrink while its margin improves.</li>
+<li><strong>Gross margin: modestly.</strong> 25.9% → 26.8% → 27.6% (FY26–28). JPM has 29.5% for FY27 and Wells' bull case 31.6%. The Street doesn't build in Nike's warning that lifestyle discounting runs through all of DKS's FY27.</li>
+<li><strong>Profit:</strong> a −$73M loss turns into +$20M in FY27 and +$109M in FY28, almost entirely from gross margin on flat sales.</li>
+<li><strong>Nobody models the likely end state:</strong> a smaller, running-led Foot Locker with lower sales and a 3–4% margin.</li>
+</ul>
+
+<h3>10.6 International: is an exit coming?</h3>
+<p><strong>The business.</strong> Foot Locker International (Europe, Asia Pacific, Canada) is ~$2.2B a year, ~10% of DKS sales and roughly a third of Foot Locker. Its comps have been negative six quarters in a row under two owners. DKS doesn't disclose its profit, but every available proxy points to losses: Foot Locker's own international pre-tax result went from +$84M (FY22) to −$49M (FY24), and a full tax reserve covers $280M of foreign tax losses because management sees no "prudent and feasible business plans for generating future taxable income" there.</p>
+
+<h4>Signs pointing toward an exit, licensing deal or deep cuts</h4>
+<ol>
+<li><strong>Management's tone has turned.</strong> Dec-25: "we're keeping that." Since then: Europe "roughly six months behind," then "more challenging than expected," then hurt by the Middle East war. "Keeping" hasn't been repeated.</li>
+<li><strong>Stack has said yes to restructuring in plain terms.</strong> Asked about shrinking the fleet and selling Foot Locker assets: "the answer to your question is simply yes." In September: "we are creating a menu… no preconceived ideas."</li>
+<li><strong>The tax reserve.</strong> A full valuation allowance means DKS's own forecasts show no path to profit in those entities. It costs ~4 points of tax, ~$0.65 per share.</li>
+<li><strong>Foot Locker's own board planned to pull back.</strong> Its pre-deal case moved capital away from international toward the more profitable US banners.</li>
+<li><strong>There's a template.</strong> Foot Locker already converted Singapore, Malaysia, Greece and Romania to licensed partners, and licensed stores keep growing (246 → 266).</li>
+<li><strong>There's budget left.</strong> ~$234M of the $750M charge program is unused, and the 10-K flags more closure costs at Foot Locker.</li>
+<li><strong>The hire fits a restructuring.</strong> The new International head came from Aldi and Tesco, a cost-cutting background rather than a sneaker one.</li>
+<li><strong>The new bonds make it easier.</strong> Their terms exclude non-US subsidiaries from key covenants, which removes a hurdle to selling them.</li>
+<li><strong>Nike doesn't name Foot Locker as a key European partner.</strong> It names JD Sports, Sports Direct and Snipes.</li>
+</ol>
+<h4>What argues against a near-term exit</h4>
+<ul>
+<li>International was part of the deal's pitch ("will make DICK'S a global business"), and Fast Break is being tested in Europe.</li>
+<li>Europe was Foot Locker's best region as recently as FY24 (+4.4% comp).</li>
+<li>Exits are expensive and fetch little: European labor councils, 5–10 year leases, a new Dutch distribution center, and past sales raised only $12–24M each. Selling at a loss would also trigger write-downs of the $591M of goodwill and $710M of brand value.</li>
+<li>The natural buyer, JD Sports, is cutting guidance itself.</li>
+<li>The International head just bought $500K of stock, which is unusual for someone planning to close his own division.</li>
+</ul>
+<h4>Is it in the estimates? No.</h4>
+<p>Bloomberg keeps Foot Locker Europe at ~550 stores through FY32, has Foot Locker revenue growing from FY28, and assumes the tax rate drifts down to 25% by FY29 without saying how. No broker models an exit.</p>
+<p class="take">An exit would cut revenue ~10% but lift EPS by roughly $0.90–1.30 (7–10%), mainly by removing losses and lowering the tax rate.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>Effect of an international exit (illustrative)</th><th class="n">FY27 EPS impact</th></tr></thead>
+<tbody>
+<tr><td>Remove European operating losses (assumed $50–150M a year)</td><td class="n">+$0.40 to +$1.20</td></tr>
+<tr><td>Tax rate falls from ~29% to ~25%</td><td class="n">+$0.60 to +$0.70</td></tr>
+<tr><td>Lost revenue (~$2.1–2.2B; FY27 revenue $22.6B → ~$20.5B)</td><td class="n">small (business is loss-making)</td></tr>
+<tr><td>Lower capex (licensed stores need almost none)</td><td class="n">no EPS effect; free cash flow +$1.5–2.5 per share</td></tr>
+<tr><td>One-time exit costs and write-downs</td><td class="n">several hundred $M, excluded from adjusted EPS</td></tr>
+<tr class="key"><td>Net, after costs the remaining business still has to carry</td><td class="n">+$0.90 to +$1.30</td></tr>
+</tbody></table></div>
+<p class="note">Confidence in the size is low because no regional profit data exists. The likely dates for an announcement are the Q3 call (24-Nov-26) and the FY27 guide (March 2027).</p>
+
+<div class="prose">
+<h3>10.7 How Foot Locker guidance and estimates moved</h3>
+<p class="take">Both management and the Street were too optimistic in spring 2026 and cut sharply in August.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>Date</th><th>Management said</th><th>Street estimates</th><th>What happened next</th></tr></thead>
+<tbody>
+<tr><td>May-25</td><td>Adds to EPS in year one; few closures</td><td>Barclays: Foot Locker FY26 EBIT ~$198M</td><td>Q1 FY25 comp −2.6%; $276M of write-downs</td></tr>
+<tr><td>Nov-25</td><td>Heavy Q4 markdowns; still adds to EPS in FY26</td><td>JPM: FY26 margin 1.2%</td><td>Q4 comp −3.4% (better)</td></tr>
+<tr><td>Mar-26</td><td>FY26 comp +1–3%, profit $100–150M</td><td>Comps ~+1.5–1.9%</td><td>Q1 comp +0.6% (a beat)</td></tr>
+<tr><td>May-26</td><td>"Our plan is working"; profit $110–150M</td><td>JPM raised to +3.8% comp, 2.4% margin</td><td>Q2 comp −3.6%, loss (a miss)</td></tr>
+<tr><td>Aug-26</td><td>Comp −2% to 0%; $40–80M loss</td><td>FY27: JPM +2.8% comp / $103M profit; Bloomberg +$20M</td><td>Q3 results 24-Nov-26</td></tr>
+</tbody></table></div>
+
+<div class="prose">
+<h3>10.8 What to watch</h3>
+<ul>
+<li><strong>Q3 FY26 (24-Nov):</strong> Foot Locker comp against the −2.5% to +1.5% range implied by guidance (consensus +0.3%); gross margin versus 24.4%; Fast Break store results; whether "the menu" is announced (closures, Europe, capex cuts, licensing); inventory versus ~$2.0B.</li>
+<li><strong>Nike Investor Day (16–17 Nov) and Nike's December quarter:</strong> how Nike allocates to specialty retailers, how widely it distributes Jordan, and how long the lifestyle reset lasts.</li>
+<li><strong>Q4 FY26 (March 2027):</strong> Foot Locker enters the comp base; impairment test on goodwill and brand values; first FY27 guidance.</li>
+<li><strong>Structural signals:</strong> the licensed store count, Foot Locker capex, any decision on Champs or WSS, and the first number on synergies.</li>
+</ul>
+</div>
+
+
+<h2 id="s11">11. The 14 expert calls</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>Fourteen suppliers to DKS were interviewed in June–July 2026, six weeks before the August reset. They were right that the core is winning share and that inventory was building. Every optimistic view on Foot Locker turned out wrong. Only one (Under Armour) saw the discounting coming. The most useful takeaway is that DKS kept taking in product while demand slowed, which is a markdown risk for Q4.</p></div>
+
+<div class="prose"><p>All 14 are AlphaSense calls with brand-side people (none from DKS, landlords or competitors), run by an AI interviewer with a fixed set of questions. They range from two vendors doing hundreds of millions of dollars with DKS (Under Armour, a Nike planner) to eight small or new vendors. Sales figures are shipments to DKS (sell-in), not what DKS sold to customers. Most vendors book orders 6–9 months ahead, so the Aug–Oct figures describe product DKS had already committed to take.</p>
+
+<h3>11.1 Scorecard</h3>
+<p class="take">The most relevant calls were mostly right on the core and wrong on Foot Locker.</p></div>
+<div class="tbl"><table>
+<thead><tr><th>Expert (date)</th><th>Relevance</th><th>Shipments to DKS, May–Jul / Aug–Oct</th><th>Main point</th><th>How it held up</th></tr></thead>
+<tbody>
+<tr><td>Nike planning manager (14-Jul)</td><td>★★★★★</td><td class="n">+3–5% / +10–15%</td><td>Nike and DKS are closely aligned again; Foot Locker added a lot of inventory</td><td class="neu">Right on share and inventory; wrong to call the inventory positive</td></tr>
+<tr><td>Jordan Brand merchandising director (13-Jul)</td><td>★★★★★</td><td class="n">"up conservatively"</td><td>Retro was "driving" Foot Locker</td><td class="neg">Wrong: launches underperformed six weeks later</td></tr>
+<tr><td>Under Armour merchandising director (10-Jul)</td><td>★★★★★</td><td class="n">+mid/high single digits</td><td>DKS and the market "getting more promotional"</td><td class="pos">The only call that saw the discounting coming</td></tr>
+<tr><td>Nike-side planner, 24 years (6-Jul)</td><td>★★★★</td><td class="n">+0–5% / +0–5%</td><td>DKS + Foot Locker will buy less combined; more bargaining power</td><td class="pos">Right on lifestyle weakness and shrinking combined purchases</td></tr>
+<tr><td>Deckers/UGG senior director (29-Jul)</td><td>★★★★</td><td class="n">+4–6% / +14–16%</td><td>Foot Locker's style cuts won't reduce sales</td><td class="neu">Right on UGG at DKS; wrong on Foot Locker</td></tr>
+<tr><td>UGG manager (28-Jul)</td><td>★★★</td><td class="n">+238% / ~+150%</td><td>DKS getting more UGG allocation; sells through</td><td class="pos">Confirmed by Q2</td></tr>
+<tr><td>Crocs / HEYDUDE (6-Jul)</td><td>★★★</td><td class="n">−9% / ~−10%</td><td>Best map of who DKS takes share from</td><td class="neu">Useful context; nothing on Foot Locker</td></tr>
+<tr><td>Workwear planner (10-Jul)</td><td>★★★</td><td class="n">+low/mid single digits / "sizable"</td><td>DKS pulling orders forward; big brands losing pull</td><td class="neu">Right on the inventory build</td></tr>
+<tr><td>Denim manufacturer (7-Jul)</td><td>★★</td><td class="n">+10–12% / ~+10%</td><td>DKS "winning in the marketplace"</td><td class="neu">Minor</td></tr>
+<tr><td>Premium apparel, new vendor (8-Jul)</td><td>★★</td><td class="n">new account</td><td>DKS "not overly promotional"</td><td class="neg">Wrong within six weeks</td></tr>
+<tr><td>Fashion boots distributor (9-Jul)</td><td>★★</td><td class="n">triple digits off a tiny base</td><td>DKS stretching into fashion</td><td class="neu">Minor</td></tr>
+<tr><td>Socks manufacturer (13-Jun)</td><td>★★</td><td class="n">+2% / +2–5%</td><td>DKS "buying quite aggressively"; own brands competing</td><td class="neu">Matched the inventory build</td></tr>
+<tr><td>Licensed socks executive (2-Jul)</td><td>★★</td><td class="n">new / −5–10%</td><td>World Cup boost would fade</td><td class="neu">Right</td></tr>
+<tr><td>Golf/swim apparel (14-Jul)</td><td>★★</td><td class="n">flat / flat</td><td>House of Sport presentation drives sales</td><td class="neu">Minor</td></tr>
+</tbody></table></div>
+<p class="note">Relevance stars are our judgment. Some figures look overstated or inconsistent; these are flagged in the write-ups below.</p>
+
+<div class="prose">
+<h3>11.2 What the important calls said</h3>
+
+<div class="idea"><h4>Nike planning manager, Americas (14-Jul) <span class="stars">★★★★★</span></h4>
+<p class="lead"><strong>Bottom line:</strong> Nike and DKS are working closely together again, and Foot Locker loaded DKS with extra inventory.</p>
+<ul>
+<li><strong>The Nike relationship is now a problem for other brands.</strong> When Nike pulled back from wholesale a few years ago, HOKA and On got space at DKS. Now Nike is reinvesting in DKS with joint marketing, store displays and DKS-only colorways. He called this "the biggest elephant in the room" for competing brands.</li>
+<li><strong>Foot Locker increased DKS's inventory.</strong> DKS is working it down through returns to vendors, smaller orders and off-price channels. He saw the heavy inventory as a positive. The August results showed it wasn't.</li>
+<li><strong>Money is going to running.</strong> Spending is concentrated on the running wall ("super shoes from all brands"). DKS is cutting lifestyle and niche categories (training, tennis, soccer after the World Cup) and is slow to reorder when trends change.</li>
+<li><strong>Foot Locker will stay Nike-heavy.</strong> Brands are "excited" about Fast Break, but he expects Foot Locker to be "very Nike-forward moving forward." That contradicts management's story that Foot Locker will broaden into On, HOKA and Saucony.</li>
+<li><strong>Caveat:</strong> his 2026 store-opening figures (10–15 House of Sport, 18–25 Field House) are higher than the company's plan (~14 and ~20).</li>
+</ul></div>
+
+<div class="idea"><h4>Jordan Brand merchandising director, North America (13-Jul) <span class="stars">★★★★★</span></h4>
+<p class="lead"><strong>Bottom line:</strong> He said Jordan Retro was a "bright spot" at Foot Locker. Six weeks later management said launches underperformed.</p>
+<ul>
+<li><strong>Jordan has a multi-year plan with DKS.</strong> There is a formal "four- to five-year plan" across DICK'S and Foot Locker. House of Sport gets the most exclusive product; regular DICK'S customers won't pay $180 for a shoe.</li>
+<li><strong>Why his miss matters most.</strong> The brand that controls Foot Locker's best product didn't see the Q2 miss coming. That suggests the problem is weak consumer demand (few launches reselling above retail, Jordan spreading to Famous Footwear and Academy), not Foot Locker getting too little product.</li>
+<li><strong>Pricing friction is minor.</strong> The only dispute he mentioned was over customization charges ($5 versus $10–15 per item).</li>
+</ul></div>
+
+<div class="idea"><h4>Under Armour merchandising director, Americas (10-Jul) <span class="stars">★★★★★</span></h4>
+<p class="lead"><strong>Bottom line:</strong> The best read on the core business, and the only call that predicted the discounting.</p>
+<ul>
+<li><strong>Premium demand is solid.</strong> The DKS customer keeps "buying more of the premium products," with spending concentrated around big moments (Father's Day, back-to-school). Base layers grew double digits for three years running.</li>
+<li><strong>Discounting was coming.</strong> "DICK'S and the marketplace at large are definitely getting more promotional." Vendor terms were unchanged, so the cost falls on DKS's gross margin. Premium fleece at $120–150 was the weak spot.</li>
+<li><strong>DKS is cutting brands.</strong> DKS now picks "one brand to stand for something" in each slot (one cotton hoodie brand, one running-short brand). This is how mid-tier brands lose space to DKS's own brands.</li>
+<li><strong>The relationship is warming.</strong> Stack visited UA's campus, and "40+" DKS buyers and executives visited UA's offices. On Foot Locker: no effect on UA's buys, and a stronger Foot Locker "lifts all boats."</li>
+</ul></div>
+
+<div class="idea"><h4>Nike-side planner, 24 years (6-Jul) <span class="stars">★★★★</span></h4>
+<p class="lead"><strong>Bottom line:</strong> DKS plus Foot Locker will buy less in total but negotiate harder. That is good for DKS's margin over time and bad for Foot Locker's sales.</p>
+<ul>
+<li><strong>Demand split.</strong> Running and retro running are doing "incredibly well"; lifestyle sportswear "continues to be a challenge." Shoppers are also buying casual brands like Birkenstock.</li>
+<li><strong>Less volume.</strong> "The two combined will purchase less than historically they have than when they were on their own," because of overlap and store closures.</li>
+<li><strong>More bargaining power.</strong> Owning Foot Locker "starts to eliminate who you can use as leverage," so brands want JD Sports to grow in the US as a counterweight.</li>
+</ul></div>
+
+<div class="idea"><h4>Deckers / UGG, two interviews (28 and 29-Jul) <span class="stars">★★★★</span></h4>
+<p class="lead"><strong>Bottom line:</strong> UGG is a big winner at DKS. The view that Foot Locker's style cuts wouldn't hurt sales was wrong.</p>
+<ul>
+<li><strong>UGG at DKS is booming.</strong> Shipments +238% in May–Jul and ~+150% for fall, mostly deeper allocation in existing stores (largely House of Sport). Sell-through matches sell-in, and DKS respects UGG's minimum prices.</li>
+<li><strong>The case for Fast Break.</strong> The senior director called it "edit to amplify": a 20–30% style cut that "isn't dropping revenue expectations" and gives "much stronger margin." Foot Locker's −3.6% comp and rising inventory contradict this.</li>
+<li><strong>Caveat:</strong> her claim that DKS is "about 18%" of UGG's North American revenue looks too high; it would make DKS a ~$900M UGG account.</li>
+</ul></div>
+
+<div class="idea"><h4>Crocs / HEYDUDE (6-Jul) <span class="stars">★★★</span></h4>
+<p class="lead"><strong>Bottom line:</strong> The clearest picture of who DKS takes share from and who it could lose to.</p>
+<ul>
+<li><strong>Taking share from:</strong> Academy (the "closest direct competitor"), Hibbett, Kohl's, JCPenney, Macy's and regional chains that can't keep up on assortment, digital and delivery.</li>
+<li><strong>Could lose share to:</strong> SCHEELS (high service, growing), Amazon and marketplaces, Fanatics, and off-price if excess inventory floods the market.</li>
+<li><strong>Consumers are splitting.</strong> Shoppers are "very price sensitive": they either go to value channels or to top retailers for top products, cutting out the middle.</li>
+<li><strong>Own brands replace mid-tier brands.</strong> At Reebok, DKS removed all Reebok apparel from stores because it competed with DKS's own label.</li>
+</ul></div>
+
+<div class="idea"><h4>Workwear planner (10-Jul) <span class="stars">★★★</span></h4>
+<p class="lead"><strong>Bottom line:</strong> Big brands are losing pull, which helps DKS's own brands, and DKS was pulling orders forward.</p>
+<ul>
+<li>"Nike, North Face, Patagonia don't have the brand power that they used to," which opens space for smaller brands and private label.</li>
+<li>DKS was "trying to front-load next season as much as possible" with "aggressive" reorders, consistent with the inventory build.</li>
+<li>His own forecast accuracy is "probably being low."</li>
+</ul></div>
+
+<h3>11.3 Where the calls agree and disagree</h3>
+<p class="take">The calls describe exactly the split that showed up in Q2: the core comped +4.9% while Foot Locker comped −3.6%.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>Theme</th><th>Most calls say</th><th>Dissent</th><th>Our read</th></tr></thead>
+<tbody>
+<tr><td>DKS market share</td><td>13 of 14 say DKS gains or holds share</td><td>Small losses to running specialty; watch SCHEELS and Amazon</td><td class="pos">Confirmed. The core isn't the problem.</td></tr>
+<tr><td>Inventory</td><td>DKS manages inventory well</td><td>Foot Locker added inventory; DKS "buying quite aggressively"; orders pulled forward</td><td class="neg">Total inventory is up 63.5% y/y, and Foot Locker's is ~$2.0B</td></tr>
+<tr><td>Consumer</td><td>The premium customer is resilient and trading up</td><td>Gas prices, smaller baskets, trade-down in basics</td><td class="neu">Both are true. The Foot Locker customer is on the weaker side.</td></tr>
+<tr><td>Pricing</td><td>Vendor terms are stable</td><td>Under Armour: consumer promotions rising</td><td class="neg">The discount cost landed on DKS, not the vendors</td></tr>
+<tr><td>Own brands</td><td>No threat to premium brands</td><td>Direct competition in basics and graphic tees</td><td class="pos">Supports own-brand margin gains in the mid-tier</td></tr>
+<tr><td>Foot Locker</td><td>Positive: "edit to amplify," "lifts all boats"</td><td>Combined buying will shrink; Foot Locker "very Nike-forward"</td><td class="neg">Every optimistic Foot Locker view was wrong within six weeks</td></tr>
+</tbody></table></div>
+
+<div class="prose">
+<h3>11.4 What the calls add to our variance view</h3>
+<ul>
+<li><strong>Inventory risk into holiday (downside).</strong> Suppliers committed to ship 3–16% more in Aug–Oct while DKS now guides to ~+1% core comp and a negative Foot Locker comp. Consensus has Q3 inventory flat with Q2, which assumes DKS works it down. The markdown risk sits in Q4 and Q1.</li>
+<li><strong>Vendors won't fund the margin recovery (neutral).</strong> No vendor said it was giving DKS better terms. Foot Locker buying savings must come from direct sourcing and cutting brands, which takes several seasons.</li>
+<li><strong>Own brands gain as mid-tier brands weaken (upside).</strong> Each point of sales mix shifted to own brands adds ~8bps of core margin. Consensus core gross margin for FY27 (+7bps) includes almost none of this.</li>
+<li><strong>Nike cuts both ways.</strong> DKS gets Nike's new performance products first, but Nike's US wholesale shipments fall ~10% in Sep–Nov. A cleaner Nike channel by early 2027 is the bull case for FY27 margin. A "Nike-forward" Foot Locker is the bear case for its diversification.</li>
+<li><strong>Academy is retreating (upside).</strong> Two vendors describe Academy pulling back to smaller markets. That makes a 2.4% FY27 core comp look achievable.</li>
+</ul>
+</div>
+
+
+<h2 id="s12">12. Where we differ from the Street</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>Adding up every item where the evidence and the estimates disagree, our probability-weighted FY27 EPS is close to consensus (about −$0.20 versus $13.36), but the range is wide (−$2.50 to +$2.00). The shape matters more than the average. The downside items are likely and gradual: prolonged discounting, weak Foot Locker comps, interest and tax. The upside items are lumpy events: a Foot Locker international exit, more closures, a buyback. The long case needs one of those events. The short case needs neither to happen.</p></div>
+
+<div class="prose">
+<h3>How to read this section</h3>
+<p><strong>Base:</strong> Bloomberg consensus for FY27 (Bloomberg "2028 Y"): revenue $22,611M (core $15,203M, Foot Locker $7,367M), adjusted operating income $1,650M (7.30% margin; core $1,647M at 10.83%, Foot Locker $19.7M at 0.27%), EPS $13.36, tax 27.46%, 89.09M shares, interest $75M, buybacks $275M.</p>
+<p><strong>How we express a difference:</strong> a revenue difference is stated in bps of the relevant revenue estimate. A margin difference is stated in bps versus the consensus margin. Both are then converted to FY27 dollars per share.</p>
+<p><strong>Rules of thumb used:</strong> 1 point of core comp ≈ $152M ≈ $0.33–0.42; 1 point of Foot Locker comp ≈ $74M ≈ $0.24; 50bps of core margin ≈ $76M ≈ $0.62; 100bps of Foot Locker gross margin ≈ $74M ≈ $0.60; 1 point of tax ≈ $0.18. Probabilities are our judgment.</p>
+
+<h3>12.A Upside not in estimates</h3>
+</div>
+
+<div class="var"><h4>1. Foot Locker exits or licenses out its international business <span class="pill up">Upside</span></h4>
+<dl>
+<dt>What we see</dt><dd>Stack's "simply yes" and "creating a menu," a restructuring-style hire to run International, a full tax reserve on its losses, six straight negative comps, an existing licensing template, ~$234M of charge budget left, and bond terms that make a sale easier (Section 10.6).</dd>
+<dt>Consensus</dt><dd>Europe stays at ~551 stores through FY32; Foot Locker revenue grows from FY28; tax only drifts down to 25% by FY29. No broker models an exit.</dd>
+<dt>Size</dt><dd>Revenue −930 to −970bps of the consolidated FY27 estimate (−$2.1–2.2B). Operating margin +100 to +150bps versus 7.30%. Tax −3 to −4 points. EPS +$0.90 to +$1.30 (+7–10%).</dd>
+<dt>Probability</dt><dd>~45% that a Europe action is announced within four quarters; if it happens, ~60% that it's licensing rather than outright closure. Confidence in the size is low because there is no regional profit data.</dd>
+<dt>Watch</dt><dd>The Q3 call (24-Nov) and the March FY27 guide. The International head buying stock on 30-Sep cuts slightly against.</dd>
+</dl></div>
+
+<div class="var"><h4>2. More Foot Locker store closures than the Street models <span class="pill up">Upside</span></h4>
+<dl>
+<dt>What we see</dt><dd>67 stores under review. Champs (most stores within a mile of a Foot Locker) and WSS (negative comps since 2023) have no stated strategy. Management's language has gone from "not significant" closures to "simply yes."</dd>
+<dt>Consensus</dt><dd>~60 closures a year (2,205 → 2,145 → 2,117 stores).</dd>
+<dt>Size</dt><dd>UBS math: each 100 closures removes $90–100M of sales and adds ~$0.30 of EPS. 200–300 extra closures: revenue −80 to −130bps consolidated, margin +35 to +50bps, EPS +$0.60 to +$0.90 over two years (~+$0.30 in FY27).</dd>
+<dt>Probability</dt><dd>70% that FY27 closures beat consensus by at least 100. Overlaps with item 1 if Europe is included.</dd>
+<dt>Watch</dt><dd>Closure counts at Q3/Q4; any Champs or WSS decision; charges against the $750M budget.</dd>
+</dl></div>
+
+<div class="var"><h4>3. The $1B of new bonds funds a buyback <span class="pill up">Upside</span></h4>
+<dl>
+<dt>What we see</dt><dd>The stated use of proceeds includes "repurchases of shares." The $3.0B authorization covers ~22% of shares at $137. Cash is ~$1.9B versus $1.12B in consensus. Insiders bought after the crash.</dd>
+<dt>Consensus</dt><dd>FY27 buybacks $275M, 89.09M shares, no new debt, flat interest.</dd>
+<dt>Size</dt><dd>$1B at ~$140 retires ~7.1M shares (8%). Done in 1H FY27 that adds ~$0.80 of EPS, minus the bond interest (−$0.38) and lost interest income (−$0.24): net +$0.20 to +$0.40 in FY27, ~+$0.70 a year from FY28.</dd>
+<dt>Probability</dt><dd>50% for at least $500M within four quarters; 30% for the full $1B. Management ranks stores and the dividend ahead of buybacks, and free cash flow didn't cover the dividend last year.</dd>
+<dt>Watch</dt><dd>The buyback line in the Q3 10-Q.</dd>
+</dl></div>
+
+<div class="var"><h4>4. GameChanger and the media network grow faster than modeled <span class="pill up">Upside</span></h4>
+<dl>
+<dt>What we see</dt><dd>GameChanger is ~$150M growing ~40% at ~80% gross margin. Together with advertising it added ~80bps to core gross margin in Q2 FY26.</dd>
+<dt>Consensus</dt><dd>Core gross margin +7bps in FY27; no separate line.</dd>
+<dt>Size</dt><dd>30–40% growth adds $35–60M of profit: +23 to +39bps of core margin versus 10.83%. Assuming half is already in the base, the extra is +$0.15 to +$0.25.</dd>
+<dt>Probability</dt><dd>60%. Against: GameChanger app usage fell 9.6% y/y in August.</dd>
+</dl></div>
+
+<div class="var"><h4>5. Own brands take share from weaker national brands <span class="pill up">Upside</span></h4>
+<dl>
+<dt>What we see</dt><dd>Own brands are 13% of sales at 7–9 points higher margin. Suppliers describe mid-tier brands losing pull and DKS keeping "one brand" per slot.</dd>
+<dt>Size</dt><dd>+1 point of mix ≈ +8bps of core margin ≈ +$0.10. Two points over two years ≈ +$0.20. Consensus includes almost none of it.</dd>
+<dt>Probability</dt><dd>60% for +1 point a year.</dd>
+</dl></div>
+
+<div class="var"><h4>6. Foot Locker gross margin recovers faster in FY28 <span class="pill up">Upside, FY28</span></h4>
+<dl>
+<dt>What we see</dt><dd>DKS-bought product and exclusives arrive mostly from Q1 FY27; ~30% fewer styles. Foot Locker's gross margin was 28.9% in FY24 and 31.9% in FY22, versus consensus 26.8% (FY27) and 27.6% (FY28).</dd>
+<dt>Size</dt><dd>Each 100bps of Foot Locker gross margin ≈ $74M ≈ +$0.60. FY27 looks fair because the Nike reset runs through it. FY28 could be 100–150bps too low: +$0.60 to +$0.90.</dd>
+<dt>Probability</dt><dd>40%.</dd>
+</dl></div>
+
+<div class="prose"><h3>12.B Downside not in estimates</h3></div>
+
+<div class="var"><h4>1. Discounting lasts through 1H FY27 <span class="pill down">Downside</span></h4>
+<dl>
+<dt>What we see</dt><dd>Nike says its lifestyle/Jordan reset runs "beyond fiscal 2027" (past May 2028). Nike is shipping ~10% less to US wholesale in Sep–Nov, few launches resell above retail, apparel discounts are up 4 points, and management says discounting lasts "at least through Q4." JPM's view that the channel clears in early 2027 is the bull case.</dd>
+<dt>Consensus</dt><dd>Gross margin +50bps in FY27. Q2 FY27 core gross margin of 37.5% is the highest quarter on the screen, which assumes full recovery by mid-2027. Foot Locker gross margin +93bps.</dd>
+<dt>Size</dt><dd>If 1H FY27 looks like Q2 FY26: core gross margin −50bps versus consensus (−$0.62) and no Foot Locker improvement in 1H (−$0.27). Consolidated margin −48bps versus 7.30%. EPS −$0.90 (−7%).</dd>
+<dt>Probability</dt><dd>50%.</dd>
+<dt>Watch</dt><dd>Nike Investor Day (16–17 Nov); Q3 Foot Locker gross margin versus 24.4%; resale-price trackers.</dd>
+</dl></div>
+
+<div class="var"><h4>2. Foot Locker FY27 comps come in below consensus <span class="pill down">Downside</span></h4>
+<dl>
+<dt>What we see</dt><dd>Jordan down mid-teens, JD Sports North America −6.8%, a stretched Foot Locker customer, and a 2H FY26 guide of −2.5% to +1.5%.</dd>
+<dt>Consensus</dt><dd>Foot Locker comp +2.0% in FY27 (brokers range +1.1% to +3.2%).</dd>
+<dt>Size</dt><dd>2 points lower = −$148M: −200bps of the Foot Locker revenue estimate (−65bps consolidated). At 40% flow-through, Foot Locker margin −80bps versus 0.27%, which puts it back to a loss. EPS −$0.48.</dd>
+<dt>Probability</dt><dd>45%.</dd>
+<dt>Watch</dt><dd>Q3 Foot Locker comp versus +0.3% consensus.</dd>
+</dl></div>
+
+<div class="var"><h4>3. Interest on the new bonds isn't in the numbers <span class="pill down">Downside</span></h4>
+<dl>
+<dt>What we see</dt><dd>$400M at 6.20% plus $600M at 6.90% = $66M a year from 25-Sep-26. This is certain.</dd>
+<dt>Consensus</dt><dd>FY27 interest $75M, the same as FY26. Debt is shown at $1.89B versus the actual $2.9B.</dd>
+<dt>Size</dt><dd>FY26: −$0.13. FY27: −$0.38 after tax, partly offset by ~$0.24 of interest earned on the cash if it isn't spent. Net −$0.14 if the cash sits; better if it funds a buyback (12.A item 3).</dd>
+<dt>Probability</dt><dd>~100%.</dd>
+</dl></div>
+
+<div class="var"><h4>4. Inventory has to be cleared over holiday <span class="pill down">Downside</span></h4>
+<dl>
+<dt>What we see</dt><dd>Total inventory +63.5% y/y at Q2 and Foot Locker's up to ~$2.0B from ~$1.5B. Suppliers committed +3–16% more shipments for Aug–Oct against a ~+1% core comp guide.</dd>
+<dt>Consensus</dt><dd>Q3 inventory $5.86B, flat with Q2, which assumes it gets worked down.</dd>
+<dt>Size</dt><dd>Q4 core gross margin −50bps (−$0.17) and Q4 Foot Locker gross margin −100bps (−$0.17). Total −$0.34.</dd>
+<dt>Probability</dt><dd>45%.</dd>
+</dl></div>
+
+<div class="var"><h4>5. Smaller items, each likely <span class="pill down">Downside</span></h4>
+<dl>
+<dt>Tariff refunds</dt><dd>~$21M of one-time refunds in FY26 core gross margin won't repeat: −14bps of core gross margin, −$0.17. Mechanical, ~100%.</dd>
+<dt>Opening costs</dt><dd>~18 House of Sport openings in 2027 (versus ~14) plus Field Houses, but consensus holds opening costs flat at $88M. −$0.08 to −$0.16, 80% likely.</dd>
+<dt>Tough 1H comparisons</dt><dd>1H FY27 laps +6.0% and +4.9% (tax-refund spending, World Cup). If the core comps +1% instead of +2.3% in 1H: −31bps of core revenue, −$0.12 to −$0.16, 50% likely.</dd>
+<dt>Tax stays at 29%</dt><dd>Consensus assumes 27.5% in FY27. With no Europe action the rate likely stays near 29%: −$0.28, ~30% likely overall.</dd>
+</dl></div>
+
+<div class="var"><h4>6. Below-the-line and GAAP-only risks <span class="pill">GAAP only</span></h4>
+<dl>
+<dt>Impairment</dt><dd>Foot Locker goodwill ($591M) and brand values ($710M) were valued on a plan for $100–150M of FY26 profit, and FY26 is now a loss. A $400–700M write-down at the Q4 test is ~60% likely. Non-cash and excluded from adjusted EPS, but a bad headline.</dd>
+<dt>Restructuring cash</dt><dd>A European exit would probably cost more than the ~$234M left in the budget. This hits free cash flow, not adjusted EPS.</dd>
+</dl></div>
+
+<div class="prose">
+<h3>12.C Fairly reflected or unresolved</h3>
+<ul>
+<li><strong>Synergies:</strong> consensus FY27 Foot Locker profit improves by ~$92M, which is about the synergy target with no other improvement. Fair.</li>
+<li><strong>2H FY26:</strong> consensus 2H EPS of $5.01 is the guide midpoint. Core revenue is too high and Foot Locker revenue is at the low end, which roughly cancels out.</li>
+<li><strong>FY27 core comp of +2.4%:</strong> consistent with share gains and the 2H FY26 run-rate. Fair, apart from the 1H skew above.</li>
+<li><strong>Store openings:</strong> House of Sport and Field House counts match the plan. Only the opening-cost line is too low.</li>
+<li><strong>Dividend:</strong> $5.15 in FY27 (+3%). Free cash flow roughly equals the dividend. No cut expected.</li>
+<li><strong>53rd week in FY28:</strong> worth ~$280–300M of sales and ~$0.30 of EPS combined. Probably partly in the numbers; worth checking by broker.</li>
+<li><strong>Foot Locker capex:</strong> ~$0.4B in FY26. Pausing Fast Break after ~350 stores would add $100–200M of free cash flow with no EPS effect. Part of "the menu."</li>
+</ul>
+
+<h3>12.D Everything ranked by probability-weighted FY27 effect</h3>
+<p class="take">The weighted items roughly cancel, but the downside is more certain and the upside depends on events.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>#</th><th>Item</th><th>Revenue (bps of estimate)</th><th>Margin (bps vs consensus)</th><th class="n">FY27 $/share</th><th class="n">Prob.</th><th class="n">Weighted</th><th>When we'll know</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Discounting through 1H FY27</td><td class="n">0</td><td>Consolidated −48</td><td class="n neg">−0.90</td><td class="n">50%</td><td class="n neg">−0.45</td><td>Nike Investor Day; Q3 Foot Locker gross margin</td></tr>
+<tr><td>2</td><td>International exit / licensing</td><td class="n">−930 to −970</td><td>Consolidated +100 to +150</td><td class="n pos">+0.90 to +1.30</td><td class="n">45%</td><td class="n pos">+0.50</td><td>Q3 call; March guide</td></tr>
+<tr><td>3</td><td>100+ extra closures</td><td class="n">−80 to −130</td><td>Consolidated +35 to +50</td><td class="n pos">+0.60 to +0.90 (2 yrs)</td><td class="n">70%</td><td class="n pos">+0.30</td><td>Q3/Q4 closure counts</td></tr>
+<tr><td>4</td><td>Buyback with bond proceeds</td><td class="n">0</td><td>0</td><td class="n pos">+0.20 to +0.40</td><td class="n">50%</td><td class="n pos">+0.15</td><td>Q3 10-Q</td></tr>
+<tr><td>5</td><td>Foot Locker comp 2 points low</td><td class="n">−200 FL</td><td>FL −80</td><td class="n neg">−0.48</td><td class="n">45%</td><td class="n neg">−0.22</td><td>Q3 Foot Locker comp</td></tr>
+<tr><td>6</td><td>Bond interest (cash unspent)</td><td class="n">0</td><td>below the line</td><td class="n neg">−0.14</td><td class="n">~100%</td><td class="n neg">−0.14</td><td>Q4 interest line</td></tr>
+<tr><td>7</td><td>Tax stays ~29%</td><td class="n">0</td><td>tax +150bps</td><td class="n neg">−0.28</td><td class="n">30%</td><td class="n neg">−0.08</td><td>March guide</td></tr>
+<tr><td>8</td><td>GameChanger / advertising</td><td class="n">+30 to +50 core</td><td>Core +23 to +39</td><td class="n pos">+0.15 to +0.25</td><td class="n">60%</td><td class="n pos">+0.12</td><td>10-K (Mar-27)</td></tr>
+<tr><td>9</td><td>Holiday inventory clearance</td><td class="n">0</td><td>Q4 core −50, FL −100</td><td class="n neg">−0.34</td><td class="n">45%</td><td class="n neg">−0.15</td><td>Q3 inventory</td></tr>
+<tr><td>10</td><td>Tough 1H core comparisons</td><td class="n">−31 core</td><td>≈0</td><td class="n neg">−0.12 to −0.16</td><td class="n">50%</td><td class="n neg">−0.07</td><td>Q1 FY27 comp</td></tr>
+<tr><td>11</td><td>Own brands +1 pt a year</td><td class="n">0</td><td>Core +8 per pt</td><td class="n pos">+0.10 to +0.20</td><td class="n">60%</td><td class="n pos">+0.09</td><td>10-K</td></tr>
+<tr><td>12</td><td>Tariff refund doesn't repeat</td><td class="n">0</td><td>Core gross margin −14</td><td class="n neg">−0.17</td><td class="n">~100%</td><td class="n neg">−0.17</td><td>Mechanical</td></tr>
+<tr><td>13</td><td>Opening costs for 2027 stores</td><td class="n">0</td><td>Consolidated −5 to −9</td><td class="n neg">−0.08 to −0.16</td><td class="n">80%</td><td class="n neg">−0.10</td><td>March guide</td></tr>
+<tr><td>14</td><td>Foot Locker gross margin, FY28</td><td class="n">0</td><td>FL +100 to +150</td><td class="n pos">+0.60 to +0.90 (FY28)</td><td class="n">40%</td><td class="n pos">+0.30 (FY28)</td><td>Q1 FY27 Foot Locker margin</td></tr>
+<tr class="key"><td></td><td>Net FY27 EPS, items 1–13</td><td></td><td></td><td></td><td></td><td class="n">≈ −0.20</td><td>Range −2.50 to +2.00 around $13.36</td></tr>
+</tbody></table></div>
+<p class="note">Weighted = midpoint × probability. Items overlap (1 and 5 both depend on the Nike reset; 2, 3 and 7 all depend on Europe), so the net is a guide, not a precise sum. JPM, Barclays and UBS all have FY27 EPS below consensus ($12.28–12.95), yet every Buy rating still depends on Foot Locker eventually working.</p>
+
+<div class="prose">
+<h3>12.E The long and short cases</h3>
+<div class="idea"><h4>The long case</h4>
+<ol>
+<li>DKS announces concrete Foot Locker action at Q3 or in March (Europe, Champs/WSS, closures, capex cuts). That removes losses, a 4-point tax drag and $0.2B+ of capex from a business the market already values at −$1.1 to −1.5B.</li>
+<li>The first DKS-bought assortments and ~350 Fast Break stores deliver a positive Foot Locker comp and a 28%+ gross margin by Q1 FY27.</li>
+<li>The core gross margin recovers as Nike's channel clears in early 2027, with new stores, own brands and GameChanger adding 30–50bps.</li>
+<li>$1B of fresh cash and a $3.0B authorization at ~10x earnings, with insiders buying.</li>
+<li>A core that just comped +4.9% (versus Academy ~+1% and JD −7%) trades at ~12x on its own, so Foot Locker comes free.</li>
+</ol>
+<p><strong>What it needs:</strong> a Q3 Foot Locker comp no worse than −2.5%, Foot Locker gross margin no lower than 24%, and management announcing "the menu."</p></div>
+<div class="idea"><h4>The short case</h4>
+<ol>
+<li>Foot Locker is ~60% Nike, and Nike says its lifestyle/Jordan discounting runs past DKS's FY27. Jordan is now also sold at Famous Footwear and Academy.</li>
+<li>The core laps +6.0% and +4.9% in 1H FY27 with high gas prices and no World Cup, while the 2H FY26 guide already implies ~+1%.</li>
+<li>Inventory is up 63.5% y/y going into a holiday management calls promotional "at least through Q4."</li>
+<li>$66M of new interest and a 29% tax rate aren't in consensus, yet consensus FY27 EPS still implies +16% growth.</li>
+<li>The turnaround is "early," synergies are "none yet," and the only Foot Locker beats came in the quarters when its inventory was being cleared out.</li>
+</ol>
+<p><strong>What it needs:</strong> a Q3 Foot Locker comp below −3%, a Q3 core comp below +1%, and no structural announcement.</p></div>
+</div>
+
+<h2 id="s13">13. Caveats and data conflicts</h2>
+<div class="bl"><b class="lab">Bottom line</b>
+<p>The biggest gap is that DKS doesn't report Foot Locker's international profit, so every estimate of what an exit is worth is inference. The Bloomberg screens have several stale or wrong rows, listed below. All 14 expert calls predate the August reset.</p></div>
+<div class="prose">
+<ul>
+<li><strong>How this was built.</strong> The source base is 500 files: DKS, Foot Locker, Nike and Academy filings; every DKS earnings call and conference since Q3 FY24; 14 expert calls; 45 broker notes plus peer and sector research; Bloomberg consensus and market data. This version is a plain-English rewrite of the full breakdown published 6-Oct-2026. The numbers are unchanged.</li>
+<li><strong>Bloomberg screen errors.</strong> The Foot Locker quarterly comp row is wrong for reported quarters. The core "operating margin" row doesn't equal profit divided by revenue, so margins here are recalculated. Q3 core revenue growth (+6.2%) is inconsistent with its own comp (+1.7%). FY26 GAAP EPS is stale. The $1B of new debt appears nowhere.</li>
+<li><strong>Company figures that differ by source.</strong> Nike's share of purchases (~31% total in the 10-K, ~25% at DICK'S, "only 24%" per the CEO, ~37% pro forma per Wells); the House of Sport target (75–100 → 67–68); GameChanger users (9M vs ~10M); the Fast Break pilot size (11 vs 21 stores); "cleanest ever" Foot Locker inventory versus the later rise to ~$2.0B.</li>
+<li><strong>Street figures.</strong> FY25 EPS base differs by source ($13.20 company, $13.27 JPM, $12.82 UBS pro forma). The four most bullish notes in the set (UBS and Barclays in March, the JPM upgrade in May, the Wells upgrade in August) all came before the cut.</li>
+<li><strong>Expert calls.</strong> Interviews were run by an AI interviewer. Some answers are internally inconsistent (Crocs Q2 "+40%" versus "down about 40%") and some figures look overstated (Deckers "about 18%" of North American revenue). Vendor-written summaries were ignored.</li>
+<li><strong>Market data.</strong> The 25-Aug move is −30.7% or −30.8% depending on source. Yahoo's share count is wrong; use ~90M from the 10-Q.</li>
+<li><strong>Missing data.</strong> No Foot Locker regional profit exists in any filing. The Foot Locker deal presentation from May 2025 is image-only, and some broker charts had no extractable values.</li>
+</ul>
+</div>
+</div>
+
+</body></html>

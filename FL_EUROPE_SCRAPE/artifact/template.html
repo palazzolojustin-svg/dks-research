@@ -1,0 +1,480 @@
+<title>FL Europe Exit Evidence</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: research-note column (~74ch) for prose; data tables and the evidence log run wider in their own scroll boxes. Thesis colours are semantic: closures = ink blue, sale/exit = violet, against = amber. */
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --fg:#17202a; --muted:#5b6675; --rule:#dde2e9; --fill:#edf0f4; --fill2:#e3e8ef;
+  --accent:#1e4f8a; --closures:#1e4f8a; --exit:#6a3f9e; --against:#9c5700; --good:#2d7547;
+  --display:"Newsreader", Georgia, "Times New Roman", serif;
+  --body:"Public Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono:"JetBrains Mono", Consolas, "SF Mono", monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f141a; --surface:#151c24; --fg:#e3e8ee; --muted:#9ba8b6; --rule:#27313c; --fill:#1a222c; --fill2:#212b36;
+    --accent:#86b4ec; --closures:#86b4ec; --exit:#bb9ae8; --against:#e3a552; --good:#6cc28c; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f141a; --surface:#151c24; --fg:#e3e8ee; --muted:#9ba8b6; --rule:#27313c; --fill:#1a222c; --fill2:#212b36;
+  --accent:#86b4ec; --closures:#86b4ec; --exit:#bb9ae8; --against:#e3a552; --good:#6cc28c; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:16px/1.62 var(--body);margin:0;padding-block:32px 80px;padding-inline:16px;overflow-x:hidden}
+.wrap{max-width:1100px;margin:0 auto}
+.prose{max-width:760px}
+h1{font:600 2.3rem/1.12 var(--display);margin:.2rem 0 .6rem;letter-spacing:-.01em;text-wrap:balance}
+h2{font:600 1.6rem/1.2 var(--display);margin:3.2rem 0 .8rem;padding-top:1.2rem;border-top:2px solid var(--rule);text-wrap:balance}
+h3{font:600 1.15rem/1.3 var(--display);margin:2rem 0 .5rem;text-wrap:balance}
+p{margin:.6rem 0}
+ul,ol{margin:.4rem 0 .9rem;padding-left:1.3rem}
+li{margin:.35rem 0}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+strong{font-weight:600}
+.kicker{font:500 .75rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--accent)}
+.sub{font:500 1.08rem/1.5 var(--display);color:var(--muted);max-width:760px;margin:0 0 1rem}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px 20px;margin:1.2rem 0 1.6rem;padding:14px 16px;background:var(--fill);border-radius:6px}
+.meta div{font-size:.88rem;line-height:1.5;min-width:0}
+.meta b{display:block;font:500 .68rem/1.2 var(--mono);text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin-bottom:3px}
+.verdicts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:1rem 0 1.4rem}
+.verdict{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--c);border-radius:6px;padding:16px 18px;min-width:0}
+.verdict .lab{font:500 .7rem/1.2 var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--c)}
+.verdict h3{margin:.35rem 0 .5rem;font-size:1.25rem}
+.verdict p{margin:.4rem 0;font-size:.95rem}
+.c-closures{--c:var(--closures)} .c-exit{--c:var(--exit)} .c-against{--c:var(--against)}
+.pill{display:inline-block;font:600 .68rem/1.2 var(--mono);padding:2px 7px;border-radius:999px;border:1px solid currentColor;vertical-align:1px;white-space:nowrap}
+.pill.cl{color:var(--closures)} .pill.ex{color:var(--exit)} .pill.ag{color:var(--against)} .pill.bo{color:var(--muted)}
+.tier{display:inline-block;font:600 .68rem/1 var(--mono);width:1.5em;text-align:center;padding:3px 0;border-radius:3px;background:var(--fill2);color:var(--fg)}
+.tier.A{background:var(--fg);color:var(--bg)}
+.ref{font:500 .78rem/1 var(--mono);color:var(--muted);white-space:nowrap}
+.ref:hover{color:var(--accent)}
+.tbl{overflow-x:auto;margin:.6rem 0 1rem;border:1px solid var(--rule);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.87rem;line-height:1.45;font-variant-numeric:tabular-nums}
+th,td{padding:7px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}
+th{background:var(--fill);font-weight:600;white-space:nowrap;font-size:.8rem}
+td.n,th.n{text-align:right;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tr.key td{font-weight:600}
+.note{font-size:.82rem;color:var(--muted);margin:-.4rem 0 1.2rem;max-width:900px}
+.take{font-weight:500;max-width:760px;margin:1.1rem 0 .4rem}
+.callout{border-left:3px solid var(--accent);background:var(--fill);padding:12px 16px;border-radius:0 6px 6px 0;margin:1.2rem 0;max-width:760px}
+.bar{position:relative;height:12px;background:var(--fill2);border-radius:2px;min-width:120px}
+.bar span{position:absolute;left:0;top:0;bottom:0;background:var(--closures);border-radius:2px}
+.bar i{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--against)}
+.chart{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px;margin:.6rem 0 .4rem;overflow-x:auto}
+.chart svg{display:block;width:100%;min-width:560px;height:auto}
+.chart text{font-family:var(--body);font-size:11px;fill:var(--muted)}
+.chart .lbl{fill:var(--fg);font-weight:600}
+.chart .grid{stroke:var(--rule);stroke-width:1}
+.closed-list{columns:2 300px;column-gap:28px;font-size:.9rem;margin:.4rem 0 1rem;padding-left:1.1rem}
+.closed-list li{break-inside:avoid}
+.closed-list .cty{font:600 .72rem/1 var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-right:4px}
+/* evidence log */
+.controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin:.8rem 0;padding:12px 14px;background:var(--fill);border-radius:6px}
+.controls .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
+.controls .glab{font:500 .68rem/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-right:2px}
+.chip{font:500 .8rem/1 var(--body);padding:6px 10px;border-radius:999px;border:1px solid var(--rule);background:var(--surface);color:var(--fg);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+#q{font:400 .9rem var(--body);padding:7px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--surface);color:var(--fg);min-width:0;width:220px;max-width:100%}
+#count{font:500 .8rem var(--mono);color:var(--muted)}
+.log{display:flex;flex-direction:column;gap:8px}
+.item{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--c);border-radius:0 6px 6px 0}
+.item summary{list-style:none;cursor:pointer;padding:10px 14px;display:grid;grid-template-columns:auto auto 1fr;gap:4px 10px;align-items:baseline}
+.item summary::-webkit-details-marker{display:none}
+.item .id{font:500 .78rem var(--mono);color:var(--muted)}
+.item .head{min-width:0;font-size:.92rem}
+.item .sub2{grid-column:3;font-size:.78rem;color:var(--muted)}
+.item .body{padding:0 14px 12px 14px;font-size:.88rem;border-top:1px solid var(--rule)}
+.item .body p{margin:.5rem 0}
+.item .body .k{font:500 .66rem/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);display:block;margin-bottom:2px}
+.item .body a{word-break:break-all}
+@media (max-width:640px){h1{font-size:1.7rem} .item summary{grid-template-columns:auto 1fr} .item .head,.item .sub2{grid-column:1 / -1} .closed-list{columns:1}}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto}}
+</style>
+
+<div class="wrap">
+<div class="kicker">DKS · Foot Locker International · overnight evidence scrape</div>
+<h1>Is DKS shrinking or exiting Foot Locker Europe?</h1>
+<p class="sub">What a 30-agent web and registry scrape found on 7 October 2026: only data points not already in the research folder or the two pitch primers, each checked against its source by a second agent.</p>
+
+<div class="meta">
+  <div><b>Evidence base</b>256 new items that survived verification across two rounds: 207 confirmed at source, 49 credible but not fully verifiable. 37 are Tier A (filings, registries, computed counts), 134 Tier B, 85 Tier C.</div>
+  <div><b>Coverage</b>14 European store locators and their Wayback history, company registries in 15 countries, unions, local press in 8 languages, Google Maps, landlords, LinkedIn, careers feeds, sector filings.</div>
+  <div><b>What it is compared with</b>Bloomberg consensus holds FL Europe at ~550 stores, flat through FY32. Reported path: 581 → 573 → 567 → 559 (1-Aug-26). No broker models an exit.</div>
+  <div><b>Run status</b>Two rounds. The follow-up round was stopped partway, and the Foot Locker Europe B.V. figures are waiting on KvK purchases. See <a href="#bv">Section 3</a> and <a href="#gaps">Gaps</a>.</div>
+</div>
+
+<div class="verdicts">
+  <div class="verdict c-closures">
+    <div class="lab">Thesis 2 · Closures above consensus</div>
+    <h3>Supported, with a regional split</h3>
+    <p>Consensus models zero further European closures. We found <strong>35+ named closures since the deal across 11 countries</strong>. At least 3 came after the 559 count on 1 August (Brixton, Avignon, Budapest Váci utca), and two more stores now show as closed on FL's own locator (Ulm, Częstochowa).</p>
+    <p>Outside Italy and France the pace is <strong>~6–8% a year</strong> (Germany, Spain, UK, Benelux, Hungary, Portugal). Italy and France, 53% of stores, are running at 3–4%, in line with the old run-rate. Our estimate for all of Europe: <strong>~4–6% a year</strong>, which puts the fleet at ~510–526 by FYE27 against ~550 in consensus.</p>
+  </div>
+  <div class="verdict c-exit">
+    <div class="lab">Thesis 1 · Sale or exit</div>
+    <h3>Groundwork visible, no live process</h3>
+    <p>There is no scoop, no adviser, no merger filing, no licensing job and no owned-to-licensed conversion since the deal. What we did find is the legal and governance groundwork a carve-out would need:</p>
+    <ul>
+      <li>FL's Spanish European holding company was folded into a single Dutch holding company.</li>
+      <li>A DICK'S executive (Reid Sigal) now sits on every European board.</li>
+      <li>The EMEA CFO, GM, merchandising head and HR head have all left.</li>
+      <li>New head-office hires in Utrecht are on temporary contracts.</li>
+      <li>FL Europe B.V.'s stated business purpose was rewritten a month after the deal.</li>
+      <li>Eight tail markets (~12% of stores) already sit outside FL's loyalty programme and app.</li>
+    </ul>
+    <p>The same steps also fit DKS simply taking direct control.</p>
+  </div>
+  <div class="verdict c-against">
+    <div class="lab">Against both</div>
+    <h3>Money is still going in</h3>
+    <p>FL EMEA's real-estate VP targets <strong>~100 European Fast Break refreshes by year-end</strong> (about 18% of the fleet). FL has opened or relocated about a dozen stores since the deal, including a new Liverpool flagship, and appointed a pan-European ad agency.</p>
+    <p>Poland, Czechia, Austria and Luxembourg have had no closures. Italy, France, Austria, Hungary and Poland are profitable at the local-entity level. A full sale in the next one or two quarters looks less likely than continued pruning.</p>
+  </div>
+</div>
+
+<h2 id="closures">1. Closures: the fleet is shrinking faster than consensus allows</h2>
+<p class="take">Bloomberg's flat ~550 is likely reached this fiscal year, and the decline does not stop there.</p>
+<div class="chart" role="img" aria-label="FL Europe owned stores: reported 581, 573, 567, 559; estimated about 552 on 7 Oct 2026; projected 526 to 510 by FYE27 at 4 to 6 percent a year, against Bloomberg consensus flat at about 550.">
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg">
+  <line class="grid" x1="48" x2="600" y1="46.7" y2="46.7"/><text x="40" y="50" text-anchor="end">580</text>
+  <line class="grid" x1="48" x2="600" y1="100" y2="100"/><text x="40" y="104" text-anchor="end">560</text>
+  <line class="grid" x1="48" x2="600" y1="153.3" y2="153.3"/><text x="40" y="157" text-anchor="end">540</text>
+  <line class="grid" x1="48" x2="600" y1="206.7" y2="206.7"/><text x="40" y="211" text-anchor="end">520</text>
+  <line class="grid" x1="48" x2="600" y1="260" y2="260"/><text x="40" y="264" text-anchor="end">500</text>
+  <text x="48" y="282" text-anchor="middle">Nov-25</text>
+  <text x="170.7" y="282" text-anchor="middle">May-26</text>
+  <text x="294" y="282" text-anchor="middle">Nov-26</text>
+  <text x="416" y="282" text-anchor="middle">May-27</text>
+  <text x="540" y="282" text-anchor="middle">Nov-27</text>
+  <line x1="600" x2="600" y1="20" y2="260" stroke="var(--rule)" stroke-dasharray="3 3"/>
+  <text x="600" y="296" text-anchor="middle">FYE27</text>
+  <!-- consensus -->
+  <line x1="232" x2="600" y1="126.7" y2="126.7" stroke="var(--against)" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="606" y="130.5" class="lbl" style="fill:var(--against)">Bloomberg ~550</text>
+  <!-- projections -->
+  <polyline points="232,102.7 354.7,132 600,190.7" fill="none" stroke="var(--closures)" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <polyline points="232,102.7 354.7,148 600,233.3" fill="none" stroke="var(--closures)" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="606" y="194.5">−4%/yr → ~526</text>
+  <text x="606" y="237">−6%/yr → ~510</text>
+  <!-- reported -->
+  <polyline points="48,44 109.3,65.3 170.7,81.3 232,102.7" fill="none" stroke="var(--closures)" stroke-width="2.5"/>
+  <circle cx="48" cy="44" r="4" fill="var(--closures)"/><text x="54" y="38" class="lbl">581</text>
+  <circle cx="109.3" cy="65.3" r="4" fill="var(--closures)"/><text x="115" y="59" class="lbl">573</text>
+  <circle cx="170.7" cy="81.3" r="4" fill="var(--closures)"/><text x="176" y="75" class="lbl">567</text>
+  <circle cx="232" cy="102.7" r="4" fill="var(--closures)"/><text x="238" y="96" class="lbl">559</text>
+  <!-- estimate -->
+  <line x1="277.2" x2="277.2" y1="110.7" y2="132" stroke="var(--closures)" stroke-width="2"/>
+  <circle cx="277.2" cy="121.3" r="4" fill="var(--surface)" stroke="var(--closures)" stroke-width="2"/>
+  <text x="284" y="117" class="lbl">~552 est. (7-Oct)</text>
+</svg>
+</div>
+<p class="note">Solid points are DKS-reported FL Europe owned stores (Q3 FY25, FYE25, Q1 FY26, Q2 FY26). The open point is our estimate for 7-Oct-26. The range comes from 556 locator store IDs plus ~9 Swiss stores with no locator, minus at least 10 entries that are dark or stale. Dashed projections run from 559 at 4% and 6% a year. FYE26 would be ~548 at 4% or ~542 at 6%. At ~$2.9M of sales per European store, a 25–40 store gap by FYE27 is roughly $70–120M of revenue (inference).</p>
+
+<h3>Pace by country</h3>
+<p class="take">The decline is concentrated in Germany, Spain, the UK, Benelux and the small markets. Italy and France are steady.</p>
+<div class="tbl"><table>
+<thead><tr><th>Country</th><th class="n">From → to</th><th>Period</th><th class="n">Annualised</th><th style="width:28%">vs ~4%/yr run-rate (amber line); bar scale 0–20%</th><th>Evidence</th></tr></thead>
+<tbody>
+<tr><td>Belgium</td><td class="n">17 → 14</td><td>CY2025 (statutory accounts)</td><td class="n">−17.6%</td><td><div class="bar"><span style="width:88%"></span><i style="left:20%"></i></div></td><td><span class="tier A">A</span> <a class="ref" href="#log" data-id="E028">E028</a></td></tr>
+<tr><td>Spain</td><td class="n">52 → 48</td><td>Oct-25 → Oct-26 (net of 3 openings)</td><td class="n">−7.7%</td><td><div class="bar"><span style="width:38.5%"></span><i style="left:20%"></i></div></td><td><span class="tier">B</span> <a class="ref" href="#log" data-id="E052">E052</a></td></tr>
+<tr><td>Germany</td><td class="n">89 → 82</td><td>Aug-25 → Oct-26 (locator)</td><td class="n">−6.8%</td><td><div class="bar"><span style="width:34%"></span><i style="left:20%"></i></div></td><td><span class="tier">B</span> <a class="ref" href="#log" data-id="E037">E037</a></td></tr>
+<tr><td>UK</td><td class="n">52 → 49</td><td>Nov-25 → Oct-26 (sitemaps)</td><td class="n">−6.3%</td><td><div class="bar"><span style="width:31.5%"></span><i style="left:20%"></i></div></td><td><span class="tier A">A</span> <a class="ref" href="#log" data-id="E154">E154</a></td></tr>
+<tr class="key"><td>8-country sample: DE, NL, BE, PL, CZ, AT, LU, HU</td><td class="n">~165 → ~150</td><td>Deal close → Oct-26 (store-level rebuild)</td><td class="n">−6.5 to −8%</td><td><div class="bar"><span style="width:36%"></span><i style="left:20%"></i></div></td><td><span class="tier">B</span> <a class="ref" href="#log" data-id="E149">E149</a></td></tr>
+<tr><td>France</td><td class="n">149 → 142</td><td>Sep-25 → Oct-26 (locator badge)</td><td class="n">−4.3%</td><td><div class="bar"><span style="width:21.5%"></span><i style="left:20%"></i></div></td><td><span class="tier">B</span> <a class="ref" href="#log" data-id="E075">E075</a></td></tr>
+<tr><td>Italy</td><td class="n">159 → 154</td><td>Oct-25 → Oct-26 (locator + careers feed)</td><td class="n">−3.1%</td><td><div class="bar"><span style="width:15.5%"></span><i style="left:20%"></i></div></td><td><span class="tier A">A</span> <a class="ref" href="#log" data-id="E105">E105</a></td></tr>
+<tr><td>Poland, Czechia, Austria, Luxembourg</td><td class="n">34 → 34</td><td>Deal close → Oct-26</td><td class="n">0%</td><td><div class="bar"><span style="width:0"></span><i style="left:20%"></i></div></td><td><span class="tier">B</span> <a class="ref" href="#log" data-id="E152">E152</a></td></tr>
+<tr><td>Hungary</td><td class="n">6 → 4</td><td>Late 2025 → Oct-26</td><td class="n">small base</td><td></td><td><span class="tier">B</span> <a class="ref" href="#log" data-id="E134">E134</a></td></tr>
+<tr><td>Portugal</td><td class="n">10 → 9</td><td>Jan-26 → Oct-26 (13 in 2023)</td><td class="n">small base</td><td></td><td><span class="tier">B</span> <a class="ref" href="#log" data-id="E161">E161</a></td></tr>
+<tr><td>Ireland</td><td class="n">7 → 5</td><td>Jul-25 → Nov-25 (around close)</td><td class="n">small base</td><td></td><td><span class="tier">B</span> <a class="ref" href="#log" data-id="E162">E162</a></td></tr>
+<tr><td>Netherlands (Kids Foot Locker)</td><td class="n">3 → 1</td><td>Feb-26 → Oct-26</td><td class="n">format exit</td><td></td><td><span class="tier">B</span> <a class="ref" href="#log" data-id="E150">E150</a></td></tr>
+</tbody></table></div>
+<p class="note">Periods differ by country, so compare the rates loosely. Ex-Italy math: if Italy contributed 0–3 of the ~22 European closures from Nov-25 to Aug-26, the other ~405 stores closed at ~5–7% a year (<a class="ref" href="#log" data-id="E106">E106</a>, inference).</p>
+
+<h3>Named closures since the deal</h3>
+<p class="take">These are verified store-level closures, each with a source. Most were never announced by the company.</p>
+<ul class="closed-list">
+  <li><span class="cty">UK</span>Chatham Pentagon Centre, week of 20-Jul-26 <a class="ref" href="#log" data-id="E143">E143</a></li>
+  <li><span class="cty">UK</span>442 Brixton Road, London, early Aug-26, "Unit To Let" <a class="ref" href="#log" data-id="E025">E025</a></li>
+  <li><span class="cty">UK</span>Bournemouth Castlepoint; Birmingham Perry Barr One Stop; Bullring Kids <a class="ref" href="#log" data-id="E155">E155</a></li>
+  <li><span class="cty">DE</span>Nürnberg Breite Gasse, Jan-26 <a class="ref" href="#log" data-id="E122">E122</a></li>
+  <li><span class="cty">DE</span>Osnabrück Große Straße, by Mar-26 <a class="ref" href="#log" data-id="E123">E123</a></li>
+  <li><span class="cty">DE</span>Fulda Bahnhofstraße, ~20-May-26, staff job-hunting <a class="ref" href="#log" data-id="E124">E124</a></li>
+  <li><span class="cty">DE</span>Hamburg AEZ, Forum Wetzlar, pep München: ECE directory pages now 404 <a class="ref" href="#log" data-id="E140">E140</a></li>
+  <li><span class="cty">DE</span>Ulm Blautal-Center: locator shows closed 7 days a week <a class="ref" href="#log" data-id="E139">E139</a></li>
+  <li><span class="cty">FR</span>Marseille Centre Bourse, Q4-25 <a class="ref" href="#log" data-id="E121">E121</a></li>
+  <li><span class="cty">FR</span>Lyon Confluence, unit re-let to adidas (Apr-26) <a class="ref" href="#log" data-id="E077">E077</a></li>
+  <li><span class="cty">FR</span>Paris 66 rue de Rivoli; Metz; Mulhouse; Les Ulis; Fresnes <a class="ref" href="#log" data-id="E157">E157</a></li>
+  <li><span class="cty">FR</span>Avignon rue des Marchands, 15-Sep-26: managers cite "international restructuring" <a class="ref" href="#log" data-id="E142">E142</a></li>
+  <li><span class="cty">ES</span>Barakaldo Max Center "flagship", 12 staff, union deal (Feb-26) <a class="ref" href="#log" data-id="E081">E081</a></li>
+  <li><span class="cty">ES</span>Armilla Nevada; Vitoria El Boulevard <a class="ref" href="#log" data-id="E160">E160</a></li>
+  <li><span class="cty">NL</span>Haarlem; Utrecht Oudegracht; Kids FL Rotterdam Lijnbaan and Leidschendam <a class="ref" href="#log" data-id="E149">E149</a></li>
+  <li><span class="cty">BE</span>Kortrijk; Louvain-la-Neuve (2026); Liège, Namur, Hasselt (2025) <a class="ref" href="#log" data-id="E146">E146</a></li>
+  <li><span class="cty">PT</span>Lisbon Rua do Carmo (Chiado); Gaia Arrábida <a class="ref" href="#log" data-id="E161">E161</a></li>
+  <li><span class="cty">IT</span>Rimini Corso d'Augusto; Città Sant'Angelo; Giugliano; Orio Kids <a class="ref" href="#log" data-id="E159">E159</a></li>
+  <li><span class="cty">HU</span>Budapest Váci utca 14 (late Sep-26) and Mammut <a class="ref" href="#log" data-id="E134">E134</a></li>
+  <li><span class="cty">PL</span>Częstochowa Galeria Jurajska: closed 7 days a week on the locator <a class="ref" href="#log" data-id="E139">E139</a></li>
+  <li><span class="cty">IE</span>Dublin Grafton St; Tallaght The Square <a class="ref" href="#log" data-id="E162">E162</a></li>
+</ul>
+
+<h3>Why the counts are a floor</h3>
+<ul class="prose">
+  <li><strong>The locator lags real closures by 3 weeks to 8+ months.</strong> Zaragoza GranCasa closed in Jun-25 and was listed until ~Feb-26. Avignon closed on 15-Sep-26 and is still listed. The Korean locator still shows all 13 stores 15 months after the last one closed <a class="ref" href="#log" data-id="E163">E163</a> <a class="ref" href="#log" data-id="E184">E184</a>.</li>
+  <li><strong>Hidden closures.</strong> Four live store pages have every day set to "closed" (Avignon, Lyon Confluence, Ulm, Częstochowa) <a class="ref" href="#log" data-id="E139">E139</a>.</li>
+  <li><strong>The UK is already ahead of its own plan.</strong> FL UK's accounts, signed 24-Nov-25 after the deal, approved 3 closures for 2026. We count 5 UK closures since Nov-25 (2 openings). It is the first time closures appear in the UK outlook <a class="ref" href="#log" data-id="E063">E063</a>.</li>
+</ul>
+
+<h3>Closing stores is cheap, and the local P&amp;Ls are weakening</h3>
+<div class="tbl"><table>
+<thead><tr><th>Entity (statutory filings)</th><th>What changed</th><th>Ref</th></tr></thead>
+<tbody>
+<tr><td>FL Germany GmbH &amp; Co. KG</td><td>CY2025 revenue €155.6M, <strong>−13.3%</strong>. Headcount 1,322 → 1,199. Rent commitments €58.5M, only 9% due 2030+, a weighted term of ~3 years. 2026 plan: "unchanged floor space".</td><td><a class="ref" href="#log" data-id="E034">E034</a> <a class="ref" href="#log" data-id="E036">E036</a></td></tr>
+<tr><td>FL U.K. Ltd</td><td>Square footage −8.6% in FY24. Lease commitments −22% to £58.8M, 89% due within 5 years. A limited-risk distributor at a 4.2% gross margin.</td><td><a class="ref" href="#log" data-id="E064">E064</a> <a class="ref" href="#log" data-id="E065">E065</a></td></tr>
+<tr><td>FL Italy S.r.l.</td><td>2025 revenue €354.3M, <strong>−10.1%</strong>. Net profit €4.2M, −52% (aggregator data).</td><td><a class="ref" href="#log" data-id="E076">E076</a></td></tr>
+<tr><td>FL Belgium BV</td><td>2025 revenue <strong>−20.4%</strong>. FTE −15%. Stores 17 → 14.</td><td><a class="ref" href="#log" data-id="E028">E028</a></td></tr>
+<tr><td>FL Czech Republic</td><td>2025 sales −4.1%; swung to a small loss. Staff 91 → 80.</td><td><a class="ref" href="#log" data-id="E056">E056</a></td></tr>
+<tr><td>FL France SAS</td><td>Headcount 1,669 → 1,634 (equal-pay filings). SIRENE: net closures 4 (2023), 5 (2024), 8 (Jan–Sep 2025); no new openings registered in 2026.</td><td><a class="ref" href="#log" data-id="E100">E100</a> <a class="ref" href="#log" data-id="E045">E045</a></td></tr>
+</tbody></table></div>
+<p class="note">The country subsidiaries earn fixed transfer-priced margins. Retail risk and inventory write-downs sit in Foot Locker Europe B.V. (Utrecht), whose accounts we could not obtain. Profitable local entities therefore do not mean Europe is profitable.</p>
+
+<h2 id="exit">2. Sale or exit: groundwork visible, no live process</h2>
+<p class="take">None of these items proves a sale. Taken together they show DKS taking legal and managerial control of the European stack in a way that would make a carve-out easier.</p>
+<div class="tbl"><table>
+<thead><tr><th>Tier</th><th>Signal</th><th>Detail</th><th>Ref</th></tr></thead>
+<tbody>
+<tr><td><span class="tier A">A</span></td><td>European holding chain collapsed into one Dutch company</td><td>Foot Locker Europe Holdings SLU (Barcelona) was merged cross-border into Foot Locker Dutch Holdings B.V. Draft terms 20-Mar-26, approval 16-Jun-26, dissolution registered 28-Aug-26. Neither company has employees. This is also routine post-deal tidying.</td><td><a class="ref" href="#log" data-id="E021">E021</a> <a class="ref" href="#log" data-id="E030">E030</a></td></tr>
+<tr><td><span class="tier A">A</span></td><td>A DKS insider now controls every European board</td><td>Reid Sigal (SVP COO FL EMEA, real estate, supply chain and strategy; 13 years at DICK'S) took seats Jul–Sep 2026: FL UK company secretary, chair of FL Switzerland and FL Spain, director of FL Belgium and FL Austria, the German legacy shells, signatory in Hungary.</td><td><a class="ref" href="#log" data-id="E022">E022</a> <a class="ref" href="#log" data-id="E066">E066</a> <a class="ref" href="#log" data-id="E038">E038</a></td></tr>
+<tr><td><span class="tier">B</span></td><td>The local leadership team is gone</td><td>The EMEA GM (Petersson) left before the close and now runs schuh. The EMEA CFO (Sen Lönell) was removed from every entity Jun–Sep 2026 and joined Douglas. The VP GMM (Brandi) went to Cisalfa. The VP HR (Boylan) lasted 83 days on the UK board. We found no external replacements.</td><td><a class="ref" href="#log" data-id="E008">E008</a> <a class="ref" href="#log" data-id="E067">E067</a> <a class="ref" href="#log" data-id="E068">E068</a></td></tr>
+<tr><td><span class="tier">B</span></td><td>Utrecht HQ hiring switched to temporary contracts</td><td>5 of 7 head-office roles posted since 10-Sep-26 are fixed-term, against 0 of 6 in Jul–Aug. A new internal-comms role lists "restructures" among its duties.</td><td><a class="ref" href="#log" data-id="E082">E082</a> <a class="ref" href="#log" data-id="E205">E205</a></td></tr>
+<tr><td><span class="tier">B</span></td><td>Country channels consolidated</td><td>Country social accounts were folded into one @footlockereu account on 27-Jul-26. The Swiss web and locator domains are offline.</td><td><a class="ref" href="#log" data-id="E128">E128</a> <a class="ref" href="#log" data-id="E042">E042</a></td></tr>
+<tr><td><span class="tier">B</span></td><td>The sale perimeter is already defined</td><td>DKS's FY25 Exhibit 21 keeps 20 European entities (and drops 12). The UK and German operating companies are limited-risk distributors, so the European business is essentially Foot Locker Europe B.V. and its subsidiaries.</td><td><a class="ref" href="#log" data-id="E071">E071</a></td></tr>
+<tr><td><span class="tier">C</span></td><td>Senior DKS visit</td><td>Ed Stack, DKS General Counsel Elizabeth Baran and Sigal toured FL UK with Matthew Barnes in May-26.</td><td><a class="ref" href="#log" data-id="E011">E011</a></td></tr>
+<tr><td><span class="tier">C</span></td><td>Unverified French labour deal</td><td>An anonymous account reports a draft collective performance agreement at FL France with mandatory national mobility. Neither the press nor union filings confirm it.</td><td><a class="ref" href="#log" data-id="E073">E073</a></td></tr>
+</tbody></table></div>
+
+<h3>What we looked for and did not find</h3>
+<ul class="prose">
+  <li><strong>No press scoop and no adviser hire</strong> across UK, US and European M&amp;A press in six languages.</li>
+  <li><strong>No merger filing with FL as the target.</strong> Austria: 0 of 695 notifications since Jan-25. Poland: 0 of 538. Germany's 2025 list: none. Only the original DKS/FL clearances appear <a class="ref" href="#log" data-id="E015">E015</a> <a class="ref" href="#log" data-id="E018">E018</a>.</li>
+  <li><strong>No licensing roles</strong> among ~112 European LinkedIn postings <a class="ref" href="#log" data-id="E205">E205</a>.</li>
+  <li><strong>Zero owned-to-licensed conversions since the close.</strong> Licensed stores went 246 → 266 through 34 openings and 14 closures, all at partners (Fourlis greenfield, the Middle East, SE Asia) <a class="ref" href="#log" data-id="E202">E202</a>.</li>
+  <li><strong>No restructuring agreement</strong> filed by FL France <a class="ref" href="#log" data-id="E049">E049</a>, and no held-for-sale language in the UK accounts <a class="ref" href="#log" data-id="E072">E072</a>.</li>
+</ul>
+
+<h3>What an exit has fetched before</h3>
+<div class="tbl"><table>
+<thead><tr><th>Deal</th><th>Terms</th><th>Read for FL Europe</th><th>Ref</th></tr></thead>
+<tbody>
+<tr><td>FL Greece → Fourlis (Apr-25)</td><td>€9.5M for 3 stores + footlocker.gr; 3.5x net assets</td><td>Licensing conversion at a premium where stores are profitable</td><td><a class="ref" href="#log" data-id="E200">E200</a></td></tr>
+<tr><td>FL Romania → Fourlis (Apr-25)</td><td>€2.1M for 3 stores, about book; €1.9M deferred</td><td>Weak markets transfer at book value</td><td><a class="ref" href="#log" data-id="E200">E200</a></td></tr>
+<tr><td>FL Korea wind-down (2025)</td><td>All 13 stores closed by Jun-25; liquidation-basis accounts; net losses of KRW 40.3bn (~$29M) over 2024–25</td><td>Cost of a full market exit: up to ~$2.2M per store</td><td><a class="ref" href="#log" data-id="E181">E181</a></td></tr>
+<tr><td>JD Eastern Europe → Sport Vision (Sep-26)</td><td>~70 JD and Sizeer stores in 6+5 markets moved to franchise; ~£9M of charges</td><td>The sector template. JD's CEO: "we were at break-even… we will make a profit"</td><td><a class="ref" href="#log" data-id="E166">E166</a></td></tr>
+<tr><td>Courir → JD (2024)</td><td>EV €520M, 0.72x sales, ~10x EBIT</td><td>The ceiling, for a profitable chain only</td><td><a class="ref" href="#log" data-id="E169">E169</a></td></tr>
+<tr><td>Footasylum → Aurelius (2022, CMA order)</td><td>£37.5M</td><td>The distressed end of the range</td><td><a class="ref" href="#log" data-id="E169">E169</a></td></tr>
+</tbody></table></div>
+<p class="note">Fourlis, the licensee, says new FL stores break even in year one, earn ~5% in year two and 8–10% when mature (another management quote says 6–7% from year one). Its FL count went 10 → 13 → 18, with ~23 planned by Oct-26 <a class="ref" href="#log" data-id="E175">E175</a> <a class="ref" href="#log" data-id="E201">E201</a>. On buyers: JD prefers capital-light franchising, Frasers is busy with Hugo Boss (47.9%) and Harvey Nichols, and Courir is expanding into Italy toward 100 stores <a class="ref" href="#log" data-id="E001">E001</a> <a class="ref" href="#log" data-id="E004">E004</a> <a class="ref" href="#log" data-id="E168">E168</a>.</p>
+
+<h2 id="bv">3. Foot Locker Europe B.V.: where the European losses sit</h2>
+<p class="take">Its own accounts for 2021–25 have never been filed. That looks like a habit of filing late, not a sale step. The country subsidiaries are lending cash into it.</p>
+<div class="callout"><strong>Update from the KvK documents (bought 7-Oct-26).</strong>
+<ul>
+  <li><strong>No 403 statement, and no withdrawal.</strong> The overview of filings lists no parent liability statement, so our earlier 403 inference (<a class="ref" href="#log" data-id="E252">E252</a>) was wrong, and the "403 withdrawal" test does not apply.</li>
+  <li><strong>The accounts are simply unfiled.</strong> FL Europe B.V. is registered as a "big" company. For 2021–2025 it has filed only the parent group's consolidated accounts (art. 408), never its own. This is a long habit, not a DKS change:
+    <ul>
+      <li>FY2016 accounts were filed in 2019.</li>
+      <li>FY2017–2019 accounts were all filed on 16-Feb-2024.</li>
+      <li>FY2020 accounts were filed on 13-Sep-2024.</li>
+    </ul>
+    So the missing years are the usual backlog and say nothing about a sale.</li>
+  <li><strong>Its stated business purpose was changed a month after the deal.</strong> The previous description (importing, trading and distributing sports products, owning other companies, and buying and selling property) ended on 7-Oct-2025. Poland's company purpose was narrowed to three retail codes three days later. The new wording needs the current register extract (€2.95).</li>
+  <li><strong>US directors and the European finance chief left.</strong>
+    <ul>
+      <li>Giovanna Cipriano, a long-time Foot Locker Inc. officer, left 23-Feb-2026.</li>
+      <li>Gözde Şen Lönell, the EMEA CFO, left 13-Jul-2026.</li>
+      <li>Tomas Petersson left 1-Aug-2025.</li>
+      <li>Erik Amperse's full power of attorney ended 23-Feb-2026, and Ben Boylan's 4-Jun-2026.</li>
+    </ul>
+    The history lists only departures, so the current board (presumably including Sigal) needs the €2.95 current extract.</li>
+  <li><strong>"Large company regime" notice, 24-Jun-2025.</strong> Filed during the deal process, it says FL Europe B.V. meets the conditions of the Dutch regime for large companies (structuurregime). That regime normally requires a supervisory board with strengthened works-council rights, which adds a layer of consultation to any restructuring or sale.</li>
+  <li><strong>The parent FLE Holdings shows no losses.</strong> Its 2024 accounts are a micro-entity balance sheet only, adopted on 22-Apr-2026 (about four months late) and signed by Amperse and Şen Lönell:
+    <ul>
+      <li>Participations €867.7M (2023: €859.0M).</li>
+      <li>Equity €810.4M (2023: €803.8M).</li>
+      <li>Debt €57.3M, of which €42M is long-term.</li>
+    </ul>
+    There is no profit and loss account, and the valuation basis isn't stated, so it does not reveal FL Europe B.V.'s result.</li>
+</ul></div>
+<ul class="prose">
+  <li><strong>Earlier read (superseded above).</strong> KvK holds FL Europe B.V.'s own accounts for 2016–2020 only. For FY2021–25 there are just the parent group's consolidated accounts (art. 408). Even FL's dormant Dutch shells still file their own accounts <a class="ref" href="#log" data-id="E252">E252</a>.</li>
+  <li><strong>Cash flows into Utrecht.</strong> FL Germany's receivables from group companies rose to €44.9M (from €36.4M), and it is funded only by shareholder loans and FL Europe B.V.'s cash pool. The UK group went from owing group companies £7.66M to being owed £4.21M. Company.info gives FL Europe B.V. a current ratio of 0.43 (year not shown) <a class="ref" href="#log" data-id="E255">E255</a>.</li>
+  <li><strong>Two operating companies are overdue.</strong> Foot Locker Netherlands B.V. and Foot Locker Europe.com B.V. (the EU web business) have not filed FY2024 accounts, about 9 months past the deadline. Europe.com deposited something on 13-Aug-26 that was not accounts <a class="ref" href="#log" data-id="E253">E253</a>.</li>
+  <li><strong>The holding merger has reached the Dutch register.</strong> Foot Locker Dutch Holdings B.V. amended its articles on 5-Dec-25, the first post-close deed in the Dutch chain. KvK flagged it "merged and/or demerged" on 6-Oct-26, about five weeks after the Spanish holding company was dissolved. No operating company moved: the CZ, AT and PL subsidiaries are still owned by the same Dutch B.V.s, so a share sale of FL Europe B.V. was already executable without further restructuring <a class="ref" href="#log" data-id="E254">E254</a> <a class="ref" href="#log" data-id="E234">E234</a>.</li>
+  <li><strong>FL Europe B.V. and FL Netherlands B.V.</strong> are the registered shareholders of the Czech company. The Czech 2026 shareholder acts were signed in Utrecht, and they appoint no FY2026 auditor, unlike the year before <a class="ref" href="#log" data-id="E226">E226</a>.</li>
+</ul>
+<p class="note">Still open (optional, €2.95 each at KvK): FL Europe B.V.'s current register extract, which would show the current board and the new business purpose; and the FY2025 art. 408 consolidated accounts filed 20-Apr-2026 (€3.90), which would show which parent, DKS or Foot Locker Inc., is named.</p>
+
+<h2 id="round2">4. Follow-up round: new findings</h2>
+<p class="take">The follow-up round mostly sharpened the "perimeter" picture: which European markets are core and which could be cut.</p>
+<div class="tbl"><table>
+<thead><tr><th>Tier</th><th>Finding</th><th>Ref</th></tr></thead>
+<tbody>
+<tr><td><span class="tier">B</span></td><td><strong>A two-tier European estate already exists.</strong> FLX loyalty and the iOS app run only in the UK, France, Germany, Italy, the Netherlands and Spain. The 8 tail markets (BE, AT, PT, PL, IE, CZ, HU, LU; ~69 stores, ~12% of the fleet) have neither, even though a Jul-2025 press release promised FLX "across Europe". This is a ready-made perimeter for licensing or exit (inference).</td><td><a class="ref" href="#log" data-id="E207">E207</a></td></tr>
+<tr><td><span class="tier">B</span></td><td>The EU consumer terms were re-issued 1-Jul-26 without Denmark, Norway and Sweden. The footlocker.eu site now has an "Operated by License Partner: Greece, Romania, Bulgaria" block.</td><td><a class="ref" href="#log" data-id="E206">E206</a></td></tr>
+<tr><td><span class="tier">C</span></td><td><strong>More leadership exits in Jul–Aug 2026:</strong> the head of men's footwear buying for EMEA (~half of EMEA sales), the VP of global corporate strategy, and the EMEA director of store initiatives. Iberia and Benelux were merged under one regional VP from Feb-26.</td><td><a class="ref" href="#log" data-id="E213">E213</a> <a class="ref" href="#log" data-id="E214">E214</a></td></tr>
+<tr><td><span class="tier">C</span></td><td>The departed EMEA HR VP describes his Jun-24 to Jun-26 tenure as covering "acquisition, organisational redesign, restructuring and market exits", with extensive European Works Council work.</td><td><a class="ref" href="#log" data-id="E212">E212</a></td></tr>
+<tr><td><span class="tier">C</span></td><td>FL still has an in-house global licensing, JV and franchise team (a VP plus two senior directors, based in the Netherlands, Belgium and Brisbane). That is the machinery a licensing exit would use.</td><td><a class="ref" href="#log" data-id="E216">E216</a></td></tr>
+<tr><td><span class="tier">C</span></td><td>One month after the close, FL Poland's registered business was cut to three retail codes. Ten objects were deleted, including wholesale, online retail, holding and IP leasing.</td><td><a class="ref" href="#log" data-id="E228">E228</a></td></tr>
+<tr><td><span class="tier">B</span></td><td><strong>Statutory accounts are being delayed.</strong> FL France has not deposited its CY2025 accounts: a court order of 6-Jul-26 extended the approval deadline, though such extensions are routine for FL France. FL UK's deadline moved from 30-Sep to 31-Dec-26. The Irish holdco filed late last year. A new French treasury rule requires two signatures (Barnes and Amperse) for any borrowing or security over assets.</td><td><a class="ref" href="#log" data-id="E237">E237</a> <a class="ref" href="#log" data-id="E221">E221</a> <a class="ref" href="#log" data-id="E223">E223</a> <a class="ref" href="#log" data-id="E239">E239</a></td></tr>
+<tr><td><span class="tier">C</span></td><td>The pan-EU online launch calendar is thinner year on year: 72 launches vs 81, with Nike and Jordan down 24%. Jordan's product count on the German site fell from 824 to 522.</td><td><a class="ref" href="#log" data-id="E209">E209</a> <a class="ref" href="#log" data-id="E210">E210</a></td></tr>
+<tr><td><span class="tier">B</span></td><td>Shrinkage before the deal: FL Portugal sales fell ~7% a year in both 2023 and 2024, and FL Poland's revenue fell 11% in 2024.</td><td><a class="ref" href="#log" data-id="E230">E230</a> <a class="ref" href="#log" data-id="E227">E227</a></td></tr>
+<tr><td><span class="tier">B</span></td><td>Neither shareholder suit filed against DKS (Sep and Oct 2026) alleges a European sale or closure plan, and neither has confidential witnesses. The derivative suit does quote the 25-Aug EMEA remarks.</td><td><a class="ref" href="#log" data-id="E218">E218</a> <a class="ref" href="#log" data-id="E219">E219</a></td></tr>
+<tr><td><span class="tier">C</span></td><td><em>Against:</em> a former EMEA footwear buying VP was rehired from PUMA as VP GMM (Feb-26). The VP Supply Chain says a works-council-approved reorganisation was completed "without escalation", and a new EMEA supply-chain finance director was hired in May-26. In the UK, TikTok Shop (Mar-26) and Clearpay (Jul-26) were added. There is no further cross-border merger in any other country, and no French establishment has been transferred to another company.</td><td><a class="ref" href="#log" data-id="E217">E217</a> <a class="ref" href="#log" data-id="E215">E215</a> <a class="ref" href="#log" data-id="E211">E211</a> <a class="ref" href="#log" data-id="E241">E241</a></td></tr>
+</tbody></table></div>
+
+<h2 id="against">5. Evidence against</h2>
+<ul class="prose">
+  <li><strong>Refresh programme.</strong> FL EMEA's real-estate VP (1-Jul-26): Fast Break "in full speed… planning to refresh 100 of our Foot Locker Emea by year end". UK refreshes are done at Westfield London, Oxford St, Bluewater, Lakeside and Leeds <a class="ref" href="#log" data-id="E009">E009</a> <a class="ref" href="#log" data-id="E092">E092</a>.</li>
+  <li><strong>New doors since the deal.</strong> Liverpool ONE flagship (ex-Topshop), Telford, Hamburg Überseequartier, Amsterdam ArenA outlet, Prague Europark, Forum des Halles, Neyrpic, Diagonal Mar, Siam Mall Adeje, El Mirador, Taranto, Orio and Bolzano. That is about 7–9 openings against ~21 closures in the six western markets <a class="ref" href="#log" data-id="E164">E164</a> <a class="ref" href="#log" data-id="E151">E151</a>.</li>
+  <li><strong>Marketing and people.</strong> 72andSunny was appointed pan-European agency (Feb-26). There are ~800 live European job requisitions. Barnes is publicly upbeat on store tours <a class="ref" href="#log" data-id="E109">E109</a> <a class="ref" href="#log" data-id="E010">E010</a> <a class="ref" href="#log" data-id="E013">E013</a>.</li>
+  <li><strong>Iberia.</strong> The VP (Oct-25) said DKS plans to "strengthen" FL in Europe and an openings list is ready <a class="ref" href="#log" data-id="E053">E053</a>.</li>
+  <li><strong>Infrastructure.</strong> The Haps (NL) distribution centre is 33,000 m² and only 60% full, serving ~600 stores <a class="ref" href="#log" data-id="E084">E084</a>.</li>
+  <li><strong>Steady markets.</strong> Italy and France, 53% of stores, close at the old run-rate. Poland, Czechia, Austria and Luxembourg have had no closures. Italian mall footfall rose 1.8% in H1-26 <a class="ref" href="#log" data-id="E152">E152</a> <a class="ref" href="#log" data-id="E170">E170</a>.</li>
+</ul>
+
+<h2 id="apac">6. APAC (secondary)</h2>
+<ul class="prose">
+  <li><strong>Australia/NZ earnings have collapsed (new, Tier A).</strong> Australian tax data shows FL Australia's taxable income fell from A$42.2M (2022-23) to A$18.4M (2023-24) to ~A$1.7M (2024-25), on total income of ~A$390–430M. JD's Australian business reported A$75.7M on A$640M. FL New Zealand's audited accounts (53 weeks to Feb-24) show gross margin falling from 39.5% to 32.0% and a swing to a loss <a class="ref" href="#log" data-id="E244">E244</a> <a class="ref" href="#log" data-id="E245">E245</a>.</li>
+  <li><strong>Legal entities were cleaned up after the close.</strong> FL New Zealand, Inc. gave notice seven weeks after the deal that it would cease business, and was removed from the register in Mar-26. FL Australia, Inc. was struck off in Feb-26. Trading continues through Holdings LLCs set up in 2023–24, and new APAC directors were appointed on closing day. This is a re-papering of the business rather than an exit <a class="ref" href="#log" data-id="E242">E242</a> <a class="ref" href="#log" data-id="E243">E243</a>.</li>
+  <li><strong>ANZ doors are closing.</strong> Five closures are confirmed by landlords: Bondi Junction, Doncaster, Australia Fair, St Lukes and Glenfield. FL's Christmas seasonal hiring covers ~88 doors, against 92 APAC owned stores at 8/1 and 103 locator pages <a class="ref" href="#log" data-id="E246">E246</a> <a class="ref" href="#log" data-id="E247">E247</a>. <em>Against:</em> FL signed a new 5-year Toll logistics contract for ANZ (May-26), and Vicinity cites an FL upsize at Bayside <a class="ref" href="#log" data-id="E249">E249</a> <a class="ref" href="#log" data-id="E248">E248</a>.</li>
+  <li><strong>atmos Japan is investing.</strong> At least 8 openings, refits or relocations since the close, no closure releases, the fleet up from 32 to 33, and atmoscon 2026 going ahead. But the global atmos head (Patrick Walsh) left ~Apr-26, and the interim GM has been in place for about 8 months (unverified). atmos also left Thailand, a partner door <a class="ref" href="#log" data-id="E195">E195</a> <a class="ref" href="#log" data-id="E192">E192</a> <a class="ref" href="#log" data-id="E190">E190</a> <a class="ref" href="#log" data-id="E193">E193</a>.</li>
+  <li><strong>Korea</strong> is the cost benchmark for a full exit (see the table above) <a class="ref" href="#log" data-id="E181">E181</a>.</li>
+  <li><strong>Australia/NZ, other.</strong> Nine A-mall stores have scheduled 3–4 day closures in Oct-26, most likely a refit wave. Rival Accent Group is under a Frasers bid at A$0.65, with the offer period extended to Jan-27 <a class="ref" href="#log" data-id="E185">E185</a> <a class="ref" href="#log" data-id="E173">E173</a>.</li>
+  <li><strong>Licensees.</strong> India's Metro Brands has slowed FL openings (7 stores) because of import-standard rules. Alshaya runs 40 Middle East stores <a class="ref" href="#log" data-id="E182">E182</a> <a class="ref" href="#log" data-id="E203">E203</a>.</li>
+</ul>
+
+<h2 id="gaps">7. Gaps and what to watch</h2>
+<div class="callout"><strong>Not done.</strong>
+<ul>
+  <li>The follow-up round was stopped partway, at your request. It completed: Australia/NZ, the EU cross-border reorganisation gazettes, the French registry refresh, the CEE and Portugal primary filings, the UK and Irish filings, court dockets, people moves and digital signals.</li>
+  <li>Not run: UK business-rates lists, trademark assignments, French labour-deal primary documents, European Works Council consultation and UK council planning papers.</li>
+  <li>The Foot Locker Europe B.V. figures are waiting on the KvK documents (Section 3).</li>
+</ul></div>
+<ul class="prose">
+  <li><strong>Q3 FY26 10-Q (late Nov).</strong> A European count at or below ~550 means consensus's FY32 level has already been reached.</li>
+  <li><strong>FL U.K. CY2025 accounts, due by 31-Dec-26.</strong> The outlook section lists approved closures and any going-concern or strategy language.</li>
+  <li><strong>Foot Locker Europe B.V. management change</strong> flagged by KvK on 2-Oct-26 (names behind a paywall) <a class="ref" href="#log" data-id="E032">E032</a>.</li>
+  <li><strong>Further holding-company moves</strong> in BORME, KvK or Staatscourant; any FL France labour agreement on Légifrance; new Fourlis territories; merger registers (Austria publishes weekly).</li>
+</ul>
+
+<h2 id="log">8. Evidence log</h2>
+<p class="prose">All 256 verified items (E206–E256 are from the follow-up round). Click a row for the data, the quote, the source link and the verifier's note. Any reference number in the text above filters to that item.</p>
+<div class="controls">
+  <div class="grp"><span class="glab">Thesis</span>
+    <button class="chip" data-f="thesis" data-v="all" aria-pressed="true">All</button>
+    <button class="chip" data-f="thesis" data-v="Closures" aria-pressed="false">Closures</button>
+    <button class="chip" data-f="thesis" data-v="Sale / exit" aria-pressed="false">Sale / exit</button>
+    <button class="chip" data-f="thesis" data-v="Both" aria-pressed="false">Both</button>
+    <button class="chip" data-f="thesis" data-v="Against" aria-pressed="false">Against</button>
+  </div>
+  <div class="grp"><span class="glab">Tier</span>
+    <button class="chip" data-f="tier" data-v="all" aria-pressed="true">All</button>
+    <button class="chip" data-f="tier" data-v="A" aria-pressed="false">A</button>
+    <button class="chip" data-f="tier" data-v="B" aria-pressed="false">B</button>
+    <button class="chip" data-f="tier" data-v="C" aria-pressed="false">C</button>
+  </div>
+  <div class="grp"><span class="glab">Region</span>
+    <button class="chip" data-f="region" data-v="all" aria-pressed="true">All</button>
+    <button class="chip" data-f="region" data-v="Europe" aria-pressed="false">Europe</button>
+    <button class="chip" data-f="region" data-v="APAC" aria-pressed="false">APAC</button>
+  </div>
+  <div class="grp"><label class="glab" for="q">Search</label><input id="q" type="search" placeholder="Store, country, entity, E-number"></div>
+  <span id="count"></span>
+</div>
+<div class="log" id="logList"></div>
+
+<h2 id="known">Appendix: evidence we already had before the scrape</h2>
+<p class="prose">This is the baseline from the research folder (filings, calls, broker notes, Bloomberg) and the two earlier pitch primers. Everything above was checked against it, and nothing above repeats it.</p>
+<h3>Store footprint</h3>
+<ul class="prose">
+  <li>FL Europe owned stores: 581 (Q3 FY25) → 573 (FYE25, 31-Jan-26) → 567 (2-May-26) → 559 (1-Aug-26), about 22 closures in ~9 months (~4%/yr).</li>
+  <li>FL APAC owned stores: 124 → 123 → 122. At 1-Aug-26 that was 92 APAC stores plus 30 atmos (Japan). International owned stores: 710 → 681.</li>
+  <li>Licensed FL stores (Middle East, Asia, India via Metro Brands, SE Europe via Fourlis): 246 at close → 266.</li>
+  <li>FL owned stores in total: 2,347 at close → 2,212 at 1-Aug-26. FY26 to date: +9 opened, 104 closed, 67 under "unproductive-asset review". Management's base case is ~100 global FL closures in FY26.</li>
+  <li>Before the deal, FL exited or licensed out about nine countries: Singapore, Malaysia, Greece and Romania (Fourlis, ~$12M), India (Metro Brands), Korea, and the Nordics (Denmark, Norway, Sweden; outright closure decided Aug-2024).</li>
+</ul>
+<h3>Consensus</h3>
+<ul class="prose">
+  <li>Bloomberg holds FL Europe at ~550–551 stores through FY32. Total FL owned stores run ~2,205 → 2,145 → 2,117 (~60 closures a year).</li>
+  <li>No broker models an EMEA exit, sale or licensing conversion. Bloomberg's tax rate drifts to 25% by FY29 without explaining how the European losses stop.</li>
+</ul>
+<h3>Financials</h3>
+<ul class="prose">
+  <li>International sales: $1,030.5M in the FY25 stub (33% of FL); $534.2M in Q1 FY26 and $580.5M in Q2 FY26. The largest markets are Italy, France, Canada and Australia. ~11,100 international employees.</li>
+  <li>International comps: −10.2% (Q3 FY25), −3.2% (Q4), −1.7% (Q1 FY26), −3.3% (Q2 FY26). FY25 −8.1%. FY24 Europe +4.4%.</li>
+  <li>FL's international pre-tax result went from +$84M (FY22) to −$49M (FY24). Foreign losses carry a full valuation allowance (~$280–316M), which is why the tax guide went 25.5% → 27% → 29%. That costs ~4 points of tax, ~$0.65 a share.</li>
+  <li>A new Dutch distribution centre. FL leases run 5–10 years. European works councils are said to make exits costly.</li>
+  <li>The acquisition-charge budget is up to $750M, with $516M used through Q2 FY26 (~$234M left). There is $591M of goodwill and $710M of tradenames at impairment risk.</li>
+  <li>The Sep-26 $1B DKS notes exclude non-US subsidiaries from their covenants.</li>
+</ul>
+<h3>Management statements</h3>
+<ul class="prose">
+  <li>Dec-25 (Stack): "we're keeping" EMEA, pre-COVID international was very profitable but "really got forgotten". Matthew Barnes (ex-CEO ALDI UK) hired as President of FL International from 3-Dec-25. EMEA runs ~6 months behind North America.</li>
+  <li>25-Aug-26 Q2 call: EMEA "more challenging than expected" (promotions, cautious consumer, Middle East war). Gupta: EMEA promotions "remain very aggressive … the industry is carrying too much inventory". Stack: "simply yes" to rightsizing the fleet and monetising assets.</li>
+  <li>14-Sep-26 (GS conference): "creating a menu … no preconceived ideas". FL turnaround "taking longer than we anticipated".</li>
+  <li>Barnes bought 3,665 DKS shares ($499,869 at $136.39) on 30-Sep-26.</li>
+  <li>Fast Break resets were described as tested in "some Europe" stores. Nike names JD, Sports Direct and Snipes, not FL, as its key European partners.</li>
+</ul>
+<h3>Analysis already in the primers</h3>
+<ul class="prose">
+  <li>An exit would cut revenue ~10% and add ~$0.90–1.30 to FY27 EPS, mostly from removing losses and lowering the tax rate.</li>
+  <li>Probabilities: ~45% that a Europe action is announced within four quarters, of which ~60% licensing rather than closure. 70% that FY27 closures beat consensus by at least 100.</li>
+  <li>Licensing (the Fourlis model) is the most likely exit template. The "signs pointing to an exit" list: the change in management tone, the tax reserve, FL's own pre-deal plan to pull back from international, the charge budget left, Barnes's restructuring background, the covenant terms, and Nike's European partner list.</li>
+  <li>Arguments against an exit: international was part of the deal pitch, Europe was FL's best region in FY24, exits are costly, JD is cutting guidance, and Barnes bought stock.</li>
+</ul>
+</div>
+
+<script>
+const DATA = __DATA__;
+const state = {thesis:'all', tier:'all', region:'all', q:''};
+const cls = {"Closures":"cl","Sale / exit":"ex","Against":"ag","Both":"bo"};
+const col = {"Closures":"var(--closures)","Sale / exit":"var(--exit)","Against":"var(--against)","Both":"var(--muted)"};
+const esc = s => String(s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const order = {"Sale / exit":0,"Both":1,"Closures":2,"Against":3};
+const rows = DATA.slice().sort((a,b)=> (order[a.thesis]-order[b.thesis]) || a.tier.localeCompare(b.tier) || a.id.localeCompare(b.id));
+function headline(s){ const t = s.split(/(?<=[.!?])\s/)[0]; return t.length > 230 ? t.slice(0,228)+'…' : t; }
+function render(){
+  const q = state.q.trim().toLowerCase();
+  const out = rows.filter(r => (state.thesis==='all'||r.thesis===state.thesis) && (state.tier==='all'||r.tier===state.tier) && (state.region==='all'||r.region===state.region)
+    && (!q || (r.id+' '+r.claim+' '+r.country+' '+r.data+' '+r.source+' '+r.avenue).toLowerCase().includes(q)));
+  document.getElementById('count').textContent = out.length + ' of ' + rows.length;
+  document.getElementById('logList').innerHTML = out.map(r => `
+    <details class="item" style="--c:${col[r.thesis]||'var(--muted)'}" id="${r.id}">
+      <summary><span class="id">${r.id}</span><span class="tier ${r.tier}">${r.tier}</span>
+        <span class="head">${esc(headline(r.claim))}</span>
+        <span class="sub2"><span class="pill ${cls[r.thesis]||'bo'}">${esc(r.thesis)}</span> ${esc(r.country)} · ${esc(r.date)} · ${esc(r.status.toLowerCase())}</span></summary>
+      <div class="body">
+        <p><span class="k">Claim</span>${esc(r.claim)}</p>
+        ${r.data?`<p><span class="k">Data</span>${esc(r.data)}</p>`:''}
+        ${r.quote&&r.quote!=='n/a'&&!/^\(English original\)$/.test(r.quote)?`<p><span class="k">Quote (English)</span>“${esc(r.quote)}”</p>`:''}
+        <p><span class="k">Source</span>${esc(r.source)}${r.url&&/^https?:/.test(r.url)?` · <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.url)}</a>`:''}</p>
+        ${r.note?`<p><span class="k">Verifier note</span>${esc(r.note)}</p>`:''}
+      </div>
+    </details>`).join('') || '<p>No items match these filters.</p>';
+}
+document.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {
+  state[b.dataset.f] = b.dataset.v;
+  document.querySelectorAll(`.chip[data-f="${b.dataset.f}"]`).forEach(x => x.setAttribute('aria-pressed', x===b ? 'true':'false'));
+  render();
+}));
+document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; render(); });
+document.querySelectorAll('a.ref[data-id]').forEach(a => a.addEventListener('click', () => {
+  const id = a.dataset.id;
+  state.thesis='all'; state.tier='all'; state.region='all'; state.q=id;
+  document.querySelectorAll('.chip').forEach(x => x.setAttribute('aria-pressed', x.dataset.v==='all' ? 'true':'false'));
+  document.getElementById('q').value = id; render();
+  const el = document.getElementById(id); if (el) el.open = true;
+}));
+render();
+</script>

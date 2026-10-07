@@ -1,0 +1,44 @@
+{
+ "root": "C:/Users/palaz/Downloads/DKS_RESEARCH/FL_EUROPE_SCRAPE",
+ "cluster": "C",
+ "clusterTitle": "Labour/union signals & local-language closure news (Europe)",
+ "maxWaves": 8,
+ "tasks": [
+  {
+   "slug": "labor-fr-it",
+   "title": "Unions, redundancy plans and strikes: France and Italy",
+   "region": "Europe",
+   "instructions": "France: CSE information/consultation on reorganisation, PSE (plan de sauvegarde de l'emploi), rupture conventionnelle collective at Foot Locker France; DREETS/RUPCO notices; union communiques (CGT commerce, CFDT services, FO, SECI-UNSA, CFE-CGC), 'greve Foot Locker', 'licenciements Foot Locker', 'fermeture magasins Foot Locker salaries'. Italy: Filcams CGIL, Fisascat CISL, UILTuCS statements, 'Foot Locker licenziamenti', 'esuberi', 'sciopero Foot Locker', 'tavolo MIMIT Foot Locker', 'cassa integrazione Foot Locker', 'procedura di licenziamento collettivo Foot Locker', regional union press and local news. Quote statements with dates; quantify jobs/stores affected."
+  },
+  {
+   "slug": "labor-rest",
+   "title": "Unions and redundancy signals: Germany, Benelux, Spain, UK, Austria, Switzerland, Ireland",
+   "region": "Europe",
+   "instructions": "Germany: ver.di Handel, Betriebsrat Foot Locker, 'Sozialplan', 'Interessenausgleich', 'Stellenabbau Foot Locker', 'Massenentlassungsanzeige'. Netherlands: FNV/CNV 'Foot Locker reorganisatie', 'ontslag', 'sluiting winkels', ondernemingsraad. Belgium: ACV-Puls/BBTK/ABVV/Setca 'Foot Locker herstructurering', 'procedure Renault Foot Locker'. Spain: CCOO/UGT/USO 'ERE Foot Locker', 'despidos Foot Locker', 'cierre tiendas Foot Locker plantilla'. UK: USDAW/GMB, 'Foot Locker redundancies', 'Foot Locker staff told'. Ireland: Mandate union. Austria: GPA; Switzerland: Unia. Also the Dutch DC (Venlo/other) and FL Europe HQ staff cuts. Quote and quantify."
+  },
+  {
+   "slug": "news-italy",
+   "title": "Italy local news: store-by-store closures",
+   "region": "Europe",
+   "instructions": "Italy is FL Europe's largest market. Search local and national Italian news (2025-2026) by city and mall for Foot Locker closures: 'Foot Locker chiude', 'chiude il negozio Foot Locker', 'Foot Locker lascia il centro commerciale', 'al posto di Foot Locker', 'ex Foot Locker', 'Foot Locker chiusura definitiva', 'Kids Foot Locker chiude'. Cover major cities (Milano, Roma, Napoli, Torino, Bologna, Firenze, Genova, Palermo, Bari, Catania, Verona, Padova, Brescia, Bergamo, Venezia, Cagliari, Pescara, Ancona, Trieste...) and big malls (Il Centro Arese, Oriocenter, Porta di Roma, Roma Est, Euroma2, CityLife, Campania, Le Gru, Fiordaliso, Carosello, Nave de Vero, Elnos, Marcianise, Romaest, Aura...). Build a table: store, street/mall, city, closure date/announcement, replacement tenant, source URL. Also note any openings/refits (against)."
+  },
+  {
+   "slug": "news-france",
+   "title": "France local news: store-by-store closures",
+   "region": "Europe",
+   "instructions": "Search French local and national news (2025-2026): 'Foot Locker ferme', 'fermeture du magasin Foot Locker', 'Foot Locker quitte', 'a la place de Foot Locker', 'ancien Foot Locker', 'Foot Locker baisse le rideau', 'Kids Foot Locker ferme'. Cover Paris region (Westfield Forum des Halles, Champs-Elysees, Rosny 2, Parly 2, Velizy 2, Qwartz, Aeroville, Creteil Soleil, Belle Epine, O'Parinor, Les 4 Temps, Val d'Europe, Carre Senart), Lyon (Part-Dieu, Confluence), Marseille (Grand Littoral, Terrasses du Port), Lille (Euralille, V2), Bordeaux (Merignac Soleil), Toulouse (Blagnac), Nice (Cap 3000, Polygone Riviera), Nantes (Atlantis), Strasbourg, Montpellier (Odysseum), Rennes, Grenoble, Rouen, Toulon, Reims, Metz, Dijon. Use regional titles (Le Parisien, Ouest-France, La Voix du Nord, Le Progres, La Provence, Sud Ouest, Nice-Matin, actu.fr, Le Dauphine). Build a table store/mall/city/date/replacement/source; note openings (against)."
+  },
+  {
+   "slug": "news-dach-benelux",
+   "title": "Germany, Austria, Switzerland, Benelux local news",
+   "region": "Europe",
+   "instructions": "Search 'Foot Locker schliesst', 'Foot Locker Filiale schliesst', 'Foot Locker macht dicht', 'Nachmieter Foot Locker', 'ehemalige Foot Locker Filiale', 'Foot Locker sluit', 'Foot Locker verdwijnt', 'Foot Locker vertrekt', 'Foot Locker ferme Bruxelles' (2025-2026). Cities/malls: Berlin (Alexa, Mall of Berlin, Kudamm, Gropius Passagen), Hamburg (Mondeberg, Europa Passage), Munich (Riem Arcaden, PEP, OEZ, Kaufingerstr.), Frankfurt (MyZeil, Zeil), Cologne (Schildergasse, Rhein-Center), Dusseldorf, Stuttgart (Milaneo, Koenigstr.), CentrO Oberhausen, Leipzig, Dresden, Hannover, Nuremberg; Vienna (SCS, Donauzentrum, Mariahilfer Strasse, Westfield Donau), Graz, Linz, Salzburg; Zurich, Geneva, Basel, Bern; Amsterdam (Kalverstraat), Rotterdam (Lijnbaan, Zuidplein), Utrecht (Hoog Catharijne), The Hague, Eindhoven, Westfield Mall of the Netherlands; Brussels (Rue Neuve, Woluwe, Docks), Antwerp (Meir, Wijnegem), Ghent, Liege; Luxembourg. Build table; note openings (against)."
+  },
+  {
+   "slug": "news-uk-iberia-rest",
+   "title": "UK/Ireland, Spain/Portugal, Nordics, CEE local news",
+   "region": "Europe",
+   "instructions": "UK & Ireland: 'Foot Locker to close', 'Foot Locker closing down', 'Foot Locker shut', 'Foot Locker store closure' - Oxford Street, Westfield London/Stratford, Bluewater, Lakeside, Trafford Centre, Bullring, Meadowhall, Metrocentre, Silverburn, Arndale, Liverpool ONE, St David's Cardiff, Buchanan Galleries, Leeds Trinity/White Rose, Belfast Victoria Square; Dublin Henry St, Dundrum, Liffey Valley, Blanchardstown, Cork. Spain/Portugal: 'Foot Locker cierra', 'cierre de Foot Locker', 'Foot Locker fecha loja' - Madrid (Gran Via, Xanadu, La Vaguada, Parquesur), Barcelona (Portal de l'Angel, Diagonal Mar, La Maquinista), Valencia, Sevilla, Malaga, Bilbao, Zaragoza, Lisboa (Colombo, Vasco da Gama), Porto (NorteShopping). Also Sweden, Denmark, Norway, Poland, Czech, Hungary, Greece, and whether FL exited any further countries in 2025-26. Build table; note openings (against)."
+  }
+ ]
+}

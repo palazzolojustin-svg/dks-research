@@ -1,0 +1,13 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/NKE/2026-09-22_UBS_NKE_UBS_Video_Nike_1Q_Preview_We_See_a_Negative_Catalyst.md	full	1100	1100	UBS disclosures/disclaimers pp.3-12 (kept rating/PT history), analyst cert, rating defs	WORKING_NOTES/P_NKE_RESEARCH_3.md	3464
+SOURCE/04_PEERS/NKE/2026-09-23_BloombergIntel_NKE_Nike_Spread_Can_Tighten_as_Margin_Fix_Takes_Hold_Credit_Outlook.md	full	225	225	BI redistribution footers	WORKING_NOTES/P_NKE_RESEARCH_3.md	4394
+SOURCE/04_PEERS/NKE/2026-09-23_WilliamsTrading_NKE_Williams_Trading_NKE_Good_Plans_Slow_Progress._Lowe.md	full	49	49	contact/disclaimer lines	WORKING_NOTES/P_NKE_RESEARCH_3.md	1038
+SOURCE/04_PEERS/NKE/2026-09-25_ProactiveInvestors_NKE_Nike_downgraded_by_BofA_as_channel_and_China_pressures_w.md	full	76	76	Proactive disclaimer page	WORKING_NOTES/P_NKE_RESEARCH_3.md	1645
+SOURCE/04_PEERS/NKE/2026-09-28_ProactiveInvestors_NKE_Nike_set_for_Q1_beat_as_margins_improve_Jefferies_says.md	full	69	69	Proactive disclaimer page	WORKING_NOTES/P_NKE_RESEARCH_3.md	1115
+SOURCE/04_PEERS/NKE/2026-09-29_Barclays_NKE_Nike_Inc._FY1Q27_Preview_The_5_Key_Debates.md	full	4831	4831	Barclays analyst cert, disclosure legend, rating defs/distribution, legal entities, regional disclaimers (kept PT history, valuation, risks), TOC, chart axis labels	WORKING_NOTES/P_NKE_RESEARCH_3.md	26145
+SOURCE/04_PEERS/NKE/2026-09-29_S3Partners_NKE_09_29_2026_NKE_Short_Interest_Builds_to_Record_High.md	full	125	125	S3 data disclaimer, marketing taglines	WORKING_NOTES/P_NKE_RESEARCH_3.md	857
+SOURCE/04_PEERS/NKE/2026-09-30_Barclays_NKE_Replay_Poll_Results_Slides_NKE_FY1Q27_Preview_and_S.md	full	1021	1021	Barclays disclosures/disclaimers pp.7-14 (kept rating/PT), event ToS	WORKING_NOTES/P_NKE_RESEARCH_3.md	3623
+SOURCE/04_PEERS/NKE/2026-09-30_BloombergIntel_NKE_US_Athleisure_Footwear_Survey_May2026_Nike_Still_Leads_Sneaker_Purchases.md	full	647	647	BI about/disclaimer pages; bar values not extractable from charts	WORKING_NOTES/P_NKE_RESEARCH_3.md	4417
+SOURCE/04_PEERS/NKE/2026-10-01_BloombergIntel_NKE_China_Jordan_Sportswear_Remain_Drags_on_Nike_Equity_Outlook.md	full	824	824	BI redistribution footers; DOCV/link lines	WORKING_NOTES/P_NKE_RESEARCH_3.md	11330
+SOURCE/04_PEERS/NKE/2026-10-01_BloombergIntel_NKE_Nike-s_Weaker_Results_Softer_Outlook_Risk_to_Turnaround_React.md	full	824	824	identical duplicate of file 10 (verified by difflib); BI footers	WORKING_NOTES/P_NKE_RESEARCH_3.md	483
+SOURCE/04_PEERS/NKE/2026-10-01_BloombergIntel_NKE_Nike_Revenue_Reset_Extends_Into_Fiscal_2028_Earnings_Outlook.md	full	2383	2383	BI redistribution footers; Additional Resources link lines	WORKING_NOTES/P_NKE_RESEARCH_3.md	32629

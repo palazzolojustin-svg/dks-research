@@ -1,0 +1,44 @@
+{
+ "root": "C:/Users/palaz/Downloads/DKS_RESEARCH/FL_EUROPE_SCRAPE",
+ "cluster": "A",
+ "clusterTitle": "Deal & corporate signals (Europe)",
+ "maxWaves": 8,
+ "tasks": [
+  {
+   "slug": "ma-scoops",
+   "title": "M&A / press scoops on a sale, carve-out, licensing or adviser hire",
+   "region": "Europe",
+   "instructions": "Search Sky News (Mark Kleinman), Reuters, Bloomberg, FT, WSJ, Betaville, Mergermarket/Debtwire/Reorg/PitchBook headlines, Retail Week, Drapers, The Industry, Il Sole 24 Ore, MF Fashion, Pambianco, Les Echos, LSA, Handelsblatt, TextilWirtschaft, Expansion, Cinco Dias, FashionNetwork, Sporting Goods Intelligence Europe, Business of Fashion, Boardroom for any report (2025-05 to today) of DKS/Foot Locker exploring a sale, carve-out, licensing, JV, strategic review, wind-down or adviser hire (Rothschild, Lazard, PJT, Evercore, Houlihan Lokey, Moelis, Alvarez & Marsal, AlixPartners, KPMG/Deloitte/PwC/EY restructuring) for Foot Locker Europe / International / Australia / atmos, or named bidders. Include local-language queries ('Foot Locker Europe vendita', 'cession Foot Locker Europe', 'Foot Locker Europa Verkauf', 'venta Foot Locker Europa', 'Foot Locker Europe te koop'). Also check X/LinkedIn posts of M&A journalists and Google News date-restricted searches. Report negatives as dead ends."
+  },
+  {
+   "slug": "buyers",
+   "title": "Potential acquirers / licensees and their disclosures",
+   "region": "Europe",
+   "instructions": "Potential buyers/licensees: JD Sports (and its Courir sale to Groupe Equivalence), Frasers Group/Sports Direct, Deichmann/Snipes, Intersport, Decathlon, Sizeer/CCC/Modivo, Footasylum, Zalando, Courir, Sportisimo, Fourlis, Al-Futtaim, Alshaya, Apparel Group, Metro Brands, Pentland, private equity (e.g. Apax, Permira, CVC, Bain, KKR, L Catterton, Sycamore). Read their RNS/press releases, results presentations and call transcripts Sep-2025 to Oct-2026 for any mention of Foot Locker, acquiring European sneaker store portfolios, taking over FL leases/stores, or new FL licence territories. Search 'takes over Foot Locker stores', 'former Foot Locker unit', 'rachete les magasins Foot Locker', 'reprend les magasins Foot Locker', 'ubernimmt Foot Locker Filialen', 'rileva negozi Foot Locker', 'se queda con las tiendas de Foot Locker'. Also analyst/press speculation naming FL Europe as a target."
+  },
+  {
+   "slug": "competition-filings",
+   "title": "Merger-control and regulatory filings",
+   "region": "Europe",
+   "instructions": "Check merger-control and regulatory registers for any notification involving Foot Locker entities (Foot Locker Europe B.V., Foot Locker Italy S.r.l., Foot Locker France SAS, Foot Locker Germany, Foot Locker Spain, Foot Locker UK etc.), DICK'S Sporting Goods, or acquisitions of FL stores/assets since 2025-05: European Commission merger case search; UK CMA cases; Bundeskartellamt (list of pending merger notifications 'laufende Fusionskontrollverfahren'); Austrian BWB weekly 'Zusammenschlussanmeldungen'; Autorite de la concurrence; AGCM Italy (Bollettino settimanale); ACM Netherlands; CNMC Spain; Swiss COMCO; Polish UOKiK; Czech UOHS; Portuguese AdC; Belgian BMA; Irish CCPC; plus EU/national FDI-screening notices. Also check whether the original DKS-FL deal triggered EU/national filings and what they said about European operations. Report negative results as dead ends with the URLs checked."
+  },
+  {
+   "slug": "people-jobs",
+   "title": "People moves and hiring signals (LinkedIn, job boards)",
+   "region": "Europe",
+   "instructions": "Using Apify LinkedIn actors (profile/people search/jobs) and web search (site:linkedin.com): departures or new roles since 2025-09 of FL Europe / International senior people (MD Europe, country managers Italy/France/Germany/Spain/UK/Benelux, CFO International, real-estate/leasing heads, HR directors, supply-chain/DC heads), interim or restructuring hires, people whose Foot Locker tenure ended in 2026; DKS hires in corporate development / M&A / international / strategy with European carve-out experience; FL Europe job postings now vs earlier (LinkedIn Jobs, Indeed, StepStone, InfoJobs, Welcome to the Jungle, Monster, the FL Europe careers site) - especially roles mentioning store closure, transition, TSA, separation, lease exit, wind-down, liquidation, 'project', integration, or a hiring freeze; Matthew Barnes' (President FL International) public posts and team announcements. Quantify where possible (e.g. number of open European store-manager roles vs a Wayback snapshot of the careers page). Do not message or connect with anyone."
+  },
+  {
+   "slug": "company-side-new",
+   "title": "New company-side information and filings since 2026-09-15",
+   "region": "Europe",
+   "instructions": "Find company-side information NOT in the brief: EDGAR full-text search (https://efts.sec.gov/LATEST/search-index?q=%22Foot%20Locker%20Europe%22 and similar, and the DKS filing list CIK 0001089063) for anything filed 2026-09-15 to today (8-K, S-8, 424B, FWP, Forms 4, 13D/G) and any text about international operations; compare DKS FY2025 10-K Exhibit 21 subsidiary list with FL's last Exhibit 21 (FY2024 10-K) for dissolved/renamed/merged foreign subsidiaries; DKS and FL newsroom/press releases; interviews, podcasts or conference appearances since 2026-09-01 by Ed Stack, Lauren Hobart, Navdeep Gupta, Matthew Barnes, Ann Freeman; European trade-press interviews with FL Europe executives; changes to FL corporate pages describing Europe (Wayback compare). Also check the FL Europe B.V. corporate/careers sites for statements about strategy or reorganisation."
+  },
+  {
+   "slug": "digital-brand",
+   "title": "Online and brand-distribution signals",
+   "region": "Europe",
+   "instructions": "Check each FL European e-commerce site (footlocker.it/.fr/.de/.es/.nl/.co.uk/.be/.at/.ch/.pt/.pl/.se/.dk/.ie/.cz/.hu/.lu/.no/.gr etc. and footlocker.eu) for shutdowns, redirects, 'we are closing' notices, consolidation into one EU site, app delistings, and changes in the legal operating entity in terms/imprint pages (Impressum, mentions legales, note legali, aviso legal) - compare with Wayback snapshots via the CDX API and record what changed and when. Check public traffic trend data (Similarweb/Semrush free pages) by country. Check Nike/Jordan/adidas/New Balance EMEA launch-retailer or raffle partner lists (e.g. SNKRS launch partner lists, sneaker release sites listing European stockists such as Sneaker News/Sole Retriever/SneakerFreaker 'where to buy' pages) for Foot Locker EU being dropped or reduced in 2026 vs 2025, and any brand statements about European distribution changes involving Foot Locker."
+  }
+ ]
+}

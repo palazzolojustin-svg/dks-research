@@ -1,0 +1,25 @@
+﻿cal rows 340
+den rows 144 failed 0
+Calia 1940
+CALIA_by_Carrie_Underwood 859
+VRST 466
+DSG 2614
+Maxfli 716
+Walter_Hagen 897
+Lady_Hagen 389
+Alpine_Design 766
+ETHOS 220
+Fitness_Gear 302
+Top_Flite 475
+Tommy_Armour_Golf 119
+Nishiki 185
+Quest 409
+PRIMED 270
+owned apparel products to pull 1149
+0 1
+200 6268
+400 14530
+600 21732
+800 34807
+1000 42515
+reviews 46509 failed products 0

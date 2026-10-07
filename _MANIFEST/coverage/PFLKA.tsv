@@ -1,0 +1,2 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/FL/sec_filings/FL_10-K_FY2024_filed-2025-03-27.md	full	3781	3781	SEC cover checkboxes, TOC, forward-looking statements, generic risk-factor phrasing, generic GAAP policy text, auditor/ICFR boilerplate, Item 9A definitions, XBRL/exhibit index boilerplate, page markers	WORKING_NOTES/P_FL_10K_A.md	62478

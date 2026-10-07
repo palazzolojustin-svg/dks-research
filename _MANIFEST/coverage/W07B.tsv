@@ -1,0 +1,5 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/DKS_424B3_2025-07-11.md	lines 3980-7959	7959	7959	merger-agreement TOC; generic tax holder list/US-holder definition/tax disclaimer; householding; generic definitions; 14a-type legal boilerplate; page markers	WORKING_NOTES/W07_FL_MERGER_PROSPECTUS_B.md	87007
+SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/DKS_S-4-A_2025-07-08.md	delta	153	153	S-4 cover checkboxes; delaying-amendment and red-herring legends; Item 22 standard undertakings	WORKING_NOTES/W07_FL_MERGER_PROSPECTUS_B.md	5454
+SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/DKS_S-4_2025-06-23.md	delta	142	142	line-wrap/page-break-only diffs (identical substance); cover legends	WORKING_NOTES/W07_FL_MERGER_PROSPECTUS_B.md	6237
+SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/FL_DEFM14A_Merger-Proxy-Prospectus_filed-2025-07-11.md	delta	32	32	Schedule 14A cover checkboxes	WORKING_NOTES/W07_FL_MERGER_PROSPECTUS_B.md	780

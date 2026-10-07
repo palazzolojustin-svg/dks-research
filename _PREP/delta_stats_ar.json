@@ -1,0 +1,38 @@
+[
+ {
+  "variant": "02_DKS_TRANSCRIPTS\\annual_report_letters\\DKS_Annual-Report-to-Shareholders_2023-05-05.md",
+  "refs": [
+   "01_DKS_SEC_FILINGS\\10-K\\DKS_10-K_FY2022_filed-2023-03-23.md"
+  ],
+  "segments": 1868,
+  "delta_segments": 268,
+  "delta_file": "_PREP/deltas/02_DKS_TRANSCRIPTS__annual_report_letters__DKS_Annual-Report-to-Shareholders_2023-05-05.delta.md"
+ },
+ {
+  "variant": "02_DKS_TRANSCRIPTS\\annual_report_letters\\DKS_Annual-Report-to-Shareholders_2024-05-02.md",
+  "refs": [
+   "01_DKS_SEC_FILINGS\\10-K\\DKS_10-K_FY2023_filed-2024-03-28.md"
+  ],
+  "segments": 1723,
+  "delta_segments": 848,
+  "delta_file": "_PREP/deltas/02_DKS_TRANSCRIPTS__annual_report_letters__DKS_Annual-Report-to-Shareholders_2024-05-02.delta.md"
+ },
+ {
+  "variant": "02_DKS_TRANSCRIPTS\\annual_report_letters\\DKS_Annual-Report-to-Shareholders_2025-05-02.md",
+  "refs": [
+   "01_DKS_SEC_FILINGS\\10-K\\DKS_10-K_FY2024_filed-2025-03-27.md"
+  ],
+  "segments": 1776,
+  "delta_segments": 851,
+  "delta_file": "_PREP/deltas/02_DKS_TRANSCRIPTS__annual_report_letters__DKS_Annual-Report-to-Shareholders_2025-05-02.delta.md"
+ },
+ {
+  "variant": "02_DKS_TRANSCRIPTS\\annual_report_letters\\DKS_Annual-Report-to-Shareholders_2026-05-01.md",
+  "refs": [
+   "01_DKS_SEC_FILINGS\\10-K\\DKS_10-K_FY2025_filed-2026-03-27.md"
+  ],
+  "segments": 2448,
+  "delta_segments": 266,
+  "delta_file": "_PREP/deltas/02_DKS_TRANSCRIPTS__annual_report_letters__DKS_Annual-Report-to-Shareholders_2026-05-01.delta.md"
+ }
+]

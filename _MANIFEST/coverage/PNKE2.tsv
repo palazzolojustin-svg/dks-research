@@ -1,0 +1,10 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/NKE/2026-09-15_BloombergIntel_NKE_Nike_Turnaround_Underway_Focus_Shifts_to_China_Equity_Outlook.md	full	761	761	Bloomberg redistribution footers; chart titles w/o data	WORKING_NOTES/P_NKE_RESEARCH_2.md	11090
+SOURCE/04_PEERS/NKE/2026-09-15_Needham_NKE_Just_For_Kicks_Sneaker_Tracker_Sep-26_Back_To_School_L.md	full	301	301	analyst cert, ratings distribution/definitions, disclaimers (rating/PT history kept)	WORKING_NOTES/P_NKE_RESEARCH_2.md	3705
+SOURCE/04_PEERS/NKE/2026-09-17_BloombergIntel_NKE_Nike_Discount_to_Retail_Curve_Persists_for_-6_Billion_of_Bonds.md	full	64	64	Bloomberg footers	WORKING_NOTES/P_NKE_RESEARCH_2.md	1200
+SOURCE/04_PEERS/NKE/2026-09-18_BloombergIntel_NKE_Nike_Discount_Bank_Bond_Rush_TMT_Outliers_Best_of_US_Credit.md	full	374	374	Bloomberg footers; webinar registration links; Nike item duplicate of 09-17 note	WORKING_NOTES/P_NKE_RESEARCH_2.md	3082
+SOURCE/04_PEERS/NKE/2026-09-18_ProactiveInvestors_NKE_Nike_faces_earnings_pressure_as_UBS_cuts_price_target.md	full	67	67	Proactive general disclaimer	WORKING_NOTES/P_NKE_RESEARCH_2.md	848
+SOURCE/04_PEERS/NKE/2026-09-20_UBS_NKE_US_Softlines_Retail_-UBS_Evidence_Lab_inside_Secondary.md	full	1851	1851	garbled chart-title text (38 charts, no values), Evidence Lab blurb, UBS required disclosures/global & GWM disclaimers pp.26-35 (rating history kept)	WORKING_NOTES/P_NKE_RESEARCH_2.md	3548
+SOURCE/04_PEERS/NKE/2026-09-22_BloombergIntel_NKE_Nike_Can_Keep_Winning_Despite_Headwinds_-11_Billion_of_Debt.md	full	110	110	Bloomberg footers	WORKING_NOTES/P_NKE_RESEARCH_2.md	2462
+SOURCE/04_PEERS/NKE/2026-09-22_FinancialAI_NKE_NKE_-NIKE_Inc._2027_Q1_Forecast.md	full	536	536	industry constituent ticker lists, product marketing/About, disclaimers	WORKING_NOTES/P_NKE_RESEARCH_2.md	3577
+SOURCE/04_PEERS/NKE/2026-09-22_UBS_NKE_Nike_Inc._-UBS_Evidence_Lab_inside_1Q_Preview_We_See_a.md	full	5518	5518	garbled chart titles (image tables w/o values), TOC, Evidence Lab blurb, UBS disclosures/disclaimers pp.69-78, rating definitions	WORKING_NOTES/P_NKE_RESEARCH_2.md	28617

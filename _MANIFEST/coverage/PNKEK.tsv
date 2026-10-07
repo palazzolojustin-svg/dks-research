@@ -1,0 +1,3 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/NKE/sec_filings/NKE_10-K_FY2026_filed-2026-07-15.md	full	3619	3619	SEC cover checkboxes, TOC, FLS/safe-harbor text, generic risk-factor phrasing, generic GAAP policy text, ICFR/auditor boilerplate, Part III incorporation refs, standard exhibit entries, XBRL list, signatures blocks (names kept), performance graph image	WORKING_NOTES/P_NKE_10K.md	63210
+SOURCE/04_PEERS/NKE/sec_filings/NKE_10-K_FY2025_filed-2025-07-17.md	delta	1098	1098	delta file read in full (verbatim repeats of FY26 10-K covered by part 01); dropped same boilerplate categories; recorded all FY23 comparatives and FY25-specific wording/values	WORKING_NOTES/P_NKE_10K.md	33375

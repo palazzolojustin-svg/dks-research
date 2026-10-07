@@ -1,0 +1,134 @@
+# DELTA of SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-05-15_EX-99-2_EXHIBIT-99-2.md
+# Reference(s): SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2022-11-01_CFO-transition_Navdeep-Gupta-named-CFO.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2022-11-22_Q3-FY2022-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2022-12-08_Convertible-note-hedge-and-warrant-partial-unwind.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2023-02-09_Redemption-of-3.25pct-convertible-notes-due-2025.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2023-03-07_Q4-FY2022-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2023-03-08_Warrant-early-termination-agreement.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2023-03-23_Executive-officer-changes.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2023-04-24_Convertible-notes-redemption-completed.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2023-05-23_Q1-FY2023-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2023-06-16_Annual-meeting-vote-results-and-bylaw-amendment.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2023-08-22_Q2-FY2023-earnings-release-and-20M-severance-RIF.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2023-09-15_Executive-officer-changes.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2023-11-21_Q3-FY2023-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2024-03-14_Q4-FY2023-earnings-release-and-comp-sales-method-change.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2024-05-29_Q1-FY2024-earnings-release-and-1.10-dividend.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2024-06-13_Annual-meeting-vote-results.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2024-08-28_Cybersecurity-incident-Aug-21-2024.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2024-09-04_Q2-FY2024-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2024-11-26_Q3-FY2024-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-03-11_Q4-FY2024-earnings-release-and-comp-sales-method-change.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-03-27_Executive-officer-changes.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-05-15_Foot-Locker-acquisition-announcement-and-Q1-prelim-results.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-05-15_Foot-Locker-merger-agreement-entered.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-05-28_Q1-FY2025-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-06-06_New-credit-agreement-replaces-existing-revolver.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-06-13_Annual-meeting-vote-results-and-bylaw-amendment.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-06-23_Foot-Locker-notes-exchange-offer-and-pro-forma-financials.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-07-24_Foot-Locker-HSR-refiling.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-08-26_Foot-Locker-HSR-waiting-period-expired-close-expected-Sep-8.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-08-28_Q2-FY2025-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-09-02_Foot-Locker-shareholder-election-prelim-results.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-09-05_Foot-Locker-notes-exchange-offer-results-and-pro-forma.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-09-08_Foot-Locker-acquisition-COMPLETED.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-09-11_Foot-Locker-notes-exchange-settled-400M-4pct-notes-2029.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2025-11-25_Q3-FY2025-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2026-03-12_Q4-FY2025-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2026-05-27_Q1-FY2026-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2026-06-12_Annual-meeting-vote-results.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2026-08-25_Q2-FY2026-earnings-release-cover.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2026-09-21_Foot-Locker-pro-forma-financials-FY2025.md; SOURCE/01_DKS_SEC_FILINGS\8-K\DKS_8-K_2026-09-25_1B-senior-notes-offering-6.2pct-2036-and-6.9pct-2056.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K-A_2025-09-18.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2022-11-22_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2023-02-09_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2023-03-07_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2023-05-23_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2023-08-22_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2023-09-15_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2023-11-21_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2024-03-14_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2024-03-14_EX-99-2_EX-99-2.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2024-05-29_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2024-09-04_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2024-11-26_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-03-11_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-03-11_EX-99-2_EX-99-2.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-05-15_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-05-15_EX-99-2_EX-99-2.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-05-15_EX-99-3_EX-99-3.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-05-28_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-06-06_EX-99-1_EXHIBIT-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-06-06_EX-99-2_EXHIBIT-99-2.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-06-23_EX-99-1_EXHIBIT-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-06-23_EX-99-2_EXHIBIT-99-2.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-08-26_EX-99-1_EXHIBIT-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-08-28_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-09-02_EX-99-1_EXHIBIT-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-09-05_EX-99-1_EXHIBIT-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-09-08_EX-99-1_EXHIBIT-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-11-25_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2025-11-25_EX-99-2_EX-99-2.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2026-03-12_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2026-05-27_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2026-08-25_EX-99-1_EX-99-1.md; SOURCE/01_DKS_SEC_FILINGS\8-K\exhibits\DKS_8-K_2026-09-21_EX-99-1_EXHIBIT-99-1.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-05-15_120246.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-05-15_120901.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-05-15_120903.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-05-15_120904.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-05-15_120906.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-05-15_120907.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-05-15_120955.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-05-28_129596.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-05-28_129602.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-05-29_129604.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-06-06_021813.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-06-06_021813_EX-99-1_EXHIBIT-99-1.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-06-06_021813_EX-99-2_EXHIBIT-99-2.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-06-23_023252.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-06-23_023252_EX-99-1_EXHIBIT-99-1.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-06-23_023252_EX-99-2_EXHIBIT-99-2.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-07-24_027037.md; SOURCE/01_DKS_SEC_FILINGS\Foot-Locker-merger-docs\425-deal-communications\DKS_425_2025-08-04_028506.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-01-26.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-02-21.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-03-10.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-03-10_EX-99-1_AGREEMENT-WITH-ANDREW-I-GRAY-DATED-MARCH-2-2023.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-03-20.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-03-20_EX-99-1_PRESS-RELEASE-DATED-MARCH-20-2023.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-03-20_EX-99-2_INVESTOR-PRESENTATION-DATED-MARCH-20-2023.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-03-24.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-03-24_EX-99-1_AGREEMENT-WITH-ANDREW-PAGE-DATED-MARCH-20-2023.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-04-25.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-05-19.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-05-19_EX-99-1_EXHIBIT-99-1.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-05-19_EX-99-2_EXHIBIT-99-2.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-08-23.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-08-23_EX-99-1_EXHIBIT-99-1.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-08-23_EX-99-2_EXHIBIT-99-2.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-09-22.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-11-29.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-11-29_EX-99-1_EXHIBIT-99-1.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2023-11-29_EX-99-2_EXHIBIT-99-2.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-03-06.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-03-06_EX-99-1_EXHIBIT-99-1.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-03-06_EX-99-2_EXHIBIT-99-2.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-05-23.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-05-30.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-05-30_EX-99-1_EXHIBIT-99-1.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-05-30_EX-99-2_EXHIBIT-99-2.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-06-25.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-08-28.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-08-28_EX-99-1_EXHIBIT-99-1.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-08-28_EX-99-2_EXHIBIT-99-2.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-12-04.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-12-04_EX-99-1_EXHIBIT-99-1.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2024-12-04_EX-99-2_EXHIBIT-99-2.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-01-14.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-01-14_EX-99-1_EXHIBIT-99-1.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-03-05.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-03-05_EX-99-1_EXHIBIT-99-1.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-03-05_EX-99-2_EXHIBIT-99-2.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-03-26.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-03-26_EX-99-1_EXHIBIT-99-1.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-05-09.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-05-15.md; SOURCE/04_PEERS\FL\sec_filings\8-K\FL_8-K_2025-05-15_EX-99-1_EXHIBIT-99-1.md
+# 129 of 245 non-blank lines are NOT verbatim present in the reference(s); all other lines are exact repeats.
+# Each line is prefixed with its line number in the original (open the original around that line for context).
+
+L6: - **Source:** https://www.sec.gov/Archives/edgar/data/850209/000110465925048852/tm2515123d1_ex99-2.htm
+L7: - **Document:** tm2515123d1_ex99-2.htm
+L15: tm2515123d1\_ex99-2.htm
+L24: **DICK’S Sporting Goods to Acquire Foot Locker
+L25: to Create a Global Leader in the Sports Retail Industry**
+L27: *Combination creates global platform within the
+L28: growing sports retail industry, positioned to serve evolving
+L29: needs of a broader range of consumers*
+L31: *Poised to drive long-term success through innovative
+L32: store concepts and digital experiences*
+L34: *Foot Locker shareholders can elect to receive
+L35: either $24.00 in cash or 0.1168 shares of DICK’S Sporting
+L36: Goods common stock for each share of Foot Locker common stock*
+L38: *Transaction expected
+L39: to be accretive to DICK’S Sporting Goods EPS in the first full fiscal year post-close* *(excludes one-time costs)*
+L41: PITTSBURGH and NEW YORK, May 15, 2025 –
+L42: DICK’S Sporting Goods, Inc. (“DICK’S”) (NYSE: DKS), a leading U.S. based full-line omni-channel sporting goods retailer,
+L43: and Foot Locker, Inc. (“Foot Locker”) (NYSE: FL), a leading footwear and apparel retailer, today announced that they
+L44: have entered into a definitive merger agreement under which DICK’S will acquire Foot Locker. This transaction implies an equity value
+L45: of approximately $2.4 billion and an enterprise value of approximately $2.5 billion.
+L47: Foot Locker has a strong history of sneaker expertise
+L48: that sparks discovery and ignites the power of sneaker culture through its portfolio of brands, including Foot Locker, Kids Foot Locker,
+L49: Champs Sports, WSS, and atmos. It encompasses approximately 2,400 retail stores across 20 countries in North America, Europe, Asia, Australia
+L50: and New Zealand, and a licensed store presence in Europe, the Middle East and Asia. In 2024, Foot Locker achieved net worldwide sales
+L51: of $8 billion. DICK’S expects to operate Foot Locker as a standalone business unit within its portfolio and maintain the Foot Locker brands.
+L53: “We
+L54: have long admired the cultural significance and brand equity that Foot Locker and its dedicated Stripers have built within the communities
+L55: they serve,” said Ed Stack, Executive Chairman of DICK’S. “We believe there is meaningful opportunity for growth ahead. By
+L56: applying our operational expertise to this iconic business, we see a clear path to further unlocking
+L57: growth and enhancing Foot Locker’s position in the industry. Together, we will leverage the complementary strengths of both organizations
+L58: to better serve the broad and evolving needs of global sports retail consumers.”
+L60: “We look forward to welcoming Foot Locker’s
+L61: talented team and building upon their expertise and passion for their business, which we intend to honor and amplify together,” said
+L62: Lauren Hobart, President and CEO of DICK’S. “Sports and sports culture continue to be incredibly powerful, and with this acquisition,
+L63: we’ll create a new global platform that serves those ever evolving needs through iconic concepts consumers know and love, enhanced
+L64: store designs and omnichannel experiences, as well as a product mix that appeals to our different customer bases.”
+L66: “Today’s announcement marks the start
+L67: of an exciting new chapter for Foot Locker and is a testament to our team’s hard work and dedication to our mission,” said
+L68: Mary Dillon, CEO of Foot Locker. “By joining forces with DICK’S, Foot Locker will be even better positioned to expand sneaker culture,
+L69: elevate the omnichannel experience for our customers and brand partners, and enhance our position in the industry. We are pleased to provide
+L70: shareholders with a transaction structure that offers the choice of significant and immediate cash value or the opportunity to invest
+L71: in the combined company and benefit from the substantial upside potential. I am proud of all that our teams around the world, including
+L72: our Stripers, have accomplished to reach this milestone moment, and am confident this transaction represents the best path for our shareholders
+L73: and other stakeholders.”
+L75: The proposed acquisition represents an important strategic milestone
+L76: for DICK’S whereby the combined company offers significant strategic and financial benefits:
+L79: |  | · | **Create a global platform within the growing sports retail industry.** The transaction will better position the combined company to serve consumers worldwide and expands DICK’S addressable market opportunity. By combining with Foot Locker, DICK’S will be poised to serve consumers not only in new locations in the U.S. through Foot Locker’s complementary real estate portfolio, but also internationally for the first time. With strong long-term industry tailwinds, the combined company is well positioned for long-term growth. |
+L82: |  | · | **Serve a broader set of consumers across differentiated concepts.** Iconic concepts will cater to a broad spectrum of consumers, from performance-focused athletes to sneakerheads. Building upon the groundbreaking learnings from DICK’S House of Sport and Foot Locker’s Reimagined Concept stores, the combined company will provide an unmatched immersive and innovative retail experience for consumers. |
+L85: |  | · | **Strengthen relationships with brand partners through global reach.** Together, DICK’S and Foot Locker will serve as a stronger partner for key brands, offering multiple platforms for both established and emerging partners to showcase their assortments, connect with athletes and increase visibility on a global level. |
+L88: |  | · | **Invest in future growth through an industry-leading omnichannel experience.** DICK’S has a history of strong growth and aims to invest in and grow the Foot Locker brand and position the combined company for long-term success. The combination will drive growth through differentiated store concepts and robust digital experiences to enable sustainable long-term profitable growth. |
+L91: |  | · | **Unlock operational efficiencies that create shareholder value.** DICK’S expects the transaction to be accretive to EPS in the first full fiscal year post-close (excludes transaction and other one-time costs to achieve synergies) and to deliver between $100 to $125 million in cost synergies in the medium-term achieved through procurement and direct sourcing efficiencies. |
+L95: Under the terms of the merger agreement, which
+L96: has been unanimously approved by the boards of directors of DICK’S and Foot Locker, Foot Locker shareholders will elect to receive either
+L97: (i) $24.00 in cash or (ii) 0.1168 shares of DICK’S common stock for each share of Foot Locker common stock. The election is
+L98: not subject to a minimum or maximum amount of cash or stock consideration.
+L100: Based on the closing price of Foot Locker common
+L101: stock on 5/14/2025, the $24.00 per-share consideration represents a premium of approximately 66% to Foot Locker’s 60-trading day volume
+L102: weighted average price. The total consideration represents an acquisition multiple of approximately 6.1x fiscal 2024 adjusted EBITDA.
+L104: DICK’S intends to finance the acquisition through
+L105: a combination of cash-on-hand and new debt.
+L110: Goldman Sachs is serving as financial advisor
+L111: to DICK’S and provided fully committed bridge financing. Wachtell, Lipton, Rosen & Katz is serving as DICK’S legal advisor. Evercore
+L112: is serving as financial advisor to Foot Locker, and Skadden, Arps, Slate, Meagher & Flom LLP is serving as Foot Locker’s
+L113: legal advisor.
+L117: DICK’S management will host a conference call
+L118: today at 9:00 a.m. Eastern Time to discuss the proposed acquisition. Investors will have the opportunity to listen to the conference
+L119: call over the internet through the Company’s website located at investors.DICKS.com. To listen to the live call, please go to the website
+L120: at least fifteen minutes early to register, download, and install any necessary audio software. For those who cannot listen to the live
+L121: webcast, it will be archived on the Company’s website for approximately twelve months.
+L123: **About DICK’S Sporting Goods**
+L125: DICK’S Sporting Goods (NYSE: DKS) creates
+L126: confidence and excitement by inspiring, supporting and personally equipping all athletes to achieve their dreams. Founded in 1948 and
+L127: headquartered in Pittsburgh, the leading omnichannel retailer serves athletes and outdoor enthusiasts in more than 850 DICK’S Sporting
+L128: Goods, Golf Galaxy, Public Lands and Going Going Gone! stores, online, and through the DICK’S mobile app. DICK’S also owns
+L129: and operates DICK’S House of Sport and Golf Galaxy Performance Center, as well as GameChanger, a youth sports mobile platform for
+L130: live streaming, scheduling, communications and scorekeeping.
+L132: Driven by its belief that sports have the power
+L133: to change lives, DICK’S has been a longtime champion for youth sports and, together with its Foundation, has donated millions of
+L134: dollars to support under-resourced teams and athletes through the Sports Matter program and other community-based initiatives. Additional
+L135: information about DICK’S business, corporate giving and employment opportunities can be found on dicks.com, investors.dicks.com,
+L136: sportsmatter.org, dickssportinggoods.jobs and on Instagram, TikTok, Facebook and X.
+L140: Foot Locker, Inc. is a leading footwear and
+L141: apparel retailer that unlocks the “inner sneakerhead” in all of us. With approximately 2,400 retail stores in 20 countries across
+L142: North America, Europe, Asia, Australia, and New Zealand, and a licensed store presence in Europe, the Middle East and Asia, Foot Locker
+L143: has a strong history of sneaker authority that sparks discovery and ignites the power of sneaker culture through its portfolio of brands,
+L148: **DICK’S Sporting Goods**
+L184: **Forward-Looking Statements Involving Known
+L185: and Unknown Risks and Uncertainties**
+L193: Sporting Goods, Inc.’s (“DICK’S Sporting Goods”), Foot Locker, Inc.’s (“Foot Locker”)
+L194: or the combined company’s plans, objectives, expectations, strategies, beliefs, or future performance or events constitute forward-looking
+L226: ability to meet market expectations; the influence of DICK’S Sporting Goods’ Class B common stockholders and associated
+L227: possible scrutiny and public pressure; compliance and litigation risks; DICK’S Sporting Goods’, Foot Locker’s and the
+L228: combined company’s ability to protect their respective intellectual property rights or respond to claims of infringement by third
+L229: parties; the availability of adequate capital; obligations and other provisions related to DICK’S Sporting Goods’, Foot Locker’s
+L250: factors that could affect DICK’S Sporting Goods’ or Foot Locker’s actual results, see the risk factors set forth in DICK’S
+L251: Sporting Goods’ and Foot Locker’s filings with the Securities and Exchange Commission (the “SEC”), including DICK’S
+L252: Sporting Goods’ most recent Annual Report on Form 10-K, filed with the SEC on March 27, 2025, and its other filings with
+L253: the SEC, and Foot Locker’s most recent Annual Report on Form 10-K, filed with the SEC on March 27, 2025, and its other
+L258: **Additional Information about the Merger and
+L259: Where to Find It**
+L261: In connection with
+L262: the Transaction, DICK’S Sporting Goods intends to file with the SEC a registration statement on Form S-4, which will include
+L263: a proxy statement of Foot Locker that also constitutes a prospectus for the shares of DICK’S Sporting Goods common stock to be
+L264: offered in the Transaction. Each of DICK’S Sporting Goods and Foot Locker may also file other relevant documents with the SEC regarding
+L265: the Transaction. This communication is not a substitute for the proxy statement/prospectus or registration statement or any other document
+L272: Sporting Goods, Foot Locker and the Transaction once such documents are filed with the SEC through the website maintained by the SEC
+L273: at www.sec.gov. Copies of the documents filed with the SEC by DICK’S Sporting Goods will be available free of charge
+L274: on DICK’S Sporting Goods’ website at https://investors.dicks.com. Copies of the documents filed with the SEC by Foot
+L275: Locker will be available free of charge on Foot Locker’s website at https://investors.footlocker-inc.com.
+L279: DICK’S Sporting
+L280: Goods, Foot Locker and certain of their respective directors and executive officers may be deemed to be participants in the solicitation
+L285: with Related Persons” and “Stock Ownership,” DICK’S Sporting Goods’ Annual Report on Form 10-K for
+L286: the fiscal year ended February 1, 2025, which was filed with the SEC on March 27, 2025 and is available at https://www.sec.gov/ix?doc=/Archives/edgar/data/1089063/000108906325000012/dks-20250201.htm,
+L290: on Form 4, which are filed with the SEC. Information about the directors and executive officers of Foot Locker is set forth in Foot
+L291: Locker’s proxy statement for its 2025 annual meeting of shareholders, which was filed with the SEC on April 10, 2025 and is
+L292: available at https://www.sec.gov/ix?doc=/Archives/edgar/data/850209/000110465925033769/tm2425908-3\_def14a.htm, under the headings “Governance,”
+L293: “Director Compensation,” “Executive Compensation” and “Shareholder Ownership,” Foot Locker’s
+L294: Annual Report on Form 10-K for the fiscal year ended February 1, 2025, which was filed with the SEC on March 27, 2025
+L295: and is available at https://www.sec.gov/ix?doc=/Archives/edgar/data/850209/000143774925009620/floc20241213\_10k.htm, and to the extent
+L296: holdings of Foot Locker securities by its directors or executive officers have changed since the amounts set forth in Foot Locker’s
+L297: proxy statement for its 2025 annual meeting of shareholders, such changes have been or will be reflected on Initial Statements of Beneficial
+L300: Other information
+L301: regarding the participants in the proxy solicitations and a description of their direct and indirect interests, by security holdings
+L302: or otherwise, will be contained in the proxy statement/prospectus and other relevant materials to be filed with the SEC regarding the
+L303: Transaction when such materials become available. Investors should read the proxy statement/prospectus carefully when it becomes available
+L304: before making any voting or investment decisions. Copies of the documents filed with the SEC by DICK’S Sporting Goods and Foot
+L305: Locker will be available free of charge through the website maintained by the SEC at www.sec.gov. Additionally, copies
+L306: of documents filed with the SEC by DICK’S Sporting Goods will be available free of charge on DICK’S Sporting Goods’
+L307: website at https://investors.dicks.com and those filed by Foot Locker will be available free of charge on Foot Locker’s

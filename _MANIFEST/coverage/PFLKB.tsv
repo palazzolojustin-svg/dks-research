@@ -1,0 +1,4 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/FL/sec_filings/FL_10-K_FY2023_filed-2024-03-28.md	delta	2535	1281 (delta file, all lines)	FLS/safe harbor, cover checkboxes, TOC, generic GAAP policy text, ICFR boilerplate, XBRL/cert exhibit entries, page footers	WORKING_NOTES/P_FL_10K_B.md	48490
+SOURCE/04_PEERS/FL/sec_filings/FL_10-K_FY2022_filed-2023-03-27.md	delta	2771	1721 (delta file, all lines)	FLS/safe harbor, cover checkboxes, TOC, generic GAAP/fair value hierarchy definitions, ICFR boilerplate, XBRL exhibit entries, page footers	WORKING_NOTES/P_FL_10K_B.md	40660
+SOURCE/04_PEERS/FL/sec_filings/FL_10-K_FY2021_filed-2022-03-24.md	delta	2887	1419 (delta file, all lines)	FLS/safe harbor, cover checkboxes, TOC, generic GAAP policy text, audit/ICFR boilerplate, standard exhibit entries, page footers	WORKING_NOTES/P_FL_10K_B.md	45094

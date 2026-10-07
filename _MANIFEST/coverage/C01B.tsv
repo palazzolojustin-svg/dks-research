@@ -1,0 +1,8 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/00_DKS_SYNTHESIS/DKS_Foot_Locker_Merger_Proxy_Projections_Background_and_Fairness.md	full	663	663	none (pre-written synthesis; section 9 recap pointed =same as)	CORE_NOTES/C01_SYNTHESIS_B.md	49485
+SOURCE/00_DKS_SYNTHESIS/DKS_PRIMER.md	full	1117	1117	none	CORE_NOTES/C01_SYNTHESIS_B.md	68512
+SOURCE/00_DKS_SYNTHESIS/DKS_PRIMER_READABLE.md	full	327	327	plain-English restatement of DKS_PRIMER.md; duplicates pointed =same as, only differences kept	CORE_NOTES/C01_SYNTHESIS_B.md	4593
+SOURCE/00_DKS_SYNTHESIS/DKS_Press_Release_Quarterly_Results_Guidance_and_NonGAAP_Bridges.md	full	528	528	none	CORE_NOTES/C01_SYNTHESIS_B.md	55511
+SOURCE/00_DKS_SYNTHESIS/DKS_SEC_Filings_Index.md	full	133	133	none	CORE_NOTES/C01_SYNTHESIS_B.md	16560
+SOURCE/00_DKS_SYNTHESIS/DKS_Street_Ratings_PT_and_Estimate_Revision_History.md	full	419	419	none	CORE_NOTES/C01_SYNTHESIS_B.md	72027
+SOURCE/00_DKS_SYNTHESIS/DKS_Street_Research_Note_Summaries.md	full	350	350	source-file path lines; facts duplicated in Street_Ratings file pointed =same as	CORE_NOTES/C01_SYNTHESIS_B.md	44325

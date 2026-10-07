@@ -1,0 +1,4 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/02_DKS_TRANSCRIPTS/earnings_calls/DKS_Q4-FY2025_Earnings-Call_2026-03-12.md	full	1196	1196	FactSet headers/footers/page markers, participant list layout, operator lines, safe-harbor, greetings/thanks, FactSet disclaimer	CORE_NOTES/C02_EARNINGS_CALLS_B.md	16305
+SOURCE/02_DKS_TRANSCRIPTS/earnings_calls/DKS_Q1-FY2026_Earnings-Call_2026-05-27.md	full	1278	1278	FactSet headers/footers/page markers, participant list layout, operator lines, safe-harbor, greetings/thanks, FactSet disclaimer	CORE_NOTES/C02_EARNINGS_CALLS_B.md	16447
+SOURCE/02_DKS_TRANSCRIPTS/earnings_calls/DKS_Q2-FY2026_Earnings-Call_2026-08-25.md	full	1142	1142	FactSet headers/footers/page markers, participant list layout, operator lines, safe-harbor, greetings/thanks, FactSet disclaimer	CORE_NOTES/C02_EARNINGS_CALLS_B.md	17348

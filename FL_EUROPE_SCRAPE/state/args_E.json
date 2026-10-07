@@ -1,0 +1,78 @@
+{
+ "root": "C:/Users/palaz/Downloads/DKS_RESEARCH/FL_EUROPE_SCRAPE",
+ "cluster": "E",
+ "clusterTitle": "Folder baseline, then APAC (Australia/NZ, Asia, atmos Japan, licensing)",
+ "maxWaves": 8,
+ "baseline": [
+  {
+   "id": "BL01",
+   "instructions": "Read IN FULL, line 1 to the last line in sequential chunks: C:/Users/palaz/Downloads/DKS_RESEARCH/CORE_NOTES/C01_SYNTHESIS_A.md"
+  },
+  {
+   "id": "BL02",
+   "instructions": "Read IN FULL, line 1 to the last line in sequential chunks: C:/Users/palaz/Downloads/DKS_RESEARCH/CORE_NOTES/C01_SYNTHESIS_B.md and C:/Users/palaz/Downloads/DKS_RESEARCH/CORE_NOTES/00_CORE_DIGEST.md"
+  },
+  {
+   "id": "BL03",
+   "instructions": "Read IN FULL, line 1 to the last line in sequential chunks, these files under C:/Users/palaz/Downloads/DKS_RESEARCH/CORE_NOTES/: C02_EARNINGS_CALLS_A.md, C02_EARNINGS_CALLS_B.md, C03_CONFERENCES_EVENTS_A.md, C03_CONFERENCES_EVENTS_B.md, C04_EXPERT_CALLS.md, C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md"
+  },
+  {
+   "id": "BL04",
+   "instructions": "Read IN FULL, line 1 to the last line in sequential chunks, these files under C:/Users/palaz/Downloads/DKS_RESEARCH/CORE_NOTES/: C06_STREET_RESEARCH_R1.md, C06_STREET_RESEARCH_R2.md, C06_STREET_RESEARCH_R3.md"
+  },
+  {
+   "id": "BL05",
+   "instructions": "Read IN FULL, line 1 to the last line in sequential chunks, these files under C:/Users/palaz/Downloads/DKS_RESEARCH/CORE_NOTES/: C06_STREET_RESEARCH_R4.md, C06_STREET_RESEARCH_R5.md, C06_STREET_RESEARCH_R6.md"
+  },
+  {
+   "id": "BL06",
+   "instructions": "Read IN FULL, line 1 to the last line in sequential chunks, these files under C:/Users/palaz/Downloads/DKS_RESEARCH/WORKING_NOTES/: P_FL_10K_A.md, P_FL_10K_B.md, P_FL_10Q_A.md. Capture especially store counts by country and year, country exits, licensing deals, international segment results, leases, employees."
+  },
+  {
+   "id": "BL07",
+   "instructions": "Read IN FULL, line 1 to the last line in sequential chunks, these files under C:/Users/palaz/Downloads/DKS_RESEARCH/WORKING_NOTES/: P_FL_10Q_B.md, P_FL_10Q_C.md, P_FL_8K_A.md, P_FL_8K_B.md"
+  },
+  {
+   "id": "BL08",
+   "instructions": "Read IN FULL, line 1 to the last line in sequential chunks, these files under C:/Users/palaz/Downloads/DKS_RESEARCH/WORKING_NOTES/: P_ADIDAS_PUMA_ASO_FL_RESEARCH.md, W20_SECTOR_MACRO.md, W07_FL_MERGER_PROSPECTUS_A.md, W07_FL_MERGER_PROSPECTUS_B.md, W08_DKS_FL_DEAL_COMMUNICATIONS_425.md"
+  },
+  {
+   "id": "BL09",
+   "instructions": "Read IN FULL, line 1 to the last line in sequential chunks, these files under C:/Users/palaz/Downloads/DKS_RESEARCH/WORKING_NOTES/: W01_DKS_10K_FY2024-FY2025.md, W04_DKS_10Q_FY25Q1-FY26Q2.md, W05_DKS_8K_PRESSRELEASES_A.md, W05_DKS_8K_PRESSRELEASES_B.md, W05_DKS_8K_PRESSRELEASES_C.md, W09_DKS_ANNUAL_REPORTS_TO_SHAREHOLDERS.md, W06_DKS_DEBT_REGISTRATION_DOCS.md"
+  },
+  {
+   "id": "BL10",
+   "instructions": "Read IN FULL, line 1 to the last line in sequential chunks, the two primers from earlier chats (HTML): C:/Users/palaz/Downloads/DKS_RESEARCH/FL_EUROPE_SCRAPE/baseline/primers/PRIMER_READABLE.html and C:/Users/palaz/Downloads/DKS_RESEARCH/FL_EUROPE_SCRAPE/baseline/primers/PRIMER_DENSE.html. Capture every international/Europe/APAC/licensing/closure fact AND every analytical method or framework already used (e.g. exit EPS math, probabilities, consensus store-count comparisons, licensing-template argument) - these are 'already found' and must not be re-delivered."
+  },
+  {
+   "id": "BL11",
+   "instructions": "Grep sweep (case-insensitive, content mode with context) for anything on Foot Locker International not covered by the other baseline readers: search C:/Users/palaz/Downloads/DKS_RESEARCH/WORKING_NOTES (P_NKE_*, P_DECK_*, P_ONON_*, P_ASO_*, W02_*, W03_*, W21_*) and the whole C:/Users/palaz/Downloads/DKS_RESEARCH/SOURCE folder (all text-like files) for patterns such as: Foot Locker Europe|EMEA|Foot Locker International|international stores|Fourlis|Metro Brands|Al-Futtaim|Alshaya|atmos|Foot Locker Australia|New Zealand|Hong Kong|Singapore|Malaysia|licens(ed|ing|ee)|franchise|Heemskerk|Venlo|works council|Italy|France|Germany|Spain|Netherlands|Belgium|Poland|divest|exit .* market. Read the surrounding context of each hit and record the facts. This is the 'everything else in the folder' sweep."
+  }
+ ],
+ "tasks": [
+  {
+   "slug": "apac-au-nz",
+   "title": "Australia and New Zealand: registries, news, malls, locator, Accent Group",
+   "region": "APAC",
+   "instructions": "Australia/NZ: ASIC records for Foot Locker Australia (Pty Ltd / Inc) - officeholder changes and financial statements via free summaries (abr.business.gov.au, opencorporates, connectonline, ASIC document lists); NZ Companies Office (free filings: Foot Locker New Zealand annual financial statements, directors); Australian/NZ local news ('Foot Locker closing', 'Foot Locker shuts', 'Foot Locker store closure'), Inside Retail, Ragtrader, AFR Street Talk (M&A scoops!), The Australian DataRoom; Scentre (Westfield), Vicinity, GPT, Stockland, QIC, Kiwi Property tenant changes; Seek job ads for closure/transition roles; Australian store-locator counts current vs Wayback. Check Accent Group (ASX: AX1 - Hype DC, Platypus, the natural licensee/buyer), Super Retail, and others for Foot Locker mentions in ASX announcements/results 2025-26."
+  },
+  {
+   "slug": "apac-asia",
+   "title": "Asia ex-Japan owned stores and licensing partners",
+   "region": "APAC",
+   "instructions": "Determine the 2026 status of FL owned stores in Hong Kong, Macau, South Korea, Singapore, Malaysia, Thailand, Philippines, China (owned vs licensed vs exited). Sources: HK Companies Registry (ICRIS summaries / opencorporates), Korea DART (Foot Locker Korea filings), ACRA, local news, mall directories, FL locators vs Wayback. Licensing partners: Metro Brands India (investor calls, annual report FY26, FL store counts and openings 2025-26), Al-Futtaim, Apparel Group, Alshaya (Middle East), any new Asian licensee - new licence territories or owned-to-licensed conversions in 2025-26."
+  },
+  {
+   "slug": "atmos-japan",
+   "title": "atmos Japan",
+   "region": "APAC",
+   "instructions": "atmos (Tokyo sneaker chain bought by FL in 2021 for ~$360-372M): Japanese sources - 'atmos 閉店', 'アトモス 閉店', 'アトモス 店舗', 'フットロッカー アトモス 売却', 'atmos 事業譲渡', corporate registry (houjin-bangou.nta.go.jp, kanpo official gazette notices incl. 決算公告), Tokyo Shoko Research / Teikoku Databank news, WWD Japan, Fashionsnap, Senken Shimbun, Nikkei. Find store-count changes 2025-26 (current atmos store list vs Wayback), management changes, financial notices (balance-sheet announcements in kanpo), any reports of sale, MBO, licensing or restructuring, and changes to events (atmos con) or collaborations."
+  },
+  {
+   "slug": "licensing-template",
+   "title": "Licensing conversions as exit template: new 2025-26 evidence",
+   "region": "Europe",
+   "instructions": "Find NEW 2025-2026 evidence of owned-to-licensed conversions or new licence deals (Europe or APAC): FL licensed-store announcements and partner press releases; Fourlis (Greece/Romania/Cyprus/Bulgaria) 2025-26 annual/quarterly reports with FL store counts and any new territories; Metro Brands; Al-Futtaim; Apparel Group; Alshaya; any new European licensee or franchise partner (e.g. in CEE, Nordics, Portugal, Ireland); FL/DKS job postings for licensing/franchise/international partnerships roles; royalty income mentions. Determine where the licensed count growth (246 to 266 stores) came from - new partner openings vs conversions of previously owned stores - and whether any European owned market moved to a licensee."
+  }
+ ]
+}

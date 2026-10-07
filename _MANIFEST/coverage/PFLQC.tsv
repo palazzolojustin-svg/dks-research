@@ -1,0 +1,4 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2024-Q3_filed-2024-12-11.md	delta	534 (delta file; original 1490)	534	cover page, TOC, safe-harbor/FLS text, generic GAAP/EPS/FV/liquidity policy text, SOX certs, XBRL exhibit entries, signatures, page footers	WORKING_NOTES/P_FL_10Q_C.md	21487
+SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2025-Q1_filed-2025-06-11.md	delta	671 (delta file; original 1578)	671	cover page, TOC, safe-harbor/FLS text, generic GAAP/EPS/FV/liquidity policy text, SOX certs, XBRL exhibit entries, signatures, page footers	WORKING_NOTES/P_FL_10Q_C.md	18596
+SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2025-Q2_filed-2025-09-02.md	delta	592 (delta file; original 1648)	592	cover page, TOC, safe-harbor/FLS text, generic GAAP/EPS/FV/liquidity policy text, SOX certs, XBRL exhibit entries, signatures, page footers	WORKING_NOTES/P_FL_10Q_C.md	18940

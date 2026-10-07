@@ -1,0 +1,11 @@
+# Raw scrape data (6+ GB) stays local only
+FL_EUROPE_SCRAPE/raw/
+PB_SCRAPE/raw/
+THESIS_SCRAPE/raw/
+
+# Local session/lock files
+.claude/scheduled_tasks.lock
+.env
+*.env
+__pycache__/
+*.pyc

@@ -1,0 +1,48 @@
+﻿baseline owned mix of DICK'S sales (flat pen 19.05, fw 30.33, other 3.4): 12.62
+
+=== markdown-adjusted premium change (bps, + = premium widens)
+('pooled avg discount (X11 a)', -4.64, -1.19, -196)
+('matched-category avg discount (X11 a)', -6.48, -1.2, -310)
+('like-for-like realized offer (X11 b)', -0.3, -2.5, 147)
+
+=== evidence-implied penetration change, pt/yr (low, high)
+review Apr-Aug +4.8% rel (0.27, 0.49)
+review idx Q2 +4.3% (0.24, 0.44)
+review idx early-Q3 +6.4% (0.35, 0.66)
+listing share +0.94pt (1:1, upper bound) (0.94, 0.94)
+
+=== bridge, fw flat (FY27 / FY28): dmix pt | GM bps cum | GM bps y/y | EPS cum | EPS exFY26 | % of +7bps
++0.25/yr         mgmt-high 900        FY27 +0.33pt  +3.0bps y/y +1.5 EPS +0.037 (ex26 +0.018)  21% | FY28 +0.50pt  +4.5bps EPS +0.057 (0.38%) cushion fw 14.7bps
++0.25/yr         mgmt-mid 800         FY27 +0.33pt  +2.6bps y/y +1.3 EPS +0.033 (ex26 +0.016)  19% | FY28 +0.50pt  +4.0bps EPS +0.051 (0.34%) cushion fw 13.1bps
++0.25/yr         md-adj central 600   FY27 +0.33pt  +2.0bps y/y +1.0 EPS +0.025 (ex26 +0.012)  14% | FY28 +0.50pt  +3.0bps EPS +0.038 (0.25%) cushion fw 9.8bps
++0.25/yr         md-adj stress 400    FY27 +0.33pt  +1.3bps y/y +0.7 EPS +0.016 (ex26 +0.008)  10% | FY28 +0.50pt  +2.0bps EPS +0.026 (0.17%) cushion fw 6.6bps
++0.50/yr         mgmt-high 900        FY27 +0.66pt  +6.0bps y/y +3.0 EPS +0.074 (ex26 +0.037)  43% | FY28 +0.99pt  +8.9bps EPS +0.115 (0.76%) cushion fw 29.5bps
++0.50/yr         mgmt-mid 800         FY27 +0.66pt  +5.3bps y/y +2.6 EPS +0.066 (ex26 +0.033)  38% | FY28 +0.99pt  +8.0bps EPS +0.102 (0.68%) cushion fw 26.2bps
++0.50/yr         md-adj central 600   FY27 +0.66pt  +4.0bps y/y +2.0 EPS +0.049 (ex26 +0.025)  28% | FY28 +0.99pt  +6.0bps EPS +0.076 (0.51%) cushion fw 19.7bps
++0.50/yr         md-adj stress 400    FY27 +0.66pt  +2.6bps y/y +1.3 EPS +0.033 (ex26 +0.016)  19% | FY28 +0.99pt  +4.0bps EPS +0.051 (0.34%) cushion fw 13.1bps
++0.75/yr         mgmt-high 900        FY27 +0.99pt  +8.9bps y/y +4.5 EPS +0.111 (ex26 +0.055)  64% | FY28 +1.49pt +13.4bps EPS +0.172 (1.14%) cushion fw 44.2bps
++0.75/yr         mgmt-mid 800         FY27 +0.99pt  +8.0bps y/y +4.0 EPS +0.098 (ex26 +0.049)  57% | FY28 +1.49pt +11.9bps EPS +0.153 (1.02%) cushion fw 39.3bps
++0.75/yr         md-adj central 600   FY27 +0.99pt  +6.0bps y/y +3.0 EPS +0.074 (ex26 +0.037)  43% | FY28 +1.49pt  +8.9bps EPS +0.115 (0.76%) cushion fw 29.5bps
++0.75/yr         md-adj stress 400    FY27 +0.99pt  +4.0bps y/y +2.0 EPS +0.049 (ex26 +0.025)  28% | FY28 +1.49pt  +6.0bps EPS +0.076 (0.51%) cushion fw 19.7bps
++1.00/yr         mgmt-high 900        FY27 +1.32pt +11.9bps y/y +6.0 EPS +0.148 (ex26 +0.074)  85% | FY28 +1.99pt +17.9bps EPS +0.229 (1.53%) cushion fw 59.0bps
++1.00/yr         mgmt-mid 800         FY27 +1.32pt +10.6bps y/y +5.3 EPS +0.131 (ex26 +0.066)  76% | FY28 +1.99pt +15.9bps EPS +0.204 (1.36%) cushion fw 52.4bps
++1.00/yr         md-adj central 600   FY27 +1.32pt  +8.0bps y/y +4.0 EPS +0.098 (ex26 +0.049)  57% | FY28 +1.99pt +11.9bps EPS +0.153 (1.02%) cushion fw 39.3bps
++1.00/yr         md-adj stress 400    FY27 +1.32pt  +5.3bps y/y +2.6 EPS +0.066 (ex26 +0.033)  38% | FY28 +1.99pt  +8.0bps EPS +0.102 (0.68%) cushion fw 26.2bps
+evid-low +0.25   mgmt-high 900        FY27 +0.33pt  +3.0bps y/y +1.5 EPS +0.037 (ex26 +0.018)  21% | FY28 +0.50pt  +4.5bps EPS +0.057 (0.38%) cushion fw 14.7bps
+evid-low +0.25   mgmt-mid 800         FY27 +0.33pt  +2.6bps y/y +1.3 EPS +0.033 (ex26 +0.016)  19% | FY28 +0.50pt  +4.0bps EPS +0.051 (0.34%) cushion fw 13.1bps
+evid-low +0.25   md-adj central 600   FY27 +0.33pt  +2.0bps y/y +1.0 EPS +0.025 (ex26 +0.012)  14% | FY28 +0.50pt  +3.0bps EPS +0.038 (0.25%) cushion fw 9.8bps
+evid-low +0.25   md-adj stress 400    FY27 +0.33pt  +1.3bps y/y +0.7 EPS +0.016 (ex26 +0.008)  10% | FY28 +0.50pt  +2.0bps EPS +0.026 (0.17%) cushion fw 6.6bps
+evid-mid +0.45   mgmt-high 900        FY27 +0.60pt  +5.4bps y/y +2.7 EPS +0.066 (ex26 +0.033)  38% | FY28 +0.90pt  +8.1bps EPS +0.103 (0.69%) cushion fw 26.5bps
+evid-mid +0.45   mgmt-mid 800         FY27 +0.60pt  +4.8bps y/y +2.4 EPS +0.059 (ex26 +0.029)  34% | FY28 +0.90pt  +7.2bps EPS +0.092 (0.61%) cushion fw 23.6bps
+evid-mid +0.45   md-adj central 600   FY27 +0.60pt  +3.6bps y/y +1.8 EPS +0.044 (ex26 +0.022)  26% | FY28 +0.90pt  +5.4bps EPS +0.069 (0.46%) cushion fw 17.7bps
+evid-mid +0.45   md-adj stress 400    FY27 +0.60pt  +2.4bps y/y +1.2 EPS +0.030 (ex26 +0.015)  17% | FY28 +0.90pt  +3.6bps EPS +0.046 (0.31%) cushion fw 11.8bps
+evid-high +0.94  mgmt-high 900        FY27 +1.25pt +11.2bps y/y +5.6 EPS +0.139 (ex26 +0.069)  80% | FY28 +1.87pt +16.8bps EPS +0.216 (1.43%) cushion fw 55.5bps
+evid-high +0.94  mgmt-mid 800         FY27 +1.25pt +10.0bps y/y +5.0 EPS +0.123 (ex26 +0.062)  71% | FY28 +1.87pt +14.9bps EPS +0.192 (1.27%) cushion fw 49.3bps
+evid-high +0.94  md-adj central 600   FY27 +1.25pt  +7.5bps y/y +3.7 EPS +0.093 (ex26 +0.046)  53% | FY28 +1.87pt +11.2bps EPS +0.144 (0.96%) cushion fw 37.0bps
+evid-high +0.94  md-adj stress 400    FY27 +1.25pt  +5.0bps y/y +2.5 EPS +0.062 (ex26 +0.031)  36% | FY28 +1.87pt  +7.5bps EPS +0.096 (0.64%) cushion fw 24.7bps
+
+=== footwear drift effect (+0.50/yr pen, 600bps)
+fw flat      FY27 +0.66pt +4.0bps y/y +2.0 EPS +0.049 | FY28 +6.0bps EPS +0.076
+fw -0.5/yr   FY27 +0.86pt +5.2bps y/y +2.6 EPS +0.064 | FY28 +7.8bps EPS +0.100
+fw -1/yr     FY27 +1.06pt +6.4bps y/y +3.2 EPS +0.079 | FY28 +9.7bps EPS +0.124
+fw +0.5/yr   FY27 +0.46pt +2.8bps y/y +1.4 EPS +0.034 | FY28 +4.1bps EPS +0.053

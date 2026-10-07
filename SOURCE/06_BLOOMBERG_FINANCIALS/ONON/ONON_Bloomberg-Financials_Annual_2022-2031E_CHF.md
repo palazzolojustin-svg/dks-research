@@ -1,0 +1,1962 @@
+# ONON Bloomberg-Financials Annual 2022-2031E CHF
+
+- **Source:** Bloomberg Terminal, Company Financials (FA) screen, consensus estimates
+- **Pages:** 4
+- **Original PDF:** _archive_pdf/06_BLOOMBERG_FINANCIALS/ONON/ONON_Bloomberg-Financials_Annual_2022-2031E_CHF.pdf
+- **Original filename:** ONON annuals.pdf
+
+---
+
+
+<!-- page 1 -->
+
+Company Financials
+Ticker: ONON US Equity
+Currency: CHF
+Est Source: Consensus
+Periodicity: Annuals
+Analytics: None
+Multiple Periods
+In Millions of CHF
+2022 Y
+2023 Y
+2024 Y
+2025 Y
+2026 Y Est
+2027 Y Est
+2028 Y Est
+2029 Y Est
+2030 Y Est
+2031 Y Est
+12 Months Ending
+12/31/2022
+12/31/2023
+12/31/2024
+12/31/2025
+12/31/2026
+12/31/2027
+12/31/2028
+12/31/2029
+12/31/2030
+12/31/2031
+Highlights
+Adjusted Diluted EPS
+0.28
+0.35
+0.97
+0.80
+1.42
+1.69
+2.11
+2.57
+2.87
+3.44
+Revenue
+1,222.10
+1,792.10
+2,318.30
+3,014.00
+3,512.40
+4,171.27
+4,950.65
+5,706.00
+6,338.63
+6,700.00
+Constant Currency Sales Growth (%)
+68.70
+46.60
+29.40
+35.60
+21.58
+18.86
+17.20
+15.41
+11.62
+10.03
+Channel Revenue
+Wholesale
+777.00
+1,120.30
+1,375.50
+1,753.40
+1,915.09
+2,216.91
+2,530.24
+2,880.01
+3,149.94
+3,353.35
+Direct-to-Consumer
+445.10
+671.70
+942.80
+1,260.60
+1,606.09
+1,987.02
+2,400.97
+2,822.87
+3,261.51
+3,628.84
+Regional Revenue
+Europe, Middle East & Africa
+378.10
+488.70
+577.80
+762.70
+904.43
+1,077.86
+1,282.04
+1,487.71
+1,626.79
+1,759.50
+Americas
+763.80
+1,162.20
+1,480.30
+1,740.10
+1,873.73
+2,140.33
+2,447.63
+2,721.66
+2,957.49
+3,265.04
+Asia Pacific
+80.20
+141.10
+260.20
+511.20
+744.95
+1,005.81
+1,266.94
+1,572.67
+1,865.18
+2,067.11
+Product Revenue
+Shoes
+1,167.50
+1,711.40
+2,199.60
+2,804.40
+3,211.46
+3,761.62
+4,308.34
+4,846.13
+5,165.87
+5,584.07
+Apparel
+47.30
+68.90
+101.00
+169.90
+238.44
+343.10
+470.54
+632.81
+907.45
+1,000.66
+Accessories
+7.40
+11.70
+17.70
+39.70
+70.51
+96.34
+146.04
+202.32
+281.95
+335.52
+Gross Margin (%)
+56.04
+59.55
+60.60
+62.80
+65.31
+65.15
+65.44
+65.58
+65.67
+65.75
+Adjusted Operating Income
+118.90
+212.00
+283.00
+439.60
+532.39
+643.96
+814.65
+1,002.83
+1,129.60
+1,239.00
+Adjusted Operating Margin (%)
+9.73
+11.83
+12.20
+14.58
+16.35
+16.47
+17.17
+17.73
+17.78
+17.89
+Adjusted EBITDA
+165.30
+276.90
+387.60
+567.00
+705.36
+842.45
+1,041.05
+1,255.45
+1,385.00
+1,549.50
+Adjusted EBITDA Margin (%)
+13.50
+15.50
+16.70
+18.80
+20.28
+20.55
+21.19
+21.92
+21.77
+22.29
+Adjusted Net Income
+80.70
+100.20
+283.40
+239.00
+432.56
+503.96
+634.76
+725.75
+793.75
+955.00
+Adjusted Net Margin (%)
+7.41
+6.27
+13.69
+7.93
+13.47
+13.43
+13.82
+13.87
+13.44
+Company Operating Metrics
+Total Stores
+32.00
+49.00
+70.00
+87.00
+115.00
+157.00
+187.00
+219.00
+251.00
+Constant Currency Sales Growth (%)
+68.70
+46.60
+29.40
+35.60
+21.58
+18.86
+17.20
+15.41
+11.62
+10.03
+By Channel:
+Wholesale
+26.30
+32.60
+14.65
+15.50
+13.90
+13.52
+8.59
+7.10
+Direct-to-Consumer
+44.60
+39.90
+31.25
+23.17
+20.06
+16.22
+13.96
+11.97
+By Region:
+Americas
+31.20
+23.40
+12.81
+13.00
+12.64
+11.85
+9.08
+8.32
+EMEA
+19.90
+34.70
+20.74
+18.27
+17.64
+15.81
+11.25
+9.83
+Asia Pacific
+95.60
+106.70
+55.38
+37.87
+33.25
+31.33
+30.59
+30.62
+By Product:
+Shoes
+32.30
+32.90
+19.42
+15.34
+13.10
+11.50
+8.75
+9.00
+Apparel
+51.00
+75.50
+39.87
+42.79
+37.27
+40.58
+41.44
+25.00
+Accessories
+54.30
+135.10
+119.81
+49.96
+45.50
+29.68
+9.73
+4.41
+FX Impact (%)
+-4.81
+1.29
+0.00
+0.00
+0.00
+0.00
+Business Breakdown
+Wholesale
+Revenue
+777.00
+1,120.30
+1,375.50
+1,753.40
+1,915.09
+2,216.91
+2,530.24
+2,880.01
+3,149.94
+3,353.35
+As % of Revenue
+63.60
+62.50
+59.30
+58.20
+54.45
+52.78
+51.52
+50.43
+49.31
+47.94
+Direct-to-Consumer
+Revenue
+445.10
+671.70
+942.80
+1,260.60
+1,606.09
+1,987.02
+2,400.97
+2,822.87
+3,261.51
+3,628.84
+As % of Revenue
+36.40
+37.50
+40.70
+41.80
+45.55
+47.24
+48.49
+49.61
+50.74
+52.25
+Regional Breakdown
+Europe, Middle East & Africa
+Revenue
+378.10
+488.70
+577.80
+762.70
+904.43
+1,077.86
+1,282.04
+1,487.71
+1,626.79
+1,759.50
+As % of Revenue
+30.90
+27.20
+24.90
+25.30
+25.69
+25.50
+25.58
+25.67
+24.91
+24.42
+Americas
+Revenue
+763.80
+1,162.20
+1,480.30
+1,740.10
+1,873.73
+2,140.33
+2,447.63
+2,721.66
+2,957.49
+3,265.04
+As % of Revenue
+62.50
+64.90
+63.90
+57.70
+53.11
+50.74
+48.93
+46.98
+46.06
+46.18
+Asia Pacific
+Revenue
+80.20
+141.10
+260.20
+511.20
+744.95
+1,005.81
+1,266.94
+1,572.67
+1,865.18
+2,067.11
+As % of Revenue
+6.60
+7.90
+11.20
+17.00
+21.20
+23.70
+25.42
+27.44
+29.03
+29.40
+This report may not be modified or altered in any way. The BLOOMBERG PROFESSIONAL service and BLOOMBERG Data are owned and distributed locally by Bloomberg Finance LP (“BFLP”) and its subsidiaries in all jurisdictions other than Argentina, Bermuda, China, India, Japan and Korea (the (“BFLP
+Countries”). BFLP is a wholly-owned subsidiary of Bloomberg LP (“BLP”). BLP provides BFLP with all the global marketing and operational support and service for the Services and distributes the Services either directly or through a non-BFLP subsidiary in the BLP Countries. BFLP, BLP and their affiliates
+do not provide investment advice, and nothing herein shall constitute an offer of financial instruments by BFLP, BLP or their affiliates.
+Bloomberg ®       10/04/2026 22:19:22
+1 
+
+
+<!-- page 2 -->
+
+Company Financials
+Ticker: ONON US Equity
+Currency: CHF
+Est Source: Consensus
+Periodicity: Annuals
+Analytics: None
+In Millions of CHF
+2022 Y
+2023 Y
+2024 Y
+2025 Y
+2026 Y Est
+2027 Y Est
+2028 Y Est
+2029 Y Est
+2030 Y Est
+2031 Y Est
+12 Months Ending
+12/31/2022
+12/31/2023
+12/31/2024
+12/31/2025
+12/31/2026
+12/31/2027
+12/31/2028
+12/31/2029
+12/31/2030
+12/31/2031
+Prior Disclosure
+Europe
+Revenue
+354.30
+As % of Revenue
+29.00
+North America
+Revenue
+738.50
+As % of Revenue
+60.40
+Rest of World
+Revenue
+49.10
+-0.10
+0.00
+0.00
+0.00
+As % of Revenue
+4.00
+0.00
+Product Breakdown
+Total Revenue
+Shoes
+1,167.50
+1,711.40
+2,199.60
+2,804.40
+3,211.46
+3,761.62
+4,308.34
+4,846.13
+5,165.87
+5,584.07
+As % of Revenue
+95.50
+95.50
+94.90
+93.00
+91.18
+89.53
+87.45
+85.17
+81.21
+80.50
+Apparel
+47.30
+68.90
+101.00
+169.90
+238.44
+343.10
+470.54
+632.81
+907.45
+1,000.66
+As % of Revenue
+3.90
+3.80
+4.40
+5.60
+6.79
+8.13
+9.52
+11.11
+14.25
+14.40
+Accessories
+7.40
+11.70
+17.70
+39.70
+70.51
+96.34
+146.04
+202.32
+281.95
+335.52
+As % of Revenue
+0.60
+0.70
+0.80
+1.30
+2.00
+2.29
+2.97
+3.56
+4.43
+4.81
+Income Statement
+Total Revenue
+1,222.10
+1,792.10
+2,318.30
+3,014.00
+3,512.40
+4,171.27
+4,950.65
+5,706.00
+6,338.63
+6,700.00
+Cost of Revenue
+537.20
+724.80
+912.60
+1,120.40
+1,218.85
+1,462.22
+1,710.63
+1,973.62
+2,208.81
+2,396.24
+As % of Revenue
+43.96
+40.44
+39.37
+37.17
+34.38
+34.70
+34.45
+34.29
+33.88
+33.01
+Gross Profit
+684.90
+1,067.20
+1,405.70
+1,893.60
+2,299.19
+2,741.89
+3,229.05
+3,761.75
+4,183.60
+4,606.02
+Gross Margin (%)
+56.04
+59.55
+60.60
+62.80
+65.31
+65.15
+65.44
+65.58
+65.67
+65.75
+Total Operating Expenses
+599.80
+887.10
+1,194.10
+1,516.60
+1,817.16
+2,156.73
+2,514.38
+2,867.53
+3,197.40
+3,464.67
+As % of Revenue
+49.08
+49.50
+51.51
+50.32
+51.62
+51.12
+50.40
+49.74
+49.56
+49.24
+Distribution Expense
+151.00
+239.50
+288.30
+322.90
+348.10
+405.21
+471.25
+528.46
+594.34
+634.24
+Selling Expense
+85.50
+133.30
+168.20
+260.10
+333.90
+410.74
+491.05
+575.85
+644.71
+726.31
+As a % of Revenue (%)
+9.48
+9.73
+9.87
+10.03
+10.06
+10.38
+Marketing Expense
+130.20
+195.80
+276.60
+376.50
+481.69
+573.18
+666.70
+757.42
+852.52
+965.38
+As a % of Revenue (%)
+13.70
+13.65
+13.51
+13.40
+13.62
+13.78
+General & Administrative
+199.30
+286.60
+389.50
+494.50
+575.33
+672.40
+771.33
+872.67
+961.81
+1,002.40
+Stock-Based Compensation
+33.80
+31.80
+71.50
+66.60
+63.39
+73.56
+84.20
+93.25
+99.04
+100.93
+As a % of Sales
+2.18
+2.13
+2.09
+2.03
+1.98
+1.74
+Operating Income
+85.10
+180.20
+211.60
+377.00
+490.97
+603.65
+749.22
+917.43
+1,017.50
+1,140.75
+Operating Margin (%)
+6.96
+10.06
+9.13
+12.51
+13.97
+14.39
+15.19
+15.99
+15.91
+16.32
+EBITDA
+131.50
+245.10
+316.20
+504.40
+644.97
+791.22
+968.34
+1,164.79
+1,270.32
+1,425.49
+As % of Revenue
+10.76
+13.68
+13.64
+16.74
+18.44
+18.77
+19.34
+20.17
+19.93
+20.32
+Depreciation & Amortization
+46.40
+64.90
+104.60
+127.40
+150.80
+177.43
+202.79
+233.73
+260.58
+284.98
+As % of Revenue
+3.80
+3.62
+4.51
+4.23
+4.26
+4.27
+4.16
+4.20
+4.18
+4.05
+Non-Operating (Income) Loss
+7.20
+111.10
+-68.00
+171.80
+-2.85
+-0.98
+1.39
+2.73
+0.66
+-36.55
+Financial Income
+5.70
+11.60
+23.50
+30.90
+30.18
+33.32
+36.88
+43.86
+59.46
+63.49
+Finance Cost
+6.40
+11.30
+23.10
+29.60
+29.22
+30.77
+32.96
+43.78
+63.67
+108.85
+Interest Expense, Net
+0.10
+0.50
+0.50
+0.50
+Foreign Exch Losses (Gains)
+6.50
+111.40
+-67.70
+173.10
+-2.07
+1.33
+0.00
+0.00
+Other Non-Operating (Income) Expense
+0.60
+-0.80
+-0.80
+-1.80
+-0.24
+2.15
+6.99
+11.40
+34.45
+Pre-Tax Income
+77.90
+69.10
+279.60
+205.20
+491.05
+597.33
+770.79
+909.70
+1,018.29
+1,168.25
+As % of Revenue
+6.37
+3.86
+12.06
+6.81
+14.16
+13.96
+14.78
+15.27
+15.49
+16.68
+Income Tax Expense
+20.20
+-10.50
+37.40
+1.50
+73.53
+116.67
+144.47
+179.64
+202.99
+226.70
+Tax Rate (%)
+25.93
+13.38
+0.73
+16.45
+18.81
+19.03
+19.32
+19.51
+19.76
+Net Income
+57.70
+79.60
+242.30
+203.70
+417.61
+497.12
+614.28
+738.33
+829.33
+962.00
+Net Margin (%)
+4.72
+4.44
+10.45
+6.76
+11.68
+11.60
+12.40
+12.93
+12.71
+13.32
+Basic Weighted Avg. Shares
+282.20
+284.26
+288.47
+295.55
+299.97
+300.59
+296.76
+291.42
+288.67
+274.57
+Diluted Weighted Average Shares
+284.55
+287.57
+292.25
+298.78
+301.70
+301.81
+298.24
+295.52
+291.30
+295.71
+Diluted EPS
+0.18
+0.25
+0.74
+0.61
+1.23
+1.45
+1.82
+2.22
+2.45
+2.87
+Adjusted Results
+SG&A Exc. SBC
+1,435.68
+1,707.50
+1,997.98
+2,285.40
+2,547.28
+2,756.92
+This report may not be modified or altered in any way. The BLOOMBERG PROFESSIONAL service and BLOOMBERG Data are owned and distributed locally by Bloomberg Finance LP (“BFLP”) and its subsidiaries in all jurisdictions other than Argentina, Bermuda, China, India, Japan and Korea (the (“BFLP
+Countries”). BFLP is a wholly-owned subsidiary of Bloomberg LP (“BLP”). BLP provides BFLP with all the global marketing and operational support and service for the Services and distributes the Services either directly or through a non-BFLP subsidiary in the BLP Countries. BFLP, BLP and their affiliates
+do not provide investment advice, and nothing herein shall constitute an offer of financial instruments by BFLP, BLP or their affiliates.
+Bloomberg ®       10/04/2026 22:19:22
+2 
+
+
+<!-- page 3 -->
+
+Company Financials
+Ticker: ONON US Equity
+Currency: CHF
+Est Source: Consensus
+Periodicity: Annuals
+Analytics: None
+In Millions of CHF
+2022 Y
+2023 Y
+2024 Y
+2025 Y
+2026 Y Est
+2027 Y Est
+2028 Y Est
+2029 Y Est
+2030 Y Est
+2031 Y Est
+12 Months Ending
+12/31/2022
+12/31/2023
+12/31/2024
+12/31/2025
+12/31/2026
+12/31/2027
+12/31/2028
+12/31/2029
+12/31/2030
+12/31/2031
+As a % of Sales (%)
+49.43
+48.99
+48.48
+47.84
+47.82
+47.65
+Operating Income
+118.90
+212.00
+283.00
+439.60
+532.39
+643.96
+814.65
+1,002.83
+1,129.60
+1,239.00
+Operating Margin (%)
+9.73
+11.83
+12.20
+14.58
+16.35
+16.47
+17.17
+17.73
+17.78
+17.89
+EBITDA
+165.30
+276.90
+387.60
+567.00
+705.36
+842.45
+1,041.05
+1,255.45
+1,385.00
+1,549.50
+EBITDA Margin (%)
+13.50
+15.50
+16.70
+18.80
+20.28
+20.55
+21.19
+21.92
+21.77
+22.29
+Pre-Tax Income
+561.08
+684.78
+831.48
+1,010.44
+1,153.31
+1,296.63
+Net Income Available to Common
+90.60
+112.40
+317.40
+239.00
+485.25
+571.36
+693.85
+835.00
+924.19
+1,072.55
+Net Income
+80.70
+100.20
+283.40
+239.00
+432.56
+503.96
+634.76
+725.75
+793.75
+955.00
+Net Margin (%)
+7.41
+6.27
+13.69
+7.93
+13.47
+13.43
+13.82
+13.87
+13.44
+Diluted EPS
+0.28
+0.35
+0.97
+0.80
+1.42
+1.69
+2.11
+2.57
+2.87
+3.44
+Company Specific Adjustments
+Stock-Based Compensation
+38.30
+27.30
+57.50
+66.60
+67.44
+81.65
+99.13
+113.12
+119.59
+117.57
+Condensed Balance Sheet
+Assets
+Current Assets
+1,051.50
+1,151.30
+1,759.70
+1,962.40
+2,516.13
+3,108.24
+3,757.33
+4,587.35
+5,542.54
+6,533.57
+Cash & Cash Equivalents
+371.00
+494.60
+924.30
+1,019.90
+1,406.20
+1,813.59
+2,245.01
+2,842.01
+3,515.66
+4,554.47
+Accounts Receivable
+174.60
+204.80
+246.10
+305.40
+370.59
+438.31
+507.48
+582.68
+622.44
+747.54
+Inventory
+395.60
+356.50
+419.20
+419.80
+483.53
+560.01
+641.02
+699.80
+792.79
+836.22
+Other Current Financial Assets
+33.20
+34.20
+56.40
+59.20
+74.58
+82.79
+89.05
+100.49
+105.96
+110.92
+Other Current Operating Assets
+77.10
+61.20
+113.70
+158.10
+173.82
+197.82
+215.40
+247.38
+252.80
+284.42
+Non-Current Assets
+330.90
+441.70
+617.00
+873.00
+973.71
+1,101.52
+1,268.06
+1,560.40
+1,967.68
+2,052.94
+Property, Plant & Equipment
+77.20
+93.60
+127.20
+148.80
+169.26
+157.37
+137.22
+146.06
+168.33
+240.89
+Right-of-Use Assets
+151.60
+214.00
+323.70
+494.10
+543.18
+577.86
+638.78
+759.05
+858.76
+843.46
+Intangible Assets
+70.30
+64.60
+58.30
+54.20
+56.37
+58.24
+62.11
+69.87
+73.10
+96.51
+Net Deferred Tax Assets
+31.70
+69.50
+107.80
+175.90
+184.37
+190.55
+184.05
+186.40
+186.34
+187.81
+Total Assets
+1,382.40
+1,593.00
+2,376.70
+2,835.40
+3,447.49
+4,061.11
+4,747.98
+5,708.03
+6,741.99
+8,142.40
+Liabilities & Equity
+Current Liabilities
+242.70
+305.60
+660.40
+724.40
+794.44
+877.81
+939.98
+1,052.03
+1,152.29
+1,209.04
+Accounts Payable
+111.00
+65.10
+166.50
+154.80
+183.26
+220.04
+247.77
+285.11
+316.04
+357.60
+Short-Term Debt
+21.60
+38.70
+59.10
+81.20
+89.48
+102.78
+128.88
+171.32
+188.92
+268.98
+Other Current Financial Liabilities
+81.70
+156.40
+299.30
+355.40
+381.63
+422.17
+452.04
+486.32
+546.99
+503.07
+Other Current Operating Liabilities
+31.10
+53.30
+110.40
+56.80
+135.10
+138.41
+145.90
+168.19
+173.73
+218.78
+Current Provisions
+5.00
+7.10
+21.70
+13.00
+13.87
+14.45
+15.63
+17.80
+12.15
+12.01
+Income Tax Liabilities
+13.90
+23.50
+62.50
+118.90
+77.84
+86.25
+81.97
+88.42
+93.61
+81.41
+Non-Current Liabilities
+170.20
+213.00
+324.50
+478.60
+524.56
+594.35
+690.86
+800.12
+1,041.37
+1,128.28
+Employee Benefit Obligations
+6.30
+2.20
+8.60
+5.50
+7.73
+7.94
+7.98
+8.45
+7.73
+8.10
+Non-Current Provisions
+7.20
+10.00
+1.70
+23.50
+25.71
+26.20
+26.08
+26.83
+26.61
+27.60
+Long-Term Debt
+190.30
+2.80
+485.85
+531.06
+577.07
+670.22
+753.54
+838.71
+Net Deferred Tax Liabilities
+17.90
+10.50
+10.80
+9.30
+6.89
+7.23
+6.66
+6.61
+6.30
+5.54
+Total Operating Lease Liabilities
+160.40
+229.00
+347.60
+521.50
+612.16
+739.89
+868.83
+1,115.37
+1,242.38
+1,433.14
+Total Liabilities
+412.90
+518.50
+984.90
+1,203.00
+1,316.77
+1,439.86
+1,535.50
+1,730.48
+1,963.24
+2,115.19
+Total Shareholders' Equity
+969.50
+1,074.50
+1,391.80
+1,632.40
+2,131.70
+2,628.65
+3,205.12
+3,941.83
+4,713.67
+5,807.40
+Common Stock
+33.50
+33.50
+33.70
+34.10
+34.01
+34.01
+33.99
+33.94
+33.88
+34.10
+Capital Reserve
+1,105.00
+1,140.80
+1,210.00
+1,289.00
+1,379.63
+1,499.81
+1,685.39
+1,563.28
+1,582.12
+1,324.70
+Retained Earnings
+-142.90
+-63.30
+178.90
+382.60
+763.87
+1,161.15
+1,655.95
+2,696.24
+3,427.65
+4,501.82
+Total Liabilities & Shareholders' Equity
+1,382.40
+1,593.00
+2,376.70
+2,835.40
+2,846.05
+3,379.09
+3,930.41
+4,724.88
+5,655.93
+6,644.84
+Special Company Reference Items
+Net Debt (Cash)
+-243.80
+-299.80
+-633.10
+-557.60
+-765.14
+-1,014.17
+-1,371.96
+-1,575.44
+-1,985.16
+-2,513.05
+Return on Equity (%)
+6.35
+7.79
+19.65
+13.47
+22.97
+21.93
+21.55
+19.43
+18.87
+14.12
+Days Sales Outstanding
+52.15
+41.71
+38.85
+36.98
+38.04
+38.40
+36.68
+36.77
+36.67
+36.16
+Days Inventory Outstanding
+268.79
+179.53
+168.12
+136.76
+142.24
+141.06
+137.27
+125.82
+125.50
+119.25
+Inventory Turnover
+2.03
+1.93
+2.35
+2.67
+2.62
+3.91
+2.67
+2.77
+2.74
+2.73
+Inventory to Sales (%)
+25.37
+17.79
+15.42
+13.04
+14.34
+13.64
+13.41
+12.14
+11.84
+11.63
+Current Ratio
+4.33
+3.77
+2.66
+2.71
+3.20
+3.46
+3.58
+4.07
+4.42
+Working Capital
+808.80
+845.80
+1,099.30
+1,238.00
+1,749.05
+2,294.51
+2,720.16
+3,842.79
+4,855.60
+Net Working Capital
+459.20
+496.20
+498.80
+570.40
+655.49
+778.86
+918.64
+983.97
+1,159.66
+1,231.59
+Book Value per Share
+3.41
+3.74
+4.76
+5.46
+7.20
+9.26
+11.76
+14.06
+17.43
+23.59
+This report may not be modified or altered in any way. The BLOOMBERG PROFESSIONAL service and BLOOMBERG Data are owned and distributed locally by Bloomberg Finance LP (“BFLP”) and its subsidiaries in all jurisdictions other than Argentina, Bermuda, China, India, Japan and Korea (the (“BFLP
+Countries”). BFLP is a wholly-owned subsidiary of Bloomberg LP (“BLP”). BLP provides BFLP with all the global marketing and operational support and service for the Services and distributes the Services either directly or through a non-BFLP subsidiary in the BLP Countries. BFLP, BLP and their affiliates
+do not provide investment advice, and nothing herein shall constitute an offer of financial instruments by BFLP, BLP or their affiliates.
+Bloomberg ®       10/04/2026 22:19:22
+3 
+
+
+<!-- page 4 -->
+
+Company Financials
+Ticker: ONON US Equity
+Currency: CHF
+Est Source: Consensus
+Periodicity: Annuals
+Analytics: None
+In Millions of CHF
+2022 Y
+2023 Y
+2024 Y
+2025 Y
+2026 Y Est
+2027 Y Est
+2028 Y Est
+2029 Y Est
+2030 Y Est
+2031 Y Est
+12 Months Ending
+12/31/2022
+12/31/2023
+12/31/2024
+12/31/2025
+12/31/2026
+12/31/2027
+12/31/2028
+12/31/2029
+12/31/2030
+12/31/2031
+Condensed Cash Flow Statement
+Cash from Operating Activities
+Net Income
+57.70
+79.60
+242.30
+203.70
+417.61
+497.12
+614.28
+738.33
+829.33
+962.00
+Depreciation & Amortization
+46.40
+64.90
+104.60
+127.40
+150.80
+177.43
+202.79
+233.73
+260.58
+284.98
+As % of Revenue
+3.80
+3.62
+4.51
+4.23
+4.26
+4.27
+4.16
+4.20
+4.18
+4.05
+Stock-Based Compensation
+38.30
+27.30
+57.50
+66.60
+67.44
+81.65
+99.13
+113.12
+119.59
+117.57
+Employee Benefit Expenses
+4.80
+-7.50
+5.20
+4.00
+2.45
+2.12
+3.14
+3.26
+Interest Income / Expenses
+5.60
+11.00
+22.50
+30.10
+23.03
+29.22
+36.36
+52.38
+81.62
+103.18
+Net Exchange Differences
+-8.30
+102.90
+-70.90
+165.60
+-6.38
+0.00
+Change in Provisions
+-7.40
+4.80
+18.00
+-7.80
+3.66
+4.58
+10.63
+13.47
+Change in Working Capital
+-353.40
+-7.80
+141.80
+-162.70
+-157.93
+-106.91
+-108.22
+Change in Working Capital
+-285.80
+-101.20
+46.10
+-187.70
+-80.97
+-110.48
+-133.12
+-113.43
+-115.34
+-101.17
+Trade Receivables
+-78.60
+-46.90
+-30.10
+-96.10
+-58.84
+-70.52
+-77.90
+-79.68
+-61.83
+-75.29
+Trade Payables
+65.80
+-44.30
+104.00
+-9.20
+23.82
+37.56
+36.30
+43.35
+45.73
+52.51
+Change in Other Current Operating Assets/
+Liabilities
+-67.60
+93.40
+95.70
+25.00
+-14.21
+28.39
+26.56
+17.04
+20.93
+19.36
+Inventories
+-273.00
+-10.00
+-27.80
+-82.40
+-52.85
+-74.16
+-86.70
+-71.28
+-82.27
+-71.83
+Income Taxes Paid
+31.00
+28.60
+41.20
+64.00
+50.18
+58.00
+81.96
+100.46
+53.67
+-283.91
+Cash Flow from Operations
+-227.00
+232.10
+510.60
+359.50
+558.15
+685.63
+831.72
+1,026.64
+1,146.99
+1,271.14
+Cash from Investing Activities
+Capital Expenditures
+-60.30
+-42.80
+-60.50
+-72.90
+-98.21
+-121.85
+-149.24
+-167.75
+-195.38
+-252.00
+Purchase of Intangible Assets
+-22.60
+-4.40
+-4.50
+-5.70
+-6.99
+-8.07
+-10.33
+-10.05
+-11.38
+-22.36
+Payment of Contingent Considerations
+0.00
+0.10
+0.00
+0.00
+Cash Flow from Investing
+-82.90
+-47.10
+-64.90
+-78.60
+-104.51
+-126.47
+-151.83
+-172.68
+-200.99
+-248.83
+Cash from Financing Activities
+Proceeds from Issue of Shares
+0.00
+0.00
+0.20
+4.30
+Equity Transaction Costs
+0.00
+0.00
+0.00
+0.00
+Interest Paid
+4.70
+6.50
+15.30
+21.50
+18.64
+24.93
+30.39
+37.04
+51.92
+72.77
+Payments of Lease Liabilities
+-15.40
+-25.50
+-51.30
+-69.90
+-57.44
+-84.31
+-114.21
+-142.48
+-172.47
+-184.65
+Repayment of Financial Liabilities
+-21.50
+0.00
+0.00
+0.00
+-4.00
+-8.00
+-12.00
+-16.00
+Cash Flow from Financing
+6.30
+-21.80
+-55.40
+-78.50
+-64.62
+-171.31
+-218.54
+-237.68
+-214.17
+-272.13
+Special Company Reference Items
+Effect of Foreign Exchange Rates
+21.50
+-39.60
+39.40
+-106.70
+21.19
+7.53
+20.60
+20.60
+41.20
+Net Change in Cash Incl. Foreign Exchange Rates
+-303.60
+163.20
+390.40
+202.20
+378.27
+375.01
+451.50
+624.43
+719.17
+850.77
+Net Change in Cash
+-303.60
+123.60
+429.80
+95.50
+390.16
+472.13
+564.43
+655.20
+742.78
+714.60
+Cash & Cash Equivalents (BOP)
+653.10
+371.00
+494.60
+924.30
+1,026.25
+1,406.64
+1,776.75
+2,299.92
+3,034.08
+3,945.39
+Cash & Cash Equivalents (EOP)
+371.00
+494.60
+924.30
+1,019.90
+1,404.80
+1,782.89
+2,222.92
+2,851.87
+3,586.93
+4,063.24
+Cash Flow per Share
+-0.82
+0.79
+1.72
+1.14
+-0.30
+-0.33
+-0.33
+-0.33
+-0.33
+Free Cash Flow
+-292.00
+182.90
+435.00
+264.90
+451.19
+559.55
+663.86
+838.65
+938.15
+1,010.26
+Capital Expenditures/Revenue (%)
+4.93
+2.39
+2.61
+2.42
+2.83
+2.91
+2.96
+2.91
+3.02
+3.03
+This report may not be modified or altered in any way. The BLOOMBERG PROFESSIONAL service and BLOOMBERG Data are owned and distributed locally by Bloomberg Finance LP (“BFLP”) and its subsidiaries in all jurisdictions other than Argentina, Bermuda, China, India, Japan and Korea (the (“BFLP
+Countries”). BFLP is a wholly-owned subsidiary of Bloomberg LP (“BLP”). BLP provides BFLP with all the global marketing and operational support and service for the Services and distributes the Services either directly or through a non-BFLP subsidiary in the BLP Countries. BFLP, BLP and their affiliates
+do not provide investment advice, and nothing herein shall constitute an offer of financial instruments by BFLP, BLP or their affiliates.
+Bloomberg ®       10/04/2026 22:19:22
+4 

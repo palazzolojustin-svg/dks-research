@@ -1,0 +1,10 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/ONON/2026-08-03_UBS_ONON_On_Holding_AG_-UBS_Evidence_Lab_inside_2Q26_Preview_We.md	full	3464	3464	UBS disclosures/rating defs/analyst cert/global disclaimers (pp.31-41), Evidence Lab methodology boilerplate, TOC, garbled figure captions (images)	WORKING_NOTES/P_ONON_RESEARCH_2.md	17923
+SOURCE/04_PEERS/ONON/2026-08-05_BloombergIntel_ONON_On-s_Long_Term_Potential_Intact_Demand_Robust_Equity_Outlook.md	full	365	365	BBG distribution notice footers, chart-only titles kept	WORKING_NOTES/P_ONON_RESEARCH_2.md	5839
+SOURCE/04_PEERS/ONON/2026-08-05_BloombergIntel_ONON_On_to_Build_Momentum_as_Innovation_DTC_Fuel_Gains_2Q_Preview.md	full	646	646	BBG footers; 2Q26 preview duplicated in 02	WORKING_NOTES/P_ONON_RESEARCH_2.md	7626
+SOURCE/04_PEERS/ONON/2026-08-06_BloombergIntel_ONON_On_Can_Top_Hoka_in_Apparel_Market_Share_as_Retail_Strategy_Grows.md	full	127	127	BBG footers	WORKING_NOTES/P_ONON_RESEARCH_2.md	2659
+SOURCE/04_PEERS/ONON/2026-08-06_WilliamsTrading_ONON_Williams_Trading_ONON_Pushing_Too_Hard_with_Too_Much.md	full	48	48	OCR disclaimer line	WORKING_NOTES/P_ONON_RESEARCH_2.md	1668
+SOURCE/04_PEERS/ONON/2026-08-11_BloombergIntel_ONON_On-s_Long_Term_Potential_Intact_Demand_Robust_Equity_Outlook.md	full	425	425	BBG footers; sections duplicated from 02/03/04	WORKING_NOTES/P_ONON_RESEARCH_2.md	3436
+SOURCE/04_PEERS/ONON/2026-08-11_BloombergIntel_ONON_On_Prioritizes_Premium_Margins_Over_Wholesale_Volume_React.md	full	381	381	BBG footers; entire content duplicates 02/03	WORKING_NOTES/P_ONON_RESEARCH_2.md	633
+SOURCE/04_PEERS/ONON/2026-08-11_UBS_ONON_UBS_Video_On_Holding_2Q26_Preview_We_See_a_Moderately.md	full	1100	1100	UBS disclosures/rating defs/global disclaimers (pp.3-12); highlights dup of 01	WORKING_NOTES/P_ONON_RESEARCH_2.md	1572
+SOURCE/04_PEERS/ONON/2026-08-14_JPMorgan_ONON_On_Holding_First_Take.md	full	860	860	JPM analyst cert, ratings distribution, legal entity disclosures (pp.4-9)	WORKING_NOTES/P_ONON_RESEARCH_2.md	5056

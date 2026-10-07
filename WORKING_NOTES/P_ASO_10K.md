@@ -1,0 +1,686 @@
+# PASOK | Academy Sports + Outdoors (ASO) FY2025 10-K
+> SOURCES: 1 files | ASO FY2025 = 52 wks ended 2026-01-31 (FY2024 ended 2025-02-01; FY2023 = 53 wks ended 2024-02-03); DKS FY2025 = FYE 2026-01-31 (same calendar) | legend: [d]=derived by note-writer, [r]=table rebuilt from garbled PDF text, =same as=duplicate pointer
+
+## SRC 04_PEERS/ASO/sec_filings/ASO_10-K_FY2025_filed-2026-03-17.md | 2026-03-17 | 10-K, Academy Sports and Outdoors, Inc. (ASO, Nasdaq) | FY2025 = 52 wks ended 2026-01-31 (FY2024 ended 2025-02-01; FY2023 = 53 wks ended 2024-02-03; FY2022 ended 2023-01-28)
+
+### Cover / basics
+- Accession 0001817358-26-000031; Delaware; HQ 1800 North Mason Road, Katy TX 77449; large accelerated filer; WKSI; ICFR attestation filed. Commission file 001-39589.
+- Non-affiliate mkt value ~$3.2B at 2025-08-01 close (last biz day Q2). Shares outstanding 64,383,459 at 2026-03-10.
+- Structure: ASO, Inc. (parent holdco) -> ops via indirect sub Academy, Ltd. (Texas LP dba "Academy Sports + Outdoors"); all sales/ops at Academy, Ltd.; it is borrower/issuer of LT debt and lessee of facilities.
+- Fiscal yr 52/53 wks ending Saturday closest to Jan 31.
+
+### Risk factors summary (headline list)
+- Business/industry: economy & discretionary spend; intl-manufactured merch incl. additional tariffs; info systems; managing machine learning/AI use; inventory mgmt; consumer taste/brand-name merch at competitive prices; e-com; data security; competition; supply chain; store growth/new store profitability; marketing effectiveness; labor (wages, laws); shrink; payment risks; weather/health/disasters/civil unrest; geographic concentration; merch/raw material cost; DC disruption; key personnel; supplier reliance; private label risk; outsourced vendors; reputation; quarterly/seasonal swings; acquisitions.
+- Legal/regulatory: product laws (sale/manufacture/import); lawsuits; insurance/indemnity insufficiency; product safety; IP.
+- Indebtedness: debt level/service; can incur more debt; restrictive covenants; variable-rate interest risk; ABL borrowing ability; debt may hinder vendor terms.
+- Stock: volatility; dividends/buybacks discretion; anti-takeover; exclusive forum; dilution.
+
+### Item 1 Business
+- Founded 1938 family business in Texas; 322 stores in 21 contiguous states at 2026-01-31. Mission "Fun for All". Categories FY2025 net sales mix: outdoor 31%, sports & recreation 22%, apparel 27%, footwear 20%. 19 private label brands.
+- Claimed differentiators: value-based assortment; broad/localized assortment beyond sporting goods into outdoor rec; "emerging, growing and profitable omnichannel strategy" leveraging BOPIS + ship fulfillment; strong loyalty w/ room to raise penetration in existing mkts; regional focus primarily southern US w/ growing presence in fastest-growing MSAs; core customer = active families, one-stop shop; significant whitespace in existing, adjacent and new markets.
+- ~78% of FY2025 merchandise sales national brands, remainder private label; no single brand >~12% of 2025 sales. Avg customer visits 2-3x/yr; balanced year-round business.
+- Merchandising: good/better/best; ~1,500 vendors in 2025; no vendor >12% of total purchases in 2025, 2024, 2023. National brands named: Nike incl. Jordan Brand, Under Armour, adidas, Winchester, Columbia Sportswear, The North Face, Brooks, Skechers, Yeti, Stanley, Carhartt; claims "preferred access", brands rely on ASO to broaden reach, "we receive favorable product allocations from leading suppliers".
+- Private label (19 brands): Magellan Outdoors, Academy Sports + Outdoors, BCG, O'rageous, Game Winner, Outdoor Gourmet, Freely, Redfield, H2OX, R.O.W.; priced below national brands, infill categories/price points, limited price-point overlap. ~53% of customers bought a private label item in 2025; ~22% of 2025 merch sales private brand.
+- 4 divisions / 16 categories (as of 2026-01-31):
+  - Outdoors: Camping (coolers/drinkware, camping accessories/equipment, watersports); Fishing (marine equipment, rods, reels, baits); Hunting (firearms, ammunition, archery, camo apparel, waders, shooting accessories, gun safes, optics, airguns, hunting equipment).
+  - Sports & Recreation: Fitness (equipment, accessories, nutrition); Team sports (baseball, football, basketball, soccer, golf, racket sports, volleyball, backpacks, sports bags); Recreation (patio furniture, outdoor cooking, wheeled goods – bikes/skateboards/ride-ons, trampolines, play sets); Front end (sunglasses, consumables, batteries, electronics, watches).
+  - Apparel: Outdoor & seasonal (outdoor apparel, denim, work apparel, graphic tees, accessories, outerwear); Youth apparel/Swim; Athletic apparel; Licensed apparel (pro/collegiate).
+  - Footwear: Casual & seasonal (incl. slippers, socks); Work (work/western boots, hunting footwear); Youth; Athletic (running, athletic lifestyle, training); Team sports footwear (incl. slides).
+
+#### Sales by division ($000; all US)
+| Division | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Outdoors | 1,831,038 | 1,809,653 | 1,807,664 |
+| Sports and recreation | 1,339,608 | 1,293,135 | 1,376,777 |
+| Apparel | 1,645,642 | 1,606,333 | 1,705,791 |
+| Footwear | 1,201,545 | 1,187,606 | 1,235,644 |
+| Total merchandise sales | 6,017,833 | 5,896,727 | 6,125,876 |
+| Other sales | 35,581 | 36,723 | 33,415 |
+| Net sales | 6,053,414 | 5,933,450 | 6,159,291 |
+- (1) Products recategorized in FY2025 among categories/divisions; 2024 and 2023 divisional sales reclassified (presentation only, no total change).
+- (2) E-commerce = 11.7%, 10.5%, 10.7% of merchandise sales in 2025, 2024, 2023.
+- (3) Other sales = gift card breakage, credit card bounties & royalties, shipping income, sales return allowance, other.
+
+### Stores
+- Easy-in/easy-out; central "racetrack" aisle, consistent layouts, end-caps. Avg ~70,000 gross sq ft, ~85% selling space. Sited near major highways; metro, suburban, smaller cities; retail centers w/ traffic-driving co-tenants; no mall-connected stores. Leases typically 15-20 yrs w/ renewal options/escalations. Of 322 stores, 321 leased, 1 owned.
+- Stores by state (2026-01-31): TX 117; GA 22; FL 21; LA 18; NC 18; AL 17; TN 15; OK 13; MO 12; SC 10; AR 10; MS 10; IN 10; KS 6; KY 6; VA 5; IL 3; WV 3; OH 3; PA 2; MD 1; total 322.
+- Mgmt: "significant near-term opportunity for expansion in both new and existing markets".
+
+### Marketing
+- Anchored on "Always Game Families". First-party data: data lake (analysis/model-building) + Customer Data Platform (audience creation/activation); combined w/ customer research and retail mkt-share data for annual/seasonal go-to-market. Lifecycle campaigns for retention/omnichannel; 3rd-party audiences for acquisition via brand design, influencer, customer-created content. Channels: paid search, email, SMS, app, digital ad networks, affiliates, social, linear & digital video, audio, print, outdoor, direct mail.
+- myAcademy Rewards loyalty launched July 2024; Academy Credit Card, myAcademy Rewards, app = foundation of loyalty/omnichannel.
+- Community: partners w/ over 523 organizations incl. youth sports leagues reaching ~1.1M participants; also school districts, pro sports properties, parks, hunting/fishing orgs, military bases, first responders.
+
+### Distribution centers
+- 3 DCs: Katy TX; Twiggs County GA; Cookeville TN; leased long-term; serve stores + e-com orders; 3rd-party trucking; capacity up to ~150 stores per DC.
+
+### Competition / IT / seasonality
+- Compete w/ mass merchants, department stores, large-format sporting goods/outdoor, traditional sporting goods/outdoor, specialty, online; differentiation via value-based assortment of national + private brands.
+- IT: 3rd-party hosting/admin support for portions of infrastructure; cloud + on-prem.
+- Seasonality: significant sales/profit from summer holidays (Memorial Day, Father's Day, Independence Day) in Q2; back-to-school Jul/Aug in Q2-Q3; Nov/Dec holiday; cold-weather goods/apparel Q4.
+
+### Team members
+- ~23,000 team members (US + Hong Kong) at 2026-01-31; ~45% full-time / 55% part-time; none under collective bargaining. Core values: customer focus/service; excellence; responsible leadership; initiative w/ urgency; students of business; integrity; positive community impact. Annual succession planning, talent calibration. Benefits incl. 401(k) match, ESPP, paid parental leave, team member discount, etc. Safety training topics incl. active shooter response, hazmat, heat safety.
+
+### Executive officers (ages as of 2026-03-17)
+- Steven (Steve) P. Lawrence, 58, CEO & director since June 2023; joined Feb 2019 as EVP & Chief Merchandising Officer; prior President/CEO/director francesca's Oct 2016-Jan 2019; CMO Stage Stores May 2012-Sep 2016; ~12 yrs J.C. Penney merchandising; 10 yrs Foley's/May Co.; BBA Finance Notre Dame.
+- Samuel (Sam) J. Johnson, 59, President since Oct 2023; joined Apr 2017 as EVP Retail Ops; prior 7 yrs hhgregg (latest Chief Retail Officer); 20+ yrs Sears Holdings incl. VP Small Stores.
+- Earl Carlton (Carl) Ford IV, 48, EVP & CFO since July 2023; joined Jan 2019 as SVP Finance (FP&A Jan 2019-Jul 2023; Loss Prevention & Inventory Control Feb 2020-Jul 2023); prior VP FP&A Belk (15 yrs at Belk incl. VP Internal Audit, accounting, treasury); Deloitte audit; CPA; MAcc Univ of Alabama, BAcc Univ of Southern Mississippi.
+- Matthew (Matt) M. McCabe, 55, EVP & Chief Merchandising Officer since June 2023; joined Dec 2016 as VP DMM Athletic & Licensed Apparel; SVP GMM Footwear Sep 2017-Jun 2023; prior VP Golfsmith International (apparel, footwear, soft consumables, private brands); 25+ yrs; Bon Ton, Bachrach, Sears & Roebuck, Mark Shale; BS Miami University.
+
+### IP / regulation
+- Licenses 3rd-party trademarks for royalties; agreements typically 1-3 yr terms w/ contractual payment amounts.
+- Regulators incl. CPSC, EEOC, DOL, OSHA, DOJ, Treasury, FTC, CBP, ATF, SEC, IRS, EPA + state/local. Laws incl. product safety/liability, advertising/pricing/selling incl. firearms, ammunition & accessories; labor/wage-hour, forced labor prevention laws; tax incl. state sales tax on e-com; data privacy; environmental; hazmat; customs/tariff collection; IP; antitrust; banking/AML; ADA; website regs; FCPA; securities.
+- Federally licensed firearms dealer; sells firearms, ammo, accessories incl. suppressors. Firearms ~6% of 2025 net sales. DOJ "zero tolerance" policy for FFLs (announced June 2021) repealed in 2025; agencies continue enforcement; future regulation/taxation/restrictions could reduce sales. Non-compliance could mean license revocation.
+
+### Item 1A Risk factors (company-specific substance only)
+- Macro: all sales US; drivers listed incl. immigration policy, tariffs, housing mkt, gas prices; could hit comps, sales/sq ft, traffic, avg ticket; shift to less profitable products; ABL/incremental term loan/capital mkt access may be constrained; suppliers' liquidity/trade credit/vendor allowances/co-op could shrink; landlords/developers stress limits store sites.
+- Sourcing/tariffs: significant merch (incl. from domestic suppliers and much of private label) made in China, Bangladesh, Vietnam, Cambodia, Brazil. UFLPA (late 2021) compliance increasingly complex; Entity List expanded -> possible delays, seizures, compliance costs, alt sourcing. Executive-authority tariffs w/ limited notice, incl. steel, aluminum and derivative products; retaliation; may be unable to adjust sourcing/pricing timely. Loss of "normal trade relations" status; currency; China labor cost, Yuan revaluation, West Coast port issues.
+- IT systems: has experienced interruptions/failures from time to time; risks of upgrades (ICFR changes, data loss etc.).
+- AI/ML: uses and expects to expand AI incl. generative AI into key operational/admin areas; output may be deficient/biased; competitors may adopt faster.
+- Inventory: licensed apparel tied to team performance and spectator attendance (lockouts/strikes, weather); rapid trade policy/tariff/sourcing changes complicate forecasting timing/quantity of purchases.
+- Consumer tastes: buys months in advance; demand shift risks: travel/media/electronics leisure; govt budget cuts on school athletics, parks, leagues, hunting/fishing services; hunting/fishing season, bag-limit, firearm/ammo restriction changes; consumer activism re firearms/ammo; rising participation/license fees, fuel; weather/oil spill. Brand-name merch high-demand items allocated by vendors per their own criteria. Preference changes may be "long-lasting or structural rather than temporary" and amplified by pricing actions responding to cost/tariffs.
+- E-com: own e-com platform (not reliant on a single 3rd-party provider); substantial investment incl. AI initiatives; risks incl. 50-state regulation, fraud, fulfillment, sales tax, store cannibalization; channel conflicts; vendors may compete via own online offerings.
+- Cyber: examples ransomware, credential stuffing on customer accounts (unauthorized gift/payment card charges), phishing/smishing; AI-enabled threats; maintains cyber liability insurance, coverage not guaranteed.
+- Competition: fragmented; competitor categories: mass general merchants, department stores, large-format sporting goods, traditional sporting goods, specialty outdoor, specialty footwear, internet retailers, suppliers selling DTC, emerging formats incl. digitally native brands & marketplaces. "Traditional competitors have become increasingly promotional"; mobile-first, social commerce, 3P marketplaces; real-time price comparison. May need significant capital.
+- Distribution/transport: FY2021 supply constraint & high inflation hurt transport/inventory costs; "some improvement... resulting in decreased freight costs over the past couple of years"; trucking labor shortages; port issues incl. government shutdowns.
+- Store growth: opening stores in existing and from time to time new markets; may need new DCs (hard to extract more efficiency from existing). Second-generation retail space and developable sites "very low and highly-sought after by our competitors"; land prices and lease rents continued to increase. Store operating leases initial terms ~15 yrs, non-cancellable; must pay rent if closed. New-market risks: less known, less familiar with customer, cannibalization, diminished novelty, DC strain; may not advertise cost-effectively where store density low; slower opening pace hurts sales growth/OI; new stores may have lower volumes than prior cohorts.
+- Marketing: relies on print, TV, radio, SEM, web ads, social.
+- Labor: hires store managers, "Enthusiasts", DC (many skilled) and corporate; "We have experienced, and expect to continue to experience, a shortage of labor for certain functions, which has increased our labor costs and negatively impacted our profitability"; immigration/visa processing; minimum wage increases ripple to other hourly; no unions currently.
+- Shrink: incl. organized retail crime; "We continue to experience elevated levels of inventory shrink relative to historical levels, which has adversely affected, and could continue to adversely affect, our results"; countermeasures may hurt customer experience; high shrink stores could trigger LT asset impairment.
+- Payments: interchange fees may rise; relies on independent processors; card network rules.
+- Weather/disasters/civil unrest: significant ops in states where natural disasters more prevalent; climate change; possible civil unrest losses.
+- Regional concentration: stores primarily southern US (floods, droughts, tornadoes, hurricanes; Gulf Coast oil spill; nuclear plant crisis); weather can postpone/shorten sports seasons; several competitors national so less exposed.
+- Merch costs: cost of merch "has increased and may continue to increase" due to raw materials, tariffs, labor, freight/logistics, regulatory compliance; price increases may hurt demand.
+- DCs: 3 DCs (Katy TX, Twiggs County GA, Cookeville TN); disruption risk incl. operations below historical efficiency; BI/property insurance may be insufficient.
+- Key personnel/succession risk.
+- Suppliers: ~1,500 suppliers; largest vendor ~12% of total inventory purchases in 2025; generally no long-term written contracts; supplier-competitor partnerships could alter supply; vendors selling direct or via department stores, family footwear stores, e-com companies; purchasing incentives (return privileges, volume allowances, co-op advertising) decline could "severely impact" results.
+- Private label: most sold exclusively by Academy; license agreements w/ some sales minimums (lose rights/pay damages if missed); recalls, IP/counterfeits, foreign manufacturing.
+- Outsourced services: portions of IT, data security & card fraud detection, supply chain, retail ops, admin; sometimes single vendor.
+- Reputation: firearms policies, public health policies, controversial stances, social media, gen-AI fictitious content.
+- Seasonality/quarterly factors: Q2 summer holidays; Nov/Dec holiday & Q4 cold weather; factors incl. tragedies involving firearms, pro sports lockouts, superstar retirements, sports scandals, store closure costs, college/pro team success, calendar shifts, timing of income tax refunds, firearm sentiment, cancellations of state tax-free holidays, promotions, co-tenant changes; new store timing/pre-opening expenses affect margins.
+- Acquisitions: has never acquired; may in future.
+- Regulatory: list as Item 1 plus immigration laws; FCPA risk for intl ops.
+- Litigation exposure categories: injuries/crimes w/ firearms, ammo, air pistols, crossbows/archery, knives, deer stands, trampolines, wheeled goods, hazmat; product liability/recalls; private label; firearm eligibility procedures; municipalities seeking cost recovery from firearm manufacturers/retailers; third-party truck fleet incl. hazmat transport; property; IP; customs/trade; real estate; employment (EEOC, DOL, OSHA); immigration enforcement actions; commercial disputes; torts; data breach; regulatory. "We are, and may in the future also be, subjected to claims and lawsuits, including potential class actions," re firearm sale policies and improper use incl. suits by victims or municipalities.
+- Insurance: self-insures portion of workers' comp, general liability, Academy, Ltd. Texas Work Injury Benefit Plan, group health; self-insures portion of commercial deductible risk via captive insurance co (may need to fund more capital); independent actuaries; IBNR estimates. Private label manufacturing almost all outside US -> vendor indemnity collection may be impossible.
+- Product safety: relies on vendors for compliance.
+- Indebtedness at 2026-01-31: ~$85.8M Term Loan + $400.0M Notes outstanding, all secured; ABL no borrowings, availability ~$992.4M (subject to borrowing base); LCs $7.6M under ABL. Term Loan quarterly principal through 2027-09-30, monthly cash interest to maturity; ABL matures 2029-03-08; Notes semi-annual interest in arrears, mature 2027-11-15. Debt limits financing, capex, M&A, store/DC/e-com growth etc.
+- Can incur more debt: ABL commitments may be increased by $250.0M (conditions); Term Loan incremental capacity up to greater of (x) $480.0M and (y) 100% of Consolidated EBITDA plus additional amount (secured). Covenants restrict debt, dividends/buybacks, prepayments, investments, asset sales, liens, affiliate txns, business changes, M&A; ABL at certain times requires min adjusted fixed charge coverage ratio; cross-default/acceleration. Variable-rate Term Loan & ABL; has used interest rate swaps in past, may again. ABL lenders several-not-joint; borrowing base can be reduced.
+- Debt could hurt landlord/vendor terms: "Our new store profitability is partially attributable to our ability to negotiate attractive rental rates with our landlords and, in the future, to secure sale-leaseback financing at attractive cap rates"; vendor trade terms (pricing, payment, allowances, LC needs).
+- Stock: volatility incl. social media boycott campaigns. Dividends: first quarterly cash dividend in Q4 FY2021, paid consistently since; no written dividend policy; buyback discretionary. Cash depends on subsidiary dividends/intercompany loans.
+- Anti-takeover: classified board w/ staggered terms until 2028 Annual Meeting (then annual elections); blank-check preferred; advance notice; special meeting limits; director removal only for cause w/ 66 2/3% vote. Exclusive forum: Delaware Chancery; federal courts for Securities Act claims.
+- Dilution: ~235M authorized unissued common shares; plans: New Academy Holding Company, LLC 2011 Unit Incentive Plan, 2020 Omnibus Incentive Plan, 2020 ESPP.
+- Item 1B: none.
+
+### Item 1C Cybersecurity
+- Audit Committee primary oversight (board ultimate); cyber standing quarterly agenda; reports from CIO and CLO. CIO 20+ yrs tech experience leads program; Director of IT Security & Compliance (reports to CIO; 20+ yrs IT, 12+ yrs cyber; MS Cybersecurity & Info Assurance, Master of Legal Studies Cyber Law). Management Cyber Security Committee chaired by CIO incl. CLO, Chief Administrative Officer, Security Director; meets at least quarterly; escalates to Audit Committee, CEO/CFO, Disclosure Committee, crisis mgmt team. Program based on NIST CSF; internal audit cyber audits quarterly; vendor risk assessments; training; vuln mgmt; 3rd-party managed security services; CSIRP; PCI-DSS auditors; forensics as needed.
+- Mgmt believes cyber threats, "including as a result of any previous cybersecurity incidents, have not materially affected us"; not aware of material risks reasonably likely to.
+
+### Item 2 Properties
+| Location | Use | Approx sq ft |
+|---|---|---|
+| Katy TX | Corporate Office Bldg 1 | 400,000 |
+| Katy TX | Corporate Office Bldg 2 | 200,000 |
+| Katy TX | Bulk Warehouse | 200,000 |
+| Katy TX | DC | 1,400,000 |
+| Twiggs County GA | DC | 1,600,000 |
+| Cookeville TN | DC | 1,600,000 |
+| Kowloon, Hong Kong | Global Sourcing Office | 5,000 |
+- All leased except 1 owned store; initial store lease terms typically 15-20 yrs; leases at then-prevailing market rates. Combined store sq ft ~21.9M at 2026-01-31.
+- Item 3 Legal: refers to Note 12.
+
+### Item 5 Market / buybacks / dividends
+- ASO began trading Nasdaq 2020-10-02 (IPO). Perf graph vs Nasdaq US Benchmark Retail Index & Russell 3000 from 2020-10-02 to 2026-01-30 (image only, no values in text).
+- Q4 FY2025 repurchases:
+| Period | Shares | Avg price | Under program | $ remaining |
+|---|---|---|---|---|
+| Nov 2-Nov 29, 2025 | — | — | — | — |
+| Nov 30, 2025-Jan 3, 2026 | 1,107,000 | $52.50 | 1,107,000 | $478,383,954 |
+| Jan 4-Jan 31, 2026 | 742,900 | $56.31 | 742,900 | $436,565,881 |
+| Total Q4 | 1,849,900 | $54.03 | 1,849,900 | $436,565,881 |
+- Excludes net-settled shares for tax withholding; avg price excludes unpaid excise taxes. 2024 Share Repurchase Program approved 2024-12-04: up to $700M over 3 yrs ending 2027-12-04, replaced prior program; ~$436.6M remaining at 2026-01-31.
+- 11 holders of record at 2026-03-10.
+
+### Item 7 MD&A
+- FY2025 52 wks (ended 2026-01-31); FY2024 52 wks (2025-02-01); FY2023 53 wks (2024-02-03). 2024 vs 2023 comparison omitted (in prior 10-K).
+- 322 stores ranging ~40,000-130,000 gross sq ft, avg ~70,000; 21 states primarily southern US; ~23,000 team members; 3 DCs; academy.com + mobile app.
+#### Store activity
+| | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Beginning stores | 298 | 282 | 268 |
+| Q1 new | 5 | 2 | 1 |
+| Q2 new | 3 | 1 | 1 |
+| Q3 new | 11 | 8 | 5 |
+| Q4 new | 5 | 5 | 7 |
+| Closed | — | — | — |
+| Ending stores | 322 | 298 | 282 |
+| Relocated | — | — | — |
+#### Tariffs/macro
+- Inflation, existing/potential tariffs, shifting trade policy "have impacted consumer spending and could adversely affect our ability to grow sales and merchandise margin"; "We have worked diligently to mitigate the impact of tariffs"; levers: inventory purchase quantities/timing, strategic pricing & promotional adjustments, diversifying sourcing to shift country of origin, vendor negotiations.
+#### KPI definitions
+- Comparable sales: stores open after 13 full fiscal months + all e-com; significantly remodeled/relocated stores excluded until in operation for substantially all compared periods; stores closed extended period (beyond control) excluded; all website/app sales (incl. BOPIS, curbside) allocated to e-com regardless of fulfillment.
+- Transactions = customer transactions (stores + e-com) on comp basis; average ticket = sales / transactions.
+- Non-GAAP: Adj EBITDA, Adj EBIT, Adj NI, Adj EPS, Adj FCF; Adj EBIT used as performance target for discretionary annual incentive comp. Adj FCF = CFO less net cash used in investing.
+#### Business drivers/commentary
+- Inventory tools: third-party programs to analyze stock, disciplined markdown strategy; uses myAcademy Rewards data, customer database, targeted surveys to estimate inventory needs.
+- Mix: private label priced lower than comparable national brands; shift to private label units = +GM rate, -total net sales. Softgoods (apparel, footwear) higher margin than hardgoods (outdoors, sports & rec); mix toward softgoods +GM.
+- Omnichannel: investments in customer data ecosystem (data lake, CDP) for personalization; redesigned homepage, expanded BOPIS functionality, enhanced shipping notifications, product discovery improvements. Store-fulfilled: BOPIS, ship-to-store, ship-from-store. During 2025, stores facilitated ~95% of total sales (incl. ship-from-store, BOPIS, in-store). Future investment: app, website optimization, fulfillment, "emerging digital commerce capabilities such as artificial intelligence-enabled shopping experiences and social and marketplace commerce integrations"; will require ongoing investment.
+- New stores "a key driver of growth in our net sales and gross margin"; deepen legacy/existing markets + enter new; off-mall power centers or stand-alone. Opened 24 new stores in FY2025; "We plan to open 20 to 25 stores in fiscal year 2026"; 63 stores opened since FY2021.
+- COGS includes direct merch cost + procurement, warehousing, distribution: primarily tariffs, payroll/benefits, DC occupancy, depreciation, freight. GM factors incl. tariffs, commodity, freight, shrink, inventory processing, e-com shipping costs.
+- SG&A: store/corporate payroll, occupancy, advertising, card processing, IT, pre-opening etc. SG&A % sales 24.8% (2024) -> 26.3% (2025); majority of increase from growth investments incl. new store costs (property & facility fees, employee comp, advertising). SG&A includes sale-leaseback gains ~$15.4M in 2025 and $7.1M in 2024 (multiple SLB transactions qualifying for sale accounting; Note 11).
+- Pre-opening (expensed; occupancy, marketing, payroll, recruiting); expected to increase w/ growth, pressuring SG&A %:
+| | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| New stores opened | 24 | 16 | 14 |
+| Pre-opening exp ($M) | 14.6 | 13.9 | 8.3 |
+- Interest expense: Term Loan, Notes, ABL + amortization of deferred loan costs & OID. Tax fluctuations mainly from pre-tax income changes.
+
+#### Income statement summary FY2025 vs FY2024 ($000)
+| | FY2025 | % sales | FY2024 | % sales | $ chg | % chg |
+|---|---|---|---|---|---|---|
+| Net sales | 6,053,414 | 100.0 | 5,933,450 | 100.0 | 119,964 | 2.0 |
+| COGS | 3,947,801 | 65.2 | 3,921,990 | 66.1 | 25,811 | 0.7 |
+| Gross margin | 2,105,613 | 34.8 | 2,011,460 | 33.9 | 94,153 | 4.7 |
+| SG&A | 1,593,429 | 26.3 | 1,472,821 | 24.8 | 120,608 | 8.2 |
+| Operating income | 512,184 | 8.5 | 538,639 | 9.1 | (26,455) | (4.9) |
+| Interest expense, net | 36,214 | 0.6 | 36,873 | 0.6 | (659) | (1.8) |
+| Write-off of deferred loan costs | — | 0.0 | 449 | 0.0 | (449) | (100.0) |
+| Other income, net | 10,087 | 0.2 | 36,908 | 0.6 | (26,821) | (72.7) |
+| Pretax income | 486,057 | 8.0 | 538,225 | 9.1 | (52,168) | (9.7) |
+| Income tax | 109,289 | 1.8 | 119,778 | 2.0 | (10,489) | (8.8) |
+| Net income | 376,768 | 6.2 | 418,447 | 7.1 | (41,679) | (10.0) |
+- Net sales +$120.0M/+2.0%: division sales growth sports & rec +3.6%, apparel +2.4%, footwear +1.2%, outdoor +1.2%.
+- New stores: 24 opened since end FY2024 (5 in Q4 FY2025) generated $142.8M net sales in FY2025 incl. e-com. Since re-launching new store program in 2022: 63 new stores, 39 open >=12 months; over LTM those 39 averaged ~$13M net sales per store incl. e-com. Yr-1 performance partly affected by opening season and regional brand awareness.
+- Comparable sales -1.5%: lower comps in all divisions except sports & rec; comp transactions -4.2%, avg ticket +2.9%.
+- E-com 11.7% of merch sales FY2025 vs 10.5% FY2024; e-com net sales +13.6% y/y.
+- GM +$94.2M/+4.7% to $2,105.6M from $2,011.5M; GM rate +90 bps 33.9% -> 34.8% "primarily attributable to favorability in merchandise margin due to promotions and managing prices in response to increased tariff costs, while maintaining alignment with our value pricing strategy".
+- SG&A +$120.6M/+8.2% to $1,593.4M from $1,472.8M, primarily increased strategic investments of $109.0M incl. $84.8M new stores and $13.1M technology.
+- Write-off of deferred loan costs -$0.4M (2024 Q1 ABL amendment write-off).
+- Interest expense -$0.7M/-1.8% to $36.2M from $36.9M: lower rates, lower Term Loan balance.
+- Other income, net -$26.8M: 2024 included ~$15.0M net gain from settlement of legal matter w/ non-trade vendor (Note 2); lower interest rates in 2025 (less interest income).
+- Tax -$10.5M to $109.3M; ETR 22.5% (2025) vs 22.3% (2024); increase driven by lower pretax income.
+- Adj EBITDA = NI before interest, tax, D&A & impairment, other adj; Adj EBIT = Adj EBITDA less D&A; Adj NI = NI + adj less tax effect.
+
+#### Non-GAAP reconciliations ($000)
+| | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Net income (a) | 376,768 | 418,447 | 519,190 |
+| Interest expense, net | 36,214 | 36,873 | 46,051 |
+| Income tax expense | 109,289 | 119,778 | 143,966 |
+| D&A | 122,866 | 118,070 | 110,936 |
+| Equity compensation (b) | 21,176 | 26,629 | 24,377 |
+| Loss on early retirement of debt | — | — | 1,525 |
+| Write-off of deferred loan costs | — | 449 | — |
+| Adj EBITDA | 666,313 | 720,246 | 846,045 |
+| Less D&A | (122,866) | (118,070) | (110,936) |
+| Adj EBIT | 543,447 | 602,176 | 735,109 |
+- (a) FY2024 NI incl. $15.0M gain from litigation settlement in Q4 2024; FY2023 NI incl. $15.9M net gain from credit card litigation settlement in Q4 2023 (neither adjusted out). (b) non-cash equity comp.
+| | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Net income | 376,768 | 418,447 | 519,190 |
+| Equity comp | 21,176 | 26,629 | 24,377 |
+| Loss on early retirement of debt | — | — | 1,525 |
+| Write-off deferred loan costs | — | 449 | — |
+| Tax effect (c) | (4,761) | (6,038) | (5,621) |
+| Adj Net Income | 393,183 | 439,487 | 539,471 |
+| EPS basic | $5.66 | $5.87 | $6.89 |
+| EPS diluted | $5.54 | $5.73 | $6.70 |
+| Adj EPS basic | $5.90 | $6.16 | $7.16 |
+| Adj EPS diluted | $5.78 | $6.02 | $6.96 |
+| Wtd avg shares basic (000) | 66,612 | 71,343 | 75,389 |
+| Wtd avg shares diluted (000) | 68,034 | 73,048 | 77,469 |
+- (c) tax effect at historical tax rate.
+| Adj FCF | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| CFO | 434,798 | 528,082 | 535,779 |
+| Net cash used in investing | (172,037) | (186,120) | (206,139) |
+| Adj FCF | 262,761 | 341,962 | 329,640 |
+
+#### Liquidity & capital resources
+- Uses: working capital, capex, debt service, dividends, buybacks. Cash & equivalents $330.3M at 2026-01-31; mgmt believes cash + CFO + ABL sufficient for foreseeable future.
+- LT debt at 2026-01-31: Notes 6.00% fixed senior secured, $400M principal, maturing 2027-11-15; Term Loan 7.72% variable, $85.8M principal, maturing 2027-11-06, quarterly principal $750K through 2027-09-30; ABL $1.0B commitment, variable, secured, no principal outstanding, matures 2029-03-08.
+- Debt obligations by FY ($000):
+| | 2026 | 2027 | 2028 | 2029 | 2030 | Total |
+|---|---|---|---|---|---|---|
+| Term Loan + interest (1) | 9,159 | 87,725 | — | — | — | 96,884 |
+| Notes + interest (2) | 24,000 | 424,000 | — | — | — | 448,000 |
+| ABL + interest (3) | 2,500 | 2,500 | 2,500 | 268 | — | 7,768 |
+- (1) projected rates, no unscheduled principal; (2) Notes paid in full at maturity; (3) assumes $1.0B min commitment, undrawn (fees).
+- ABL activity ($000):
+| | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Avg funds drawn | — | 32 | — |
+| Days w/ outstanding balance | — | 3 | — |
+| Max daily outstanding | — | 3,900 | — |
+| Min available capacity | 953,921 | 955,495 | 881,445 |
+| ABL as of | 2026-01-31 | 2025-02-01 |
+|---|---|---|
+| Outstanding borrowings | — | — |
+| Outstanding LCs | 7,630 | 9,258 |
+| Available capacity | 992,370 | 955,495 |
+- Leases: operating leases for stores, DCs, offices, equipment expiring FY2026-FY2045. Operating lease payments ($000): 2026 266,461; 2027 265,364; 2028 248,658; 2029 232,185; 2030 213,700; after 2030 1,141,396; total 2,367,764. Not reduced by $1.4M future sublease rentals; includes stores w/ executed contracts not yet possessed.
+- Buybacks: 2024 program ($700M through 2027-12-04) methods incl. open market, block trades, ASR, private, 10b5-1. FY2025 repurchases ($000 except per sh):
+| Quarter | Shares | Avg price | Amount |
+|---|---|---|---|
+| Q1 (Feb 2-May 3, 2025) | 2,080,772 | $47.59 | 99,031 |
+| Q2 (May 4-Aug 2, 2025) | — | — | — |
+| Q3 (Aug 3-Nov 1, 2025) | — | — | — |
+| Q4 (Nov 2, 2025-Jan 31, 2026) | 1,849,900 | 54.03 | 99,947 |
+| Total FY2025 | 3,930,672 | $50.62 | 198,978 |
+- (excl. excise taxes). $436.6M remaining at 2026-01-31.
+- Dividends FY2025: $0.13/sh each quarter; paid Q1 $8,716K (record 2025-03-25), Q2 $8,649K (2025-06-19), Q3 $8,663K (2025-09-11), Q4 $8,629K (2025-12-18); total $34,657K. On 2026-03-05 declared $0.15/sh quarterly dividend (for qtr ended 2026-01-31), payable 2026-04-10, record 2026-03-20 (raise from $0.13 [d]).
+- Capex ($000):
+| | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| New stores | 119,902 | 107,703 | 100,419 |
+| Corporate, e-com, IT programs | 41,291 | 70,474 | 81,992 |
+| Existing stores, DCs, other | 51,475 | 21,412 | 25,359 |
+| Total capex | 212,668 | 199,589 | 207,770 |
+- FY2026 capex gdnc $200M-$240M; allocation: new stores 60%, corporate/e-com/IT 20%, existing stores/DCs/other 20%; reviewed through year.
+- Cash flows ($000):
+| | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| CFO | 434,798 | 528,082 | 535,779 |
+| Investing | (172,037) | (186,120) | (206,139) |
+| Financing | (221,370) | (400,953) | (318,865) |
+| Net change in cash | 41,391 | (58,991) | 10,775 |
+- CFO seasonal; Q4 pre-holiday inventory build largest. FY2025 CFO -$93.3M: NI -$41.7M; op assets/liabs -$99.9M; partly offset by +$48.3M non-cash charges mainly higher deferred income taxes from enactment of "OBBBA" (Note 10). Op assets/liabs decline: -$118.7M working capital "due to the pull-forward of inventory purchases at pre-tariff rates relative to the prior year period"; -$20.6M A/R timing; +$37.0M prepaid/other current assets (timing of construction reimbursement receipts).
+- Investing -$14.1M less cash used: +$27.2M more SLB proceeds vs 2024; offset by +$13.1M capex for store properties bought then sold in SLBs (Note 11).
+- Financing -$179.6M less cash used: -$165.9M lower buyback outflows; +$10.5M proceeds at FYE2025 from sale of a portion of rights to tariff relief litigation claims.
+- Future liquidity: $992.4M ABL availability + $330.3M cash. "the Company previously sold a portion of its rights to potential tariff relief litigation claims and does not expect to receive refunds associated with the portion of the rights sold. Accordingly, the Company does not expect potential tariff refunds to represent a significant incremental future source of liquidity."
+
+#### Critical accounting estimates (company-specific)
+- Inventory: lower of weighted average cost and NRV; includes tariffs, capitalized procurement, warehousing & distribution; net of shrink, vendor allowances, reserves. Full physical count each store at least once a year (throughout year), store shrink accrual rate to sales updated from history. Contractual vendor allowances accrued (linked to purchase volume); non-contractual applied on receipt. Reserve for permanent markdowns below cost; slow-moving reserve based on historical margins on similar sell-through; 20% decrease in assumed margins not material.
+- Long-lived asset impairment: store-level undiscounted CF test, fair value via DCF; no individual store's net book value material; no LL asset impairment in 2025, 2024, 2023.
+- Goodwill: one operating segment/one reporting unit; 2025 qualitative test, no quantitative needed; no goodwill impairment 2025/2024/2023. Quantitative method (if used): DCF + market multiples/guideline transactions.
+- Intangible: primarily indefinite-lived trade name "Academy Sports + Outdoors"; relief-from-royalty; 2025 qualitative only; no impairment FY2025/2024/2023.
+
+### Item 7A
+- Variable rate exposure: Term Loan & ABL; no derivatives outstanding at 2026-01-31; +100 bps -> ~+$0.9M interest expense.
+
+### Item 9 / 9A
+- No disagreements w/ accountants. DC&P effective; ICFR effective (COSO 2013); auditor Deloitte & Touche LLP (Houston TX) unqualified ICFR opinion dated 2026-03-17 and unqualified FS opinion. No material ICFR changes in Q4.
+
+### Item 9B / Part III
+- No director/officer adopted or terminated 10b5-1 or non-10b5-1 trading arrangements in Q4 FY2025. Item 9C none. Insider trading policy = Exh 19.1. Items 10-14 by reference to 2026 proxy.
+- Equity comp plans at 2026-01-31:
+| Plan category | Securities to be issued | Wtd avg exercise price |
+|---|---|---|
+| Service-based stock options | 2,137,821 | $28.24 |
+| Performance-based stock options | 119,619 | $16.57 |
+| Service-based RSUs | 866,022 | N/A |
+| Performance-based RSUs | 481,810 | N/A |
+| 2020 ESPP | — | N/A |
+| Total | 3,605,272 | $27.62 (options only) |
+- Only 2020 Omnibus Incentive Plan and 2020 ESPP allow future grants; max under 2020 Omnibus (incl. carryover from 2011 Plan) ~4,563,991; available 3,532,476 under 2020 Omnibus; 1,342,080 under ESPP.
+
+### Auditor report
+- Deloitte & Touche LLP, Houston, 2026-03-17, unqualified; auditor since 1996; PCAOB ID 34. Critical audit matter: merchandise inventories – calculation of capitalized procurement, warehouse & distribution costs and direct tariff and freight costs in inventory (subjective estimate of inventoriable costs; tariff/freight inputs from multiple high-volume systems). FS schedule on p.103 (valuation schedule).
+
+### Consolidated balance sheet ($000)
+| | 2026-01-31 | 2025-02-01 |
+|---|---|---|
+| Cash & equivalents | 330,320 | 288,929 |
+| A/R (allowance 1,792 / 2,752) | 34,755 | 16,759 |
+| Merchandise inventories | 1,503,756 | 1,308,840 |
+| Prepaid & other current | 82,457 | 95,621 |
+| Assets held for sale | 2,957 | — |
+| Total current assets | 1,954,245 | 1,710,149 |
+| PP&E, net | 584,103 | 525,136 |
+| ROU assets | 1,234,246 | 1,173,075 |
+| Trade name | 579,766 | 579,007 |
+| Goodwill | 861,920 | 861,920 |
+| Other noncurrent assets | 62,756 | 51,676 |
+| Total assets | 5,277,036 | 4,900,963 |
+| Accounts payable | 637,854 | 612,424 |
+| Accrued exp & other current liabs | 243,908 | 230,323 |
+| Current lease liabs | 147,491 | 115,134 |
+| Current maturities LTD | 3,000 | 3,000 |
+| Total current liabs | 1,032,253 | 960,881 |
+| LT debt, net | 480,793 | 482,679 |
+| LT lease liabs | 1,261,167 | 1,185,741 |
+| Deferred tax liabs, net | 300,654 | 256,815 |
+| Other LT liabs | 30,792 | 10,812 |
+| Total liabilities | 3,105,659 | 2,896,928 |
+| Common stock ($0.01 par; 300M auth; 64,945,953 / 68,332,961 sh o/s) | 649 | 683 |
+| APIC | 256,351 | 247,094 |
+| Retained earnings | 1,914,377 | 1,756,258 |
+| Stockholders' equity | 2,171,377 | 2,004,035 |
+| Total L&SE | 5,277,036 | 4,900,963 |
+- Preferred: 50M auth, none issued. Inventory +14.9% y/y [d] vs net sales +2.0%.
+
+### Consolidated income statement ($000 except per sh)
+| | FY2025 | FY2024 | FY2023 (53 wks) |
+|---|---|---|---|
+| Net sales | 6,053,414 | 5,933,450 | 6,159,291 |
+| COGS | 3,947,801 | 3,921,990 | 4,049,080 |
+| Gross margin | 2,105,613 | 2,011,460 | 2,110,211 |
+| SG&A | 1,593,429 | 1,472,821 | 1,432,356 |
+| Operating income | 512,184 | 538,639 | 677,855 |
+| Interest expense, net | 36,214 | 36,873 | 46,051 |
+| Write-off of deferred loan costs | — | 449 | 1,525 |
+| Other income, net | 10,087 | 36,908 | 32,877 |
+| Pretax income | 486,057 | 538,225 | 663,156 |
+| Income tax | 109,289 | 119,778 | 143,966 |
+| Net income | 376,768 | 418,447 | 519,190 |
+| EPS basic / diluted | 5.66 / 5.54 | 5.87 / 5.73 | 6.89 / 6.70 |
+| Wtd sh basic / diluted (000) | 66,612 / 68,034 | 71,343 / 73,048 | 75,389 / 77,469 |
+- Note: FY2023 IS shows $1,525 as "write-off of deferred loan costs" line while non-GAAP table labels FY2023 $1,525 "loss on early retirement of debt".
+
+### Stockholders' equity rollforward (shares 000; $000)
+| | Shares | Common $ | APIC | RE | Total |
+|---|---|---|---|---|---|
+| Bal 2023-01-28 | 76,712 | 767 | 216,209 | 1,411,330 | 1,628,306 |
+| NI FY2023 | — | — | — | 519,190 | 519,190 |
+| Equity comp | — | — | 24,377 | — | 24,377 |
+| Repurchase for retirement | (3,652) | (36) | (12,625) | (191,493) | (204,154) |
+| RSU settlement | 227 | 2 | (5,538) | — | (5,536) |
+| ESPP issuance | 124 | 1 | 5,483 | — | 5,484 |
+| Option exercises | 939 | 9 | 14,192 | — | 14,201 |
+| Dividends $0.09/sh | — | — | — | (27,218) | (27,218) |
+| Bal 2024-02-03 | 74,350 | 743 | 242,098 | 1,711,809 | 1,954,650 |
+| NI FY2024 | — | — | — | 418,447 | 418,447 |
+| Equity comp | — | — | 26,629 | — | 26,629 |
+| Repurchase for retirement | (6,544) | (65) | (25,738) | (342,535) | (368,338) |
+| RSU settlement net | 210 | 2 | (5,397) | — | (5,395) |
+| ESPP | 118 | 1 | 5,247 | — | 5,248 |
+| Option exercises net | 199 | 2 | 4,255 | — | 4,257 |
+| Dividends $0.11/sh | — | — | — | (31,463) | (31,463) |
+| Bal 2025-02-01 | 68,333 | 683 | 247,094 | 1,756,258 | 2,004,035 |
+| NI FY2025 | — | — | — | 376,768 | 376,768 |
+| Equity comp | — | — | 21,176 | — | 21,176 |
+| Repurchase for retirement | (3,931) | (39) | (16,753) | (183,992) | (200,784) |
+| RSU settlement net | 236 | 2 | (4,758) | — | (4,756) |
+| ESPP | 133 | 1 | 5,184 | — | 5,185 |
+| Option exercises net | 175 | 2 | 4,408 | — | 4,410 |
+| Dividends $0.13/sh | — | — | — | (34,657) | (34,657) |
+| Bal 2026-01-31 | 64,946 | 649 | 256,351 | 1,914,377 | 2,171,377 |
+
+### Consolidated cash flow statement ($000)
+| | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Net income | 376,768 | 418,447 | 519,190 |
+| D&A | 122,866 | 118,070 | 110,936 |
+| Non-cash lease expense | 46,212 | 30,295 | 16,723 |
+| Equity comp | 21,176 | 26,629 | 24,377 |
+| Amort deferred loan & other costs | 2,590 | 2,574 | 2,739 |
+| Deferred income taxes | 43,839 | 2,020 | (4,247) |
+| Non-cash loss early retirement of debt | — | — | 1,525 |
+| Write-off deferred loan costs | — | 449 | — |
+| Gain on disposal of P&E | (15,417) | (7,062) | (388) |
+| A/R | (17,995) | 2,611 | (2,868) |
+| Merchandise inventories | (194,916) | (114,681) | 89,358 |
+| Prepaid & other current | 26,915 | (10,117) | (50,225) |
+| Other noncurrent assets | (12,556) | (12,437) | (18,761) |
+| Accounts payable | 27,335 | 65,761 | (142,346) |
+| Accrued exp & other current liabs | 17,128 | 11,952 | (26,712) |
+| Income taxes payable | (19,062) | (5,277) | 17,640 |
+| Other LT liabs | 9,915 | (1,152) | (1,162) |
+| CFO | 434,798 | 528,082 | 535,779 |
+| Capex | (212,668) | (199,589) | (207,770) |
+| Purchases of intangibles | (759) | (771) | (520) |
+| Proceeds from sale of P&E | 41,390 | 14,240 | 2,151 |
+| Net investing | (172,037) | (186,120) | (206,139) |
+| Revolver proceeds | — | 3,900 | — |
+| Revolver repayments | — | (3,900) | — |
+| Term Loan repayment | (3,000) | (3,000) | (103,000) |
+| Debt issuance fees | — | (5,689) | — |
+| Option exercise proceeds | 4,399 | 4,323 | 16,636 |
+| ESPP proceeds | 5,185 | 5,248 | 5,484 |
+| Taxes on net share settlement | (4,784) | (5,460) | (7,971) |
+| Buybacks | (198,978) | (364,912) | (202,796) |
+| Dividends | (34,657) | (31,463) | (27,218) |
+| Other financing | 10,465 | — | — |
+| Net financing | (221,370) | (400,953) | (318,865) |
+| Net change in cash | 41,391 | (58,991) | 10,775 |
+| Cash begin | 288,929 | 347,920 | 337,145 |
+| Cash end | 330,320 | 288,929 | 347,920 |
+| Cash paid interest | 35,086 | 34,897 | 45,446 |
+| Cash paid income taxes, net | 37,821 | 88,401 | 132,126 |
+| Non-cash capex | 10,368 | 12,273 | 6,687 |
+| ROU assets from new operating leases | 244,100 | 214,747 | 134,181 |
+
+### Notes to FS
+- Note 1: 322 "Academy Sports + Outdoors" retail locations in 21 states; 3 DCs; academy.com sells across most of US.
+- Note 2 consolidation: subs NAHC (New Academy Holding Company, LLC), Academy Managing Co., LLC, Associated Investors, LLC (intermediate holdcos), Academy, Ltd. (opco), Academy International Limited, Mason Creek Insurance Co., LLC (captive), Academy Procurement Co., LLC. Card receivables settling within 3 business days treated as cash equivalents. A/R primarily vendor allowance receivables.
+- Concentration: ~1,500 vendors; no vendor >12% of purchases 2025/2024/2023; no long-term inventory purchase commitments at 2026-01-31 or 2025-02-01. Significant purchases made outside US, primarily Asia; not dependent on any single foreign manufacturer. Southern US geographic concentration (housing, unemployment, gas prices, legislation, politics, cultural views, weather).
+- Supplier finance program: 3rd-party institution; ASO settles within 45 days (~original terms); in A/P. FY2025: beg $3,751K, added 14,641, paid (16,164), end $2,228K. FY2024: beg 7,174, added 29,190, paid (32,613), end 3,751.
+- P&E: capitalized interest during construction; useful lives: leasehold improvements lesser of life/lease term; software & computers 2-5 yrs; other equipment 5-10; furniture & fixtures 7-10; buildings 40. Buys land/stores to sell & lease back; assets held for sale at 2026-01-31 = $3.0M land expected sold within 1 yr.
+- Capitalized internal-use software $20.5M (2025), $29.0M (2024), $33.3M (2023). Cloud implementation costs capitalized (other noncurrent assets) $22.5M, $20.6M, $23.5M; amortized in SG&A and COGS.
+- No LL asset, goodwill, or intangible impairment 2025/2024/2023.
+- Deferred loan costs: Term Loan & Notes costs in LTD (effective interest); ABL costs in other noncurrent assets (straight-line).
+- Self-insurance: deductibles/SIRs for workers' comp, GL, employee health; wholly owned Captive (Mason Creek Insurance) funds/secures workers comp, Texas non-subscriber, GL, D&O, EPL, medical stop-loss; independent actuary; PV of actuarial ultimate losses recorded.
+- Leases (ASC 842): nearly all stores and all corporate offices, warehouses, DCs leased. Tenant improvement allowances reduce ROU assets; construction allowances = reimbursement where landlord owns assets. Multiple SLBs in 2025 and 2024 qualified for sale (gain recognized up to FV; Note 11). Lease + non-lease components combined (CAM in rent); short-term leases (<=12 mo) off BS.
+- Revenue: store sales at POS; e-com recognized upon delivery to customer (judgment: control transfers on receipt); coupons may contain material future right; return allowance recorded gross (sales & COGS), asset in inventory, liability in accrued.
+- COGS = direct merch + procurement/warehouse/distribution (tariffs, payroll & benefits, DC occupancy, depreciation, freight); shipping to customers in COGS; shipping billed in net sales.
+- Vendor allowances: volume rebates, promotional/advertising, co-op, new store opening support; generally annual; inventory-related reduce COGS as sold; co-op/promo offset SG&A as incurred; excess over cost or no proof of performance -> COGS reduction; volume rebates estimated on latest projected purchase volumes.
+- SG&A includes store/corporate payroll, occupancy, depreciation, advertising, card processing, IT, pre-opening; includes SLB gains ~$15.4M (2025), $7.1M (2024).
+- Advertising expense net of specific vendor allowances: $169.8M (2025), $155.7M (2024), $153.7M (2023).
+- Pre-opening: =same as MD&A table (24/16/14 stores; $14.6M/$13.9M/$8.3M).
+- Equity comp: ASC 718; forfeitures as they occur.
+- Buybacks by year: FY2025 3,930,672 sh, $200.8M; FY2024 6,544,337 sh, $368.3M; FY2023 3,651,231 sh, $204.2M; incl. excise tax $1.8M, $3.4M, $1.4M respectively. Excess over par allocated to RE and APIC (APIC pro rata by shares retired/issued). $436.6M remaining.
+- Other income: Q4 2023 settled legal matter w/ credit card companies re interchange fee overcharges dating to 2004 -> net gain ~$15.9M; Q4 2024 settled legal matter w/ non-trade vendor -> net gain ~$15.0M (both in Other income, net).
+- One reportable segment (stores + academy.com); substantially all assets in US. No OCI.
+- OBBBA enacted 2025-07-04 (full expensing of qualified capex, domestic R&D expensing, business interest limitation changes, intl changes): FY2025 material decrease to current tax expense with corresponding increase to deferred tax expense; no net ETR impact.
+- ASU adoption: ASU 2023-07 segments adopted retrospectively eff 2025-02-01 (Note 14); ASU 2023-09 income tax adopted retrospectively eff 2026-01-31 (Note 10); ASU 2025-07 early-adopted modified retrospective eff 2025-11-01; none material. Evaluating ASU 2024-03 (expense disaggregation; eff annual periods beginning after 2026-12-15), ASU 2025-06 (internal-use software; after 2027-12-15), ASU 2025-11 (interim; after 2027-12-15).
+
+#### Note 3 Net sales
+- Division table =same as Item 1 sales by division table (incl. footnotes: reclass of 2024/2023; e-com 11.7%/10.5%/10.7%; other sales components).
+- Gift cards (no expiration; sold in stores, online, 3rd-party retail); breakage recognized proportionally to redemption.
+| Gift card liability ($000) | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Beginning | 96,469 | 94,155 | 90,650 |
+| Issued | 142,708 | 133,445 | 134,741 |
+| Redeemed | (131,599) | (122,784) | (124,370) |
+| Breakage income | (8,020) | (8,347) | (6,866) |
+| Ending | 99,558 | 96,469 | 94,155 |
+
+#### Note 4 Long-term debt ($000)
+| | 2026-01-31 | 2025-02-01 |
+|---|---|---|
+| ABL Facility, due Mar 2029 | — | — |
+| Term Loan, due Nov 2027 | 85,750 | 88,750 |
+| Notes, due Nov 2027 | 400,000 | 400,000 |
+| Total debt | 485,750 | 488,750 |
+| Less current maturities | (3,000) | (3,000) |
+| Less unamortized Term Loan discount | (227) | (361) |
+| Less deferred loan costs (Term Loan & Notes) | (1,730) | (2,710) |
+| LT debt, net | 480,793 | 482,679 |
+- ABL deferred loan costs in other noncurrent assets ~$4.6M (2026-01-31), $6.1M (2025-02-01). Amortization of deferred loan costs $2.5M/$2.4M/$2.4M (2025/2024/2023); OID accretion $0.1M/$0.2M/$0.3M; both in interest expense.
+- ABL: First Amended & Restated ABL Credit Agreement dated 2015-07-02; JPMorgan Chase Bank, N.A. admin/collateral agent, LC issuer, swingline. 2020-11-06 amendment extended maturity to 2025-11-06 ($3.1M fees capitalized). 2023-03-30 amendment LIBOR -> Adjusted Term SOFR. Used for WC, GCP, LCs (mainly insurance contracts, occasionally import goods). LCs ~$7.6M; no borrowings; availability $992.4M at 2026-01-31. Pricing: Adjusted Term SOFR + 1.25%-1.75%, or base rate (highest of fed funds +0.50%, JPM prime, 1-mo Adj Term SOFR +1.00%) + 0.25%-0.75%; unused fee 0.375%. Mandatory prepayment under certain circumstances; none triggered. 2024-03-08 ABL Amendment extended maturity to 2029-03-08, springing earlier maturity (91 days before earliest maturity of 2027 Senior Notes/Term Loans) if >$100M of either outstanding 91 days prior, or <=$100M outstanding without a Reserve taken; two lenders dropped out -> $0.4M deferred cost write-off.
+- Term Loan: 2020-11-06 seven-yr $400.0M senior secured, Credit Suisse AG Cayman Islands Branch agent; original pricing LIBOR (0.75% floor) +5.00% or base +4.00%; $5.8M fees capitalized. 2023-05-17 Conforming Changes Amendment -> Adjusted Term SOFR effective 2023-08-01: Adj Term SOFR (0.75% floor) + 3.75%, or base rate (highest of fed funds +0.50%, prime, 1-mo Adj Term SOFR (floor 0.75%)) + 3.75% [as written]. Weighted avg rate 7.72% at 2026-01-31, interest monthly; $750.0K quarterly principal through 2027-09-30; matures 2027-11-06; mandatory prepayment in certain circumstances (none due). 2024-02-01 voluntary prepayment of $100.0M from cash -> $1.5M non-cash loss on early retirement of debt recorded in FY2023 (OID/deferred cost write-off). Customary EoDs incl. cross-default, change of control.
+- Notes: $400.0M 6.00% senior secured notes due 2027-11-15 issued 2020-11-06 (Indenture; BNY Mellon Trust Co. trustee/collateral agent); interest semi-annual May 15/Nov 15 since 2021-05-15; $5.2M fees capitalized. Guaranteed by NAHC, Associated Investors L.L.C., Academy Managing Co., L.L.C. (+ future domestic restricted subs guaranteeing credit facilities). Callable on/after 2023-11-15 at indenture redemption prices; pre-2023-11-15 make-whole and 40% equity claw at 106% (expired). Change of control put at 101%. Customary EoDs.
+- Liens: ABL first-priority on cash, A/R, inventory, deposit/securities accounts & proceeds (ABL Collateral), second-priority on other Term Loan collateral. Term Loan: second-priority on ABL Collateral; first-priority on substantially all other tangible/intangible assets of Academy, Ltd. & Guarantors; pledge of 100% capital stock of Academy, Ltd. & domestic subs and 66% voting stock of directly owned foreign subs. Notes: first-priority lien on personal property securing Term Loan on first-priority basis; second-priority on ABL Priority Collateral (accounts, inventory, tax refunds, cash, deposit/securities/commodities accounts etc.).
+- Covenants: limits on debt, liens, M&A, dividends, restricted payments, loans, affiliate txns, amending material docs; ABL min adjusted fixed charge coverage ratio at certain times; in compliance at 2026-01-31.
+- Scheduled principal ($000): FY2026 3,000; FY2027 482,750; 2028-2030 —; total 485,750.
+
+#### Note 5 Fair value
+- No transfers among levels. Money market funds (US Treasury bills/securities) classified as cash: $277.7M (2026-01-31), $256.9M (2025-02-01). Term Loan + Notes FV (Level 2, DCF on inactive-market quotes) ~$0.5B at both dates; ABL FV ~ carrying.
+
+#### Note 6 Property & equipment ($000)
+| | 2026-01-31 | 2025-02-01 |
+|---|---|---|
+| Leasehold improvements | 777,207 | 663,869 |
+| Equipment & software | 782,547 | 733,939 |
+| Furniture & fixtures | 473,990 | 431,577 |
+| Construction in progress | 29,758 | 54,236 |
+| Building & land | 11,964 | 16,010 |
+| Total P&E (gross) | 2,075,466 | 1,899,631 |
+| Accumulated D&A | (1,491,363) | (1,374,495) |
+| P&E, net | 584,103 | 525,136 |
+- Depreciation expense $122.9M (2025), $118.1M (2024), $110.9M (2023). Assets held for sale $3.0M land.
+
+#### Note 7 Accrued expenses & other current liabilities ($000)
+| | 2026-01-31 | 2025-02-01 |
+|---|---|---|
+| Accrued interest | 7,803 | 7,634 |
+| Accrued personnel costs | 55,922 | 46,178 |
+| Accrued professional fees | 2,783 | 13,466 |
+| Accrued sales & use tax | 14,306 | 4,772 |
+| Accrued self-insurance | 17,539 | 15,205 |
+| Deferred revenue – gift cards & other | 102,200 | 98,641 |
+| Income taxes payable | 779 | 6,090 |
+| Property taxes | 19,123 | 16,833 |
+| Sales return allowance | 4,400 | 4,400 |
+| Other | 19,053 | 17,104 |
+| Total | 243,908 | 230,323 |
+
+#### Note 8 Share-based compensation
+- 2020 Omnibus Incentive Plan adopted 2020-09-29, effective 2020-10-01, reserved 5,150,000 sh; +2,600,000 via First Amendment approved 2023-06-01; 3,532,476 available at 2026-01-31. ESPP effective 2020-10-01, reserved 2,000,000; 1,342,080 available. ESPP: up to 15% of eligible earnings, semi-annual purchases at 15% discount to lower of first/last day close; evergreen increase each FY start = lesser of 1,000,000 sh, 2.0% of shares o/s, or board-set lower number. 2011 Unit Incentive Plan: no new awards since 2020-10-01 (Service/Performance Unit Options; Service/Liquidity Event Restricted Units).
+| ($000) | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Equity comp expense (in SG&A) | 21,176 | 26,629 | 24,377 |
+| Related tax benefit | 4,503 | 5,822 | 5,245 |
+- Unrecognized comp $27.2M over wtd avg ~2 yrs. Grant-date FV of restricted units/RSUs vested $17.9M (2025), $13.9M (2024), $11.7M (2023).
+- Service option grants only in 2023 (none 2024, 2025): Black-Scholes, expected life 6.0 yrs, vol 46%-51% (wtd 47.8%), risk-free 3.7%-4.4%, dividend yield 0.6%, wtd grant-date FV $27.60.
+- Service Options activity:
+| | Options | WAEP | Remaining life (yrs) | Intrinsic ($000) |
+|---|---|---|---|---|
+| O/s 2023-01-28 | 3,570,694 | 24.27 | 7.3 | 112,050 |
+| Granted FY2023 | 262,640 | 58.13 | | |
+| Canceled | (694) | 13.00 | | |
+| Forfeited | (228,160) | 39.14 | | |
+| Exercised | (988,682) | 20.00 | | 36,277 |
+| O/s 2024-02-03 | 2,615,798 | 27.99 | 6.7 | 95,479 |
+| Forfeited FY2024 | (52,211) | 33.29 | | |
+| Exercised | (201,479) | 22.27 | | 7,846 |
+| O/s 2025-02-01 | 2,362,108 | 28.36 | 5.8 | 57,965 |
+| Canceled FY2025 | (10,505) | 53.20 | | |
+| Forfeited | (38,431) | 41.46 | | |
+| Exercised | (175,351) | 25.43 | | 4,143 |
+| O/s 2026-01-31 | 2,137,821 | 28.24 | 4.8 | 58,149 |
+| Exercisable 2026-01-31 | 2,001,700 | 26.90 | 4.7 | 56,880 |
+- Performance Unit Options: o/s 2023-01-28 218,477 @ $16.59 (5.5 yrs, $8,534K); FY2023 exercised (95,915) @ 16.63 (intrinsic $3,656K); o/s 2024-02-03 122,562 @ 16.55 (5.0, $5,874K); FY2024 exercised (2,323) @ 16.70 ($104K); o/s 2025-02-01 120,239 @ 16.55 (4.1, $4,300K); FY2025 exercised (620) @ 13.86 ($22K); o/s & exercisable 2026-01-31 119,619 @ 16.57 (3.1 yrs, $4,599K). No grants/forfeits.
+- Tax benefit from option exercises $0.5M (2025), $1.3M (2024), $3.9M (2023).
+- Restricted units:
+| | Service units | WAGDFV | Performance units | WAGDFV |
+|---|---|---|---|---|
+| Non-vested 2023-01-28 | 437,108 | 39.11 | 298,929 | 32.55 |
+| Granted FY2023 | 393,131 | 60.37 | 250,384 | 57.91 |
+| Vested | (173,225) | 39.48 | (149,190) | 32.82 |
+| Forfeited | (92,151) | 51.32 | (88,301) | 47.94 |
+| Non-vested 2024-02-03 | 564,863 | 51.80 | 311,822 | 48.85 |
+| Granted FY2024 | 435,520 | 62.86 | 129,041 | 65.48 |
+| Vested | (246,171) | 49.79 | (47,180) | 33.78 |
+| Forfeited | (77,703) | 58.73 | (9,521) | 34.87 |
+| Non-vested 2025-02-01 | 676,509 | 58.85 | 384,162 | 56.63 |
+| Granted FY2025 | 571,629 | 49.13 | 165,055 | 49.98 |
+| Vested | (300,557) | 55.87 | (35,695) | 31.91 |
+| Forfeited | (81,559) | 56.13 | (31,712) | 61.31 |
+| Non-vested 2026-01-31 | 866,022 | 53.73 | 481,810 | 55.88 |
+- Vesting: service options & service RSUs ratably over 3-4 yrs (some RSUs 100% at 1st anniversary/before next annual meeting); PSUs granted 2023-2025 cliff vest at 3rd anniversary of performance period if metrics achieved; pre-2023 PSUs annual if metric or target share price achieved. Change-of-control full vesting (per criteria). Certain 2022 and all 2023 awards: retirement-eligible holders need not remain employed; expense accelerated to retirement-eligibility date.
+
+#### Note 9 EPS (000 sh)
+| | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Basic wtd sh | 66,612 | 71,343 | 75,389 |
+| Service RU/RSU dilution | 318 | 316 | 327 |
+| Performance RSU dilution | 27 | 85 | 165 |
+| Service options dilution | 945 | 1,153 | 1,439 |
+| Performance unit options | 79 | 86 | 112 |
+| ESPP | 53 | 65 | 37 |
+| Diluted wtd sh | 68,034 | 73,048 | 77,469 |
+| EPS basic / diluted | 5.66 / 5.54 | 5.87 / 5.73 | 6.89 / 6.70 |
+| Anti-dilutive awards excluded | 210 | 126 | 128 |
+
+#### Note 10 Income taxes ($000)
+| | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Current federal | 10,680 | 62,162 | 125,325 |
+| Current state | 9,369 | 19,717 | 22,869 |
+| Current foreign | 431 | 64 | 19 |
+| Total current | 20,480 | 81,943 | 148,213 |
+| Deferred federal | 83,590 | 36,750 | (3,395) |
+| Deferred state | 5,219 | 1,085 | (817) |
+| Deferred foreign | — | — | (35) |
+| Total deferred | 88,809 | 37,835 | (4,247) |
+| Income tax expense | 109,289 | 119,778 | 143,966 |
+- (a) IRA energy credits: FY2025 bought $47.7M credits (tax yr ending 2026-01-31) for $44.1M -> net benefit $3.6M; FY2024 bought $38.1M credits (tax yrs ending 2024-02-03 & 2025-02-01) for $35.8M -> net benefit $2.3M.
+- Pretax income: US 483,419 / 537,444 / 662,980; non-US 2,638 / 781 / 176 (FY2025/24/23).
+- ETR reconciliation ($000, %):
+| | FY2025 | % | FY2024 | % | FY2023 | % |
+|---|---|---|---|---|---|---|
+| Federal statutory | 102,072 | 21.0 | 113,027 | 21.0 | 139,263 | 21.0 |
+| State & local net (a) | 11,683 | 2.4 | 16,936 | 3.1 | 17,511 | 2.5 |
+| Foreign tax effects – other | 735 | 0.1 | 1,751 | 0.3 | (17) | — |
+| Effect of cross-border tax laws | (4,100) | (0.8) | (233) | — | — | — |
+| R&D credits | (2,025) | (0.4) | (3,958) | (0.7) | (2,543) | (0.4) |
+| Other credits | (4,764) | (1.0) | (3,218) | (0.6) | (739) | (0.1) |
+| Share-based payment awards | 353 | 0.1 | (1,946) | (0.4) | (7,697) | (1.1) |
+| Other nontaxable/nondeductible | 5,335 | 1.1 | (2,581) | (0.4) | (1,812) | (0.2) |
+| Effective rate | 109,289 | 22.5 | 119,778 | 22.3 | 143,966 | 21.7 |
+- (a) TX, LA, GA, TN = majority (>50%) of state tax effect.
+- Deferred taxes ($000):
+| | 2026-01-31 | 2025-02-01 |
+|---|---|---|
+| DTA: A/R | 417 | 643 |
+| DTA: accrued liabs & reserves | 24,666 | 19,824 |
+| DTA: lease liabilities | 327,724 | — |
+| DTA: equity comp | 8,350 | 9,934 |
+| DTA: other | 2,146 | 1,389 |
+| Total DTA | 363,303 | 31,790 |
+| DTL: inventory | (6,068) | (21,199) |
+| DTL: prepaid | (17,318) | (15,551) |
+| DTL: P&E | (49,865) | (2,048) |
+| DTL: ROU assets | (287,144) | — |
+| DTL: intangibles | (303,615) | (249,804) |
+| DTL: other | 53 | (3) |
+| Total DTL | (663,957) | (288,605) |
+| Net DTL | (300,654) | (256,815) |
+- (Lease DTA/ROU DTL shown gross in FY2025, "—" in prior yr as presented.) No valuation allowance needed; no unrecognized tax benefits; SOL open federal FY2023-2025, state FY2022-2025. OBBBA =same as Note 2 (current tax down, deferred up, no ETR impact).
+- Cash taxes paid net ($000): federal 21,633 / 69,000 / 110,328; Texas 3,928 / 3,775 / 3,838; Tennessee 3,143 / 2,315 / 2,131; other state 9,099 / 13,300 / 15,820; total state 16,170 / 19,390 / 21,789; non-US 18 / 11 / 9; total 37,821 / 88,401 / 132,126 (FY2025/24/23).
+
+#### Note 11 Leases
+- All operating leases; renewal options generally 5+ yrs at sole discretion; option extensions = modification, remeasured at current rates; equipment rentals <=12 months. Subleases mainly former store locations still under lease and excess space.
+- SLBs: 2024 one store property; 2025 four store properties (three were held for sale at Q3 2025); net gains ~$7.1M (2024) and ~$15.4M (2025) in SG&A.
+| Lease cost ($000) | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Operating lease expense | 239,853 | 222,709 | 214,672 |
+| Short-term lease expense | — | — | — |
+| Variable lease expense | 12,555 | 10,472 | 10,405 |
+| Sublease income | (557) | (498) | (463) |
+| Net lease expense | 251,851 | 232,683 | 224,614 |
+| ROU assets obtained for new op lease liabs | 244,100 | 214,747 | 134,181 |
+| Cash paid for op lease liabs | 244,974 | 224,942 | 213,860 |
+- Wtd avg remaining lease term 9.8 yrs (2026-01-31) vs 9.6 (2025-02-01); wtd avg incremental borrowing rate 8.3% vs 8.6%.
+- Lease liability maturities ($000): 2026 255,492; 2027 246,058; 2028 228,670; 2029 211,970; 2030 193,471; after 2030 914,873; total 2,050,534; less interest (641,876); PV 1,408,658 (= current 147,491 + LT 1,261,167 [d]). Not reduced by $1.4M subleases. Leases signed for future stores not yet possessed: future minimum payments ~$317.0M.
+
+#### Note 12 Commitments & contingencies
+- Technology-related, construction & other contractual commitments $183.3M at 2026-01-31, ~$72.5M payable in next 12 months.
+- Tariff relief claims: in 2025 sold a portion of rights to potential tariff relief litigation claims (accounted under ASC 470); $10.5M proceeds in Other LT liabilities, presented as other financing CF. After 2026-01-31, Supreme Court struck down certain tariffs imposed under IEEPA; availability/timing/amount of refunds and release of $10.5M "remain highly uncertain"; ASO does not expect refunds for portion of rights sold.
+- Guarantees/indemnities: risk of loss remote.
+- Legal: defendant in ordinary-course suits (mostly negligence, product, premises, employment, commercial liability); none expected material; reserves established; govt/SRO exams possible.
+
+#### Note 13 Employee benefits
+- Safe harbor 401(k): employees contribute up to 75% pretax; company match 100% up to 6% of eligible comp per pay period. Employer contributions $16.9M (2025), $15.7M (2024), $15.5M (2023).
+
+#### Note 14 Segment
+- One operating/reportable segment; CODM = CEO; uses consolidated net income; significant expenses evaluated = COGS and SG&A as on IS.
+
+#### Note 15 Subsequent events
+- 2026-03-05 board declared $0.15/sh quarterly dividend payable 2026-04-10 (record 2026-03-20). Post-FYE Supreme Court IEEPA tariff decision (see Note 12).
+- Item 16 Form 10-K summary: none.
+
+### Exhibits (material items only)
+- Restated Certificate of Incorporation (8-K 2025-06-05); A&R Bylaws (8-K 2025-03-07); Notes Indenture 2020-11-06 (BNY Mellon); Second A&R Credit Agreement (Term Loan) 2020-11-06 + Amendment No. 4 (2021-05-25) + Conforming Changes Amendment (2023-05-17); Term Loan security/pledge agreements 2015-07-02 (Morgan Stanley Senior Funding orig. agent); ABL Intercreditor 2015-07-02 + joinders 2020-11-06; First Lien Intercreditor 2020-11-06; First A&R ABL Credit Agreement 2015-07-02 + Amendments No.1 (2018-05-22), No.2 (2020-11-06), No.3 (2023-03-30), No.4 (2024-03-08); Notes security/pledge agreements. Comp exhibits incl. Form of 2025 Executive PSU, time-based RSU and time-based Option agreements (10-Q 2025-06-10); employment agreements: Lawrence A&R 2023-04-26, Johnson A&R 2023-10-23, Ford 2023-07-06, McCabe A&R 2023-06-25; Non-Employee Director Compensation Policy eff 2025-06-05; Insider Trading Policy (19.1); Clawback policy (97.1); Subsidiaries (21.1); Deloitte consent.
+
+### Signatures (2026-03-17)
+- Signed by CEO Steven Lawrence; EVP/CFO (principal financial & accounting officer) Earl Carlton Ford IV; Chairman Ken C. Hicks; directors Wendy A. Beck, Michael P. Dastugue, Shannon Hennessy, Clay M. Johnson, Brian T. Marley, Tom M. Nealon, Theresa E. Palermo, Monique Picou, Beryl B. Raff, Jeff C. Tweedy.
+
+### Schedule II – Valuation & qualifying accounts ($000)
+| Period / account | Beginning | Charged to costs/exp | Deductions | Ending |
+|---|---|---|---|---|
+| FY2025 Allowance for doubtful accounts | 2,752 | 1,069 | (2,029) (1) | 1,792 |
+| FY2025 Sales return allowance | 4,400 | 4,300 (2) | (4,300) (2) | 4,400 |
+| FY2025 Inventory shrink adjustments | 18,937 | 89,360 | (100,576) (3) | 7,721 |
+| FY2025 Self-insurance reserves | 25,232 | 91,124 | (87,131) (4) | 29,225 |
+| FY2024 Allowance for doubtful accounts | 2,217 | 1,936 | (1,401) | 2,752 |
+| FY2024 Sales return allowance | 6,400 | 10,500 | (12,500) | 4,400 |
+| FY2024 Inventory shrink adjustments | 11,822 | 82,233 | (75,118) | 18,937 |
+| FY2024 Self-insurance reserves | 25,010 | 74,941 | (74,719) | 25,232 |
+| FY2023 Allowance for doubtful accounts | 2,004 | 1,107 | (894) | 2,217 |
+| FY2023 Sales return allowance | 6,100 | 11,200 | (10,900) | 6,400 |
+| FY2023 Inventory shrink adjustments | 4,960 | 99,444 | (92,582) | 11,822 |
+| FY2023 Self-insurance reserves | 30,170 | 70,509 | (75,669) | 25,010 |
+- (1) write-offs; (2) monthly change in required return reserve; (3) actual store inventory shrinkage experienced; (4) self-insured claim payments.
+- Shrink expense charged: $89.4M FY2025 vs $82.2M FY2024 vs $99.4M FY2023 (FY2023 53 wks); FY2025 shrink charge = ~1.48% of net sales [d] vs ~1.39% FY2024 [d] vs ~1.61% FY2023 [d].

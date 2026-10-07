@@ -1,0 +1,5 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2025-Q1_filed-2024-10-07.md	full	1671	1671	cover page checkboxes, TOC, generic accounting/non-GAAP/controls boilerplate, forward-looking safe harbor generic text, analyst policy, XBRL/certification exhibits, signature	WORKING_NOTES/P_NKE_10Q_A.md	19572
+SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2025-Q2_filed-2025-01-03.md	delta	699	699	TOC page numbers, repeated generic boilerplate, safe harbor list (noted only changes)	WORKING_NOTES/P_NKE_10Q_A.md	22438
+SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2025-Q3_filed-2025-04-03.md	delta	695	695	TOC page numbers, repeated generic boilerplate, safe harbor list (noted only changes)	WORKING_NOTES/P_NKE_10Q_A.md	21907
+SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2026-Q1_filed-2025-10-01.md	delta	679	679	TOC page numbers, repeated generic boilerplate, non-GAAP/critical estimates generic text, safe harbor list (noted only changes), signature	WORKING_NOTES/P_NKE_10Q_A.md	19305

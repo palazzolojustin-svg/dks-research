@@ -1,0 +1,5 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_Goldman-Conference_2024-09-05.md	full	1135	1135	FactSet headers/footers/page markers, FactSet disclaimer, operator/greeting/thanks filler, safe-harbor mentions	CORE_NOTES/C03_CONFERENCES_EVENTS_A.md	7390
+SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_Barclays-Conference_2024-12-03.md	full	868	868	FactSet headers/footers/page markers, FactSet disclaimer, operator/greeting/thanks filler, safe-harbor mentions	CORE_NOTES/C03_CONFERENCES_EVENTS_A.md	8367
+SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_MorganStanley-Conference_2024-12-03.md	full	1000	1000	FactSet headers/footers/page markers, FactSet disclaimer, operator/greeting/thanks filler, safe-harbor mentions	CORE_NOTES/C03_CONFERENCES_EVENTS_A.md	7967
+SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_Goldman-Conference_2025-09-04.md	full	1022	1022	FactSet headers/footers/page markers, FactSet disclaimer, operator/greeting/thanks filler, safe-harbor mentions	CORE_NOTES/C03_CONFERENCES_EVENTS_A.md	8528

@@ -1,0 +1,44 @@
+{
+ "root": "C:/Users/palaz/Downloads/DKS_RESEARCH/FL_EUROPE_SCRAPE",
+ "cluster": "B",
+ "clusterTitle": "Company registries & official gazettes (Europe)",
+ "maxWaves": 8,
+ "tasks": [
+  {
+   "slug": "registry-uk-ie",
+   "title": "UK Companies House and Ireland CRO",
+   "region": "Europe",
+   "instructions": "UK Companies House (find-and-update.company-information.service.gov.uk public pages; filing-history PDFs) and Ireland CRO/Solocheck/Vision-net: identify every Foot Locker UK/Ireland entity (e.g. Foot Locker UK Limited, Foot Locker Ireland, any FL Europe holding/financing companies registered in the UK). Extract: officer appointments/resignations since 2025-09 (DKS-related appointees, departures), latest accounts (going-concern wording, post-balance-sheet events, onerous lease / store-closure provisions, number of stores, employees, impairments, statements about the parent's strategy or intention to support), charges, change of name/registered office, strike-off/dissolution, confirmation statements showing PSC/parent changes. Quote the filings with dates and URLs."
+  },
+  {
+   "slug": "registry-benelux",
+   "title": "Netherlands, Belgium, Luxembourg registries and Staatscourant",
+   "region": "Europe",
+   "instructions": "Netherlands KvK/OpenKVK/Bedrijvenregister and officielebekendmakingen.nl (Staatscourant: legal merger/demerger proposals 'voorstel tot juridische fusie/splitsing', capital reductions, liquidation notices) for Foot Locker Europe B.V., Foot Locker Netherlands B.V., FL Europe holdings and the Dutch distribution-centre entity; Belgian KBO and NBB Central Balance Sheet Office (free annual accounts PDFs) for Foot Locker Belgium; Luxembourg RCS/LBR/RESA. Extract director changes since 2025-09, annual-accounts statements (continuiteit, reorganisatie, herstructurering, number of stores, FTE, impairments, onerous contracts, outlook/strategy statements), group restructurings, liquidations. Quote filings."
+  },
+  {
+   "slug": "registry-france-bodacc",
+   "title": "France: BODACC / Pappers / Infogreffe closure count",
+   "region": "Europe",
+   "instructions": "For Foot Locker France SAS (and any other French FL entity incl. Kids Foot Locker), use the BODACC open-data API (https://bodacc-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/annonces-commerciales/records?where=... search on the company name/SIREN) plus Pappers.fr, Infogreffe and societe.com. Count announcements of 'radiation d'un etablissement secondaire' / fermeture / modification d'etablissement since 2024-01 - each closed store usually appears - and list each store (address, city, date). Compute closures by month/quarter and compare with the pre-deal period (2023-2024) to show acceleration or not. Also: dirigeant changes since 2025-09, comptes annuels (filed or confidentiality declaration), procedures collectives, capital changes. Be rigorous and reproducible (save the raw query results as CSV/JSON to the raw folder)."
+  },
+  {
+   "slug": "registry-dach",
+   "title": "Germany, Austria, Switzerland registries and accounts",
+   "region": "Europe",
+   "instructions": "Germany: Unternehmensregister / Bundesanzeiger (Jahresabschluss + Lagebericht of Foot Locker Germany entities, e.g. Foot Locker Germany GmbH or GmbH & Co. KG - Lagebericht usually states Filialanzahl, Mitarbeiter, Schliessungen, Prognosebericht), Handelsregister announcements, northdata.de summaries (officer changes, filings). Austria: Firmenbuch summaries (firmenabc, WKO, compnet), Austrian accounts. Switzerland: Zefix and SHAB/SOGC publications (Moneyhouse) for Foot Locker Switzerland - deletions of Zweigniederlassungen = closed branches - plus officer changes. Extract store counts, headcount, closure statements, management changes and outlook statements 2024-2026 with quotes and URLs."
+  },
+  {
+   "slug": "registry-italy-iberia",
+   "title": "Italy, Spain, Portugal registries",
+   "region": "Europe",
+   "instructions": "Italy: Foot Locker Italy S.r.l. (and other Italian FL entities) via reportaziende.it, ufficiocamerale.it, atoka, companyreports, registroimprese.it free visure summaries; bilanci (nota integrativa / relazione sulla gestione mentioning punti vendita, chiusure, personale, impairment, prospettive); 'unita locali' ceased = closed stores - count them with dates if obtainable. Spain: BORME via librebor.me / infoempresa / einforma / BOE for Foot Locker Spain S.L. (ceses/nombramientos, cuentas, modificaciones, cierres de sucursales). Portugal: Portal da Justica publicacoes, racius, einforma.pt for Foot Locker Portugal. Extract officer changes since 2025-09, store/headcount statements, closures, losses, going-concern language."
+  },
+  {
+   "slug": "registry-nordics-cee",
+   "title": "Nordics, Poland, Czech, Hungary and other European countries",
+   "region": "Europe",
+   "instructions": "First establish which countries FL Europe still operates owned stores in during 2026 vs has exited (use FL locators, the FL 10-K country list, news). Then check registries: Sweden (Bolagsverket/allabolag), Denmark (CVR/virk.dk/proff.dk), Norway (Bronnoysund/proff.no), Poland (KRS/rejestr.io/krs-online - Foot Locker Polska), Czech (or.justice.cz), Hungary (e-cegjegyzek / ceginformacio), Slovakia, Slovenia, Croatia, Greece/Romania/Cyprus/Bulgaria (licensed to Fourlis - check Fourlis 2025-26 reports for FL store counts/openings/closures). Look for liquidation, strike-off, store-count and staff changes, officer changes, annual-report statements; quote with URLs."
+  }
+ ]
+}

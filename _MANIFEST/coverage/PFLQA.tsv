@@ -1,0 +1,5 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2022-Q1_filed-2022-06-08.md	full	1753	1753	cover page/checkboxes, TOC, fwd-looking safe harbor, generic GAAP/FV hierarchy/EPS method text, controls boilerplate, exhibit index (certs/XBRL), signature block	WORKING_NOTES/P_FL_10Q_A.md	16041
+SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2022-Q2_filed-2022-09-07.md	delta	1824	599 (delta 599/599)	same as Q1 plus verbatim repeats vs Q1; standard exhibits; signature	WORKING_NOTES/P_FL_10Q_A.md	17888
+SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2022-Q3_filed-2022-12-07.md	delta	1895	496 (delta 496/496)	same as Q1 plus verbatim repeats vs Q2; standard exhibits; signature	WORKING_NOTES/P_FL_10Q_A.md	17031
+SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2023-Q1_filed-2023-06-07.md	delta	1479	756 (delta 756/756)	cover page, TOC, safe harbor, generic GAAP/control-limitations text, Items 3/4/5 n/a, standard exhibits, signature	WORKING_NOTES/P_FL_10Q_A.md	14710

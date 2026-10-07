@@ -1,0 +1,377 @@
+<title>DKS Owned-Brand Evidence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column (~880px) like a scouting report; charts full-column; ranked evidence blocks with a strength chip. */
+:root{
+  --bg:#F3F6F4; --surface:#FFFFFF; --fg:#13201A; --muted:#55645C; --line:#D6DFDA;
+  --owned:#0D6A4E; --owned-soft:#7FB8A3; --nike:#5D6B79; --against:#A9521B; --warn-bg:#F7EDE4; --good-bg:#E4F1EB;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1412; --surface:#151D1A; --fg:#E4EBE7; --muted:#9AA9A1; --line:#29352F;
+  --owned:#43BE90; --owned-soft:#2F7A5F; --nike:#93A1AE; --against:#E38B52; --warn-bg:#2A1F17; --good-bg:#14261F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1412; --surface:#151D1A; --fg:#E4EBE7; --muted:#9AA9A1; --line:#29352F;
+  --owned:#43BE90; --owned-soft:#2F7A5F; --nike:#93A1AE; --against:#E38B52; --warn-bg:#2A1F17; --good-bg:#14261F; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15.5px;line-height:1.6}
+.wrap{max-width:880px;margin:0 auto;padding-inline:20px;padding-block:36px 64px}
+h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.1;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.4rem,6vw,3.6rem);letter-spacing:.005em}
+h2{font-size:1.9rem;margin-top:56px;padding-top:18px;border-top:2px solid var(--fg);display:flex;gap:12px;align-items:baseline}
+h2 .n{font-family:var(--mono);font-size:.85rem;font-weight:500;color:var(--muted)}
+h3{font-size:1.35rem;margin-top:30px}
+p{margin:10px 0;max-width:68ch}
+ul{margin:8px 0;padding-left:20px;max-width:70ch}
+li{margin:4px 0}
+.eyebrow{font-family:var(--mono);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lede{font-size:1.08rem;max-width:66ch}
+.bottom{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--owned);padding:18px 22px;margin-top:22px}
+.bottom p{margin:8px 0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:20px}
+.tile{background:var(--surface);border:1px solid var(--line);padding:14px 16px}
+.tile .v{font-family:var(--display);font-size:2.2rem;font-weight:700;line-height:1;color:var(--owned);font-variant-numeric:tabular-nums}
+.tile .v.neg{color:var(--against)}
+.tile .l{font-size:.86rem;color:var(--muted);margin-top:6px}
+.chip{display:inline-block;font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border:1px solid currentColor;border-radius:3px;vertical-align:middle;margin-left:8px}
+.chip.strong{color:var(--owned)} .chip.mod{color:var(--nike)} .chip.against{color:var(--against)}
+.ev{margin-top:30px}
+.ev h3{margin-top:0;display:flex;flex-wrap:wrap;align-items:center;gap:4px}
+.what{font-size:.9rem;color:var(--muted);margin:14px 0 4px}
+.chart{background:var(--surface);border:1px solid var(--line);padding:14px 12px 8px;margin:10px 0 6px}
+.chart svg{display:block;width:100%;height:auto}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:.82rem;color:var(--muted);margin:0 4px 8px}
+.legend i{display:inline-block;width:12px;height:12px;margin-right:6px;vertical-align:-1px}
+.tbl{overflow-x:auto;margin:10px 0;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-family:var(--mono);font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:500;background:var(--bg)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--mono);white-space:nowrap}
+tr.hl td{background:var(--good-bg)}
+tr:last-child td{border-bottom:0}
+code{font-family:var(--mono);font-size:.84em;background:var(--bg);border:1px solid var(--line);padding:1px 5px;border-radius:3px;word-break:break-word}
+.against-box{background:var(--warn-bg);border:1px solid var(--line);border-left:5px solid var(--against);padding:14px 20px;margin-top:14px}
+.note{font-size:.86rem;color:var(--muted)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.cols>div{min-width:0}
+svg text{font-family:var(--mono)}
+.ax{fill:var(--muted);font-size:11px}
+.val{fill:var(--fg);font-size:11px;font-weight:500}
+.grid{stroke:var(--line);stroke-width:1}
+.zero{stroke:var(--muted);stroke-width:1}
+.f-owned{fill:var(--owned)} .f-nike{fill:var(--nike)} .f-against{fill:var(--against)} .f-soft{fill:var(--owned-soft)}
+.s-owned{stroke:var(--owned)} .s-nike{stroke:var(--nike)} .s-against{stroke:var(--against)} .s-soft{stroke:var(--owned-soft)}
+footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line)}
+</style>
+
+<div class="wrap">
+  <div class="eyebrow">DICK'S Sporting Goods · owned brands · overnight scrape, Oct 7 2026</div>
+  <h1>DKS Owned-Brand Evidence</h1>
+  <p class="lede">What a night of web scraping and a full re-read of the research folder found on whether DICK'S own brands (DSG, CALIA, VRST, Maxfli and the rest) are gaining mix faster than the Street assumes, and what to model. Everything below is new relative to the notes and primers.</p>
+
+  <div class="bottom">
+    <p><strong>Bottom line.</strong> Yes, owned brands are gaining, and the gain sped up from about April 2026. The best evidence comes from the free data dicks.com itself publishes. Owned brands' share of apparel reviews rose from 40% to 46% in two years, mostly at Nike's expense. Their share of the products dicks.com lists jumped by almost a point in the last year after nearly two flat years, and their share of new styles nearly doubled since FY23.</p>
+    <p>The gain is steady rather than explosive. It supports modelling about <strong>+0.5 point a year</strong> of extra penetration, not +1 point. The money is small: the base case adds about <strong>+7.5bps</strong> to DICK'S segment gross margin and <strong>+$0.09</strong> to FY27 EPS. Pitch owned brands as a margin cushion against the promotional footwear market, not as an EPS driver.</p>
+  </div>
+
+  <div class="tiles">
+    <div class="tile"><div class="v">46.0%</div><div class="l">Owned share of dicks.com apparel reviews, Apr–Aug 2026 (40.3% in 2024)</div></div>
+    <div class="tile"><div class="v">+0.94pt</div><div class="l">Owned share of listed products, y/y to Aug/Sep 2026, after −0.26pt over the prior 20 months</div></div>
+    <div class="tile"><div class="v">8.1%</div><div class="l">Owned share of new styles in FY26 so far (4.7% in FY23)</div></div>
+    <div class="tile"><div class="v">+$0.09</div><div class="l">FY27 EPS from the base-case mix path (+0.7% vs $13.36 consensus)</div></div>
+  </div>
+
+  <!-- ===================== 1 MODEL ===================== -->
+  <h2><span class="n">01</span>What to model</h2>
+  <p><strong>Bottom line:</strong> model owned-brand penetration of non-footwear sales rising about half a point a year, with footwear share easing. That takes owned brands from about 12.8% of DICK'S sales to 13.7% in FY27 and 14.2% in FY28, against a consensus that implicitly holds them flat.</p>
+
+  <h3>Why the headline has sat at "about 13%" for years</h3>
+  <p>DICK'S does not make its own athletic footwear, and footwear grew from 20% to 30% of DICK'S sales over FY19–FY25. Measured against the sales owned brands can actually compete for (apparel plus hardlines), penetration rose from a FY23 trough of about 17.7% to about 19.1% in FY25. That rise is real: the bands from the rounded 10-K disclosures don't overlap. But FY25 is only back at the FY20 and FY22 highs.</p>
+  <p class="what">What this shows: owned share of total DICK'S sales (dashed) stays flat because footwear (grey) keeps growing. Share of non-footwear merchandise (green) is recovering.</p>
+  <div class="chart" id="c-history" role="img" aria-label="Line chart of owned-brand penetration FY16 to FY25"></div>
+
+  <h3>The scenario grid</h3>
+  <p>Consensus has no owned-brand line. It implicitly holds the mix near 12.8%. Two other things dilute the headline as well: footwear, and fast-growing non-merchandise revenue (GameChanger, the media network). Because of them, penetration has to rise about 0.2pt a year just to keep the headline flat.</p>
+  <div class="legend"><span><i style="background:var(--owned)"></i>Bull: +1pt/yr, footwear −1pt/yr</span><span><i style="background:var(--owned-soft)"></i>Base: +0.5pt/yr, footwear −1pt/yr</span><span><i style="background:var(--nike)"></i>Consensus-implied flat</span><span><i style="background:var(--against)"></i>Bear: flat, footwear +1pt/yr</span></div>
+  <div class="chart" id="c-scen" role="img" aria-label="Owned-brand share of DICK'S sales by scenario FY25 to FY28"></div>
+  <p class="what">What this shows: the gross-margin and EPS effect versus consensus. Gross margin is in bps against the Bloomberg DICK'S segment GM of about 36.2–36.3%, assuming owned brands earn an 800bp higher margin and the gain drops to EBIT.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Scenario</th><th class="num">FY27 mix</th><th class="num">FY27 GM</th><th class="num">FY27 EPS</th><th class="num">FY28 mix</th><th class="num">FY28 GM</th><th class="num">FY28 EPS</th></tr></thead>
+    <tbody>
+      <tr><td>Bull: +1pt/yr, footwear −1pt/yr</td><td class="num">14.37%</td><td class="num">+12.9bps</td><td class="num">+$0.16</td><td class="num">15.28%</td><td class="num">+20.2bps</td><td class="num">+$0.26</td></tr>
+      <tr class="hl"><td><strong>Base: +0.5pt/yr, footwear −1pt/yr</strong></td><td class="num">13.69%</td><td class="num">+7.5bps</td><td class="num">+$0.09</td><td class="num">14.24%</td><td class="num">+11.8bps</td><td class="num">+$0.15</td></tr>
+      <tr><td>Consensus-implied flat</td><td class="num">12.76%</td><td class="num">0</td><td class="num">0</td><td class="num">12.76%</td><td class="num">0</td><td class="num">0</td></tr>
+      <tr><td>Bear: flat penetration, footwear +1pt/yr</td><td class="num">12.25%</td><td class="num">−4.1bps</td><td class="num">−$0.05</td><td class="num">12.06%</td><td class="num">−5.6bps</td><td class="num">−$0.07</td></tr>
+    </tbody></table></div>
+  <ul>
+    <li><strong>Inputs.</strong> Bloomberg DICK'S segment revenue: $14,753M (FY26E), $15,203M (FY27E), $15,742M (FY28E). About 89M diluted shares, 27.5% tax. Consensus EPS is $13.36 for FY27 and $15.03 for FY28.</li>
+    <li><strong>Scale check.</strong> Moving FY27 EPS by 5% from mix alone would need about 6.7 extra points of owned mix, which is not plausible. By contrast, a single quarter of promotional pressure (JPM had about 90bps for Q3) equals years of mix benefit. That is why the cushion framing fits better.</li>
+    <li><strong>What the base case asks for.</strong> Owned-brand dollars growing about 6–9% a year, against about 4.6% implied by consensus. The review data below points to roughly +5–7% in Q2 to early Q3 FY26.</li>
+    <li><strong>Licensed brands are not the explanation.</strong> The "vertical brands" figure includes licensed lines (adidas football, Cobra, Marucci, Lotto), but they are only about 3–6% of it and shrinking. Owned-only sales grew about 16% over FY23–FY25, versus 12.5% for the reported total.</li>
+  </ul>
+
+  <!-- ===================== 2 EVIDENCE ===================== -->
+  <h2><span class="n">02</span>The evidence, strongest first</h2>
+  <p><strong>Bottom line:</strong> four independent readings of dicks.com all point the same way from spring 2026: reviews, listings, new styles and page placement. All come from data the site publishes itself and can be re-run for free.</p>
+
+  <div class="ev">
+    <h3>1. Owned brands are taking apparel review share from Nike <span class="chip strong">Strong</span></h3>
+    <p>dicks.com hosts its reviews on Bazaarvoice, whose public feed shows every review with its date, brand and category. Reviews prompted by the post-purchase email track units sold. Owned brands' share of apparel reviews rose every year, while Nike's fell.</p>
+    <div class="legend"><span><i style="background:var(--owned)"></i>All owned brands</span><span><i style="background:var(--nike)"></i>Nike</span></div>
+    <div class="chart" id="c-reviews" role="img" aria-label="Apparel review share owned versus Nike 2024 to 2026"></div>
+    <p class="what">What this shows: share of all apparel reviews, April–August of each year (25,123 reviews in 2026).</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Category (Apr–Aug)</th><th class="num">2024</th><th class="num">2025</th><th class="num">2026</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>Men's apparel: owned</td><td class="num">27.9%</td><td class="num">31.6%</td><td class="num">34.1%</td><td>Passed Nike (23.7%) in 2025. VRST passed Under Armour in August 2026.</td></tr>
+        <tr><td>Kids: DSG vs Nike (Q2)</td><td class="num">n/a</td><td class="num">31.1 vs 35.4</td><td class="num">34.0 vs 31.2</td><td>First quarter DSG led Nike</td></tr>
+        <tr><td>Golf balls: Maxfli</td><td class="num">19.9%</td><td class="num">23.7%</td><td class="num">27.2%</td><td>Now #1, ahead of Callaway 21.6% and Titleist 18.5%</td></tr>
+        <tr><td>Women's apparel: owned</td><td class="num">n/a</td><td class="num">flat</td><td class="num">−0.7pt</td><td>CALIA lost 4.8pt; DSG women's gained</td></tr>
+      </tbody></table></div>
+    <p>The gain holds after the main checks. It survives the mid-2025 jump in review volume (+2.1 to +3.5pt y/y depending on method), and it rises within both in-store and online purchases. Converting review share to sales mix at the rate that matches past 10-K data (about 0.3–0.55x) gives this read of penetration y/y:</p>
+    <ul>
+      <li>Q1 FY26: roughly flat.</li>
+      <li>Q2 FY26: +0.2 to +0.45pt.</li>
+      <li>Early Q3 FY26: +0.35 to +0.65pt.</li>
+    </ul>
+    <p class="what">What this shows: the review-implied owned mix index, change versus the same month of 2025. The turn came in April.</p>
+    <div class="chart" id="c-index" role="img" aria-label="Monthly year-over-year change in review-implied owned mix index 2026"></div>
+    <p class="note">One quirk to know: DICK'S stopped sending its weekly post-purchase review email after August 11, 2026, the first non-holiday pause longer than three weeks. The cause is unknown. So the cleanest Q3 read is August 1–17, where owned share is +1.9pt in apparel and +5.3pt in men's.</p>
+  </div>
+
+  <div class="ev">
+    <h3>2. Owned brands' share of what dicks.com lists jumped in the last year <span class="chip strong">Strong</span></h3>
+    <p>Common Crawl, a free public web archive, captures dicks.com category pages every month or so. Each page carries the site's own "Vertical Brand" flag on every product. Across 735 category pages captured in both years, owned brands went from 5.82% to 6.76% of listed products (Aug/Sep 2025 to Aug/Sep 2026). The 95% range is +0.56 to +1.42pt, so the gain is real. Over the previous 20 months the share had slipped 0.26pt. Owned listings grew 25% while all listings grew 8%.</p>
+    <p class="what">What this shows: growth in listed products by brand on the same 735 pages, Aug/Sep 2025 to Aug/Sep 2026.</p>
+    <div class="chart" id="c-brands" role="img" aria-label="Listing growth by brand"></div>
+    <ul>
+      <li><strong>Where it came from:</strong> women's apparel +1.4pt, men's apparel +1.4pt, fitness +2.4pt, accessories +1.6pt, outdoor +1.1pt. Kids, team sports and golf were flat to down.</li>
+      <li><strong>Golf Galaxy:</strong> owned share of women's golf apparel went 13.1% → 17.6% → 21.0% (June 2026). CALIA is now the #1 brand there by product count.</li>
+      <li><strong>Same-season check:</strong> in the 45 core categories, owned share was flat from February 2024 to August 2025 (7.1% to 7.1%), then rose 8.1% to 8.9% in the same season a year later.</li>
+    </ul>
+  </div>
+
+  <div class="ev">
+    <h3>3. DICK'S is launching owned styles faster than ever <span class="chip strong">Strong</span></h3>
+    <p>The Bazaarvoice catalog lists every style DICK'S has ever sold, with a season code. Owned brands' share of new styles has stepped up, and DICK'S is assigning its own product barcodes about 25–30% faster than in 2022–24. Those barcodes now go almost entirely to owned brands. That's about 47,000 a year since Q3 2025, versus 36,000–38,000 before.</p>
+    <p class="what">What this shows: owned share of new styles each season, excluding footwear and fan gear (FY26 is season to date).</p>
+    <div class="chart" id="c-styles" role="img" aria-label="Owned share of new styles by season"></div>
+    <ul>
+      <li><strong>Men's:</strong> VRST plus DSG already have 102 new men's styles this season, against 94 in all of FY25. Nike is at 56% of its FY25 count and adidas at 64%.</li>
+      <li><strong>Women's and golf moved the wrong way:</strong> women's went 14.2% to 12.1% (CALIA 76 new styles vs 169) and golf 7.2% to 6.3%.</li>
+      <li><strong>Owned footwear is back, but tiny:</strong> 21 styles in FY26 versus 4 in FY25, including the first adult DSG performance shoe (pickleball). That is 0.4% of new footwear styles, so keep it at zero in the model.</li>
+    </ul>
+  </div>
+
+  <div class="ev">
+    <h3>4. The site gives owned brands far more full-price space <span class="chip strong">Strong</span></h3>
+    <p>Archived copies of the homepage and navigation menus show DICK'S stepped up full-price promotion of its own brands from February 2026, while national brands moved into the discount slots.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Placement measure</th><th class="num">Before</th><th class="num">After</th><th>Period</th></tr></thead>
+      <tbody>
+        <tr><td>Owned-brand full-price features per homepage capture</td><td class="num">0.60</td><td class="num">2.10</td><td>Feb–Jun 2024 vs Feb–Jun 2026</td></tr>
+        <tr><td>Homepage captures with any owned feature</td><td class="num">29%</td><td class="num">100%</td><td>Same</td></tr>
+        <tr><td>Owned share of full-price "Featured" menu slots</td><td class="num">16.9%</td><td class="num">28.1%</td><td>Jul–Sep 2025 vs 2026</td></tr>
+        <tr><td>National-brand discount menu slots</td><td class="num">24</td><td class="num">44</td><td>Same (owned discount slots flat at 20)</td></tr>
+        <tr><td>Owned share of top-24 "Top Sellers" slots, vs share of listings</td><td class="num">7.5%</td><td class="num">20.1%</td><td>Live census, Oct 7 2026</td></tr>
+      </tbody></table></div>
+    <p>In the October 7 census, DSG was the #2 brand in the top-seller lists (behind Nike) and CALIA #4. Maxfli held 12 of the top 24 golf-ball slots, including #1. Maxfli was also added to the homepage "Brands We Love" row by May 2026, with its own brand shop. One caution: the default "Featured" sort favors owned brands, so some top-seller strength may be placement.</p>
+  </div>
+
+  <div class="ev">
+    <h3>5. DICK'S is spending behind the brands more than ever <span class="chip mod">Moderate</span></h3>
+    <p>These signals show intent and investment, not sales, but together they say management is pushing hard in the second half.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Signal</th><th>What was found</th></tr></thead>
+      <tbody>
+        <tr><td>VRST on national TV</td><td>335 national airings in the 30 days to October 7, the most of any DICK'S-family brand (Vuori had 19). Back on TV from August 2026 after a two-year gap, with 4 new spots.</td></tr>
+        <tr><td>CALIA paid creators</td><td>TikTok videos tagged #caliapartner reached 111M plays in Apr–Sep 2026, against 0.4M a year earlier (likely paid boosting).</td></tr>
+        <tr><td>CALIA into lifestyle</td><td>Christy Turlington campaign (April), Effortless denim (Aug 13), a New Balance capsule (Aug 7), a Times Square billboard (September).</td></tr>
+        <tr><td>Team</td><td>New "EVP – Apparel and Vertical Brands" role (Jan 2026) that also buys national apparel. New VP of Global Sourcing (April 2026). On LinkedIn, new owned-brand roles went 12 → 22 → 17 per half-year (H1 2025 to H1 2026).</td></tr>
+        <tr><td>Pipeline (trademarks)</td><td>New golf brand FOXBURG (clubs, balls, apparel; filed Feb/Apr 2026, published Oct 6). Maxfli irons at $999.99 (Apr 2026) and wedges. CALIA CLUB sub-brand (Apr 2026). Filings for bikes, coolers and pickleball paddles (Jun–Aug 2026).</td></tr>
+        <tr><td>Maxfli</td><td>First TV campaign (Feb 2026). A 5-year exclusive deal with an Australian golf retailer, signed Aug 21, 2026 and starting in October: the first time a DICK'S brand is sold abroad.</td></tr>
+        <tr><td>Loyalty</td><td>July sign-ups to the $99 ScoreCard+ tier got a $100 credit usable only on owned brands.</td></tr>
+        <tr><td>Size of DSG</td><td>The DSG brand gives 1% of sales to the DICK'S Foundation. Its "over $3 million" given in the first nine months of FY24 implies DSG sales of at least $300M then, roughly a quarter of all owned-brand sales.</td></tr>
+      </tbody></table></div>
+  </div>
+
+  <!-- ===================== 3 AGAINST ===================== -->
+  <h2><span class="n">03</span>What cuts against</h2>
+  <p><strong>Bottom line:</strong> owned brands are growing partly by being discounted heavily, CALIA is weakening, and management has stopped talking about the brands. None of this breaks the base case, but it rules out the bull case for now.</p>
+  <div class="against-box">
+    <ul>
+      <li><strong>Heavy discounting.</strong> In Jun–Sep 2026, 47–54% of owned products were marked down, against 25–28% for national brands. The owned figure rose about 12 points y/y (national about 1.5). CALIA went from 56% to 67% on sale, and DICK'S runs "Exclusive Brands" clearance days at up to 90% off.</li>
+      <li><strong>CALIA is the weak spot.</strong> Women's review share −4.8pt, listings −5%, search interest −13% y/y in Jul–Sep, Instagram likes per post −33%. Women's is where owned share is highest, so CALIA matters.</li>
+      <li><strong>Organic reviews disagree.</strong> Among reviews not prompted by the email (about 5% of the total), owned apparel share fell from 56.8% to 50.1% y/y.</li>
+      <li><strong>Management went quiet.</strong> Owned brands got 33 mentions at the September 2025 Goldman conference and none at the June 2026 AGM, the August call or the September 2026 conference. The 10-K and 10-Q language about growing the brands has been dropped, and the August 2026 release added "competition, innovation" to the vertical-brand risk wording.</li>
+      <li><strong>Golf clubs and imports.</strong> Owned golf-club review share fell from 18.1% to 13.2%. The Jul–Sep 2026 import surge turned out to be a catch-up after a tariff-hit 2025: owned brands' share of DICK'S direct imports is flat, and owned hardgoods imports are 43% below 2024.</li>
+      <li><strong>History is slow.</strong> Owned mix has sat at 12–15% of sales since FY17. Past jumps of 1–2 points came only when DICK'S dropped vendors (as in 2017). Academy's private label slipped from 23% to 22% in FY25.</li>
+    </ul>
+  </div>
+
+  <!-- ===================== 4 AVENUES ===================== -->
+  <h2><span class="n">04</span>Best avenues to keep scraping</h2>
+  <p><strong>Bottom line:</strong> the three dicks.com data sources (Bazaarvoice reviews, the Bazaarvoice catalog and Common Crawl) are free, repeatable and the strongest signals. Run them weekly or monthly into the Q3 print. Scripts are in <code>PB_SCRAPE/scripts/</code>.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>#</th><th>Source</th><th>What it measures</th><th>Cadence</th><th>Signal</th><th>How to run</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>dicks.com reviews (Bazaarvoice public feed)</td><td>Owned vs national review share by category and month; head-to-head vs Nike</td><td>Weekly</td><td>High</td><td><code>R1_weekly.py</code> (60–90 min). Check Wednesdays for the review email restarting.</td></tr>
+      <tr><td>2</td><td>Common Crawl captures of dicks.com</td><td>Owned share of listings via the site's own flag; markdown share; prices</td><td>Each crawl (~monthly)</td><td>High</td><td><code>R12_panel_facets.py</code>, <code>X11_cc_analyze.py</code></td></tr>
+      <tr><td>3</td><td>Bazaarvoice product catalog</td><td>Owned share of new styles, barcode creation pace, new categories</td><td>Monthly</td><td>Med–high</td><td><code>R5_bv_catalog.py</code>, then <code>R5_analyze.py</code> and <code>R5_upc_clock.py</code></td></tr>
+      <tr><td>4</td><td>Wayback homepage and menu captures</td><td>Full-price feature share for owned vs national</td><td>Monthly</td><td>Medium</td><td><code>X03_home.py</code>, <code>X03_navcta.py</code></td></tr>
+      <tr><td>5</td><td>10-K / 10-Q tables</td><td>Penetration band, footwear share, non-merchandise share</td><td>Quarterly</td><td>Medium (coarse but official)</td><td><code>M1_mix_model.py</code></td></tr>
+      <tr><td>6</td><td>iSpot.tv public pages</td><td>National TV airings by brand</td><td>Weekly</td><td>Medium (spend, not sales)</td><td><code>R4_ispot_brandstats.py</code></td></tr>
+      <tr><td>7</td><td>USPTO trademark search</td><td>New brands and categories in the pipeline</td><td>Weekly</td><td>Medium</td><td><code>X05_uspto_tm_pull.py</code></td></tr>
+      <tr><td>8</td><td>DICK'S careers feed</td><td>Owned-brand team hiring</td><td>Weekly</td><td>Low–med</td><td><code>X06_workday_jobs.py</code></td></tr>
+      <tr><td>9</td><td>ImportYeti (consignee "Dick's Merchandising &amp; Supply Chain")</td><td>Owned vs national direct-import volume</td><td>Monthly</td><td>Low–med (supply side; throttles)</td><td><code>R8_run_all.py</code></td></tr>
+      <tr><td>10</td><td>Slickdeals</td><td>How often and how deeply owned brands are discounted</td><td>Weekly</td><td>Low (clearance signal)</td><td><code>X12_slickdeals_owned_brand_deals.py</code></td></tr>
+      <tr><td>11</td><td>Foot Locker / Champs review feeds</td><td>Tripwire for DICK'S brands entering Foot Locker (none today)</td><td>Weekly</td><td>Tripwire</td><td><code>R1_bv_other_clients.py fl</code></td></tr>
+    </tbody></table></div>
+  <p><strong>Paid routes worth asking about:</strong></p>
+  <ul>
+    <li><strong>YipitData:</strong> has SKU-level DICK'S sales data, the only true monthly owned-brand mix series. Its gated reports include brand share at DICK'S.</li>
+    <li><strong>Particl:</strong> estimates product-level online sales on dicks.com since May 2023. Use only the brand shares; its absolute dollar figures look inflated.</li>
+    <li><strong>Numerator:</strong> receipt-panel data, through a broker with access such as JPM.</li>
+    <li><strong>Panjiva:</strong> full shipping records, which would give monthly series by brand.</li>
+    <li><strong>iSpot or Vivvix:</strong> advertising spend in dollars.</li>
+  </ul>
+  <p>Google Trends is not usable for April–June 2026: every shopping search spiked in that window while unrelated searches stayed flat.</p>
+
+  <!-- ===================== 5 WATCH ===================== -->
+  <h2><span class="n">05</span>What to watch next</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>When</th><th>What</th><th>Why it matters</th></tr></thead>
+    <tbody>
+      <tr><td>Every Wednesday</td><td>Did DICK'S post-purchase review email go out on Tuesday?</td><td>A catch-up batch would cover Q3 purchases and give the cleanest Q3 read before the print.</td></tr>
+      <tr><td>Late Oct / Nov 2026</td><td>Next Common Crawl capture of dicks.com</td><td>Rerun the 735-page panel for an end-of-Q3 listing read.</td></tr>
+      <tr><td>~Nov 24–25 2026</td><td>Q3 FY26 earnings call</td><td>Any owned-brand mention after three silent events. Check whether "vertical brands" is credited in the margin bridge.</td></tr>
+      <tr><td>Early Dec 2026</td><td>Q3 FY26 10-Q</td><td>If DICK'S footwear share is down y/y, the "footwear −1pt" scenarios become the base case. Also recheck the risk wording.</td></tr>
+      <tr><td>Nov–Dec 2026</td><td>DICK'S Foundation FY25 tax filing and Q3 giving post</td><td>A new "DSG has given $X" line sizes the DSG brand directly.</td></tr>
+      <tr><td>Mar 2027</td><td>FY26 10-K</td><td>A "$2.0 billion" vertical-brand figure would hit the 2017 goal and imply penetration of about 19.9% or more.</td></tr>
+    </tbody></table></div>
+  <p><strong>Questions for investor relations:</strong></p>
+  <ul>
+    <li>Owned-only sales excluding licensed lines.</li>
+    <li>DICK'S-only sales by category.</li>
+    <li>Owned-brand penetration in House of Sport stores versus legacy stores.</li>
+    <li>Why the review email paused.</li>
+  </ul>
+
+  <footer>
+    <p class="note"><strong>Scope and limits.</strong> Waves 1 and 2 finished: 6 full reads of the core notes, 4 of the working notes, 14 web scrapes and 12 follow-ups. Wave 3 did not run because the run was stopped after the usage limit. That wave covered independent re-verification, an Academy peer comparison on Bazaarvoice, Meta Ad Library counts, and a check of whether brands like ETHOS are relabelled Fitness Gear. So the findings above are not independently re-verified, and the ETHOS growth may partly be relabelling. Review and listing shares measure units and placement, not dollars. Every agent's full write-up, raw data and scripts are in <code>PB_SCRAPE/</code>; the run log is <code>PB_SCRAPE/STATE.md</code>.</p>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var NS="http://www.w3.org/2000/svg";
+  function el(tag,attrs,txt){var e=document.createElementNS(NS,tag);for(var k in attrs)e.setAttribute(k,attrs[k]);if(txt!=null)e.textContent=txt;return e;}
+  function frame(host,h){host.innerHTML="";var w=Math.max(300,host.clientWidth-24);var s=el("svg",{viewBox:"0 0 "+w+" "+h,width:w,height:h});host.appendChild(s);return {s:s,w:w,h:h};}
+  function yAxis(s,x0,x1,y,ticks,fmt){ticks.forEach(function(t){var yy=y(t);s.appendChild(el("line",{x1:x0,x2:x1,y1:yy,y2:yy,"class":t===0?"zero":"grid"}));s.appendChild(el("text",{x:x0-6,y:yy+4,"text-anchor":"end","class":"ax"},fmt(t)));});}
+
+  function bars(host,c){
+    var f=frame(host,c.h||240),s=f.s,L=44,R=10,T=18,B=30;
+    var y=function(v){return T+(c.max-v)/(c.max-c.min)*(f.h-T-B);};
+    yAxis(s,L,f.w-R,y,c.ticks,c.fmt);
+    var band=(f.w-L-R)/c.cats.length, n=c.series.length, bw=Math.min(46,band*0.72/n);
+    c.cats.forEach(function(cat,i){
+      var gx=L+band*i+band/2-(bw*n)/2;
+      c.series.forEach(function(se,j){
+        var v=se.vals[i]; if(v==null)return;
+        var cls=se.cls||(v<0?"f-against":"f-owned");
+        if(se.byColor)cls=v<0?"f-against":"f-owned";
+        var y0=y(Math.max(0,Math.min(v,0)+0)), yv=y(v), top=Math.min(y(0),yv), ht=Math.abs(y(0)-yv);
+        if(c.min>0){top=yv;ht=y(c.min)-yv;}
+        s.appendChild(el("rect",{x:gx+bw*j,y:top,width:bw-3,height:Math.max(1,ht),"class":cls}));
+        var ly=v<0?top+ht+13:top-5;
+        s.appendChild(el("text",{x:gx+bw*j+(bw-3)/2,y:ly,"text-anchor":"middle","class":"val"},c.fmt(v)));
+      });
+      s.appendChild(el("text",{x:L+band*i+band/2,y:f.h-10,"text-anchor":"middle","class":"ax"},cat));
+    });
+  }
+
+  function hbars(host,c){
+    var rowH=30,f=frame(host,c.items.length*rowH+30),s=f.s,L=Math.min(150,f.w*0.36),R=44,T=6;
+    var x=function(v){return L+(v-c.min)/(c.max-c.min)*(f.w-L-R);};
+    c.ticks.forEach(function(t){s.appendChild(el("line",{x1:x(t),x2:x(t),y1:T,y2:f.h-22,"class":t===0?"zero":"grid"}));s.appendChild(el("text",{x:x(t),y:f.h-6,"text-anchor":"middle","class":"ax"},c.fmt(t)));});
+    c.items.forEach(function(it,i){
+      var yy=T+i*rowH+5, x0=x(Math.min(0,it.v)), wv=Math.abs(x(it.v)-x(0));
+      s.appendChild(el("text",{x:L-8,y:yy+14,"text-anchor":"end","class":"ax"},it.label));
+      s.appendChild(el("rect",{x:x0,y:yy,width:Math.max(1,wv),height:rowH-12,"class":it.cls}));
+      var tx=it.v<0?x0-5:x(it.v)+5;
+      s.appendChild(el("text",{x:tx,y:yy+14,"text-anchor":it.v<0?"end":"start","class":"val"},c.fmt(it.v)));
+    });
+  }
+
+  function lines(host,c){
+    var f=frame(host,c.h||260),s=f.s,L=40,R=58,T=16,B=28;
+    var x=function(i){return L+i*(f.w-L-R)/(c.xs.length-1);};
+    var y=function(v){return T+(c.max-v)/(c.max-c.min)*(f.h-T-B);};
+    yAxis(s,L,f.w-R,y,c.ticks,c.fmt);
+    c.xs.forEach(function(lab,i){ if(c.every && i%c.every!==0 && i!==c.xs.length-1)return; s.appendChild(el("text",{x:x(i),y:f.h-8,"text-anchor":"middle","class":"ax"},lab));});
+    var used=[];
+    c.series.forEach(function(se){
+      var d=se.vals.map(function(v,i){return (i?"L":"M")+x(i)+" "+y(v);}).join(" ");
+      var a={d:d,fill:"none","class":se.cls,"stroke-width":2.5,"stroke-linejoin":"round"}; if(se.dash)a["stroke-dasharray"]="6 4";
+      s.appendChild(el("path",a));
+      se.vals.forEach(function(v,i){ if(i===se.vals.length-1) s.appendChild(el("circle",{cx:x(i),cy:y(v),r:3.5,"class":se.cls.replace("s-","f-")})); });
+      var last=se.vals[se.vals.length-1], ly=y(last)+4;
+      used.forEach(function(u){ if(Math.abs(u-ly)<12) ly=u+(ly>=u?12:-12); }); used.push(ly);
+      s.appendChild(el("text",{x:x(c.xs.length-1)+7,y:ly,"class":"val"},c.fmt(last)));
+    });
+  }
+
+  var pct=function(v){return (Math.round(v*10)/10).toFixed(1)+"%";};
+  var pct0=function(v){return v+"%";};
+  var sgn=function(v){return (v>0?"+":"")+v+"%";};
+
+  function render(){
+    lines(document.getElementById("c-history"),{
+      xs:["FY16","FY17","FY18","FY19","FY20","FY21","FY22","FY23","FY24","FY25"], every:1,
+      min:0,max:35,ticks:[0,10,20,30],fmt:pct0,
+      series:[
+        {cls:"s-nike",vals:[19.3,19.7,20.4,20.7,19.1,20.9,24.1,26.1,28.5,30.3]},
+        {cls:"s-owned",vals:[12.5,15.2,17.9,18.0,18.9,17.9,18.65,17.7,18.4,19.1]},
+        {cls:"s-soft",dash:true,vals:[10,12,14,14,15,13.9,13.9,12.6,12.8,12.8]}
+      ]});
+    var hl=document.getElementById("c-history");
+    var lg=document.createElement("div");lg.className="legend";
+    lg.innerHTML='<span><i style="background:var(--nike)"></i>Footwear share of DICK\'S sales</span><span><i style="background:var(--owned)"></i>Owned share of non-footwear merchandise</span><span><i style="background:var(--owned-soft)"></i>Owned share of total DICK\'S sales (the "~13%")</span>';
+    hl.insertBefore(lg,hl.firstChild);
+
+    lines(document.getElementById("c-scen"),{
+      xs:["FY25","FY26E","FY27E","FY28E"],min:11.5,max:15.5,ticks:[12,13,14,15],fmt:function(v){return v.toFixed(2)+"%";},
+      series:[
+        {cls:"s-owned",vals:[12.76,13.49,14.37,15.28]},
+        {cls:"s-soft",vals:[12.76,13.15,13.69,14.24]},
+        {cls:"s-nike",dash:true,vals:[12.76,12.76,12.76,12.76]},
+        {cls:"s-against",vals:[12.76,12.44,12.25,12.06]}
+      ]});
+
+    bars(document.getElementById("c-reviews"),{
+      cats:["2024","2025","2026"],min:0,max:50,ticks:[0,10,20,30,40,50],fmt:pct,h:230,
+      series:[{cls:"f-owned",vals:[40.3,43.9,46.0]},{cls:"f-nike",vals:[25.6,24.5,21.2]}]});
+
+    bars(document.getElementById("c-index"),{
+      cats:["Feb","Mar","Apr","May","Jun","Jul","Aug"],min:-10,max:12,ticks:[-10,-5,0,5,10],fmt:function(v){return (v>0?"+":"")+v+"%";},h:220,
+      series:[{byColor:true,vals:[-8.4,-2.7,6.3,3.3,3.0,6.5,10.8]}]});
+
+    hbars(document.getElementById("c-brands"),{
+      min:-10,max:70,ticks:[0,20,40,60],fmt:sgn,
+      items:[
+        {label:"Walter Hagen",v:62,cls:"f-owned"},{label:"ETHOS",v:55,cls:"f-owned"},{label:"DSG",v:45,cls:"f-owned"},
+        {label:"All owned",v:25,cls:"f-soft"},{label:"Nike",v:20,cls:"f-nike"},{label:"All brands",v:8,cls:"f-nike"},{label:"CALIA",v:-5,cls:"f-against"}
+      ]});
+
+    bars(document.getElementById("c-styles"),{
+      cats:["FY21","FY22","FY23","FY24","FY25","FY26 YTD"],min:0,max:10,ticks:[0,2,4,6,8,10],fmt:pct,h:220,
+      series:[{cls:"f-owned",vals:[5.5,6.4,4.7,5.7,7.9,8.1]}]});
+  }
+  render();
+  var t; window.addEventListener("resize",function(){clearTimeout(t);t=setTimeout(render,150);});
+})();
+</script>

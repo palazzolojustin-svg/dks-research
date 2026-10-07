@@ -1,0 +1,30 @@
+source	mode	total_lines	last_line_read	dropped_as_boilerplate	output_file	notes_chars_for_this_source
+SOURCE/06_BLOOMBERG_FINANCIALS/DKS/DKS_Bloomberg-Financials_Annual_FY2022-FY2031E.md	full	297	297	Bloomberg disclaimer footers, page markers, empty page stubs	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	17790
+SOURCE/06_BLOOMBERG_FINANCIALS/DKS/DKS_Bloomberg-Financials_Quarterly_setA.md	full	296	296	Bloomberg disclaimer footers, page markers	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	23268
+SOURCE/06_BLOOMBERG_FINANCIALS/DKS/DKS_Bloomberg-Financials_Quarterly_setB.md	full	290	290	Bloomberg disclaimer footers; overlap cols =same as setA	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	16715
+SOURCE/08_MARKET_DATA/MARKET_DATA_SUMMARY.md	full	488	488	none (sections duplicated by CSVs pointed =same)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	6835
+SOURCE/08_MARKET_DATA/csv/DKS_analyst_rating_changes.csv	full	260	260	none; raw rows summarized/compacted	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	11341
+SOURCE/08_MARKET_DATA/csv/DKS_daily_OHLCV_2021-2026-10-05.csv	full	1446	1446	raw daily rows not transcribed (CSV copied to CORE_NOTES/data); derived stats only	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	6742
+SOURCE/08_MARKET_DATA/csv/DKS_dividends.csv	full	24	24	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	429
+SOURCE/08_MARKET_DATA/csv/DKS_earnings_day_reactions.csv	full	17	17	=same as summary table (float precision only)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	381
+SOURCE/08_MARKET_DATA/csv/DKS_earnings_estimate.csv	full	5	5	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	587
+SOURCE/08_MARKET_DATA/csv/DKS_earnings_history_surprises.csv	full	5	5	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	412
+SOURCE/08_MARKET_DATA/csv/DKS_eps_revisions.csv	full	5	5	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	265
+SOURCE/08_MARKET_DATA/csv/DKS_eps_trend.csv	full	5	5	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	489
+SOURCE/08_MARKET_DATA/csv/DKS_growth_estimates.csv	full	6	6	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	228
+SOURCE/08_MARKET_DATA/csv/DKS_insider_roster_holders.csv	full	11	11	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	1027
+SOURCE/08_MARKET_DATA/csv/DKS_insider_transactions.csv	full	90	90	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	8046
+SOURCE/08_MARKET_DATA/csv/DKS_institutional_holders.csv	full	11	11	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	951
+SOURCE/08_MARKET_DATA/csv/DKS_major_holders.csv	full	5	5	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	324
+SOURCE/08_MARKET_DATA/csv/DKS_mutualfund_holders.csv	full	11	11	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	1081
+SOURCE/08_MARKET_DATA/csv/DKS_options_calls_2026-11-20.csv	full	30	30	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	2629
+SOURCE/08_MARKET_DATA/csv/DKS_options_calls_2026-12-18.csv	full	40	40	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	3262
+SOURCE/08_MARKET_DATA/csv/DKS_options_puts_2026-11-20.csv	full	28	28	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	2495
+SOURCE/08_MARKET_DATA/csv/DKS_options_puts_2026-12-18.csv	full	34	34	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	2903
+SOURCE/08_MARKET_DATA/csv/DKS_revenue_estimate.csv	full	5	5	none (full content as compact table)	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	584
+SOURCE/02_DKS_TRANSCRIPTS/slides_text/DKS_Investor-Presentation_2026-03_slide-text.md	full	871	871	safe harbor, non-GAAP boilerplate, empty reconciliation slide headers, About/contacts	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	9812
+SOURCE/02_DKS_TRANSCRIPTS/slides_text/DKS_Q1-FY2025_Earnings-Slides_slide-text-fragment.md	full	211	211	blank slide-number lines	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	782
+SOURCE/02_DKS_TRANSCRIPTS/slides_text/DKS_Q1-FY2026_Investor-Presentation-May-2026_slide-text.md	full	873	873	safe harbor/non-GAAP boilerplate; slides identical to Mar-2026 deck pointed =same	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	4108
+SOURCE/02_DKS_TRANSCRIPTS/slides_text/DKS_Q2-FY2026_Investor-Presentation-Aug-2026_slide-text.md	full	865	865	boilerplate; slides identical to May-2026 deck pointed =same	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	6210
+SOURCE/02_DKS_TRANSCRIPTS/slides_text/DKS_Q3-FY2025_Investor-Presentation-Dec-2025_slide-text.md	full	938	938	safe harbor generic text, non-GAAP boilerplate, empty reconciliation headers, About/contacts	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	10100
+SOURCE/02_DKS_TRANSCRIPTS/annual_report_letters/DKS_Shareholder_Letters_and_Highlights_FY2022-FY2025_extracted.md	full	493	493	duplicated per-year highlight tables (=letters), overlapping price-table rows	CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md	14486

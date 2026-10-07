@@ -1,0 +1,296 @@
+# DKS Bloomberg-Financials Quarterly setA
+
+- **Source:** Bloomberg Terminal, Company Financials (FA) screen, consensus estimates
+- **Pages:** 4
+- **Original PDF:** _archive_pdf/06_BLOOMBERG_FINANCIALS/DKS/DKS_Bloomberg-Financials_Quarterly_setA.pdf
+- **Original filename:** DKS quarterlies.pdf
+
+---
+
+
+<!-- page 1 -->
+
+
+
+<!-- page 2 -->
+
+
+
+<!-- page 3 -->
+
+
+
+<!-- page 4 -->
+
+
+
+## OCR of page images
+
+
+<!-- page 1 (OCR) -->
+
+Bloomberg Company Financials
+Ticker: DKS US Equity Currency: USD Est Source: Consensus Periodicity: Quarters Analytics: None
+Multiple Periods
+In Millions of USD 2026 Q1 2026 Q2 2026 Q3 2026 Q4 2027 Q1 2027 Q2 2027 Q3 Est 2027 Q4 Est 2028 Q1 Est 2028 Q2 Est
+3 Months Ending 05/03/2025 08/02/2025 11/01/2025 01/31/2026 05/02/2026 08/01/2026 10/31/2026 01/30/2027 05/01/2027 07/31/2027
+Highlights
+Adjusted Diluted EPS 3.37 4.38 2.07 3.45 2.90 3.53 1.39 3.62 3.11 3.83
+Revenue 3,174.68 3,646.62 4,167.77 6,226.05 5,164.50 5,586.82 5,072.52 6,262.29 5,250.72 5,726.00
+Foot Locker Contribution 930.91 2,175.27 1,787.06 1,736.93 1,738.14 2,139.45 1,749.00 1,725.35
+Same Store Sales (%) 4.50 5.00 5.70 3.10 6.00 4.90 1.69 1.59 2.41 2.24
+2 Year Stacked (%) 10.04 9.73 10.14 9.70 10.77 10.15 7.48 4.74 8.56 7.25
+Same Store Ticket Growth (%) 3.70 4.10 4.40 4.20 5.50 3.60 1.25 1.00 1.00 1.00
+Same Store Transaction Growth (%) 0.80 0.90 1.30 0.30 0.50 1.30 1.50 1.57 1.00 1.00
+Retail Sq. Footage 45,000.00 45,100.00 45,700.00 45,500.00 45,600.00 41,000.00 46,185.06 46,332.50 46,282.41 46,634.70
+Number of Stores - Company Owned 856.00 889.00 3,230.00 3,195.00 3,115.00 892.00 3,146.00 3,136.00 3,137.00 3,133.00
+Dick's Sporting Goods 670.00 665.00 649.00 644.00 640.00 630.00 619.00 613.00 608.00 602.00
+Speciality Store Concept 163.00 167.00 166.00 167.00 168.00 169.00 173.00 176.00 177.00 180.00
+Gross Margin (%) 36.70 37.06 33.13 31.93 32.59 34.78 31.57 32.12 33.59 34.18
+Inventories 3,569.35 3,403.91 5,640.83 4,907.82 5,419.44 5,565.34 5,859.96 4,883.99 5,353.22 5,516.37
+Company Operating Metrics
+Company-Level Industry Statistics
+Comparable Sales (%) 4.50 5.00 5.70 3.10 6.00 4.90 1.69 1.59 2.41 2.24
+2 Year Stacked (%) 10.04 9.73 10.14 9.70 10.77 10.15 7.48 4.74 8.56 7:25
+Proforma Foot Locker (%) 1.70 0.80 4.10 -3.60 0.34 0.97 1.20 1.92
+Proforma Consolidated (%)
+Same Store Ticket Growth (%) 3.70 4.10 4.40 4.20 5.50 3.60 1.25 1.00 1.00 1.00
+Same Store Transaction Growth (%) 0.80 0.90 1.30 0.30 0.50 1.30 1.50 1.57 1.00 1.00
+Scorecard Members 25,000,000.00 25,000,000.00 25,000,000.00 30,000,000.00 30,000,000.00
+Number of Stores (EOP) 885.00 889.00 3,480.00 3,449.00 3,371.00 3,370.00
+Owned Stores 856.00 889.00 3,230.00 3,195.00 3,115.00 892.00 3,146.00 3,136.00 3,137.00 3,133.00
+Foot Locker Business 2,589.00 2,561.00 2,483.00 2,478.00 2,490.00 2,497.00 2,538.00 2,550.00
+Owned Stores 2,363.00 2,354.00 2,339.00 2,307.00 2,227.00 2,212.00 2,204.00 2,195.00 2,182.00 2,173.00
+North America 1,634.00 1,610.00 1,537.00 1,531.00 1,524.00 1,518.00 1,505.00 1,498.00
+Foot Locker North America 744.00 734.00 716.00 715.00 712.00 706.00 705.00 703.00
+Champs Sports 376.00 371.00 364.00 364.00 362.00 360.00 356.00 354.00
+Kids Foot Locker 363.00 362.00 357.00 353.00 354.00 353.00 351.00 349.00
+wss 151.00 143.00 100.00 00'66 97.00 95.00 89.00 87.00
+International 705.00 697.00 690.00 681.00 679.00 677.00 676.00 673.00
+Foot Locker Europe 581.00 573.00 567.00 559.00 557.00 556.00 553.00 551.00
+Foot Locker Asia Pacific 94.00 94.00 94.00 92.00 92.00 92.00 91.00 90.00
+Atmos 30.00 30.00 29.00 0000 30.00 30.00 29.00 29.00
+Licensed Stores 0.00 0.00 0.00 254.00 256.00 2,478.00 267.00 269.00 269.00 270.00
+Dick's Business 891.00 888.00 888.00 892.00 901.00 903.00 905.00 909.00
+Dick's Sporting Goods 722.00 722.00 725.00 721.00 720.00 723.00 728.00 729.00 731.00 734.00
+Dick's 670.00 665.00 649.00 644.00 640.00 630.00 619.00 613.00 608.00 602.00
+Dick's Field House 31.00 35.00 41.00 42.00 44.00 52.00 59.00 63.00 67.00 72.00
+Dick's House of Sport 21.00 22.00 35.00 35.00 36.00 41.00 47.00 49.00 53.00 59.00
+Other Specialty Concepts 163.00 167.00 166.00 167.00 168.00 169.00 173.00 176.00 177.00 180.00
+Golf Galaxy 110.00 112.00 112.00 113.00 113.00 114.00 118.00 120.00 122.00 124.00
+Going Going Gone! 50.00 52.00 51.00 51.00 52.00 52.00 52.00 52.00 53.00 53.00
+Other 3.00 3.00 3.00 3.00 3.00 3.00 3.00 3.00 3.00 3.00
+Net Changes 29.00 4.00 2,591.00 -31.00 -78.00 -1.00 6.00 -0.50 7.00 8.00
+Opened 0.00 11.00 4.00 5.00 5.00 29.00 9.00 6.00 3.00 7.00
+Dick's 1.00 0.00 0.00 0.00 0.00 0.00 7.00 2.00 3.00 4.00
+Speciality Store Concept 3.00 9.00 10.00 15.00 2.00 3.00 5.00 4.00 2.00 3.00
+Closed 1.00 7.00 2.00 8.00 85.00 30.00 1.00 3.00 2.00 2.00
+Dick's 2.00 3.00 3.00 7.00 2.00 2.00 1.00 2.00 2.00 1.00
+Speciality Store Concept 2.00 4.00 6.00 10.00 1.00 1.00 1.00 1.00 2.00 2.00
+Number of Stores (BOP) 856.00 885.00 885.00 3,224.00 3,195.00 3,371.00 1,096.00 1,101.00 1,147.00 1,150.00
+This report may not be modified or altered in any way. The BLOOMBERG PROFESSIONAL service and BLOOMBERG Data are owned and distributed locally by Bloomberg Finance LP (BFLP") and its subsidiaries in all jurisdictions other than Argentina, Bermuda, China, India, Japan and Korea (the ("BFLP
+Countries"). BFLP is a wholly-owned subsidiary of Bloomberg LP ("BLP"). BLP provides BFLP with all the global marketing and operational support and service for the Services and distributes the Services either directly or through a non-BFLP subsidiary in the BLP Countries. BFLP, BLP and their affiliates
+do not provide investment advice, and nothing herein shall constitute an offer of financial instruments by BFLP, BLP or their affiliates.
+Bloomberg ? 10/04/2026 22:04:22
+
+<!-- page 2 (OCR) -->
+
+Bloomberg Company Financials
+Ticker: DKS US Equity Currency: USD Est Source: Consensus Periodicity: Quarters Analytics: None
+In Millions of USD 2026 Q1 2026 Q2 2026 Q3 2026 Q4 2027 Q1 2027 Q2 2027 Q3 Est 2027 Q4 Est 2028 Q1 Est 2028 Q2 Est
+3 Months Ending 05/03/2025 08/02/2025 11/01/2025 01/31/2026 05/02/2026 08/01/2026 10/31/2026 01/30/2027 05/01/2027 07/31/2027
+Total Dick's Sporting Goods 723.00 722.00 723.00 723.00 721.00 721.00 722.00 724.00 725.00 726.00
+Dick's 723.00 670.00 677.00 677.00 644.00 644.00 625.00 615.00 610.00 602.00
+Speciality Store Concept 133.00 163.00 167.00 162.00 168.00 167.00 169.00 173.00 176.00 177.00
+Avg. Retail Space per Company Owned Location 52,570.09 50,731.16 14,148.61 14,241.00 14,638.84 45,964.13 42,912.52 42,909.29 50,818.97 50,757.43
+Inventory per Store 4.17 3.83 1.75 1.54 1.74 6.24 3.90 3.16 3.36 3.53
+Retail Sq. Footage 45,000.00 45,100.00 45,700.00 45,500.00 45,600.00 41,000.00 46,185.06 46,332.50 46,282.41 46,634.70
+Full Time Employees 31,600.00
+Per Total Sq. Footage Metrics
+Net Sales 71.66 80.95 91.80 136.54 113.38 129.03 80.45 99.47 80.85 90.53
+Gross Profit 26.30 29.99 30.42 38.82 36.95 44.88 26.66 33.24 29.28 32.62
+Operating Expenses 18.04 19.96 28.36 34.77 27.06 34.70 25.41 28.24 25.12 26.92
+Inventory 79.32 75.47 123.43 107.86 118.85 135.74 132.20 103.50 118.40 122.97
+Balance Sheet & Cash Flow Metrics
+Days Sales 7.35 5.59 10.37 6.96 8.22 7.45 10.40 6.97 8.24 7.47
+Days Inventory 153.29 130.47 152.92 84.32 117.48 112.01 151.82 121.20 143.22 138.97
+Days Receivable 6.75 5.99 7.63 6.95 8.30 7.53 11.45 6.15 7.35 6.61
+Business Breakdown
+DICK'S Sporting Goods
+Revenue 3,236.86 4,050.79 3,377.44 3,849.89 3,436.61 4,144.38 3,478.03 4,102.66
+Gross Profit 1,166.57 1,443.37 1,227.32 1,457.03 1,170.21 1,464.47 1,261.52 1,487.45
+Gross Margin (%) 36.34 37.84 35.42 35.42 36.26 37.51
+Operating Income 360.98 485.20 246.40 457.16 370.13 482.51
+Operating Margin (%) 10.69 12.60 7.17 10.58 10.07 11.69
+Foot Locker
+Revenue 930.91 2,175.27 1,787.06 1,736.93 1,738.14 2,139.45 1,749.00 1,725.35
+Gross Profit 214.29 544.60 498.67 445.77 425.83 545.03 489.05 459.09
+Gross Margin (%) 27.90 25.66 24.37 25.63 27.87 26.46
+Operating Income 17.46 -31.88 -71.34 14.00 18.22 -13.26
+Operating Margin (%) 0.98 -1.83 -4.11 0.37 1.01 -0.76
+Income Statement (Adjusted)
+Total Revenue 3,174.68 3,646.62 4,167.77 6,226.05 5,164.50 5,586.82 5,072.52 6,262.29 5,250.72 5,726.00
+Cost of Revenue 2,009.59 2,295.34 2,786.91 4,238.08 3,438.52 3,303.50 4,051.79 3,295.12 3,569.74
+Gross Profit 1,165.09 1,351.27 1,380.86 1,987.97 1,725.98 1,902.87 1,593.74 2,011.34 1,755.97 1,953.08
+Gross Margin (%) 36.70 37.06 33.13 31.93 32.59 34.78 31.57 32.12 33.59 34.18
+Selling, General & Administrative 791.24 864.00 1,380.86 1,536.73 1,332.68 1,425.98 1,339.70 1,494.40 1,320.65 1,413.79
+As % of Revenue 24.92 23.69 33.13 24.68 25.80 25.52 27.09 24.38 25.81 25.34
+Merger & Integration Costs 8.03 138.55 17.61 53.82 31.61 26.25 22.96 0.00 0.00
+Pre-Opening Expenses 13.44 12.32 30.61 12.62 14.87 23.49 33.76 14.61 16.21 23.89
+Operating Income 360.41 452.19 242.24 438.62 378.44 453.33 188.89 467.47 390.25 479.19
+Operating Margin (%) 8.32 13.02 5.81 7.04 7.33 8.11 3.65 7.35 7.27 8.25
+Interest Expense 12.14 11.61 18.34 17.67 17.54 17.85 17.91 18.35 19.05 19.13
+Other Income (Expense), Net -13.33 -9.27 -11.61 -7.99 -7.46 -7.32 -5.24 -5.81 -6.49 -6.76
+Pre-Tax Income 361.60 472.61 239.93 428.94 368.35 442.80 174.13 455.72 376.53 466.33
+Pre-Tax Margin (%) 11.39 12.96 5.76 6.89 7.13 7.93 3.77 7.54 7.32 8.34
+Net Income 274.56 355.00 181.00 314.15 262.18 319.00 119.65 321.20 273.24 336.06
+Net Margin (%) 8.32 10.46 1.80 2.06 6.19 5.65 2.67 5.29 5.31 6.49
+DilutedWeightedAvg.Shares 81.48 81.04 87.12 90.94 90.41 90.27 89.87 89.54 89.01 89.07
+Diluted EPS 3.37 4.38 2.07 3.45 2.90 3.53 1.39 3.62 3.11 3.83
+Dividend per Share 1.21 1.21 1.21 1.21 1.25 1.25 1.24 1.24 1.28 1.28
+GAAP Results
+Cost of Revenue 2,009.59 2,295.34 2,786.91 4,456.01 3,481.24 3,643.54 2,751.35 3,392.18 2,840.21 3,111.08
+As % of Revenue 63.30 62.94 66.87 71.57 67.41 65.22 68.38 67.57 66.38 65.83
+Gross Profit 1,165.09 1,351.27 1,380.86 1,770.04 1,683.26 1,943.27 1,625.95 2,022.37 1,762.55 1,949.79
+Gross Margin (%) 36.70 37.06 33.13 28.43 32.59 34.78 31.91 32.53 33.65 34.13
+Total Operating Expenses 798.97 899.09 1,287.76 1,585.54 1,232.61 1,502.52 1,450.01 1,623.94
+Selling,General&Administrative 785.53 878.74 1,118.60 1,555.30 1,163.93 1,447.42 1,321.84 1,468.57 1,351.01 1,470.96
+As % of Revenue 26.89 24.14 25.37 24.93
+This report may not be modified or altered in any way. The BLOOMBERG PROFESSIONAL service and BLOOMBERG Data are owned and distributed locally by Bloomberg Finance LP ("BFLP") and its subsidiaries in all jurisdictions other than Argentina, Bermuda, China, India, Japan and Korea (the ("BFLP
+Countries"). BFLP is a wholly-owned subsidiary of Bloomberg LP ("BLP"). BLP provides BFLP with all the global marketing and operational support and service for the Services and distributes the Services either directly or through a non-BFLP subsidiary in the BLP Countries. BFLP, BLP and their affliates
+do not provide investment advice, and nothing herein shall constitute an offer of financial instruments by BFLP, BLP or their affiliates.
+Bloomberg ® 10/04/2026 22:04:22
+
+<!-- page 3 (OCR) -->
+
+Bloomberg Company Financials
+Ticker: DKS US Equity Currency: USD Est Source: Consensus Periodicity: Quarters Analytics: None
+In Millions of USD 2026Q1 2026 Q2 2026 Q3 2026 Q4 2027 Q1 2027 Q2 2027 Q3 Est 2027 Q4 Est 2028 Q1 Est 2028 Q2 Est
+3 Months Ending 05/03/2025 08/02/2025 11/01/2025 01/31/2026 05/02/2026 08/01/2026 10/31/2026 01/30/2027 05/01/2027 07/31/2027
+Advertising Expenses 166.60 167.70
+Operating Income 366.12 452.19 93.10 184.51 450.65 440.76 169.32 443.08 410.79 442.88
+Operating Margin (%) 11.53 12.40 2.23 2.96 8.73 7.89 3.38 7.12 7.35 8.02
+Interest Expense (Income), Net 12.14 16.12 18.34 17.67 17.54 17.85 18.05 18.96 17.31 17.34
+Other Income (Expense), Net 6.26 -73.75 -29.65 -13.19 -13.17 -15.50 -9.41 -8.40 -6.95 -7.57
+Pre-Tax Income 347.72 509.82 104.41 180.03 446.28 438.41 160.02 416.49 399.29 432.90
+Income Tax Expense 83.43 128.41 29.20 51.69 126.45 122.95 50.28 131.25 106.04 125.97
+Tax Rate (%) 23.99 25.19 27.96 28.71 28.34 28.04 29.26 29.31 27.39 27.33
+Net Income 264.29 381.00 75.00 128.34 319.82 315.46 124.08 313.71 280.53 338.27
+Basic Weighted Avg. Shares 79.34 79.15 85.07 88.98 88.54 88.83 87.54 87.27 86.76 86.62
+Basic EPS 3.33 4.82 0.88 1.44 3.61 3.55 0.97 3.37 3.42 3.66
+Diluted EPS 3.24 4.71 0.86 1.41 3.54 3.50 1.55 3.52 3.25 3.84
+Company Specific Adjustments
+Stock-Based Compensation 19.18 18.77 62.70 23.02 29.86 34.67 30.54 22.36 21.19 19.84
+Other Consolidated Financial Data
+Depreciation &Amortization 97.86 105.66 128.02 157.09 153.81 159.54 153.01 162.91 153.68 158.49
+As % of Revenue 3.08 2.90 3.07 2.52 2.98 2.86 2.97 2.57 2.89 2.76
+EBITDA 458.27 557.85 370.26 618.47 532.25 612.87 328.00 617.59 535.81 625.75
+As % of Revenue 14.61 15.30 5.31 5.49 11.70 10.74 6.82 10.15 10.66 11.34
+Condensed Balance Sheet
+Assets
+Current Assets 5,030.83 5,054.05 7,351.40 7,104.79 7,270.48 7,319.80 7,414.48 6,881.01 6,903.89 7,010.99
+Cash & Cash Equivalents 1,035.89 1,231.02 821.33 1,353.23 998.23 913.74 647.95 1,117.08 751.39 660.70
+Accounts Receivable 256.55 223.88 474.85 475.85 466.52 457.63 502.33 439.38 432.52 431.64
+Income Tax Receivable 4.14 29.79 62.58 68.46 59.08 92.99 91.15 83.30 82.39 87.08
+Prepaid Expenses & Other Assets 164.89 165.44 351.81 299.44 327.22 290.10 325.53 271.79 279.25 268.44
+Non-Current Assets 5,403.76 5,636.72 10,075.69 10,306.71 10,562.47 10,925.62
+Property, Plant & Equipment 2,268.87 2,431.78 3,336.70 3,512.78 3,757.94 3,989.71 4,171.54 4,389.88 4,562.44 4,749.09
+Operating Lease Assets 2,396.69 2,424.63 4,658.82 4,594.67 4,651.74 4,749.41 4,749.36 4,749.36 4,749.36 4,761.23
+Deferred Tax Assets 29.51 3.39 72.20 82.50 69.32 63.06 62.38 76.50 74.95 75.93
+Inventories 3,569.35 3,403.91 5,640.83 4,907.82 5,419.44 5,565.34 5,859.96 4,883.99 5,353.22 5,516.37
+Total Intangible Assets 304.46 304.46 1,496.07 1,632.62 1,578.44 1,600.27 1,600.18 1,600.18 1,600.18 1,600.18
+Goodwill 245.86 245.86 699.35 864.05 813.07 837.02 837.02 837.02 837.02 837.02
+Other Intangible Assets 58.60 58.60 796.72 768.58 765.37 763.25 763.26 763.26 763.26 763.26
+Other Non-Current Assets 404.24 472.48 511.90 484.14 505.04 523.16 537.79 499.94 503.15 507.27
+Total Assets 10,434.58 10,690.77 17,427.09 17,411.50 17,832.94 18,245.42 18,561.80 18,047.12 18,315.13 18,581.14
+Liabilities & Equity
+Current Liabilities 3,112.42 2,979.52 4,676.91 4,643.56 4,844.19 4,929.23 5,139.70 4,737.16 4,802.94 4,892.08
+Accounts Payable 1,542.75 1,401.80 2,134.71 1,986.99 2,181.04 2,245.63 2,407.73 2,049.07 2,143.78 2,201.93
+Accrued Expenses 629.48 666.45 1,082.85 1,115.31 1,146.10 1,169.33 1,255.31 1,073.60 1,110.76 1,134.60
+Income Tax Payable 83.49 34.39 11.04 7.53 83.39 54.99 40.67 42.62 69.18 57.43
+Operating Lease Liabilities 496.13 504.98 995.46 1,004.91 948.02 970.82 977.10 948.98 938.86 939.27
+Deferred Revenue & Other Liabilities 360.57 371.90 452.86 528.82 485.64 488.45 522.79 495.80 496.89 507.34
+Non-Current Liabilities 4,269.77 4,356.17 7,229.77 7,227.82 7,384.51 7,590.48
+Convertible Debt 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+LT Debt & Finance Lease Liabilities 1,484.46 1,484.71 1,904.98 1,905.30 1,905.81 1,906.35 1,963.83 1,887.83 1,887.67 1,887.67
+Operating Lease Liabilities 2,587.60 2,619.09 4,798.82 4,836.44 4,935.60 5,085.98 5,065.50 4,936.05 4,987.55 5,015.18
+Deferred Revenue &Other Liabilities 197.71 252.37 525.98 486.09 543.10 598.14 381.19 381.04 393.36 393.65
+Deferred Tax Liabilities 40.54 245.30 203.92 247.15 287.87 287.88 287.88 287.88 287.88
+Total Liabilities 7,382.19 7,335.69 11,906.68 11,871.38 12,228.70 12,519.70 12,787.31 12,182.33 12,391.66 12,486.24
+Total Equity 3,052.39 3,355.09 5,520.41 5,540.12 5,604.24 5,725.72 5,692.90 5,877.20 5,975.10 6,144.00
+Additional Paid-In Capital 1,483.46 1,502.18 3,704.37 3,724.84 3,735.34 3,664.84 3,664.84 3,664.84 3,664.84 3,664.84
+Retained Earnings 6,559.48 6,843.45 6,809.36 6,827.90 7,035.96 7,238.51 7,221.29 7,401.26 7,530.09 7,717.03
+Treasury Stock 4,990.91 4,990.91 4,987.63 5,031.32 5,172.52 5,172.52 5,243.89 5,290.14 5,393.29 5,467.94
+Other Equity -0.43 -0.43 -6.58 17.81 4.58 -6.00 -6.00 -6.00 -6.00 -6.00
+Total Liabilities & Shareholders' Equity 10,434.58 10,690.77 17,427.09 17,411.50 17,832.94 18,245.42 18,561.80 18,047.12 18,315.13 18,581.14
+Special Company Reference Items
+This report may not be modified or altered in any way. The BLOOMBERG PROFESSIONAL service and BLOOMBERG Data are owned and distributed locally by Bloomberg Finance LP ("BFLP") and its subsidiaries in all jurisdictions other than Argentina, Bermuda, China, India, Japan and Korea (the ("BFLP
+Countries"). BFLP is a wholly-owned subsidiary of Bloomberg LP ("BLP"). BLP provides BFLP with all the global marketing and operational support and service for the Services and distributes the Services either directly or through a non-BFLP subsidiary in the BLP Countries. BFLP, BLP and their affiliates
+do not provide investment advice, and nothing herein shall constitute an offer of financial instruments by BFLP, BLP or their affiliates.
+Bloomberg ® 10/04/2026 22:04:22
+
+<!-- page 4 (OCR) -->
+
+Bloomberg Company Financials
+Ticker: DKS US Equity Currency: USD Est Source: Consensus Periodicity: Quarters Analytics: None
+In Millions of USD 2026Q1 2026 Q2 2026 Q3 2026 Q4 2027 Q1 2027 Q2 2027 Q3 Est 2027 Q4 Est 2028 Q1 Est 2028 Q2 Est
+3 Months Ending 05/03/2025 08/02/2025 11/01/2025 01/31/2026 05/02/2026 08/01/2026 10/31/2026 01/30/2027 05/01/2027 07/31/2027
+Net Debt (Cash) 3,532.30 3,377.75 6,877.92 6,393.42 6,791.20 7,049.42
+Total Lease Liabilities 3,083.73 3,124.07 5,794.27 5,841.34 5,883.62 6,056.80 5,496.41 5,502.74 5,513.31 5,523.16
+Return on Assets (%) 11.46 11.38 7.32 6.09 6.40 5.80 5.70 5.46 5.49 5.49
+Return on Equity (%) 40.22 37.37 23.79 19.44 20.90 18.47 9.38 18.13 16.60 19.05
+Debt to Total Capital 24.32 23.87 25.56 24.71
+Working Capital 1,918.41 2,074.53 2,674.48 2,461.23 2,426.29 2,390.58 2,192.77 2,100.60 1,983.49 1,918.68
+Non-Cash Working Capital 882.52 843.51 1,853.15 1,108.01 1,428.06 1,476.84 1,091.82 713.71 1,090.90 1,193.75
+Number of Shares Repurchased 1.53 0.00 0.00 0.23 0.86 0.45 0.18 0.17 0.48 0.36
+Current Ratio 1.62 1.70 1.57 1.53 1.50 1.48 1.39 1.45 1.41 1.38
+Inventory Turnover 0.59 0.70 0.60 1.08 0.77 0.81 2.00 2.55 2.29 2.37
+Accounts Payable Turnover 1.58 1.78 2.45 3.45 2.86 3.18 6.35 7.52 6.18 6.62
+Book Value per Share 37.46 41.40 63.37 60.92 61.99 63.53
+Condensed Cash Flow Statement
+Cash from Operating Activities
+Net Income 264.29 381.00 75.00 128.34 319.82 315.46 124.08 313.71 280.53 338.27
+Depreciation & Amortization 97.86 105.66 128.02 157.09 153.81 159.54 153.01 162.91 153.68 158.49
+Amortization of Deferred FinancingFees&Debt 0.59 5.19 4.44 1.49 1.51 1.52 2.22 0.75 0.76 0.76
+Discount
+Deferred Income Taxes 23.17 66.66 17.36 -7.37 55.00 30.36 -0.50 -38.77 -0.50 -0.50
+Stock-Based Compensation 19.18 18.77 62.70 23.02 29.86 34.67 30.54 22.36 21.19 19.84
+Other Non-Cash Items 17.73 -50.32 -8.44 16.10 -2.69 -2.82
+Changes in Working Capital -234.48 -1.02 -574.30 718.77 -281.34 -55.91 -751.69 1,027.85 -378.94 -95.01
+Accounts Receivable -22.06 10.39 -14.61 8.32 -16.11 29.47 -37.49 55.15 9.53 0.42
+Inventories -219.52 165.44 -516.93 752.33 -514.02 -148.46 -199.22 916.91 -424.89 -142.04
+Prepaid Expenses -19.68 2.50 -30.76 -22.78 -5.16 2.40 -28.08 66.63 -7.53 -11.89
+Accounts Payable 57.10 -145.70 145.14 -178.54 188.30 66.40 145.13 -312.84 45.36 26.79
+Accrued Expenses -53.35 30.60 -70.16 2.89 6.50 2.73 71.89 -1 63.44 32.72 21.28
+IncomeTaxesPayable orReceivable 53.55 -74.75 -61.93 71.50 100.49 -9.94 -16.33 10.16 47.92 -34.66
+Deferred Construction Allowances 22.78 47.81 48.91 42.16 71.72 57.54 35.14 12.18 45.31 46.73
+Deferred Revenue &Other Liabilities -30.52 10.50 -25.06 85.06 -41.34 1.50 -80.65 11.29 -18.77 7.06
+Cash Flow from Operations 178.05 557.60 -248.36 1,050.07 276.52 515.76 306.55 853.37 135.49 471.79
+Cash from Investing Activities
+Disposal of Fixed Assets 0.00 0.00 0.00 0.00 0.00 0.00
+Capital Expenditures -264.73 -261.35 -267.23 -343.87 -360.74 -382.73 -354.18 -403.36 -350.70 -369.80
+As % of Revenue 8.34 7.17 6.41 5.52 6.99 6.85 7.36 6.59 6.64 6.45
+Other -120.97 -1.83 -2.29 -49.33 -0.03 -10.37 0.00 0.00 0.00 0.00
+Cash Flow from Investing -385.69 -263.18 -12.42 -393.20 -360.78 -393.09 -356.72 -378.00 -344.74 -366.23
+Cash from Financing Activities
+Repurchase of Equity -303.67 0.00 0.00 -43.46 -141.21 0.00 -75.00 -62.50 -112.50 -75.00
+Dividends Paid -99.92 -96.13 -109.48 -108.32 -113.84 -110.91 -111.16 -110.53 -116.23 -115.58
+Dividend Payout Ratio 36.40 25.16 137.14 84.07 34.60 35.20 81.27 36.27 43.74 42.37
+Minimum Tax Withholding Requirements -31.11 -0.95 -34.18 -10.44 -26.54 -94.90 -5.00 51.44
+Change in Bank-Overdraft -12.09 4.75 -1.90 26.23 8.42 0.87 -0.95 8.45 4.21 0.43
+Stock Issuance 0.06 0.91 0.52 0.03 7.19 0.41 1.76 2.22 7.19 0.41
+Purchase Of Treasury Stock -303.67 0.00 0.00 -43.46 -141.21 0.00 -120.75 -100.83 -67.97 -70.97
+Cash Flow from Financing -446.73 -99.29 -146.47 -128.82 -267.35 -205.18 -118.41 -227.18 -143.83 -195.64
+Special Company Reference Items
+FX Effect on Cash 0.33 0.00 -2.44 3.85 -3.39 -1.97 -1.97 -1.97 -1.97 -1.97
+Net Changes in Cash -654.05 195.13 -409.69 531.90 -355.00 -84.49 -88.31 386.43 -372.85 -88.78
+Cash & Cash Equivalents (BOP) 1,689.94 1,035.89 1,231.02 821.33 1,353.23 998.23 913.74 717.08 1,058.53 706.65
+Cash &Cash Equivalents (EOP) 1,035.89 1,231.02 821.33 1,353.23 998.23 913.74 1,049.52 1,095.30 630.48 618.90
+Cash Flow per Share 2.24 7.05 -2.92 11.80 3.12 5.81 7.45 6.48 0.78 5.83
+Free Cash Flow -86.68 296.24 -515.59 706.19 -84.23 133.03 -107.45 478.33 -249.36 109.77
+Free Cash Flow per Share -1.06 3.66 -5.92 7.77 E6'0- 1.48 -2.51 6.99 -2.66 1.78
+Net Capex (% of Sales) 7.12 7.58 6.18 5.90
+This report may not be modified or altered in any way. The BLOOMBERG PROFESSIONAL service and BLOOMBERG Data are owned and distributed locally by Bloomberg Finance LP ("BFLP") and its subsidiaries in all jurisdictions other than Argentina, Bermuda, China, India, Japan and Korea (the ("BFLP
+Countries"). BFLP is a wholly-owned subsidiary of Bloomberg LP ("BLP"). BLP provides BFLP with all the global marketing and operational support and service for the Services and distributes the Services either directly or through a non-BFLP subsidiary in the BLP Countries. BFLP, BLP and their affiliates
+do not provide investment advice, and nothing herein shall constitute an offer of financial instruments by BFLP, BLP or their affiliates.
+Bloomberg ? 10/04/2026 22:04:22

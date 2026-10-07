@@ -1,0 +1,499 @@
+<title>DKS Thesis Evidence Book</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single research-note column (~76ch) for prose; tables and charts sit in their own scroll boxes. Semantic colours: support = pine, against = amber, neutral/option = slate violet. */
+:root{
+  --bg:#f4f6f5; --surface:#ffffff; --fg:#16201d; --muted:#56635f; --rule:#d9e0dd; --fill:#eaefed; --fill2:#dfe6e3;
+  --accent:#1f5e4f; --support:#1f6e52; --against:#a45a00; --option:#5a4f8f;
+  --display:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --body:"IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono:"IBM Plex Mono", Consolas, "SF Mono", monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1513; --surface:#151d1a; --fg:#e2e9e6; --muted:#9aaaa4; --rule:#27322e; --fill:#1a2421; --fill2:#222e2a;
+    --accent:#7fc4ae; --support:#79c7a4; --against:#e6a556; --option:#b3a8ec; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1513; --surface:#151d1a; --fg:#e2e9e6; --muted:#9aaaa4; --rule:#27322e; --fill:#1a2421; --fill2:#222e2a;
+  --accent:#7fc4ae; --support:#79c7a4; --against:#e6a556; --option:#b3a8ec; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:16px/1.62 var(--body);margin:0;padding-block:32px 80px;padding-inline:16px;overflow-x:hidden}
+.wrap{max-width:1040px;margin:0 auto}
+.prose{max-width:780px}
+h1{font:600 2.25rem/1.15 var(--display);margin:.25rem 0 .6rem;letter-spacing:-.01em;text-wrap:balance}
+h2{font:600 1.6rem/1.2 var(--display);margin:3.2rem 0 .7rem;padding-top:1.1rem;border-top:2px solid var(--rule);text-wrap:balance}
+h3{font:600 1.16rem/1.3 var(--display);margin:2rem 0 .45rem;text-wrap:balance}
+p{margin:.6rem 0}
+ul{margin:.4rem 0 .9rem;padding-left:1.25rem}
+li{margin:.35rem 0}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+strong{font-weight:600}
+.kicker{font:500 .74rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--accent)}
+.sub{font:500 1.08rem/1.5 var(--display);color:var(--muted);max-width:780px;margin:0 0 1rem}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px 22px;margin:1.1rem 0 1.5rem;padding:14px 16px;background:var(--fill);border-radius:6px}
+.meta div{font-size:.88rem;line-height:1.5;min-width:0}
+.meta b{display:block;font:500 .68rem/1.2 var(--mono);text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin-bottom:3px}
+.verdicts{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px;margin:1rem 0 1.4rem}
+.verdict{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--c);border-radius:6px;padding:16px 18px;min-width:0}
+.verdict .lab{font:500 .7rem/1.2 var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--c)}
+.verdict h3{margin:.35rem 0 .5rem;font-size:1.22rem}
+.verdict p,.verdict li{font-size:.94rem}
+.verdict .num{font:600 1.05rem/1.3 var(--mono);color:var(--fg)}
+.c-support{--c:var(--support)} .c-against{--c:var(--against)} .c-option{--c:var(--option)}
+.tbl{overflow-x:auto;margin:.6rem 0 1rem;border:1px solid var(--rule);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.87rem;line-height:1.45;font-variant-numeric:tabular-nums}
+th,td{padding:7px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}
+th{background:var(--fill);font-weight:600;font-size:.8rem;white-space:nowrap}
+td.n,th.n{text-align:right;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tr.key td{font-weight:600;background:var(--fill)}
+.note{font-size:.82rem;color:var(--muted);margin:-.4rem 0 1.2rem;max-width:880px}
+.take{font-weight:500;max-width:780px;margin:1.1rem 0 .4rem}
+.callout{border-left:3px solid var(--accent);background:var(--fill);padding:12px 16px;border-radius:0 6px 6px 0;margin:1.2rem 0;max-width:780px}
+.callout.warn{border-left-color:var(--against)}
+.callout p:first-child{margin-top:0} .callout p:last-child{margin-bottom:0}
+.tag{display:inline-block;font:600 .66rem/1.2 var(--mono);padding:2px 7px;border-radius:999px;border:1px solid currentColor;vertical-align:1px;white-space:nowrap;text-transform:uppercase;letter-spacing:.05em}
+.tag.s{color:var(--support)} .tag.a{color:var(--against)} .tag.o{color:var(--option)} .tag.m{color:var(--muted)}
+.chart{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px;margin:.6rem 0 .4rem;overflow-x:auto}
+.chart svg{display:block;width:100%;height:auto}
+.chart.wide svg{min-width:600px}
+.chart.narrow{max-width:560px}
+.chart.narrow svg{min-width:420px}
+.chart text{font-family:var(--body);font-size:11px;fill:var(--muted)}
+.chart .lbl{fill:var(--fg);font-weight:600}
+.chart .grid{stroke:var(--rule);stroke-width:1}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;align-items:start}
+.two > div{min-width:0}
+.against{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--against);border-radius:0 6px 6px 0;padding:10px 16px;margin:1rem 0;max-width:880px}
+.against h4{margin:.2rem 0 .3rem;font:600 .78rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--against)}
+.toc{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:.88rem;margin:.4rem 0 1rem}
+.toc a{text-decoration:none}
+.toc a:hover{text-decoration:underline}
+@media (max-width:640px){h1{font-size:1.75rem} h2{font-size:1.35rem}}
+</style>
+
+<div class="wrap">
+<div class="kicker">DICK'S Sporting Goods · long pitch · evidence book · 7 Oct 2026</div>
+<h1>Two long points on DKS, and how much the evidence supports each</h1>
+<p class="sub">One place for everything gathered on the Q4 core comp and owned-brand mix: the research folder, the two overnight web scrapes, and new analysis run for this book. It ends with a short note on why a Foot Locker Europe exit is still an option rather than a thesis.</p>
+
+<div class="meta">
+  <div><b>Consensus base</b>Bloomberg, printed 4 Oct 2026. DICK'S comp 1.69% (Q3) and 1.59% (Q4 FY26). DICK'S segment revenue $4,144M in Q4. FY27 EPS $13.36 on 89.09M shares at a 27.46% tax rate.</div>
+  <div><b>Fiscal calendar</b>DKS FY2026 ends 30 Jan 2027, so Q4 FY26 is Nov 2026 to Jan 2027. "Comp" here means the DICK'S Business comp, which excludes Foot Locker.</div>
+  <div><b>How variance is stated</b>Topline in bps of the consensus revenue line, margin in bps against the consensus margin, then $/share. $1M of pre-tax profit ≈ $0.0081 a share.</div>
+  <div><b>What was run</b>20 parallel reads: all core notes, the relevant filings and peer notes, every file from both scrapes with spot-checks against raw data, plus two new analyses (a Q4 comp bridge, and an Academy Sports peer control with a margin model).</div>
+</div>
+
+<div class="verdicts">
+  <div class="verdict c-support">
+    <div class="lab">Point 1 · Q4 core comp is too low</div>
+    <h3>Supported, once reframed</h3>
+    <p>Consensus only works if DICK'S older stores (everything except House of Sport and Field House) stop growing: about 0% comp, against +3.4% to +4.4% over the last eight quarters. That holds at any per-store House of Sport gain you assume.</p>
+    <p>Two parts of the original framing need adjusting. The scraped data does not show the Street under-modelling the House of Sport gain per store; it points slightly lower. And "ticket collapse" only holds if transactions are flat or better.</p>
+    <p class="num">Q4 base +$0.09 to +0.13 · 2H +$0.11 to +0.17 · Q4 up to +$0.19</p>
+  </div>
+  <div class="verdict c-support">
+    <div class="lab">Point 2 · Owned-brand mix is margin accretive</div>
+    <h3>Direction proven, size small</h3>
+    <p>Owned brands are gaining share at DICK'S while private label at Academy Sports, the closest peer, is flat to down, so the gain is specific to DICK'S. It turned up around April 2026 in reviews, listings, new styles and full-price placement.</p>
+    <p>The evidence supports +0.25 to +0.65 points a year of penetration. That is +2 to +10bps of DICK'S gross margin in FY27. It works as a margin cushion against footwear promotions, not as an EPS driver.</p>
+    <p class="num">FY27 +$0.04 central (+$0.13 high) · FY28 +$0.07 (+$0.19)</p>
+  </div>
+  <div class="verdict c-option">
+    <div class="lab">Foot Locker Europe exit</div>
+    <h3>An option, not a thesis</h3>
+    <p>You were right to doubt it. There is real groundwork: one Dutch holding company, a DICK'S executive on every board, local leaders gone, and closures running faster than consensus. But there is no sale process, adviser, licensing hire or held-for-sale language.</p>
+    <p>DKS is also still spending in Europe: a ~100-store refresh target, new doors and a new European ad agency.</p>
+    <p class="num">Keep as upside optionality; watch the triggers in Section 4</p>
+  </div>
+</div>
+
+<nav class="toc" aria-label="Sections">
+  <a href="#t1">1. Q4 core comp</a>
+  <a href="#t2">2. Owned brands</a>
+  <a href="#checks">3. Supplier calls and alt data</a>
+  <a href="#eu">4. Foot Locker Europe</a>
+  <a href="#watch">5. What proves or breaks it</a>
+  <a href="#sources">6. Where the evidence lives</a>
+</nav>
+
+<!-- ============ THESIS 1 ============ -->
+<h2 id="t1">1. Consensus has the older DICK'S stores stalling in Q4</h2>
+<p class="prose"><strong>Bottom line.</strong> Bloomberg's 1.59% Q4 comp gives a two-year stack of 4.7%, the lowest since the post-stimulus quarters of early FY23. Strip out what the new formats add and the rest of the fleet has to comp at about zero. Those stores have grown in every one of the last ten quarters. Our base case is a 3.0–3.5% Q4 comp, about +$0.09 to +$0.13 a share. The case relies on DICK'S usual pattern of beating its own guide, because consensus already sits slightly above the guide midpoint.</p>
+
+<h3>What consensus actually assumes</h3>
+<p class="take">Only the comp row is a real consensus. The ticket and transaction rows are filler and cannot be quoted.</p>
+<div class="tbl"><table>
+<thead><tr><th>DICK'S Business (Bloomberg, 4 Oct 2026)</th><th class="n">Q1 FY26A</th><th class="n">Q2 FY26A</th><th class="n">Q3 FY26E</th><th class="n">Q4 FY26E</th><th class="n">Q1 FY27E</th><th class="n">Q2 FY27E</th></tr></thead>
+<tbody>
+<tr><td>Comp</td><td class="n">6.00%</td><td class="n">4.90%</td><td class="n">1.69%</td><td class="n">1.59%</td><td class="n">2.41%</td><td class="n">2.24%</td></tr>
+<tr class="key"><td>Two-year stack (Bloomberg's own row)</td><td class="n">10.77%</td><td class="n">10.15%</td><td class="n">7.48%</td><td class="n">4.74%</td><td class="n">8.56%</td><td class="n">7.25%</td></tr>
+<tr><td>Three-year stack (added)</td><td class="n">15.8%</td><td class="n">14.4%</td><td class="n">11.7%</td><td class="n">11.3%</td><td class="n">12.9%</td><td class="n">12.1%</td></tr>
+<tr><td>Ticket / transactions, as printed</td><td class="n">5.5 / 0.5</td><td class="n">3.6 / 1.3</td><td class="n">1.25 / 1.50</td><td class="n">1.00 / 1.57</td><td class="n">1.00 / 1.00</td><td class="n">1.00 / 1.00</td></tr>
+<tr><td>House of Sport / Field House stores, end of quarter</td><td class="n">36 / 44</td><td class="n">41 / 52</td><td class="n">47 / 59</td><td class="n">49 / 63</td><td class="n">53 / 67</td><td class="n">59 / 72</td></tr>
+</tbody></table></div>
+<p class="note">Bloomberg compounds its two-year stack (1.031 × 1.0159 = 4.74%); management adds (4.69%). Three Bloomberg data problems were checked against the source files. The Q4 FY25 "actual" ticket/transactions of 4.20/0.30 are really the full-year FY25 split; Q4 was +4.4% ticket and −1.3% transactions. The forward ticket and transaction rows are 1.00 placeholders that don't multiply out to the comp. The segment revenue row implies +6.2% growth in Q3 on a 1.69% comp.</p>
+
+<div class="chart wide" role="img" aria-label="Bar chart of DICK'S two-year stacked comp from Bloomberg. Actual quarters Q1 FY25 to Q2 FY26 ran 9.7 to 10.8 percent. Consensus drops to 7.5 percent in Q3 FY26 and 4.7 percent in Q4 FY26, then 8.6, 7.3, 4.9 and 4.9 percent. Management's FY26 framing is 7.5 percent.">
+<svg viewBox="0 0 720 290" xmlns="http://www.w3.org/2000/svg">
+  <line class="grid" x1="50" x2="704" y1="250" y2="250"/><text x="42" y="254" text-anchor="end">0%</text>
+  <line class="grid" x1="50" x2="704" y1="176.67" y2="176.67"/><text x="42" y="180.7" text-anchor="end">4%</text>
+  <line class="grid" x1="50" x2="704" y1="103.33" y2="103.33"/><text x="42" y="107.3" text-anchor="end">8%</text>
+  <line class="grid" x1="50" x2="704" y1="30" y2="30"/><text x="42" y="34" text-anchor="end">12%</text>
+  <line x1="375" x2="375" y1="22" y2="262" stroke="var(--rule)" stroke-dasharray="3 3"/>
+  <text x="212" y="18" text-anchor="middle">Reported</text>
+  <text x="540" y="18" text-anchor="middle">Bloomberg consensus</text>
+  <g fill="var(--support)">
+    <rect x="62.1" y="65.93" width="30" height="184.07"/>
+    <rect x="116.3" y="71.62" width="30" height="178.38"/>
+    <rect x="170.4" y="64.1" width="30" height="185.9"/>
+    <rect x="224.6" y="72.17" width="30" height="177.83"/>
+    <rect x="278.8" y="52.55" width="30" height="197.45"/>
+    <rect x="332.9" y="63.92" width="30" height="186.08"/>
+  </g>
+  <g fill="var(--fill2)" stroke="var(--muted)" stroke-width="1">
+    <rect x="387.1" y="112.87" width="30" height="137.13"/>
+    <rect x="495.4" y="93.07" width="30" height="156.93"/>
+    <rect x="549.6" y="117.08" width="30" height="132.92"/>
+    <rect x="603.8" y="159.62" width="30" height="90.38"/>
+    <rect x="657.9" y="160.72" width="30" height="89.28"/>
+  </g>
+  <rect x="441.3" y="163.1" width="30" height="86.9" fill="var(--against)"/>
+  <line x1="50" x2="704" y1="112.5" y2="112.5" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="702" y="108" text-anchor="end" class="lbl" style="fill:var(--accent)">Management FY26 framing 7.5%</text>
+  <g text-anchor="middle" class="lbl">
+    <text x="77.1" y="60">10.0</text><text x="131.3" y="66">9.7</text><text x="185.4" y="58">10.1</text><text x="239.6" y="66">9.7</text><text x="293.8" y="47">10.8</text><text x="347.9" y="58">10.2</text>
+    <text x="402.1" y="107">7.5</text><text x="456.3" y="157" style="fill:var(--against)">4.7</text><text x="510.4" y="87">8.6</text><text x="564.6" y="111">7.3</text><text x="618.8" y="154">4.9</text><text x="672.9" y="155">4.9</text>
+  </g>
+  <g text-anchor="middle">
+    <text x="77.1" y="268">Q1 FY25</text><text x="131.3" y="268">Q2</text><text x="185.4" y="268">Q3</text><text x="239.6" y="268">Q4</text><text x="293.8" y="268">Q1 FY26</text><text x="347.9" y="268">Q2</text>
+    <text x="402.1" y="268">Q3E</text><text x="456.3" y="268">Q4E</text><text x="510.4" y="268">Q1 FY27E</text><text x="564.6" y="268">Q2E</text><text x="618.8" y="268">Q3E</text><text x="672.9" y="268">Q4E</text>
+  </g>
+</svg>
+</div>
+<p class="note">Two-year stacked comp, DICK'S Business, from Bloomberg's own row. Q4 FY26E (amber) is about half of any quarter in the last two years. The dashed line is management's March 2026 framing ("2–4% on top of 4.5%").</p>
+
+<h3>Put the stack in context, not in a headline</h3>
+<p class="take">Q4 is the lowest two-year stack of the post-COVID era. It is not the lowest ever, and a buy-side skeptic will check.</p>
+<ul class="prose">
+  <li><strong>Post-COVID:</strong> 4.7% is below all 12 quarters since Q3 FY23 (6.0% to 10.5%), at the 14th percentile.</li>
+  <li><strong>Full history:</strong> it sits at the median of non-COVID Q4s. Q4 two-year stacks were 8.8 (FY13), 10.7, 0.9, 2.5, 3.0, −4.2, 3.1 (FY19), then 8.1, 9.4, 9.7 (FY23–FY25). The FY15–FY19 years were the hunting-exit and promotional era.</li>
+  <li><strong>Three-year view:</strong> 11.3% matches Q2 FY25 (11.3%) and is 1.2 points below Q4 FY25. Most of the two-year dip is the arithmetic of lapping a soft +3.1% Q4 FY25, and the CFO later called weather in that quarter "net immaterial".</li>
+  <li><strong>Brokers who publish a Q4 number:</strong> JPM 2.5% (two-year 5.6%) and Barclays 1.5% (4.6%). Before the August cut, JPM, Barclays and Wells Fargo all had Q4 at 2.0–3.0%.</li>
+</ul>
+
+<h3>The strongest version: the older fleet would have to stall</h3>
+<p class="take">This holds whatever per-store gain you believe. A bigger House of Sport gain makes consensus look more conservative, not less.</p>
+<div class="tbl"><table>
+<thead><tr><th>Sales gain per relocated House of Sport</th><th class="n">Format lift to Q4 comp</th><th class="n">Older-store comp left inside 1.59%</th><th class="n">Same stores, last 8 quarters (low)</th><th class="n">Slowdown consensus needs</th></tr></thead>
+<tbody>
+<tr><td>$6M (state sales-tax median)</td><td class="n">0.69pt</td><td class="n">+0.90%</td><td class="n">4.44% (2.28%)</td><td class="n">3.5pt</td></tr>
+<tr><td>$12M</td><td class="n">1.15pt</td><td class="n">+0.44%</td><td class="n">4.04% (1.67%)</td><td class="n">3.6pt</td></tr>
+<tr class="key"><td>$16M (our base, from the scrape)</td><td class="n">1.45pt</td><td class="n">+0.14%</td><td class="n">3.78% (1.26%)</td><td class="n">3.6pt</td></tr>
+<tr><td>$20M (company and UBS)</td><td class="n">1.75pt</td><td class="n">−0.16%</td><td class="n">3.51% (0.85%)</td><td class="n">3.7pt</td></tr>
+<tr><td>$22.5M (county jobs study)</td><td class="n">1.94pt</td><td class="n">−0.35%</td><td class="n">3.35% (0.59%)</td><td class="n">3.7pt</td></tr>
+</tbody></table></div>
+<p class="note">Relocated stores count in comp from the original store's opening date, so their gain shows up in comp for 12 months. Field House set at $2M per relocation ($3M adds 0.12pt). Q4 FY26 has only 3 House of Sport openings (Cherry Hill, Novi, Sioux Falls, all relocations) and 3 Field House. The record 13 House of Sport opened in Q3 FY25 drop out of the 12-month window during Q3, so the Q4 format lift (1.45pt) is smaller than Q3's (1.68pt). A separate cohort model that also nets out cannibalization gives older-store comp of +0.12% in Q4, against a ten-quarter low of +1.27%.</p>
+
+<h3>Ticket: "collapse" is true only if transactions hold up</h3>
+<p class="take">If transactions are flat or positive, consensus needs ticket to fall 2 to 3 points, which has almost never happened. If transactions repeat last year's −1.3%, ticket only has to ease to +2.9%.</p>
+<div class="two">
+<div class="tbl"><table>
+<thead><tr><th>Q4 transactions</th><th class="n">Ticket needed for 1.59%</th><th>How often history fell that far</th></tr></thead>
+<tbody>
+<tr><td>−1.3% (Q4 FY25 repeats)</td><td class="n">+2.9%</td><td>Common (13 of 46 quarters)</td></tr>
+<tr><td>0%</td><td class="n">+1.6%</td><td>3 of 46</td></tr>
+<tr class="key"><td>+0.45% (last 4 quarters' average)</td><td class="n">+1.1%</td><td>2 of 46; never in reported (non-derived) quarters</td></tr>
+<tr><td>+1.3%</td><td class="n">+0.3%</td><td>2 of 46</td></tr>
+<tr><td>Two-year transaction stack held (+2.5%)</td><td class="n">−0.9%</td><td>Never (0 of 42)</td></tr>
+</tbody></table></div>
+<div class="prose" style="min-width:0">
+<p><strong>The ticket record.</strong> Ticket has been at least +2.6% for 11 straight quarters and at least +3.6% for the last 7, averaging +4.3% over the last 9, the longest run since FY12. Year-on-year drops of 3 points or more happened in 2 of 42 quarters: Q4 FY17 (the hunting exit) and Q2 FY23 (the stimulus lap).</p>
+<p><strong>Why it can hold.</strong> Management says ticket comes from mix and more units per basket, not price ("It's really not due to inflation", Hobart, March 2026). Category prices are still running about +3.6% to +4.3% (footwear and apparel +3.6% in August). Academy, the closest peer, grew ticket +4.5% and +4.9% in its last two quarters even while its transactions fell. Footwear inventory is lean: UBS's discount factor is down 50bp year on year and weeks of supply are down about 14. Q4 launches carry $210–230 price points.</p>
+</div>
+</div>
+
+<h3>House of Sport: what the scraped data really shows</h3>
+<p class="take">The per-store gain is real but averages $12–16M for a typical one-for-one relocation, below the Street's $20M. The under-appreciated parts are durability, the A-mall tail and the fact that public traffic panels can't see these stores.</p>
+<div class="tbl"><table>
+<thead><tr><th>Store or study</th><th>What was measured</th><th class="n">Gain per year</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Victor, NY (first relocation)</td><td>County sporting-goods taxable sales doubled ($34–37M to $67–70M) and held for five years</td><td class="n">+$19–28M</td><td>New York State tax data</td></tr>
+<tr><td>Tampa International Plaza</td><td>"$12.3 million in gross sales in its first three months", about $40–44M a year</td><td class="n">≈ +$24M</td><td>Mall loan (CMBS) filing, SEC</td></tr>
+<tr><td>Ridgedale, MN</td><td>$31,197,485 of store sales in 2024, its third year</td><td class="n">+$12–17M</td><td>Mall loan filing, SEC</td></tr>
+<tr><td>34 openings, 2021–26</td><td>About +110 net sporting-goods jobs per county, still +117 a year later; a placebo test on matched counties gives −10 to −24</td><td class="n">+$21–24M</td><td>BLS county employment</td></tr>
+<tr><td>Corpus Christi, TX</td><td>DICK'S own projection: ~$20M to $40M revenue; 626K to 2M+ visits</td><td class="n">+$20M (plan)</td><td>City council record, Sep 2026</td></tr>
+<tr><td>Live Oak, TX (net-new store)</td><td>City retail taxable sales +8% vs ~+1% for a control</td><td class="n">$31–37M total</td><td>Texas tax data</td></tr>
+<tr><td>9 in-place conversions</td><td>Google review velocity roughly doubled (median 2.02x)</td><td class="n">≈ +$15M</td><td>Review counts</td></tr>
+<tr><td>Johnson City NY · Minnetonka MN · Latham NY</td><td>Smaller tax-data gains</td><td class="n">+$9M · +$11–15M · ~0</td><td>State tax data</td></tr>
+<tr><td>Chesapeake · Charlottesville VA (two stores into one)</td><td>Net of closing two DICK'S doors</td><td class="n">+$2–7M</td><td>Virginia tax data</td></tr>
+</tbody></table></div>
+<ul class="prose">
+  <li><strong>Public traffic panels miss these stores.</strong> Placer tracks House of Sport as a separate chain, so the widely quoted "DICK'S traffic is down" series excludes the stores traffic moved into. Add them back and DICK'S-family visits have been positive every quarter since Q3 FY25 (+1.2% to +2.9%).</li>
+  <li><strong>The lift lasts.</strong> County jobs hold into year two. DICK'S own leasing deck, filed with the Town of Braintree and built on Advan data, shows malls +14% in visits in the year after an opening against −6% at comparable malls, and House of Sport drawing "2X more total athlete visits". Management says these stores keep comping in years two to four.</li>
+  <li><strong>The A-mall tail is above plan.</strong> Tampa and Freehold run at about +$24–25M. Macerich calls Freehold its "strongest opening out of 35". Stack (April 2026) said A-mall volumes are "meaningfully higher than what we had originally anticipated".</li>
+  <li><strong>Brand access.</strong> Arc'teryx is entering DICK'S for the first time in 15 "hand selected, premium" House of Sport stores; Vuori and Gymshark are in 12 each.</li>
+</ul>
+<div class="callout warn"><p><strong>How to say it in the pitch.</strong> Don't claim the Street under-models the per-store gain. On the scraped data the average is $12–16M against the Street's $20M, and Q4 has fewer openings than Q3. Claim instead that consensus implies the older fleet stalls, and that the format lift is durable and invisible to the traffic data bears use.</p></div>
+
+<h3>Third-quarter read so far</h3>
+<ul class="prose">
+  <li>Alt data points to a Q3 core comp of about 3–3.5% (range 2–5%) against 1.69% consensus. A rebuild from Placer's chart data gives +2.7% to +3.3%, and consensus would need older-store visits to fall about 6% in September and October, worse than August.</li>
+  <li>Against that, card data for the week to 27 September showed ticket at only +1.2% and customer counts down about 4.5–5.9%. Management also said Q3 is "going to be a bit more difficult than Q4".</li>
+</ul>
+
+<h3>Why the guide does not end the argument</h3>
+<p class="take">Consensus sits slightly above the guide midpoint, so the case relies on DICK'S beating its own guide. It has done that every year.</p>
+<div class="tbl"><table>
+<thead><tr><th>Fiscal year</th><th class="n">Q4 comp implied by the Q3 guide</th><th class="n">Actual Q4</th><th class="n">Initial FY guide</th><th class="n">Actual FY</th></tr></thead>
+<tbody>
+<tr><td>FY22</td><td class="n">≤ +1.4%</td><td class="n">+5.3%</td><td class="n">—</td><td class="n">−0.5%</td></tr>
+<tr><td>FY23</td><td class="n">≤ +1.3%</td><td class="n">+2.8%</td><td class="n">0 to +2%</td><td class="n">+2.4%</td></tr>
+<tr><td>FY24</td><td class="n">≤ +3.0%</td><td class="n">+6.4%</td><td class="n">+1 to +2%</td><td class="n">+5.2%</td></tr>
+<tr><td>FY25</td><td class="n">≤ +1.6%</td><td class="n">+3.1%</td><td class="n">+1 to +3%</td><td class="n">+4.5%</td></tr>
+<tr class="key"><td>FY26</td><td class="n">−1.8% / +0.9% / +3.5% (low / mid / high)</td><td class="n">consensus 1.59%</td><td class="n">+2 to +4% → +2.5 to +4%</td><td class="n">1H +5.4%</td></tr>
+</tbody></table></div>
+<p class="note">FY26 implied Q4 assumes Q3 prints the 1.69% consensus. The FY comp guide was held at +2.5–4.0% on 25 Aug even as the EPS guide was cut; "sales expectations remain unchanged".</p>
+
+<h3>What it is worth</h3>
+<div class="tbl"><table>
+<thead><tr><th>Q4 FY26 scenario</th><th class="n">Comp</th><th class="n">Revenue vs consensus</th><th class="n">bps of Q4 DICK'S revenue</th><th class="n">EPS at 20% flow-through</th><th class="n">EPS at segment margin</th></tr></thead>
+<tbody>
+<tr><td>Two-year stack at management's 7.5% framing</td><td class="n">4.40%</td><td class="n">+$114M</td><td class="n">+275bp</td><td class="n">+$0.19</td><td class="n">+$0.10</td></tr>
+<tr class="key"><td>Our base (older stores +1.6–2.0%, format +1.45pt)</td><td class="n">3.0–3.5%</td><td class="n">+$57–77M</td><td class="n">+138–186bp</td><td class="n">+$0.09–0.13</td><td class="n">+$0.05–0.07</td></tr>
+<tr><td>Two-year stack at 6.5%</td><td class="n">3.40%</td><td class="n">+$73M</td><td class="n">+177bp</td><td class="n">+$0.12</td><td class="n">+$0.06</td></tr>
+<tr><td>Bear: older stores +0.5%, $6M per store</td><td class="n">1.19%</td><td class="n">−$16M</td><td class="n">−39bp</td><td class="n">−$0.03</td><td class="n">−$0.01</td></tr>
+<tr><td>Guide midpoint</td><td class="n">0.86%</td><td class="n">−$30M</td><td class="n">−71bp</td><td class="n">−$0.05</td><td class="n">−$0.03</td></tr>
+</tbody></table></div>
+<p class="note">Q3 base of 2.0–2.5% adds +$0.02–0.04, so the second half totals about +$0.11–0.17 at 20% flow-through. A separate cohort model gives +$0.16 for 2H (range −$0.10 to +$0.43). FY27 is close to neutral (about +$0.05): consensus FY27 already assumes older stores recover to about +1.7%, fewer 2027 openings are relocations (44–54% vs 81% in 2025), and 1H FY27 laps the World Cup and Foot Locker clearance sales.</p>
+
+<div class="against">
+<h4>What cuts against point 1</h4>
+<ul>
+  <li>Promotions run "at least through the fourth quarter". DICK'S is price-matching and put tariff refunds back into price. Nike says its marketplace clean-up runs to the end of December 2026, and JPM has JD North America like-for-likes at −5% for holiday.</li>
+  <li>Consensus Q4 is above the guide midpoint, so a print at the midpoint is a miss.</li>
+  <li>Q4 FY25 included Foot Locker inventory cleared through Going Going Gone!. That flatters the compare by an undisclosed amount (25–50bp would cost ~$0.02–0.03).</li>
+  <li>Foot Locker enters the comp base in Q4 FY26. If any contributor put a consolidated comp in the DICK'S row, the average is understated; the terminal's contributor count and high/low would settle this.</li>
+  <li>Management guided about 50bp of Q3 cost deleverage, so a sales beat flows through at less than 20%. At segment margin the 2H gain falls to about +$0.06–0.08.</li>
+  <li>El Niño risk: the 2015 analog had a −2.5% Q4 comp. Golf rounds were down ~5% in August.</li>
+</ul>
+</div>
+
+<!-- ============ THESIS 2 ============ -->
+<h2 id="t2">2. Owned brands are gaining faster than modelled, and it adds margin</h2>
+<p class="prose"><strong>Bottom line.</strong> Consensus has no owned-brand line and effectively holds the mix flat at about 12.8% of DICK'S sales. From spring 2026 four independent readings of dicks.com turned up: reviews, listings, new styles and full-price placement. The peer control shows the gain is not an industry trend. The margin effect is positive but small: our central case is +3.6bps of FY27 gross margin (+$0.04), with +10 to +14bps (+$0.13 to +0.17) in the bull case. A second, less visible margin lever is that owned prices are holding while national brands discount.</p>
+
+<h3>What consensus assumes</h3>
+<ul class="prose">
+  <li><strong>Headline mix is flat because footwear grew.</strong> Owned and licensed "vertical" brands were $1.6B (FY23), $1.7B (FY24) and $1.8B (FY25): 12.3%, 12.6% and 12.8% of sales. DICK'S has no owned athletic footwear, and footwear rose from about 21% to 30% of DICK'S sales over FY21–FY25.</li>
+  <li><strong>Against the sales it can compete for, it is rising.</strong> As a share of apparel plus hardlines, penetration went from a FY23 trough of about 17.6–18.3% to 18.7–19.6% in FY25, about +0.3–0.5 points a year. Licensed lines are only ~5% of "vertical" and shrinking. Owned-only sales grew ~16% over FY23–FY25, against 12.5% for the reported total.</li>
+  <li><strong>Bloomberg's DICK'S gross margin</strong> is 36.23% (FY26E), 36.24% and 36.31% (FY28E), essentially flat. No broker quantifies owned-brand penetration or its margin effect.</li>
+</ul>
+
+<h3>The evidence it is gaining faster, strongest first</h3>
+
+<div class="two">
+<div>
+<div class="chart narrow" role="img" aria-label="Line chart of owned-brand share of apparel reviews, April to August. DICK'S rose from 40.3 percent in 2024 to 43.9 percent in 2025 and 46.0 percent in 2026. Academy Sports fell from 64.0 to 56.2 to 54.8 percent.">
+<svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+  <line class="grid" x1="60" x2="440" y1="20" y2="20"/><text x="52" y="24" text-anchor="end">70%</text>
+  <line class="grid" x1="60" x2="440" y1="77.1" y2="77.1"/><text x="52" y="81" text-anchor="end">60%</text>
+  <line class="grid" x1="60" x2="440" y1="134.3" y2="134.3"/><text x="52" y="138" text-anchor="end">50%</text>
+  <line class="grid" x1="60" x2="440" y1="191.4" y2="191.4"/><text x="52" y="195" text-anchor="end">40%</text>
+  <polyline points="110,54.3 260,98.9 410,106.9" fill="none" stroke="var(--muted)" stroke-width="2" stroke-dasharray="5 4"/>
+  <polyline points="110,189.7 260,169.1 410,157.1" fill="none" stroke="var(--support)" stroke-width="3"/>
+  <g fill="var(--muted)"><circle cx="110" cy="54.3" r="4"/><circle cx="260" cy="98.9" r="4"/><circle cx="410" cy="106.9" r="4"/></g>
+  <g fill="var(--support)"><circle cx="110" cy="189.7" r="4.5"/><circle cx="260" cy="169.1" r="4.5"/><circle cx="410" cy="157.1" r="4.5"/></g>
+  <g text-anchor="middle" class="lbl">
+    <text x="110" y="45">64.0</text><text x="260" y="90">56.2</text><text x="410" y="98">54.8</text>
+    <text x="110" y="208" style="fill:var(--support)">40.3</text><text x="260" y="187" style="fill:var(--support)">43.9</text><text x="410" y="175" style="fill:var(--support)">46.0</text>
+  </g>
+  <text x="418" y="111" class="lbl">Academy</text>
+  <text x="418" y="160" class="lbl" style="fill:var(--support)">DICK'S</text>
+  <g text-anchor="middle"><text x="110" y="238">Apr–Aug 2024</text><text x="260" y="238">2025</text><text x="410" y="238">2026</text></g>
+</svg>
+</div>
+<p class="note">Owned-brand share of apparel reviews on each retailer's site (Bazaarvoice public feeds). Academy's 2024–25 drop is distorted by its switch to text-message review requests, which skew to national brands.</p>
+</div>
+<div class="prose" style="min-width:0">
+<p><strong>1. Reviews, with a peer control.</strong> Reviews triggered by the post-purchase email track units sold. At DICK'S the owned share of apparel reviews rose while Nike's fell (25.6% → 24.5% → 21.2%). At Academy, private label fell over the same window. The 2025→26 gap is +3.5 points (z = 5.5).</p>
+<p>The defensible claim is smaller: DICK'S own gain of about +2 points is specific to DICK'S, because there is no rising industry trend to subtract. Men's is the cleanest case: DICK'S +2.4 points against Academy flat, with VRST passing Under Armour and owned brands passing Nike. In kids, DSG passed Nike in Q2 FY26.</p>
+<p>The first 17 days of Q3 (same email batches both years) show owned share at 46.0% vs 44.2%, men's 37.3% vs 32.0%; Academy was flat.</p>
+</div>
+</div>
+
+<div class="tbl"><table>
+<thead><tr><th>Signal</th><th>Before</th><th>After</th><th>What it measures</th><th>Strength</th></tr></thead>
+<tbody>
+<tr><td>Owned share of listed products, 735 matched category pages</td><td class="n">5.82% (Aug/Sep 2025)</td><td class="n">6.76% (Aug/Sep 2026)</td><td>The site's own "Vertical Brand" flag. 95% range +0.56 to +1.42pt, after −0.26pt over the prior 20 months. Owned listings +25% vs all +7%.</td><td><span class="tag s">Strong</span></td></tr>
+<tr><td>Owned share of new styles (ex-footwear and fan gear)</td><td class="n">4.7% (FY23)</td><td class="n">8.1% (FY26 so far)</td><td>Bazaarvoice catalog season codes. DICK'S-assigned product codes now ~47,000 a year vs 36–38,000 in 2022–24, almost all owned.</td><td><span class="tag s">Strong</span></td></tr>
+<tr><td>Owned full-price features per homepage capture</td><td class="n">0.60 (Feb–Jun 2024)</td><td class="n">2.10 (Feb–Jun 2026)</td><td>Archived homepages. Step-change from Feb 2026; owned discount mentions flat.</td><td><span class="tag s">Strong</span></td></tr>
+<tr><td>Menu discount slots, national vs owned</td><td class="n">24 vs 20</td><td class="n">44 vs 20</td><td>National brands moved into the discount slots; owned did not (Jul–Sep 2025 vs 2026).</td><td><span class="tag m">Moderate</span></td></tr>
+<tr><td>Owned share of top-24 "Top Sellers" slots</td><td class="n">7.5% of listings</td><td class="n">20.1% of top slots</td><td>Live census, 7 Oct 2026. DSG #2 brand after Nike, CALIA #4; Maxfli 12 of the top 24 golf balls including #1. Partly a sort-order effect.</td><td><span class="tag m">Moderate</span></td></tr>
+<tr><td>Investment behind the brands</td><td class="n">—</td><td class="n">2026</td><td>New EVP of Apparel and Vertical Brands who also buys national apparel (Jan 2026). VRST: 335 national TV airings in 30 days, back after two years. #caliapartner TikTok plays 111M vs 0.4M. New golf brand FOXBURG; Maxfli irons and wedges.</td><td><span class="tag m">Intent</span></td></tr>
+</tbody></table></div>
+
+<h3>Is it margin accretive? Yes, and the premium may be widening</h3>
+<p class="take">The headline markdown data looks bad for owned brands. Matching the same products in both years tells a different story.</p>
+<div class="tbl"><table>
+<thead><tr><th>How price change is measured (Aug+Sep 2025 vs 2026)</th><th class="n">Owned</th><th class="n">National</th><th class="n">Effect on the 700–900bp premium</th></tr></thead>
+<tbody>
+<tr><td>Average discount, all listings</td><td class="n">−4.6%</td><td class="n">−1.2%</td><td class="n">−196bp</td></tr>
+<tr><td>Average discount, matched categories</td><td class="n">−6.5%</td><td class="n">−1.2%</td><td class="n">−310bp</td></tr>
+<tr class="key"><td>Same products in both years, price actually paid</td><td class="n">−0.3%</td><td class="n">−2.5%</td><td class="n">+147bp</td></tr>
+</tbody></table></div>
+<ul class="prose">
+  <li><strong>Inflated compare-at prices explain the gap.</strong> Owned list prices on the same products rose 7.3% against 2.3% for national brands, which inflates the "% off" without cutting what customers pay. DSG's full-price share rose (47% to 56%) as its list price went up; VRST's median price rose from $46.50 to $58.00. National markdown listings rose +143% against +15% for owned.</li>
+  <li><strong>Tariffs.</strong> Owned brands are most of DICK'S direct imports. Lower duty on them is worth roughly $20M a year (about 13–14bps of DICK'S gross margin) in FY26 versus FY25. The Street books this as generic tariff relief.</li>
+  <li><strong>Management on the premium:</strong> 600–800bps (2024), then 700–900bps from May 2025. Gupta (April 2026): "Actually, the margins are even becoming better." Hobart (May 2026): owned brands are "continuing to expand gross margins".</li>
+</ul>
+
+<h3>The margin bridge</h3>
+<p class="take">The evidence supports about +0.45 points a year of penetration. At a markdown-adjusted 600bp premium that covers about a quarter of consensus's +7bps of FY27 gross-margin expansion.</p>
+<div class="tbl"><table>
+<thead><tr><th>Penetration gain per year · premium</th><th class="n">FY27 GM vs consensus</th><th class="n">FY27 EPS</th><th class="n">Share of consensus +7bps</th><th class="n">FY28 GM</th><th class="n">FY28 EPS</th></tr></thead>
+<tbody>
+<tr><td>+0.25pt · 600bp</td><td class="n">+2.0bps</td><td class="n">+$0.03</td><td class="n">14%</td><td class="n">+3.0bps</td><td class="n">+$0.04</td></tr>
+<tr class="key"><td>+0.45pt · 600bp (evidence central)</td><td class="n">+3.6bps</td><td class="n">+$0.04</td><td class="n">26%</td><td class="n">+5.4bps</td><td class="n">+$0.07</td></tr>
+<tr><td>+0.5pt · 800bp</td><td class="n">+5.3bps</td><td class="n">+$0.07</td><td class="n">38%</td><td class="n">+8.0bps</td><td class="n">+$0.10</td></tr>
+<tr><td>+0.94pt · 800bp (evidence high, listings 1:1)</td><td class="n">+10.0bps</td><td class="n">+$0.12</td><td class="n">71%</td><td class="n">+14.9bps</td><td class="n">+$0.19</td></tr>
+<tr><td>Bull: +1pt · 800bp, footwear share −1pt a year</td><td class="n">+14.0bps</td><td class="n">+$0.17</td><td class="n">&gt;100%</td><td class="n">+21.2bps</td><td class="n">+$0.27</td></tr>
+</tbody></table></div>
+<p class="note">Penetration is owned sales as a share of non-footwear DICK'S merchandise (19.05% in FY25). Gross margin bps are against Bloomberg's DICK'S gross margin; EPS on 89.09M shares at a 27.46% tax rate. FY27 is cumulative from FY25; if FY26E consensus already contains this year's gain, halve the FY27 figures. Reaching +20bps by FY27 from mix alone would need about +1.9 points of penetration a year, which DICK'S has only managed when it dropped a large vendor (2017).</p>
+<div class="callout"><p><strong>How to say it in the pitch.</strong> Owned-brand mix is growing faster than the flat line consensus implies, and the gain is DICK'S-specific. Each point of mix is worth 7–9bps, and the premium is holding while national brands discount. That makes it a margin cushion against footwear promotions. The central FY28 effect offsets about 18bps of national footwear margin, roughly a fifth of the ~90bps promo hit JPM sees in Q3. Don't size it as an EPS driver.</p></div>
+
+<div class="against">
+<h4>What cuts against point 2</h4>
+<ul>
+  <li><strong>Discounting.</strong> On the day of the census 47–54% of owned products were marked down, against 25–28% for national brands. CALIA's on-sale share rose from 56% to 67%. Owned share of the deepest clearance rose from 8% to 23% between July and September. "Exclusive Brands" sale days run 70–91% off.</li>
+  <li><strong>Women's and CALIA are weak.</strong> Women's review share was −0.7pt, with CALIA −4.8pt. CALIA's new styles fell from 245 to 128 and its listings were −5%. Women's is where owned share is highest.</li>
+  <li><strong>Management went quiet.</strong> Owned brands got nine mentions on the Q1 FY26 call and none on the Q2 call or at the September Goldman conference. The 10-Q line about expanding the brands was dropped in 2025, and the August 2026 release added "competition, innovation" to the risk wording. Q2 gross margin was credited to tariff refunds, the media network and GameChanger; excluding those, core merchandise margin was about −30bp.</li>
+  <li><strong>History is slow.</strong> Mix has stayed between 12% and 15% since FY18 and the $2B goal is still unmet. Academy's private label slipped from 23% to 22%. Owned direct imports are flat as a share of DICK'S imports.</li>
+  <li><strong>The review email paused.</strong> DICK'S stopped its weekly post-purchase review email after 11 August 2026 and it has not restarted, so there is no clean Q3 read after 17 August. On the live October site, Nike re-expanded and the listing gain disappears.</li>
+  <li><strong>Small tension with point 1.</strong> Owned products are cheaper (women's apparel list price $58.77 vs $97.60), so faster owned mix slightly dilutes ticket.</li>
+</ul>
+</div>
+
+<!-- ============ CHECKS ============ -->
+<h2 id="checks">3. What supplier calls and card and traffic data say</h2>
+<p class="prose"><strong>Bottom line.</strong> The supplier calls back both points with color on trading up, House of Sport sell-in and private-label momentum. The card and traffic panels show DICK'S beating a falling category by a wide margin. They do <em>not</em> back ticket holding up: card-panel ticket has slowed every month since February. Where those panels look most stretched against consensus is transactions, not ticket. All the hard numbers for owned brands come from the scraped dicks.com data in Section 2.</p>
+<p class="note" style="margin-top:.4rem">The 14 supplier calls were AI-moderated AlphaSense interviews in June–July 2026, before the 25 August print and the turn to heavier promotions. Most are small vendors (DICK'S is under 5% to about 18% of their revenue). The card and traffic panels come from Bloomberg's alt-data screens, pulled 4 October 2026.</p>
+
+<h3>Supplier calls on point 1: ticket and House of Sport</h3>
+<div class="tbl"><table>
+<thead><tr><th>Who</th><th>What they said</th><th>Bears on</th></tr></thead>
+<tbody>
+<tr><td>Merchandising director, Under Armour</td><td>DICK'S shoppers are "trading up and buying more pinnacle, more premium product, more innovation". The wider market feels "softness in traffic", but DICK'S shoppers "continue to buy… more of the premium products". House of Sport is "pretty unmatched"; SCHEELS is the only similar format.</td><td><span class="tag s">Ticket</span> <span class="tag s">HoS</span></td></tr>
+<tr><td>Senior director, UGG (DICK'S ≈18% of revenue)</td><td>"Not seeing any decline in… average price point per purchase"; "not observing any trading down". Aug–Oct sell-in guided +14–16% on House of Sport and Field House expansion; calendar 2026 "double-digit".</td><td><span class="tag s">Ticket</span> <span class="tag s">HoS</span></td></tr>
+<tr><td>Manager, UGG</td><td>May–Jul sell-in +238%, "primarily House of Sport doors… very little from new doors… deeper penetration in existing doors". Fall sell-in about +150%. DICK'S works within UGG's minimum advertised prices and accepted its price increase.</td><td><span class="tag s">HoS</span> <span class="tag s">Ticket</span></td></tr>
+<tr><td>Planning manager, global athletic brand</td><td>Aug–Oct sell-in +10–15%, "half of it is stores" (House of Sport and Field House). The new formats are "big pinnacle investments… Academy and other competitors just cannot beat". "Basket size increases" across the market.</td><td><span class="tag s">HoS</span></td></tr>
+<tr><td>Senior director, denim maker</td><td>DICK'S is "getting foot traffic" and "higher average unit transactions".</td><td><span class="tag s">Ticket</span></td></tr>
+<tr><td>Director of sales, casual/golf/swim brand</td><td>"Traffic is up". DICK'S outperforms other accounts on House of Sport product presentation; shop-in-shops "really help".</td><td><span class="tag s">HoS</span></td></tr>
+<tr><td>Merchandising director, Jordan</td><td>House of Sport gets the most exclusive product and is driving "especially new non-comp business". This is wrong for relocations, which count in comp from the original store's opening date, but expect the question.</td><td><span class="tag m">HoS caveat</span></td></tr>
+<tr><td>Merchandising director, Under Armour (same call)</td><td>"DICK'S and the marketplace at large are definitely getting more promotional. There are more discounts to the consumer." Premium fleece is softening, with markdowns.</td><td><span class="tag a">Against</span></td></tr>
+<tr><td>Footwear planner, largest athletic apparel maker</td><td>Gas prices and tariffs are "impacting basket size across all retailers, full stop". DICK'S business is "weaker than normal"; after Foot Locker the combined company "will purchase less".</td><td><span class="tag a">Against</span></td></tr>
+<tr><td>Director of planning, workwear brand</td><td>"Possibly smaller cart sizes", with retailers "seeing slight traffic slowdown".</td><td><span class="tag a">Against</span></td></tr>
+</tbody></table></div>
+
+<h3>Supplier calls on point 2: owned brands</h3>
+<div class="tbl"><table>
+<thead><tr><th>Who</th><th>What they said</th><th>Read</th></tr></thead>
+<tbody>
+<tr><td>Director of sales, casual/golf/swim brand</td><td>"Their private label is having a moment"; its presence in House of Sport "is pretty impressive".</td><td><span class="tag s">Supports</span></td></tr>
+<tr><td>Sales director, hosiery and underwear supplier</td><td>"DICK'S is definitely expanding into private label products which are competing with our products."</td><td><span class="tag s">Supports</span></td></tr>
+<tr><td>Merchandising director, Under Armour</td><td>"You can never count out the VRST"; DSG is "continuing to gain share", and DSG baseball lifestyle is "huge". Basics that "could be done by PL" have slowed for Under Armour.</td><td><span class="tag s">Supports</span></td></tr>
+<tr><td>Director of planning, workwear brand</td><td>"A lot of direct competition in my graphic tees"; shoppers buy "three or four from private label" instead of one premium tee.</td><td><span class="tag s">Supports</span></td></tr>
+<tr><td>Senior manager, Crocs/HEYDUDE (ex-Reebok)</td><td>DICK'S "took all of our apparel out of store because they felt it was a direct competitor of their private label".</td><td><span class="tag s">Supports</span></td></tr>
+<tr><td>Senior director, UGG</td><td>Private-label growth is "a separate strategic priority for them".</td><td><span class="tag s">Supports</span></td></tr>
+<tr><td>Manager, UGG</td><td>DICK'S is "very, very brand driven"; name brands sell through better than private label.</td><td><span class="tag a">Against</span></td></tr>
+<tr><td>Planning manager, global athletic brand</td><td>A "renewed relationship" with Nike, which is about 30% of DICK'S footwear sales; DICK'S will be "very Nike-forward". That competes for the same shelf space.</td><td><span class="tag a">Against</span></td></tr>
+<tr><td>Footwear planner, largest athletic apparel maker</td><td>The private-label hit to brands "has been absorbed" over recent years.</td><td><span class="tag a">Against</span></td></tr>
+</tbody></table></div>
+
+<h3>Card and traffic panels (Bloomberg alt data)</h3>
+<p class="take">These panels show DICK'S beating its category. They point at consensus transactions, not ticket, as the stretched line.</p>
+<div class="tbl"><table>
+<thead><tr><th>Measure</th><th>Reading</th><th>Read for the thesis</th></tr></thead>
+<tbody>
+<tr><td>August vs sporting-goods category</td><td>DICK'S ahead by about 34pt on Bloomberg Second Measure card spend and about 7pt on Placer visits; the category was −11.7% and −6.0%.</td><td><span class="tag s">Supports</span> outperformance</td></tr>
+<tr><td>Card spend in the 3 weeks after the Foot Locker deal anniversary</td><td>DICK'S −3.3%, −2.4%, −3.3% (average about −3%), against −8.3% for sporting-goods stores and −3.3% for all discretionary retail.</td><td><span class="tag s">Supports</span> a Q3 at or above consensus</td></tr>
+<tr><td>Ticket on the Facteus card panel (excludes Foot Locker)</td><td>+6.1% (Feb) → 4.3 → 2.8 → 3.8 → 3.3 → 3.0 → +2.3% (Aug). Still above consensus Q4's +1.0% placeholder.</td><td><span class="tag a">Against</span> the ticket leg</td></tr>
+<tr><td>Second Measure, week to 27 Sep</td><td>Ticket +1.2%, transactions −4.5%, customers −5.9%.</td><td><span class="tag a">Against</span> ticket; points at consensus transactions (+1.5%) being too high</td></tr>
+<tr><td>Facteus transaction count, August</td><td>−0.06%, against consensus Q4 transactions of +1.57%.</td><td><span class="tag m">Same</span></td></tr>
+</tbody></table></div>
+<p class="note">Treat these panels as directional only. Before the deal they showed DICK'S transactions down about 3.5–4.4% while the company reported them positive, and panel ticket ran 1–3 points below reported ticket. Reported comps also include online, GameChanger and media revenue that card panels don't capture. Bloomberg's Placer series included Foot Locker until September 2026, so it is not a clean DICK'S read.</p>
+
+<h3>Scraped alt data: the strongest support</h3>
+<ul class="prose">
+  <li><strong>Traffic panels miss House of Sport.</strong> Placer tracks House of Sport as a separate chain, so the "DICK'S traffic is down" series that bears quote excludes those stores. With them added back, DICK'S-family visits have been positive every quarter since Q3 FY25 (+1.2% to +2.9%).</li>
+  <li><strong>Q3 read.</strong> A rebuild from Placer's chart data implies a Q3 comp of about +2.7% to +3.3%. The broader Q3 alt-data read is 3–3.5% (range 2–5%), against 1.69% consensus. To get 1.69%, older-store visits would have to fall about 6% in September and October, worse than August.</li>
+  <li><strong>House of Sport durability.</strong> DICK'S own leasing deck (Advan data) shows malls +14% in visits in year one after an opening, against −6% at comparable malls. Advan puts House of Sport at about 1.33x a regular store's visits. Google review velocity roughly doubles at converted stores.</li>
+  <li><strong>Owned brands.</strong> Owned share of apparel reviews rose from 40.3% to 46.0% while Academy's private-label share fell. Owned share of listed products rose from 5.82% to 6.76%, and of new styles from 4.7% to 8.1% (details in Section 2).</li>
+</ul>
+<div class="callout"><p><strong>How to use this in the pitch.</strong> Use the supplier calls as color on House of Sport and private-label momentum. Don't lean on them or the card panels for ticket. The cleanest alt-data line: DICK'S is beating a falling category by 5–34 points, while consensus has its older stores flat.</p></div>
+
+<!-- ============ EU ============ -->
+<h2 id="eu">4. Foot Locker Europe: keep it as an option</h2>
+<p class="prose"><strong>Bottom line.</strong> Nothing in the filings, calls, broker notes or the 30-agent Europe scrape shows a sale or licensing process. The groundwork for a carve-out is visible, and closures are running faster than consensus. That is enough for upside optionality and a tax angle, not for a thesis.</p>
+<div class="two">
+<div class="prose" style="min-width:0">
+<h3 style="margin-top:.6rem">Pointing toward an exit</h3>
+<ul>
+  <li>Stack, August 2026, on monetizing or right-sizing Foot Locker assets: "the answer to your question is simply yes". September: "creating a menu… no preconceived ideas".</li>
+  <li>The Spanish European holding company was merged into one Dutch holding company (dissolved 28 Aug 2026). A DICK'S executive now sits on every European board. The EMEA CFO, general manager, merchandising head and HR head have left.</li>
+  <li>35+ named European closures since the deal. Bloomberg holds Europe at ~550 stores; we estimate ~510–526 by FYE27.</li>
+  <li>European losses carry a full valuation allowance, pushing the tax rate to ~29%. An exit would lower it (the primer puts the benefit at ~$0.65 a share).</li>
+  <li>A new 10-Q line: "including through licensed or franchise arrangements".</li>
+</ul>
+</div>
+<div class="prose" style="min-width:0">
+<h3 style="margin-top:.6rem">Against an exit</h3>
+<ul>
+  <li>Stack, December 2025: "EMEA we're keeping that… we're not getting rid of that."</li>
+  <li>A new president of Foot Locker International (ex-Aldi, ex-Tesco) bought $0.5M of stock on 30 Sep 2026.</li>
+  <li>About 100 European Fast Break refreshes targeted by year-end, a dozen openings and relocations, a new pan-European ad agency, and a new Dutch distribution centre.</li>
+  <li>No adviser, press scoop, merger filing, licensing hire, owned-to-licensed conversion or held-for-sale language anywhere.</li>
+  <li>Italy and France (53% of stores) are closing stores at the old run-rate and are profitable at the local-entity level.</li>
+</ul>
+</div>
+</div>
+<p class="prose"><strong>What would turn it into a thesis:</strong> held-for-sale or "strategic alternatives" language in the Q3 10-Q; a European store count at or below ~550 at Q3; Foot Locker UK accounts (due by 31 Dec 2026) listing closures or strategy changes; a 403-statement withdrawal or a management change in the Dutch registry for Foot Locker Europe B.V.; any owned-to-licensed conversion. Full detail is in the separate <a href="https://claude.ai/artifact/DKWctVuPNvu4F4snnRqMKg">FL Europe Exit Evidence</a> page.</p>
+
+<!-- ============ WATCH ============ -->
+<h2 id="watch">5. What will prove or break it</h2>
+<div class="tbl"><table>
+<thead><tr><th>When</th><th>Event</th><th>What to look for</th><th>Point</th></tr></thead>
+<tbody>
+<tr><td>Weekly, Tuesdays</td><td>DICK'S post-purchase review email</td><td>A restart, especially a catch-up batch, gives the cleanest Q3 owned-share read before the print. Script: EVIDENCE_BOOK/Q2/Q2_dks_refresh.py</td><td><span class="tag s">2</span></td></tr>
+<tr><td>Late Oct–Nov</td><td>Next Common Crawl capture of dicks.com</td><td>Rerun the 735-page listing panel for an end-of-Q3 read</td><td><span class="tag s">2</span></td></tr>
+<tr><td>Early Nov</td><td>Macerich Q3 call</td><td>Freehold's first full year</td><td><span class="tag s">1</span></td></tr>
+<tr><td>~24–25 Nov</td><td>DKS Q3 FY26 results</td><td>Core comp vs 1.69% (3%+ validates the setup). The Q4 guide wording. Format contribution to comp. Any owned-brand mention after two silent events.</td><td><span class="tag s">1</span> <span class="tag s">2</span></td></tr>
+<tr><td>Early Dec</td><td>Q3 10-Q</td><td>Footwear share of DICK'S sales (if it falls, the footwear −1pt cases become base). European store count and any exit language.</td><td><span class="tag s">2</span> <span class="tag o">EU</span></td></tr>
+<tr><td>Nov–Dec</td><td>DICK'S Foundation FY25 tax filing</td><td>A "DSG has given $X" line sizes the DSG brand directly (1% of sales)</td><td><span class="tag s">2</span></td></tr>
+<tr><td>By 31 Dec</td><td>Foot Locker UK statutory accounts</td><td>Approved closures, strategy or going-concern language</td><td><span class="tag o">EU</span></td></tr>
+<tr><td>~Mar 2027</td><td>Q4 results, FY26 10-K, FY27 guide</td><td>Q4 two-year stack vs 4.7%. A vertical-brand figure of $1.95B or more confirms acceleration. Relocation share of 2027 openings.</td><td><span class="tag s">1</span> <span class="tag s">2</span></td></tr>
+</tbody></table></div>
+<p class="prose"><strong>Questions for investor relations:</strong> the House of Sport and Field House contribution to Q3 comp; whether the Q4 comp disclosure stays DICK'S-only once Foot Locker enters the base; owned-only sales excluding licensed lines; owned penetration in House of Sport versus legacy stores; footwear's share of DICK'S-only sales.</p>
+
+<!-- ============ SOURCES ============ -->
+<h2 id="sources">6. Where the evidence lives</h2>
+<ul class="prose">
+  <li><strong>New for this book</strong> (folder <code>EVIDENCE_BOOK/</code>): the Q4 comp bridge with full history, the ticket grid and the format-lift model (<code>Q1.md</code>, <code>Q1/</code>); the Academy peer control, Q3-to-date refresh and margin bridge (<code>Q2.md</code>, <code>Q2/</code>); and 18 sweep files (<code>K1–K6</code>, <code>WN1–WN5</code>, <code>S1–S7</code>), each citing the underlying note and source file.</li>
+  <li><strong>Scrapes:</strong> the House of Sport / comp scrape in <code>THESIS_SCRAPE/</code> (memo: <a href="https://claude.ai/artifact/51RA9yHsSBvoPXvE2fvqbr">DKS Long Thesis Memo</a>) and the owned-brand scrape in <code>PB_SCRAPE/</code> (memo: <a href="https://claude.ai/artifact/1RyStwSyC1c44YZyJLjDiA">DKS Owned-Brand Evidence</a>).</li>
+  <li><strong>Corrections made while consolidating:</strong>
+    <ul>
+      <li>The FY27 House of Sport variance in the first scrape pass (+$0.24–0.96) is superseded by the cohort model (about +$0.05).</li>
+      <li>Category inflation is +3.6% for footwear and apparel, not +4.4–5.9%.</li>
+      <li>The review-share rise from 2024 to 2025 is mostly an artefact of the review email scaling up; use 2025→26.</li>
+      <li>The featured-slot gain (16.9% → 28.1%) is only about +2.5pt against 2024.</li>
+      <li>Owned import growth is flat once a new consolidator is excluded.</li>
+      <li>Bloomberg's Q4 FY25 ticket/transaction cells are the full-year figures.</li>
+    </ul>
+  </li>
+</ul>
+<p class="note" style="margin-top:1.4rem">Prepared for an internal long pitch. Figures described as our base, central or estimate are calculations from this work; review, listing and traffic shares measure units and placement, not dollars. Data current to 7 October 2026.</p>
+</div>

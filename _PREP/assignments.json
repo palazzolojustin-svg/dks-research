@@ -1,0 +1,2570 @@
+[
+ {
+  "id": "C01A",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C01_SYNTHESIS_A.md",
+  "note": "Pre-written synthesis/primer files. Keep every distinct fact, figure, derived calc, view and quote; they are dense already, so compress little.",
+  "files": [
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_10K_Key_Facts_and_Risk_Factors.md",
+    "kb": 51
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Alt-Data_Bloomberg-ALTD_2026-10-04.md",
+    "kb": 42
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Conference_and_Event_Transcript_Highlights.md",
+    "kb": 73
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Deal_Communications_ProForma_and_Debt_Documents_Summary.md",
+    "kb": 86
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Earnings_Calls_Results_Guidance_and_Key_Quotes.md",
+    "kb": 136
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Expert_Calls_AlphaSense_Key_Insights_and_Quote_Bank.md",
+    "kb": 99
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Financial_Statements_from_10K_10Q.md",
+    "kb": 46
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Financials_Bloomberg_Actuals_and_Consensus.md",
+    "kb": 92
+   }
+  ]
+ },
+ {
+  "id": "C01B",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C01_SYNTHESIS_B.md",
+  "note": "Pre-written synthesis/primer files. Keep every distinct fact, figure, derived calc, view and quote; they are dense already, so compress little.",
+  "files": [
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Foot_Locker_Merger_Proxy_Projections_Background_and_Fairness.md",
+    "kb": 75
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_PRIMER.md",
+    "kb": 102
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_PRIMER_READABLE.md",
+    "kb": 33
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Press_Release_Quarterly_Results_Guidance_and_NonGAAP_Bridges.md",
+    "kb": 77
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_SEC_Filings_Index.md",
+    "kb": 33
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Street_Ratings_PT_and_Estimate_Revision_History.md",
+    "kb": 87
+   },
+   {
+    "source": "SOURCE/00_DKS_SYNTHESIS/DKS_Street_Research_Note_Summaries.md",
+    "kb": 82
+   }
+  ]
+ },
+ {
+  "id": "C02A",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C02_EARNINGS_CALLS_A.md",
+  "note": "",
+  "files": [
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/earnings_calls/DKS_Q3-FY2024_Earnings-Call_2024-11-26.md",
+    "kb": 91
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/earnings_calls/DKS_Q1-FY2025_Earnings-Call_2025-05-28.md",
+    "kb": 96
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/earnings_calls/DKS_Q2-FY2025_Earnings-Call_2025-08-28.md",
+    "kb": 94
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/earnings_calls/DKS_Q3-FY2025_Earnings-Call_2025-11-25.md",
+    "kb": 94
+   }
+  ]
+ },
+ {
+  "id": "C02B",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C02_EARNINGS_CALLS_B.md",
+  "note": "",
+  "files": [
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/earnings_calls/DKS_Q4-FY2025_Earnings-Call_2026-03-12.md",
+    "kb": 83
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/earnings_calls/DKS_Q1-FY2026_Earnings-Call_2026-05-27.md",
+    "kb": 89
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/earnings_calls/DKS_Q2-FY2026_Earnings-Call_2026-08-25.md",
+    "kb": 83
+   }
+  ]
+ },
+ {
+  "id": "C03A",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C03_CONFERENCES_EVENTS_A.md",
+  "note": "",
+  "files": [
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_Goldman-Conference_2024-09-05.md",
+    "kb": 79
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_Barclays-Conference_2024-12-03.md",
+    "kb": 64
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_MorganStanley-Conference_2024-12-03.md",
+    "kb": 74
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_Goldman-Conference_2025-09-04.md",
+    "kb": 72
+   }
+  ]
+ },
+ {
+  "id": "C03B",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C03_CONFERENCES_EVENTS_B.md",
+  "note": "",
+  "files": [
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_MorganStanley-Conference_2025-12-03.md",
+    "kb": 78
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_JPMorgan-Retail-Forum_2026-04-08.md",
+    "kb": 96
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/conferences/DKS_Goldman-Conference_2026-09-14.md",
+    "kb": 62
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/events/DKS_Annual-Meeting-RAW-transcript_2026-06-10.md",
+    "kb": 14
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/events/DKS_Foot-Locker-Acquisition-Call_2025-05-15.md",
+    "kb": 72
+   }
+  ]
+ },
+ {
+  "id": "C04",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C04_EXPERT_CALLS.md",
+  "note": "",
+  "files": [
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/00_INDEX.md",
+    "kb": 4
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-06-13_Sales-Director_Global-Apparel-Manufacturer.md",
+    "kb": 18
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-02_Executive_Mens-Uniform-Apparel-Manufacturer.md",
+    "kb": 22
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-06_Executive_Footwear-Brand-Planner_forecasting-logistics.md",
+    "kb": 24
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-06_Senior-Manager_Major-Global-Footwear-Brand_go-to-market-pricing.md",
+    "kb": 36
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-07_Senior-Director_Major-Apparel-Manufacturer_ecommerce-omni-wholesale.md",
+    "kb": 21
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-08_Director-of-Sales_Premium-Apparel-Accessories-Brand_DKS-account.md",
+    "kb": 37
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-09_VP-Wholesale-Planning_Footwear-Company.md",
+    "kb": 28
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-10_Director-Merchandising_Under-Armour_team-sports-footwear-apparel.md",
+    "kb": 36
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-10_Director-of-Planning_Global-Apparel-Brand_workwear.md",
+    "kb": 19
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-13_Merchandising-Director_Global-Athletic-Apparel-Brand.md",
+    "kb": 32
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-14_Planning-Manager_Global-Athletic-Brand_forecasting-inventory.md",
+    "kb": 43
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-14_SECOND-INTERVIEW-same-export_Casual-Golf-Swim-Apparel-Director.md",
+    "kb": 13
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-28_Manager_Footwear-Manufacturer_sporting-goods-and-value-accounts.md",
+    "kb": 18
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/expert_calls_alphasense/DKS_Expert-Call_2026-07-29_Senior-Director_Global-Footwear-Brand_womens-footwear-apparel.md",
+    "kb": 24
+   }
+  ]
+ },
+ {
+  "id": "C05",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C05_CONSENSUS_MARKETDATA_ALTDATA_SLIDES_LETTERS.md",
+  "note": "CSV files: do NOT transcribe raw rows. The raw CSVs are copied verbatim into CORE_NOTES/data/ (Claude can load them). Write: what each CSV contains (columns, row count, date range), and every analytically relevant derived fact (for OHLCV: price on every earnings date and 1-day/5-day reactions, 52w high/low, monthly closes table, drawdowns, volume spikes >2x 50d avg; for options/holders/insiders/ratings: the full content as compact tables since they are small). Empty CSVs: list as empty.",
+  "files": [
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/DKS/DKS_Bloomberg-Financials_Annual_FY2022-FY2031E.md",
+    "kb": 21
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/DKS/DKS_Bloomberg-Financials_Quarterly_setA.md",
+    "kb": 22
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/DKS/DKS_Bloomberg-Financials_Quarterly_setB.md",
+    "kb": 22
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/MARKET_DATA_SUMMARY.md",
+    "kb": 47
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_analyst_rating_changes.csv",
+    "kb": 16
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_daily_OHLCV_2021-2026-10-05.csv",
+    "kb": 165
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_dividends.csv",
+    "kb": 0
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_earnings_day_reactions.csv",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_earnings_estimate.csv",
+    "kb": 0
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_earnings_history_surprises.csv",
+    "kb": 0
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_eps_revisions.csv",
+    "kb": 0
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_eps_trend.csv",
+    "kb": 0
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_growth_estimates.csv",
+    "kb": 0
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_insider_roster_holders.csv",
+    "kb": 1
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_insider_transactions.csv",
+    "kb": 9
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_institutional_holders.csv",
+    "kb": 1
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_major_holders.csv",
+    "kb": 0
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_mutualfund_holders.csv",
+    "kb": 1
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_options_calls_2026-11-20.csv",
+    "kb": 4
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_options_calls_2026-12-18.csv",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_options_puts_2026-11-20.csv",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_options_puts_2026-12-18.csv",
+    "kb": 4
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/DKS_revenue_estimate.csv",
+    "kb": 0
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/slides_text/DKS_Investor-Presentation_2026-03_slide-text.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/slides_text/DKS_Q1-FY2025_Earnings-Slides_slide-text-fragment.md",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/slides_text/DKS_Q1-FY2026_Investor-Presentation-May-2026_slide-text.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/slides_text/DKS_Q2-FY2026_Investor-Presentation-Aug-2026_slide-text.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/slides_text/DKS_Q3-FY2025_Investor-Presentation-Dec-2025_slide-text.md",
+    "kb": 39
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/annual_report_letters/DKS_Shareholder_Letters_and_Highlights_FY2022-FY2025_extracted.md",
+    "kb": 56
+   }
+  ]
+ },
+ {
+  "id": "C06R1",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C06_STREET_RESEARCH_R1.md",
+  "note": "Broker research (PDF extractions; tables often garbled one-cell-per-line: rebuild them). Skip disclosure/analyst-certification/ratings-distribution pages after confirming they hold no company-specific content.",
+  "files": [
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-08-30_ParagonIntel_DKS_DKS_Outlier_Evasion_in_2Q_2025_Earnings_Calls.md",
+    "kb": 8
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-09-03_JPMorgan_DKS_Dick-s_Sporting_Goods_Business_Momentum_Continues_Thou.md",
+    "kb": 80
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-09-04_WellsFargo_DKS_DKS_2Q25_Earnings-Tough_Crowd_Mixed_Reaction_Despite.md",
+    "kb": 34
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-09-05_Barclays_DKS_DICK-S_Sporting_Goods_Inc._2Q25_Review_Broad_Based_St.md",
+    "kb": 75
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-09-25_Barclays_DKS_DICK-S_Sporting_Goods_Inc._House_of_-Fun_Comes_to_Jer.md",
+    "kb": 50
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-11-24_JPMorgan_DKS_Dick-s_Sporting_Goods_Updating_Estimates_to_Incorporate.md",
+    "kb": 61
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-12-02_JPMorgan_DKS_Dick-s_Sporting_Goods_Strong_Core_Sales_But_Mixed_Flowt.md",
+    "kb": 75
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-12-02_WellsFargo_DKS_DKS_3Q_Results_Highlight_the_Existential_Debate.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-12-02_WellsFargo_DKS_DKS_DKS_Core_Solid_FL_Regressed_Some_Sequentially.md",
+    "kb": 21
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-12-03_Barclays_DKS_DICK-S_Sporting_Goods_Inc._3Q25_Review_Core_DKS_Outpe.md",
+    "kb": 69
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2025-12-12_JPMorgan_DKS_Dick-s_Sporting_Goods_Model_Update.md",
+    "kb": 60
+   }
+  ]
+ },
+ {
+  "id": "C06R2",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C06_STREET_RESEARCH_R2.md",
+  "note": "Broker research (PDF extractions; tables often garbled one-cell-per-line: rebuild them). Skip disclosure/analyst-certification/ratings-distribution pages after confirming they hold no company-specific content.",
+  "files": [
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-03-08_UBS_DKS_Dick-s_Sporting_Goods_Inc._-Waiting_for_Gametime_-Buy.md",
+    "kb": 130
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-03-13_JPMorgan_DKS_Dick-s_Sporting_Goods_DKS_Bull_vs._Bear_Debate.md",
+    "kb": 90
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-03-17_JPMorgan_DKS_Dick-s_Sporting_Goods_Better_Than_Feared_But_Concerns.md",
+    "kb": 41
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-03-17_JPMorgan_DKS_Dick-s_Sporting_Goods_Solid_and_Better_Than_Feared_Mgm.md",
+    "kb": 95
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-03-17_UBS_DKS_First_Read_Dick-s_Sporting_Goods_Inc._-What-s_The_Init.md",
+    "kb": 116
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-03-18_UBS_DKS_Dick-s_Sporting_Goods_Inc._-Playing_the_Long_Game_-Buy.md",
+    "kb": 121
+   }
+  ]
+ },
+ {
+  "id": "C06R3",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C06_STREET_RESEARCH_R3.md",
+  "note": "Broker research (PDF extractions; tables often garbled one-cell-per-line: rebuild them). Skip disclosure/analyst-certification/ratings-distribution pages after confirming they hold no company-specific content.",
+  "files": [
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-03-19_Barclays_DKS_DICK-S_Sporting_Goods_Inc._4Q25_Review_Fixing_Foot_Lo.md",
+    "kb": 66
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-03-19_WellsFargo_DKS_DKS_Some_Puts_and_Takes_The_Debate_on_FL_Continues.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-03-19_WilliamsTrading_DKS_Williams_Trading_DKS_Raising_Ests._PT._Improvements.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-05-24_UBS_DKS_Dick-s_Sporting_Goods_Inc._-We_See_A_Cup_More_than_Half.md",
+    "kb": 128
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-05-28_JPMorgan_DKS_Broadlines_Hardlines_Retail_DKS-ASO_Preview_Raising.md",
+    "kb": 117
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-05-28_WilliamsTrading_DKS_Williams_Trading_DKS_Raising_Ests._PT._Good_isn-t_G.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-06-01_JPMorgan_DKS_Dick-s_Sporting_Goods_Top_Line_Beats-FL_Flips_to_Positi.md",
+    "kb": 42
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-06-01_UBS_DKS_Dick-s_Sporting_Goods_Inc._-Down_but_No_Knockout_Stage.md",
+    "kb": 128
+   }
+  ]
+ },
+ {
+  "id": "C06R4",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C06_STREET_RESEARCH_R4.md",
+  "note": "Broker research (PDF extractions; tables often garbled one-cell-per-line: rebuild them). Skip disclosure/analyst-certification/ratings-distribution pages after confirming they hold no company-specific content.",
+  "files": [
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-06-01_UBS_DKS_First_Read_Dick-s_Sporting_Goods_Inc._-What-s_The_Init.md",
+    "kb": 114
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-06-01_UBS_DKS_UBS_Fast_Take_Dick-s_Sporting_Goods_Inc._-We_think_DK.md",
+    "kb": 108
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-06-02_JPMorgan_DKS_Dick-s_Sporting_Goods_Forest_Trees_Upgrading_to_Over.md",
+    "kb": 93
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-06-03_Barclays_DKS_DICK-S_Sporting_Goods_Inc._1Q26_Review_Stepping_Up_as.md",
+    "kb": 69
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-06-04_WellsFargo_DKS_DKS_Building_on_Fast_Breaks_FL_Improvements_Offset_by.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-08-17_WellsFargo_DKS_DKS_Upgrade_to_OW_LT_Upside_Outweighs_NT_Noise_PT_to.md",
+    "kb": 111
+   }
+  ]
+ },
+ {
+  "id": "C06R5",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C06_STREET_RESEARCH_R5.md",
+  "note": "Broker research (PDF extractions; tables often garbled one-cell-per-line: rebuild them). Skip disclosure/analyst-certification/ratings-distribution pages after confirming they hold no company-specific content.",
+  "files": [
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-08-17_WellsFargo_DKS_Sporting_Goods_Retail_Primer_The_X-s_and_O-s_of_the_Ind.md",
+    "kb": 214
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-08-18_UBS_DKS_Dick-s_Sporting_Goods_Inc._-Is_There_a_Shoe_to_Drop.md",
+    "kb": 133
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-08-27_JPMorgan_DKS_Dick-s_Sporting_Goods_Setup_Expectations_Lowering_Es.md",
+    "kb": 95
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-08-28_JPMorgan_DKS_Dick-s_Sporting_Goods_Burden_of_Proof_Tactically_High_i.md",
+    "kb": 85
+   }
+  ]
+ },
+ {
+  "id": "C06R6",
+  "tier": "CORE",
+  "output": "CORE_NOTES/C06_STREET_RESEARCH_R6.md",
+  "note": "Broker research (PDF extractions; tables often garbled one-cell-per-line: rebuild them). Skip disclosure/analyst-certification/ratings-distribution pages after confirming they hold no company-specific content.",
+  "files": [
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-08-30_UBS_DKS_First_Read_Dick-s_Sporting_Goods_Inc._-What-s_The_Init.md",
+    "kb": 111
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-08-31_Barclays_DKS_DICK-S_Sporting_Goods_Inc._2Q26_First_Look.md",
+    "kb": 46
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-08-31_UBS_DKS_Dick-s_Sporting_Goods_Inc._-Taking_This_in_Stride_-Buy.md",
+    "kb": 137
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-09-01_Barclays_DKS_DICK-S_Sporting_Goods_Inc._2Q26_Review_Footwear_Reset.md",
+    "kb": 71
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-09-01_WellsFargo_DKS_DKS_The_Footwear_Hangover_Hits_DKS_Cut_Numbers-PT_Post.md",
+    "kb": 36
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-09-11_InsiderInsights_DKS_InsiderInsights.com_Daily_Ratings_Report_September_2_2.md",
+    "kb": 28
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-09-22_BloombergIntel_DKS_More_Dick-s_Debt_Validates_Discount_to_Retailers_Credit_React.md",
+    "kb": 15
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-10-01_InsiderInsights_DKS_DKS_Dicks_Sporting_Goods_Significant_Insider_Buying_Cluster_Continues.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-10-01_InsiderTrade_DKS_DKS_Dick_S_Sporting_Goods_Barnes_Matthew_-PR_Bought_-B_3.7k_shares_-136.39.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/03_DKS_STREET_RESEARCH/2026-10-02_InsiderInsights_DKS_InsiderInsights.com_Daily_Ratings_Report_September_24.md",
+    "kb": 17
+   }
+  ]
+ },
+ {
+  "id": "W01",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W01_DKS_10K_FY2024-FY2025.md",
+  "note": "FY2025 10-K is the full reference (read it all). For FY2024 read its delta file (lines not in FY2025 10-K).",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-K/DKS_10-K_FY2025_filed-2026-03-27.md",
+    "kb": 452
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-K/DKS_10-K_FY2024_filed-2025-03-27.md",
+    "kb": 348,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-K__DKS_10-K_FY2024_filed-2025-03-27.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "W02",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W02_DKS_10K_FY2022-FY2023.md",
+  "note": "Both are delta-only (FY2023 vs FY2024; FY2022 vs FY2023). Read delta files; open originals for table context.",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-K/DKS_10-K_FY2023_filed-2024-03-28.md",
+    "kb": 339,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-K__DKS_10-K_FY2023_filed-2024-03-28.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-K/DKS_10-K_FY2022_filed-2023-03-23.md",
+    "kb": 335,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-K__DKS_10-K_FY2022_filed-2023-03-23.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "W03",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W03_DKS_10Q_FY22Q3-FY24Q3.md",
+  "note": "First 10-Q has no delta: read in full. Others: delta vs prior 10-Q.",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2022-Q3_filed-2022-11-23.md",
+    "kb": 120
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2023-Q1_filed-2023-05-24.md",
+    "kb": 89,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2023-Q1_filed-2023-05-24.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2023-Q2_filed-2023-08-23.md",
+    "kb": 107,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2023-Q2_filed-2023-08-23.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2023-Q3_filed-2023-11-22.md",
+    "kb": 112,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2023-Q3_filed-2023-11-22.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2024-Q1_filed-2024-05-30.md",
+    "kb": 90,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2024-Q1_filed-2024-05-30.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2024-Q2_filed-2024-09-04.md",
+    "kb": 104,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2024-Q2_filed-2024-09-04.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2024-Q3_filed-2024-11-27.md",
+    "kb": 109,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2024-Q3_filed-2024-11-27.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "W04",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W04_DKS_10Q_FY25Q1-FY26Q2.md",
+  "note": "",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2025-Q1_filed-2025-06-09.md",
+    "kb": 116,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2025-Q1_filed-2025-06-09.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2025-Q2_filed-2025-08-28.md",
+    "kb": 125,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2025-Q2_filed-2025-08-28.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2025-Q3_filed-2025-12-05.md",
+    "kb": 189,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2025-Q3_filed-2025-12-05.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2026-Q1_filed-2026-06-04.md",
+    "kb": 139,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2026-Q1_filed-2026-06-04.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/10-Q/DKS_10-Q_FY2026-Q2_filed-2026-09-03.md",
+    "kb": 167,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__10-Q__DKS_10-Q_FY2026-Q2_filed-2026-09-03.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "W05A",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W05_DKS_8K_PRESSRELEASES_A.md",
+  "note": "8-K covers and exhibits (earnings press releases = full financial statements + non-GAAP bridges + guidance: keep every number).",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2022-11-01_CFO-transition_Navdeep-Gupta-named-CFO.md",
+    "kb": 4
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2022-11-22_Q3-FY2022-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2022-11-22_EX-99-1_EX-99-1.md",
+    "kb": 44
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2022-12-08_Convertible-note-hedge-and-warrant-partial-unwind.md",
+    "kb": 12
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2023-02-09_Redemption-of-3.25pct-convertible-notes-due-2025.md",
+    "kb": 8
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2023-02-09_EX-99-1_EX-99-1.md",
+    "kb": 7
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2023-03-07_Q4-FY2022-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2023-03-07_EX-99-1_EX-99-1.md",
+    "kb": 43
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2023-03-08_Warrant-early-termination-agreement.md",
+    "kb": 7
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2023-03-23_Executive-officer-changes.md",
+    "kb": 8
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2023-04-24_Convertible-notes-redemption-completed.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2023-05-23_Q1-FY2023-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2023-05-23_EX-99-1_EX-99-1.md",
+    "kb": 32
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2023-06-16_Annual-meeting-vote-results-and-bylaw-amendment.md",
+    "kb": 10
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2023-08-22_Q2-FY2023-earnings-release-and-20M-severance-RIF.md",
+    "kb": 8
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2023-08-22_EX-99-1_EX-99-1.md",
+    "kb": 41
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2023-09-15_Executive-officer-changes.md",
+    "kb": 6
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2023-09-15_EX-99-1_EX-99-1.md",
+    "kb": 4
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2023-11-21_Q3-FY2023-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2023-11-21_EX-99-1_EX-99-1.md",
+    "kb": 44
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2024-03-14_Q4-FY2023-earnings-release-and-comp-sales-method-change.md",
+    "kb": 7
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2024-03-14_EX-99-1_EX-99-1.md",
+    "kb": 46
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2024-03-14_EX-99-2_EX-99-2.md",
+    "kb": 1
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2024-05-29_Q1-FY2024-earnings-release-and-1.10-dividend.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2024-05-29_EX-99-1_EX-99-1.md",
+    "kb": 33
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2024-06-13_Annual-meeting-vote-results.md",
+    "kb": 8
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2024-08-28_Cybersecurity-incident-Aug-21-2024.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2024-09-04_Q2-FY2024-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2024-09-04_EX-99-1_EX-99-1.md",
+    "kb": 38
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2024-11-26_Q3-FY2024-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2024-11-26_EX-99-1_EX-99-1.md",
+    "kb": 40
+   }
+  ]
+ },
+ {
+  "id": "W05B",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W05_DKS_8K_PRESSRELEASES_B.md",
+  "note": "8-K covers and exhibits (earnings press releases = full financial statements + non-GAAP bridges + guidance: keep every number).",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-03-11_Q4-FY2024-earnings-release-and-comp-sales-method-change.md",
+    "kb": 9
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-03-11_EX-99-1_EX-99-1.md",
+    "kb": 44
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-03-11_EX-99-2_EX-99-2.md",
+    "kb": 1
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-03-27_Executive-officer-changes.md",
+    "kb": 8
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-05-15_Foot-Locker-acquisition-announcement-and-Q1-prelim-results.md",
+    "kb": 20
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-05-15_Foot-Locker-merger-agreement-entered.md",
+    "kb": 27
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-05-15_EX-99-1_EX-99-1.md",
+    "kb": 20
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-05-15_EX-99-2_EX-99-2.md",
+    "kb": 24
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-05-15_EX-99-3_EX-99-3.md",
+    "kb": 1
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-05-28_Q1-FY2025-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-05-28_EX-99-1_EX-99-1.md",
+    "kb": 45
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-06-06_New-credit-agreement-replaces-existing-revolver.md",
+    "kb": 22
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-06-06_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 28
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-06-06_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 64
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-06-13_Annual-meeting-vote-results-and-bylaw-amendment.md",
+    "kb": 10
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-06-23_Foot-Locker-notes-exchange-offer-and-pro-forma-financials.md",
+    "kb": 19
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-06-23_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 22
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-06-23_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 78
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-07-24_Foot-Locker-HSR-refiling.md",
+    "kb": 19
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-08-26_Foot-Locker-HSR-waiting-period-expired-close-expected-Sep-8.md",
+    "kb": 15
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-08-26_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 17
+   }
+  ]
+ },
+ {
+  "id": "W05C",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W05_DKS_8K_PRESSRELEASES_C.md",
+  "note": "8-K covers and exhibits (earnings press releases = full financial statements + non-GAAP bridges + guidance: keep every number).",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-08-28_Q2-FY2025-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-08-28_EX-99-1_EX-99-1.md",
+    "kb": 48
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-09-02_Foot-Locker-shareholder-election-prelim-results.md",
+    "kb": 12
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-09-02_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 14
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-09-05_Foot-Locker-notes-exchange-offer-results-and-pro-forma.md",
+    "kb": 13
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-09-05_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 58
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-09-08_Foot-Locker-acquisition-COMPLETED.md",
+    "kb": 14
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-09-08_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 13
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-09-11_Foot-Locker-notes-exchange-settled-400M-4pct-notes-2029.md",
+    "kb": 9
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K-A_2025-09-18.md",
+    "kb": 7
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2025-11-25_Q3-FY2025-earnings-release-cover.md",
+    "kb": 6
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-11-25_EX-99-1_EX-99-1.md",
+    "kb": 62
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2025-11-25_EX-99-2_EX-99-2.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2026-03-12_Q4-FY2025-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2026-03-12_EX-99-1_EX-99-1.md",
+    "kb": 63
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2026-05-27_Q1-FY2026-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2026-05-27_EX-99-1_EX-99-1.md",
+    "kb": 51
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2026-06-12_Annual-meeting-vote-results.md",
+    "kb": 8
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2026-08-25_Q2-FY2026-earnings-release-cover.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2026-08-25_EX-99-1_EX-99-1.md",
+    "kb": 65
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2026-09-21_Foot-Locker-pro-forma-financials-FY2025.md",
+    "kb": 4
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/exhibits/DKS_8-K_2026-09-21_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 15
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/8-K/DKS_8-K_2026-09-25_1B-senior-notes-offering-6.2pct-2036-and-6.9pct-2056.md",
+    "kb": 8
+   }
+  ]
+ },
+ {
+  "id": "W06",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W06_DKS_DEBT_REGISTRATION_DOCS.md",
+  "note": "424B2_2026-09-22 and S-4_2026-06-05 and FWP are full references; the others are delta-only.",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Debt-and-registration-docs/DKS_424B2_2026-09-22_senior-notes-2036-2056.md",
+    "kb": 226
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Debt-and-registration-docs/DKS_424B2_2026-09-23_senior-notes-2036-2056.md",
+    "kb": 226,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Debt-and-registration-docs__DKS_424B2_2026-09-23_senior-notes-2036-2056.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Debt-and-registration-docs/DKS_424B3_2026-06-17_registered-exchange-offer-4pct-notes-2029.md",
+    "kb": 194,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Debt-and-registration-docs__DKS_424B3_2026-06-17_registered-exchange-offer-4pct-notes-2029.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Debt-and-registration-docs/DKS_FWP_2026-09-22_senior-notes-2036-2056.md",
+    "kb": 6
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Debt-and-registration-docs/DKS_S-3ASR_2026-09-21_senior-notes-2036-2056.md",
+    "kb": 82,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Debt-and-registration-docs__DKS_S-3ASR_2026-09-21_senior-notes-2036-2056.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Debt-and-registration-docs/DKS_S-4-A_2026-06-16_registered-exchange-offer-4pct-notes-2029.md",
+    "kb": 218,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Debt-and-registration-docs__DKS_S-4-A_2026-06-16_registered-exchange-offer-4pct-notes-2029.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Debt-and-registration-docs/DKS_S-4_2026-06-05_registered-exchange-offer-4pct-notes-2029.md",
+    "kb": 216
+   }
+  ]
+ },
+ {
+  "id": "W07A",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W07_FL_MERGER_PROSPECTUS_A.md",
+  "note": "Read ONLY lines 1-3979 of the final merger prospectus (another agent does the rest).",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/DKS_424B3_2025-07-11.md",
+    "kb": 1127,
+    "line_range": [
+     1,
+     3979
+    ]
+   }
+  ]
+ },
+ {
+  "id": "W07B",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W07_FL_MERGER_PROSPECTUS_B.md",
+  "note": "Read ONLY lines 3980-7959 of the final merger prospectus, then the three delta files (S-4/A, S-4, DEFM14A vs the final 424B3) and record what differed in earlier drafts.",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/DKS_424B3_2025-07-11.md",
+    "kb": 1127,
+    "line_range": [
+     3980,
+     7959
+    ]
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/DKS_S-4-A_2025-07-08.md",
+    "kb": 1152,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__DKS_S-4-A_2025-07-08.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/DKS_S-4_2025-06-23.md",
+    "kb": 1149,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__DKS_S-4_2025-06-23.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/FL_DEFM14A_Merger-Proxy-Prospectus_filed-2025-07-11.md",
+    "kb": 1128,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__FL_DEFM14A_Merger-Proxy-Prospectus_filed-2025-07-11.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "W08",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W08_DKS_FL_DEAL_COMMUNICATIONS_425.md",
+  "note": "All are delta-only vs the DKS 8-K material (processed elsewhere) and earlier 425s.",
+  "files": [
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-05-15_120246.md",
+    "kb": 63,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-05-15_120246.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-05-15_120901.md",
+    "kb": 16,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-05-15_120901.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-05-15_120903.md",
+    "kb": 17,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-05-15_120903.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-05-15_120904.md",
+    "kb": 17,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-05-15_120904.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-05-15_120906.md",
+    "kb": 64,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-05-15_120906.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-05-15_120907.md",
+    "kb": 14,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-05-15_120907.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-05-15_120955.md",
+    "kb": 27,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-05-15_120955.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-05-28_129596.md",
+    "kb": 18,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-05-28_129596.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-05-28_129602.md",
+    "kb": 32,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-05-28_129602.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-05-29_129604.md",
+    "kb": 14,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-05-29_129604.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-06-06_021813.md",
+    "kb": 22,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-06-06_021813.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-06-06_021813_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 28,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-06-06_021813_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-06-06_021813_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 64,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-06-06_021813_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-06-23_023252.md",
+    "kb": 19,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-06-23_023252.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-06-23_023252_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 22,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-06-23_023252_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-06-23_023252_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 78,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-06-23_023252_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-07-24_027037.md",
+    "kb": 19,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-07-24_027037.delta.md"
+   },
+   {
+    "source": "SOURCE/01_DKS_SEC_FILINGS/Foot-Locker-merger-docs/425-deal-communications/DKS_425_2025-08-04_028506.md",
+    "kb": 23,
+    "read_delta": "_PREP/deltas/01_DKS_SEC_FILINGS__Foot-Locker-merger-docs__425-deal-communications__DKS_425_2025-08-04_028506.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "W09",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W09_DKS_ANNUAL_REPORTS_TO_SHAREHOLDERS.md",
+  "note": "Delta-only vs the same-year 10-K (sentence-level). Many delta segments are table fragments re-split by PDF extraction: keep any number not obviously in the 10-K, plus all letter/highlights/proxy/directors/stock-performance content.",
+  "files": [
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/annual_report_letters/DKS_Annual-Report-to-Shareholders_2023-05-05.md",
+    "kb": 314,
+    "read_delta": "_PREP/deltas/02_DKS_TRANSCRIPTS__annual_report_letters__DKS_Annual-Report-to-Shareholders_2023-05-05.delta.md"
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/annual_report_letters/DKS_Annual-Report-to-Shareholders_2024-05-02.md",
+    "kb": 313,
+    "read_delta": "_PREP/deltas/02_DKS_TRANSCRIPTS__annual_report_letters__DKS_Annual-Report-to-Shareholders_2024-05-02.delta.md"
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/annual_report_letters/DKS_Annual-Report-to-Shareholders_2025-05-02.md",
+    "kb": 325,
+    "read_delta": "_PREP/deltas/02_DKS_TRANSCRIPTS__annual_report_letters__DKS_Annual-Report-to-Shareholders_2025-05-02.delta.md"
+   },
+   {
+    "source": "SOURCE/02_DKS_TRANSCRIPTS/annual_report_letters/DKS_Annual-Report-to-Shareholders_2026-05-01.md",
+    "kb": 414,
+    "read_delta": "_PREP/deltas/02_DKS_TRANSCRIPTS__annual_report_letters__DKS_Annual-Report-to-Shareholders_2026-05-01.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "PNKE1",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_NKE_RESEARCH_1.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-06-08_BloombergIntel_NKE_Gen_Z_and_Millennials_Affinity_for_Nike_DTC_Purchases_Endures.md",
+    "kb": 12
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-06-08_BloombergIntel_NKE_Nike_Loyalty_Sets_It_Up_to_Win_in_Weak_Sneaker_Market_BI_Survey.md",
+    "kb": 43
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-07-29_BloombergIntel_NKE_Nike_Adidas_World_Cup_Kit_Boost_Can_Extend_Beyond_Final_Result.md",
+    "kb": 7
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-07-29_UBS_NKE_UBS_Fast_Take_HOLT_Consumer_-Nike_-NKE_updated_with_n.md",
+    "kb": 107
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-07-31_BloombergIntel_NKE_Nike_7_Eleven_VF_Lead_-21_Billion_of_Retail_Sector_Bond_Risk.md",
+    "kb": 8
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-07-31_WellsFargo_NKE_NKE_Cutting_Numbers_on_Recent_Changes_to_China_Marketpl.md",
+    "kb": 43
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-08-07_JPMorgan_NKE_NIKE_Inc._Mgmt_Access_Fieldwork_2H27_FY28_EPS_-2.md",
+    "kb": 70
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-08-17_Needham_NKE_Just_For_Kicks_Sneaker_Tracker_Aug-26_Summer_Sneakerhe.md",
+    "kb": 14
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-08-17_ProactiveInvestors_NKE_Nike_shares_hit_11_year_low_as_turnaround_doubts_deepen.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-08-27_BloombergIntel_NKE_Nike_7_Eleven_Hold_Top_Spot_Among_-19_Billion_Retail_Bond_Risk.md",
+    "kb": 8
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-03_JPMorgan_NKE_NIKE_Inc._Working_Out_-The_Lats_Recent_Fieldwor.md",
+    "kb": 54
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-14_UBS_NKE_Nike_Inc._-Is_Nike_Compromising_the_Long_Term_Equity_of.md",
+    "kb": 134
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-15_BloombergIntel_NKE_Nike-s_China_Drag_North_America_Gains_Shape_Reset_1Q_Preview.md",
+    "kb": 147
+   }
+  ]
+ },
+ {
+  "id": "PNKE2",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_NKE_RESEARCH_2.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-15_BloombergIntel_NKE_Nike_Turnaround_Underway_Focus_Shifts_to_China_Equity_Outlook.md",
+    "kb": 55
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-15_Needham_NKE_Just_For_Kicks_Sneaker_Tracker_Sep-26_Back_To_School_L.md",
+    "kb": 17
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-17_BloombergIntel_NKE_Nike_Discount_to_Retail_Curve_Persists_for_-6_Billion_of_Bonds.md",
+    "kb": 4
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-18_BloombergIntel_NKE_Nike_Discount_Bank_Bond_Rush_TMT_Outliers_Best_of_US_Credit.md",
+    "kb": 27
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-18_ProactiveInvestors_NKE_Nike_faces_earnings_pressure_as_UBS_cuts_price_target.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-20_UBS_NKE_US_Softlines_Retail_-UBS_Evidence_Lab_inside_Secondary.md",
+    "kb": 124
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-22_BloombergIntel_NKE_Nike_Can_Keep_Winning_Despite_Headwinds_-11_Billion_of_Debt.md",
+    "kb": 8
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-22_FinancialAI_NKE_NKE_-NIKE_Inc._2027_Q1_Forecast.md",
+    "kb": 20
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-22_UBS_NKE_Nike_Inc._-UBS_Evidence_Lab_inside_1Q_Preview_We_See_a.md",
+    "kb": 217
+   }
+  ]
+ },
+ {
+  "id": "PNKE3",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_NKE_RESEARCH_3.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-22_UBS_NKE_UBS_Video_Nike_1Q_Preview_We_See_a_Negative_Catalyst.md",
+    "kb": 107
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-23_BloombergIntel_NKE_Nike_Spread_Can_Tighten_as_Margin_Fix_Takes_Hold_Credit_Outlook.md",
+    "kb": 16
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-23_WilliamsTrading_NKE_Williams_Trading_NKE_Good_Plans_Slow_Progress._Lowe.md",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-25_ProactiveInvestors_NKE_Nike_downgraded_by_BofA_as_channel_and_China_pressures_w.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-28_ProactiveInvestors_NKE_Nike_set_for_Q1_beat_as_margins_improve_Jefferies_says.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-29_Barclays_NKE_Nike_Inc._FY1Q27_Preview_The_5_Key_Debates.md",
+    "kb": 96
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-29_S3Partners_NKE_09_29_2026_NKE_Short_Interest_Builds_to_Record_High.md",
+    "kb": 4
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-30_Barclays_NKE_Replay_Poll_Results_Slides_NKE_FY1Q27_Preview_and_S.md",
+    "kb": 49
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-09-30_BloombergIntel_NKE_US_Athleisure_Footwear_Survey_May2026_Nike_Still_Leads_Sneaker_Purchases.md",
+    "kb": 15
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-01_BloombergIntel_NKE_China_Jordan_Sportswear_Remain_Drags_on_Nike_Equity_Outlook.md",
+    "kb": 61
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-01_BloombergIntel_NKE_Nike-s_Weaker_Results_Softer_Outlook_Risk_to_Turnaround_React.md",
+    "kb": 61
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-01_BloombergIntel_NKE_Nike_Revenue_Reset_Extends_Into_Fiscal_2028_Earnings_Outlook.md",
+    "kb": 147
+   }
+  ]
+ },
+ {
+  "id": "PNKE4",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_NKE_RESEARCH_4.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-01_Needham_NKE_Lowering_Estimates_As_FY27_Likely_Got_Off_To_A_Tough_Sta.md",
+    "kb": 24
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-01_ProactiveInvestors_NKE_Nike_warns_of_high_single_digit_revenue_decline_in_fisca.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-02_Barclays_NKE_U.S._Week_Ahead_A_preview_of_key_events.md",
+    "kb": 43
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-02_BloombergIntel_NKE_Nike-s_Deep_China_Reset_Lifts_2027_Bar_for_Anta_Li_Ning_React.md",
+    "kb": 70
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-02_FreedomBroker_NKE_NKE_Q1_FY2027_Review_Sales_Reset_Deepens_Pace_Transfo.md",
+    "kb": 50
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-02_ProactiveInvestors_NKE_Nike-s_sales_warning_splits_analysts_on_whether_its_turn.md",
+    "kb": 6
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-02_WilliamsTrading_NKE_Williams_Trading_NKE_D-G_to_Hold_Reducing_Ests._PT.md",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/2026-10-05_UBS_NKE_Nike_Inc._-Top_10_Questions_for_Management_-Neutral_So.md",
+    "kb": 124
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/NKE_Peer_Summary_Street_History_and_DKS_Readthrough.md",
+    "kb": 109
+   }
+  ]
+ },
+ {
+  "id": "PDECK1",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_DECK_RESEARCH_1.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/DECK/2025-10-30_Barclays_DECK_Deckers_Outdoor_Corp_FY2Q26_Review_The_Art_of_Channel.md",
+    "kb": 74
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2025-10-31_Needham_DECK_Feeling_Better_On_Hoka_But_Feeling_Worse_On_UGG_Still.md",
+    "kb": 13
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2025-10-31_WellsFargo_DECK_DECK_Deja_Shoe_Another_Mixed_Print_with_2H_Outlook_Com.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-01-13_UBS_DECK_UBS_Video_Global_Sportswear_Survey_Highlights_Hoka-s_G.md",
+    "kb": 107
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-01-21_BloombergIntel_DECK_Deckers_Gains_Tied_to_Hoka_Product_Innovation_Equity_Outlook.md",
+    "kb": 41
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-01-28_FinancialAI_DECK_DECK_-Deckers_Outdoor_Corp._2026_Q3_Forecast.md",
+    "kb": 12
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-01-28_UBS_DECK_Deckers_Outdoor_Corp_-UBS_Evidence_Lab_inside_3Q26_Prev.md",
+    "kb": 186
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-01-29_BloombergIntel_DECK_Deckers_Boosted_Guidance_Shows_Hoka_Ugg_Power_Endures_React.md",
+    "kb": 41
+   }
+  ]
+ },
+ {
+  "id": "PDECK2",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_DECK_RESEARCH_2.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-01-30_BloombergIntel_DECK_Deckers_Equity_Outlook.md",
+    "kb": 39
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-02-01_UBS_DECK_Deckers_Outdoor_Corp_-Top_10_Questions_for_Management.md",
+    "kb": 129
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-02-04_UBS_DECK_Deckers_Outdoor_Corp_-Solid_3Q_Report_Boosts_Buy_Rating.md",
+    "kb": 145
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-02-05_Barclays_DECK_Deckers_Outdoor_Corp_FY3Q26_Review_Back_on_Track_Reit.md",
+    "kb": 69
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-02-06_Needham_DECK_Reports_Of_DECK-s_Demise_Have_Been_Greatly_Exaggerated.md",
+    "kb": 13
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-02-06_WellsFargo_DECK_DECK_Bar_Hurdled_But_Questions_Remain_Around_Growth_Tr.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-02-17_InsiderTrade_DECK_DECK_Deckers_Outdoor_Shanahan_Lauri_M_-DIR_Sold_-S_4.7k_shares_-114.84.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-02-19_BloombergIntel_DECK_Deckers_Sales_Can_Still_Surprise_on_Robust_Ugg_Demand_BI_Focus.md",
+    "kb": 12
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-04-22_WellsFargo_DECK_DECK_4Q_Preview_Raising_Numbers_and_PT_HOKA_Visibili.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-13_FinancialAI_DECK_DECK_-Deckers_Outdoor_Corp._2026_Q4_Forecast.md",
+    "kb": 15
+   }
+  ]
+ },
+ {
+  "id": "PDECK3",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_DECK_RESEARCH_3.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-14_BloombergIntel_DECK_Brand_Momentum_Could_Push_Deckers_Sales_Further_4Q_Preview.md",
+    "kb": 38
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-14_BloombergIntel_DECK_Deckers_Gains_Tied_to_Hoka_Product_Innovation_Equity_Outlook.md",
+    "kb": 40
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-18_WilliamsTrading_DECK_Williams_Trading_DECK_Hesitation_Will_Cause_Your_Wors.md",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-19_UBS_DECK_Deckers_Outdoor_Corp_-UBS_Evidence_Lab_inside_4Q26_Prev.md",
+    "kb": 180
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-21_BloombergIntel_DECK_Broader_Hoka_Ugg_Reach_Supports_Deckers_Growth_Equity_Outlook.md",
+    "kb": 40
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-21_BloombergIntel_DECK_Deckers_Signals_Durable_Ugg_Hoka_Growth_Through_2030_React.md",
+    "kb": 40
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-21_BloombergIntel_DECK_Ugg-s_Broadening_Appeal_Fuels_Deckers_Growth_Earnings_Outlook.md",
+    "kb": 38
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-21_SmartInsider_DECK_Deckers_Outdoor_Corp_Buyback_Activity_Analysis.md",
+    "kb": 17
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-21_SmartInsider_DECK_Deckers_Outdoor_Corp_Buyback_Activity_Analysis_1.md",
+    "kb": 12
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-22_WilliamsTrading_DECK_Williams_Trading_DECK_DECK_the_Halls._It-s_XMAS_Time.md",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-27_UBS_DECK_Deckers_Outdoor_Corp_-Why_We_See_57_Price_Target_Upside.md",
+    "kb": 144
+   }
+  ]
+ },
+ {
+  "id": "PDECK4",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_DECK_RESEARCH_4.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-29_Barclays_DECK_Deckers_Outdoor_Corp_FY4Q26_Review_Strong_FY26_Sets_St.md",
+    "kb": 69
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-05-29_WellsFargo_DECK_DECK_A_Mixed_Bag_in_4Q_Domestic-Margins_Remain_a_Debat.md",
+    "kb": 37
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-06-01_Needham_DECK_Both_Brands_Growing_Nicely_Multi_Year_Algo_Announced_R.md",
+    "kb": 13
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-07-13_UBS_DECK_Deckers_Outdoor_Corp_-UBS_Evidence_Lab_inside_1Q27_Prev.md",
+    "kb": 188
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-07-15_BloombergIntel_DECK_Broader_Hoka_Ugg_Reach_Supports_Deckers_Growth_Equity_Outlook.md",
+    "kb": 40
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-07-20_WilliamsTrading_DECK_Williams_Trading_DECK_1Q27_Beat_Likely_on_HOKA_Streng.md",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-07-22_FinancialAI_DECK_DECK_-Deckers_Outdoor_Corp._2027_Q1_Forecast.md",
+    "kb": 9
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-07-23_BloombergIntel_DECK_Broader_Hoka_Ugg_Reach_Supports_Deckers_Growth_Equity_Outlook.md",
+    "kb": 42
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-07-27_WilliamsTrading_DECK_Williams_Trading_DECK_Unnecessary_Noise_Around_Guidan.md",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-07-29_UBS_DECK_Deckers_Outdoor_Corp_-Reiterate_Buy_Rating_Post_a_Very_S.md",
+    "kb": 141
+   }
+  ]
+ },
+ {
+  "id": "PDECK5",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_DECK_RESEARCH_5.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-07-30_Barclays_DECK_Deckers_Outdoor_Corp_FY1Q27_Review_Positioned_for_2H_W.md",
+    "kb": 70
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-07-31_Needham_DECK_Q1_Was_Fine_But_Not_As_Much_Upside_As_The_Street_Is_Use.md",
+    "kb": 13
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-07-31_WellsFargo_DECK_DECK_Tough_1Q_and_Setup_from_Here_More_Q-s_than_A-s_R.md",
+    "kb": 37
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-09-15_Barclays_DECK_Deckers_Outdoor_Corp_Conference_Takeaways.md",
+    "kb": 47
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/2026-09-16_UBS_DECK_Deckers_Outdoor_Corp_-Mgmt._Meeting_Highlights_Hoka-s_In.md",
+    "kb": 124
+   },
+   {
+    "source": "SOURCE/04_PEERS/DECK/DECK_Peer_Summary_Street_History_and_DKS_Readthrough.md",
+    "kb": 92
+   }
+  ]
+ },
+ {
+  "id": "PONON1",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_ONON_RESEARCH_1.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-02-20_BloombergIntel_ONON_On_Peers_May_Have_Gross_Margin_Upside_From_Tariff_Ruling_React.md",
+    "kb": 27
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-05-13_Ameriprise_ONON_ONON_Margin_Beat_Amidst_Macro_Pressure.md",
+    "kb": 28
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-05-15_InsiderTrade_ONON_ONON_On_Holding_Ag_Allemann_David_Michael_-CEO-DIR_Bought_-B_60k_shares_-36.36.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-05-15_InsiderTrade_ONON_ONON_On_Holding_Ag_Bernhard_Olivier_-DIR_Bought_-B_60k_shares_-36.36.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-05-15_InsiderTrade_ONON_ONON_On_Holding_Ag_Coppetti_Caspar_Felix_-CEO-DIR_Bought_-B_60k_shares_-36.36.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-05-15_JPMorgan_ONON_On_Holding_Q1_26_Results_First_Take.md",
+    "kb": 44
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-05-17_UBS_ONON_First_Read_On_Holding_AG_-Stellar_1Q26_Report_Reiterat.md",
+    "kb": 116
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-05-18_Barclays_ONON_On_Holding_AG_1Q26_Review_Global_Growth_Continues_to_D.md",
+    "kb": 66
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-05-18_UBS_ONON_On_Holding_AG_-Compelling_LT_Growth_Runway_Reiterate.md",
+    "kb": 140
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-05-19_Needham_ONON_Gross_Margin_Drives_Q1_Upside_Top_Line_Still_Strong_Re.md",
+    "kb": 14
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-05-19_UBS_ONON_UBS_Video_On_Holding_Compelling_LT_Growth_Runway_R.md",
+    "kb": 109
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-06-29_UBS_ONON_On_Holding_AG_-US_Run_Specialty_Channel_Weakness_Unlike.md",
+    "kb": 123
+   }
+  ]
+ },
+ {
+  "id": "PONON2",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_ONON_RESEARCH_2.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-03_UBS_ONON_On_Holding_AG_-UBS_Evidence_Lab_inside_2Q26_Preview_We.md",
+    "kb": 158
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-05_BloombergIntel_ONON_On-s_Long_Term_Potential_Intact_Demand_Robust_Equity_Outlook.md",
+    "kb": 25
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-05_BloombergIntel_ONON_On_to_Build_Momentum_as_Innovation_DTC_Fuel_Gains_2Q_Preview.md",
+    "kb": 40
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-06_BloombergIntel_ONON_On_Can_Top_Hoka_in_Apparel_Market_Share_as_Retail_Strategy_Grows.md",
+    "kb": 9
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-06_WilliamsTrading_ONON_Williams_Trading_ONON_Pushing_Too_Hard_with_Too_Much.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-11_BloombergIntel_ONON_On-s_Long_Term_Potential_Intact_Demand_Robust_Equity_Outlook.md",
+    "kb": 31
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-11_BloombergIntel_ONON_On_Prioritizes_Premium_Margins_Over_Wholesale_Volume_React.md",
+    "kb": 26
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-11_UBS_ONON_UBS_Video_On_Holding_2Q26_Preview_We_See_a_Moderately.md",
+    "kb": 106
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-14_JPMorgan_ONON_On_Holding_First_Take.md",
+    "kb": 48
+   }
+  ]
+ },
+ {
+  "id": "PONON3",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_ONON_RESEARCH_3.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-16_UBS_ONON_First_Read_On_Holding_AG_-2Q_Report_Likely_a_Negative_C.md",
+    "kb": 115
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-17_Ameriprise_ONON_ONON_The_-Show_Me_Phase_Got_Tougher.md",
+    "kb": 29
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-17_Barclays_ONON_On_Holding_AG_2Q26_Review_Choosing_Brand_Health_Over_P.md",
+    "kb": 67
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-17_JPMorgan_ONON_On_Holding_Model_Update_lowering_our_PT_to_-41_remain.md",
+    "kb": 55
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-17_UBS_ONON_On_Holding_AG_-Headwinds_Likely_Dissipate_Soon_Reiterat.md",
+    "kb": 143
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-18_Needham_ONON_First_Ever_Miss_and_Cut_Weighing_On_Shares_But_We_See_S.md",
+    "kb": 14
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-08-24_InsiderInsights_ONON_ONON_On_Holding_Ag_Significant_Insider_Buying.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-09_InsiderTrade_ONON_ONON_On_Holding_Ag_Maguire_Scott_Andrew_-COO_Sold_-S_1.5k_shares_-27.74.md",
+    "kb": 3
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-16_WilliamsTrading_ONON_Williams_Trading_ONON_Investor_Day_Preview_How_Can_O.md",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-18_BloombergIntel_ONON_On-s_Wooing_of_Mbapp_From_Nike_Opens_Soccer_Growth_Path_React.md",
+    "kb": 27
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-21_BloombergIntel_ONON_On-s_Easing_Growth_Masks_a_Longer_Above_Consensus_Sales_Runway.md",
+    "kb": 9
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-22_BloombergIntel_ONON_On_Targets_Durable_Growth_22_Margin_as_Sports_Expand_React.md",
+    "kb": 20
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-22_SmartInsider_ONON_On_Holding_AG_Buyback_Activity_Analysis.md",
+    "kb": 11
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-22_SmartInsider_ONON_On_Holding_AG_Buyback_Activity_Analysis_1.md",
+    "kb": 12
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-25_JPMorgan_ONON_On_Holding_Key_take_aways_from_the_Investor_Days.md",
+    "kb": 57
+   }
+  ]
+ },
+ {
+  "id": "PONON4",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_ONON_RESEARCH_4.md",
+  "note": "Peer research. Skip disclosure pages after confirming no company content. Always record any DKS read-through explicitly.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-25_JPMorgan_ONON_On_Holding_New_Financial_Targets_and_Share_Buyback_Anno.md",
+    "kb": 52
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-25_Needham_ONON_Analyst_Day_Unlikely_To_Change_Investor_Sentiment_But_L.md",
+    "kb": 22
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-25_WilliamsTrading_ONON_Williams_Trading_ONON_Raising_Ests._PT._Promise_C.md",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-27_UBS_ONON_First_Read_On_Holding_AG_-Bullish_Investor_Day_Targets.md",
+    "kb": 113
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-28_UBS_ONON_On_Holding_AG_-Analyst_Day_Highlights_Robust_Growth_Oppo.md",
+    "kb": 138
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-29_Barclays_ONON_On_Holding_AG_Investor_Day_Building_ON_the_Premium_Fly.md",
+    "kb": 71
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-09-30_Needham_ONON_Bullish_Analyst_Day_Alleviates_Growth_Slowdown_Fears_Re.md",
+    "kb": 21
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/2026-10-01_BloombergIntel_ONON_On_Has_More_Room_to_Run_as_Growing_Scale_Benefits_Lift_Profit.md",
+    "kb": 11
+   },
+   {
+    "source": "SOURCE/04_PEERS/ONON/ONON_Peer_Summary_Street_History_and_DKS_Readthrough.md",
+    "kb": 97
+   }
+  ]
+ },
+ {
+  "id": "PMISC",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_ADIDAS_PUMA_ASO_FL_RESEARCH.md",
+  "note": "",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/ADIDAS_PUMA/2026-07-07_JPMorgan_PUM-GR_European_Sporting_Goods_Keep_delivering_Reinstate_On.md",
+    "kb": 195
+   },
+   {
+    "source": "SOURCE/04_PEERS/ADIDAS_PUMA/2026-07-21_JPMorgan_ADS-GR_European_Sporting_Goods_Investor_feedback.md",
+    "kb": 72
+   },
+   {
+    "source": "SOURCE/04_PEERS/ADIDAS_PUMA/2026-08-26_JPMorgan_ADS-GR_European_Sporting_Goods_Q2_Wrap_a_tough_quarter_but_t.md",
+    "kb": 86
+   },
+   {
+    "source": "SOURCE/04_PEERS/ASO/ASO_Academy_Sports_Peer_Summary_from_Filings.md",
+    "kb": 24
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/2025-09-03_Barclays_FL_Foot_Locker_Inc._Model_Update.md",
+    "kb": 48
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/2025-09-12_Barclays_FL_Foot_Locker_Inc._Discontinuing_Coverage.md",
+    "kb": 44
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/FL_Foot_Locker_PreAcquisition_Baseline_from_Barclays.md",
+    "kb": 11
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/FL_Standalone_Financial_History_FY2019-FY2025_and_Lace_Up_Plan.md",
+    "kb": 61
+   }
+  ]
+ },
+ {
+  "id": "PNKEK",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_NKE_10K.md",
+  "note": "FY2026 10-K full; FY2025 delta-only.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/NKE/sec_filings/NKE_10-K_FY2026_filed-2026-07-15.md",
+    "kb": 417
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/sec_filings/NKE_10-K_FY2025_filed-2025-07-17.md",
+    "kb": 415,
+    "read_delta": "_PREP/deltas/04_PEERS__NKE__sec_filings__NKE_10-K_FY2025_filed-2025-07-17.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "PNKEQA",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_NKE_10Q_A.md",
+  "note": "First 10-Q full, rest delta-only.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2025-Q1_filed-2024-10-07.md",
+    "kb": 132
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2025-Q2_filed-2025-01-03.md",
+    "kb": 176,
+    "read_delta": "_PREP/deltas/04_PEERS__NKE__sec_filings__NKE_10-Q_FY2025-Q2_filed-2025-01-03.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2025-Q3_filed-2025-04-03.md",
+    "kb": 180,
+    "read_delta": "_PREP/deltas/04_PEERS__NKE__sec_filings__NKE_10-Q_FY2025-Q3_filed-2025-04-03.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2026-Q1_filed-2025-10-01.md",
+    "kb": 133,
+    "read_delta": "_PREP/deltas/04_PEERS__NKE__sec_filings__NKE_10-Q_FY2026-Q1_filed-2025-10-01.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "PNKEQB",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_NKE_10Q_B.md",
+  "note": "",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2026-Q2_filed-2025-12-30.md",
+    "kb": 181,
+    "read_delta": "_PREP/deltas/04_PEERS__NKE__sec_filings__NKE_10-Q_FY2026-Q2_filed-2025-12-30.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2026-Q3_filed-2026-04-01.md",
+    "kb": 188,
+    "read_delta": "_PREP/deltas/04_PEERS__NKE__sec_filings__NKE_10-Q_FY2026-Q3_filed-2026-04-01.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/NKE/sec_filings/NKE_10-Q_FY2027-Q1_filed-2026-10-02.md",
+    "kb": 124,
+    "read_delta": "_PREP/deltas/04_PEERS__NKE__sec_filings__NKE_10-Q_FY2027-Q1_filed-2026-10-02.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "PASOK",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_ASO_10K.md",
+  "note": "",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/ASO/sec_filings/ASO_10-K_FY2025_filed-2026-03-17.md",
+    "kb": 422
+   }
+  ]
+ },
+ {
+  "id": "PASOQ",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_ASO_10Q.md",
+  "note": "First 10-Q full, rest delta-only.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/ASO/sec_filings/ASO_10-Q_FY2025-Q3_filed-2025-12-09.md",
+    "kb": 144
+   },
+   {
+    "source": "SOURCE/04_PEERS/ASO/sec_filings/ASO_10-Q_FY2026-Q1_filed-2026-06-10.md",
+    "kb": 127,
+    "read_delta": "_PREP/deltas/04_PEERS__ASO__sec_filings__ASO_10-Q_FY2026-Q1_filed-2026-06-10.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/ASO/sec_filings/ASO_10-Q_FY2026-Q2_filed-2026-09-09.md",
+    "kb": 143,
+    "read_delta": "_PREP/deltas/04_PEERS__ASO__sec_filings__ASO_10-Q_FY2026-Q2_filed-2026-09-09.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "PFLKA",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_FL_10K_A.md",
+  "note": "FY2024 10-K (latest) read in full.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-K_FY2024_filed-2025-03-27.md",
+    "kb": 351
+   }
+  ]
+ },
+ {
+  "id": "PFLKB",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_FL_10K_B.md",
+  "note": "Delta-only (each vs the next later 10-K).",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-K_FY2023_filed-2024-03-28.md",
+    "kb": 349,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-K_FY2023_filed-2024-03-28.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-K_FY2022_filed-2023-03-27.md",
+    "kb": 342,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-K_FY2022_filed-2023-03-27.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-K_FY2021_filed-2022-03-24.md",
+    "kb": 380,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-K_FY2021_filed-2022-03-24.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "PFLQA",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_FL_10Q_A.md",
+  "note": "Read delta file where given, else full.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2022-Q1_filed-2022-06-08.md",
+    "kb": 110
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2022-Q2_filed-2022-09-07.md",
+    "kb": 139,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-Q_FY2022-Q2_filed-2022-09-07.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2022-Q3_filed-2022-12-07.md",
+    "kb": 141,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-Q_FY2022-Q3_filed-2022-12-07.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2023-Q1_filed-2023-06-07.md",
+    "kb": 99,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-Q_FY2023-Q1_filed-2023-06-07.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "PFLQB",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_FL_10Q_B.md",
+  "note": "Read delta file where given, else full.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2023-Q2_filed-2023-09-06.md",
+    "kb": 118,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-Q_FY2023-Q2_filed-2023-09-06.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2023-Q3_filed-2023-12-06.md",
+    "kb": 123,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-Q_FY2023-Q3_filed-2023-12-06.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2024-Q1_filed-2024-06-12.md",
+    "kb": 93,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-Q_FY2024-Q1_filed-2024-06-12.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2024-Q2_filed-2024-09-11.md",
+    "kb": 119,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-Q_FY2024-Q2_filed-2024-09-11.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "PFLQC",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_FL_10Q_C.md",
+  "note": "Read delta file where given, else full.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2024-Q3_filed-2024-12-11.md",
+    "kb": 122,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-Q_FY2024-Q3_filed-2024-12-11.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2025-Q1_filed-2025-06-11.md",
+    "kb": 120,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-Q_FY2025-Q1_filed-2025-06-11.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/FL_10-Q_FY2025-Q2_filed-2025-09-02.md",
+    "kb": 142,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__FL_10-Q_FY2025-Q2_filed-2025-09-02.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "PFL8A",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_FL_8K_A.md",
+  "note": "All delta-only vs DKS 8-K/425 material and earlier FL 8-Ks.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-01-26.md",
+    "kb": 5,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-01-26.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-02-21.md",
+    "kb": 6,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-02-21.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-10.md",
+    "kb": 5,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-03-10.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-10_EX-99-1_AGREEMENT-WITH-ANDREW-I-GRAY-DATED-MARCH-2-2023.md",
+    "kb": 57,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-03-10_EX-99-1_AGREEMENT-WITH-ANDREW-I-GRAY-DATED-MARCH-2-2023.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-20.md",
+    "kb": 6,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-03-20.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-20_EX-99-1_PRESS-RELEASE-DATED-MARCH-20-2023.md",
+    "kb": 31,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-03-20_EX-99-1_PRESS-RELEASE-DATED-MARCH-20-2023.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-20_EX-99-2_INVESTOR-PRESENTATION-DATED-MARCH-20-2023.md",
+    "kb": 49,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-03-20_EX-99-2_INVESTOR-PRESENTATION-DATED-MARCH-20-2023.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-24.md",
+    "kb": 5,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-03-24.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-24_EX-99-1_AGREEMENT-WITH-ANDREW-PAGE-DATED-MARCH-20-2023.md",
+    "kb": 61,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-03-24_EX-99-1_AGREEMENT-WITH-ANDREW-PAGE-DATED-MARCH-20-2023.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-04-25.md",
+    "kb": 6,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-04-25.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-05-19.md",
+    "kb": 15,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-05-19.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-05-19_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 26,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-05-19_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-05-19_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 1,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-05-19_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-08-23.md",
+    "kb": 6,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-08-23.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-08-23_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 29,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-08-23_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-08-23_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 1,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-08-23_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-09-22.md",
+    "kb": 4,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-09-22.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-11-29.md",
+    "kb": 6,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-11-29.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-11-29_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 33,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-11-29_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-11-29_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 1,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2023-11-29_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-03-06.md",
+    "kb": 7,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-03-06.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-03-06_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 36,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-03-06_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-03-06_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 1,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-03-06_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-05-23.md",
+    "kb": 5,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-05-23.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-05-30.md",
+    "kb": 5,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-05-30.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-05-30_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 24,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-05-30_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-05-30_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 13,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-05-30_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-06-25.md",
+    "kb": 6,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-06-25.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-08-28.md",
+    "kb": 5,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-08-28.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-08-28_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 32,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-08-28_EX-99-1_EXHIBIT-99-1.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "PFL8B",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/P_FL_8K_B.md",
+  "note": "All delta-only vs DKS 8-K/425 material and earlier FL 8-Ks.",
+  "files": [
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-08-28_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 14,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-08-28_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-12-04.md",
+    "kb": 5,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-12-04.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-12-04_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 31,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-12-04_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-12-04_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 17,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2024-12-04_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-01-14.md",
+    "kb": 5,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-01-14.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-01-14_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 6,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-01-14_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-03-05.md",
+    "kb": 5,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-03-05.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-03-05_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 34,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-03-05_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-03-05_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 21,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-03-05_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-03-26.md",
+    "kb": 7,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-03-26.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-03-26_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 5,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-03-26_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-05-09.md",
+    "kb": 4,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-05-09.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-05-15.md",
+    "kb": 19,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-05-15.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-05-15_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 25,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-05-15_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-05-15_EX-99-2_EXHIBIT-99-2.md",
+    "kb": 24,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-05-15_EX-99-2_EXHIBIT-99-2.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-05-23.md",
+    "kb": 8,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-05-23.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-05-29.md",
+    "kb": 4,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-05-29.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-05-29_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 25,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-05-29_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-06-23.md",
+    "kb": 6,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-06-23.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-07-24.md",
+    "kb": 19,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-07-24.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-08-11.md",
+    "kb": 64,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-08-11.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-08-22.md",
+    "kb": 7,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-08-22.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-08-26.md",
+    "kb": 15,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-08-26.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-08-26_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 17,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-08-26_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-08-27.md",
+    "kb": 4,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-08-27.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-08-27_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 30,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-08-27_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-09-02.md",
+    "kb": 12,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-09-02.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-09-02_EX-99-1_EXHIBIT-99-1.md",
+    "kb": 14,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-09-02_EX-99-1_EXHIBIT-99-1.delta.md"
+   },
+   {
+    "source": "SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2025-09-08.md",
+    "kb": 17,
+    "read_delta": "_PREP/deltas/04_PEERS__FL__sec_filings__8-K__FL_8-K_2025-09-08.delta.md"
+   }
+  ]
+ },
+ {
+  "id": "W20",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W20_SECTOR_MACRO.md",
+  "note": "",
+  "files": [
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-01-15_Needham_SHOO_Let_Tom_Sort_-Em_Out_U-G_SHOO_D-G_NKE_VFC_Replaces_DE.md",
+    "kb": 54
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-02-23_BloombergIntel_SECTOR_Sneakerinas_En_Pointe_to_Reshape_2026_Footwear_Market_Share.md",
+    "kb": 12
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-03-13_Barclays_ULTA_U.S._Specialty_Retail_Earnings_on_Deck_Week_of_03-09-26.md",
+    "kb": 63
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-07-28_BloombergIntel_SECTOR_China-s_Weak_1H_Retail_Sales_Put_Full_Year_Forecasts_at_Risk.md",
+    "kb": 17
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-07-29_BloombergIntel_SECTOR_Retail_Demand_Holds_High_Yield_Valuations_Stay_Rich_Chart_Pack.md",
+    "kb": 14
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-07-29_DeutscheBank_AS_Apparel_Footwear_Textiles_Global_Sporting_Goods_Chan.md",
+    "kb": 46
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-07-31_DeutscheBank_TGT_Restaurants_Retail_US_Retail_and_Restaurants_3Q_Weath.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-08-03_DeutscheBank_TGT_Restaurants_Retail_US_Retail_and_Restaurants_3Q_Weath.md",
+    "kb": 35
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-08-19_BloombergIntel_SECTOR_Athleisure_App_Trends_Diverge_Into_Back_to_School_Chart_Pack.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-08-21_WilliamsTrading_CROX_Williams_Trading_BIRK_DECK_ONON_SHOO_VFC_CROX_Takeawa.md",
+    "kb": 2
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/2026-09-10_BloombergIntel_SECTOR_Athleisure_App_Trends_Mixed_as_Summer_Momentum_Fades_Chart_Pack.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/SECTOR_MACRO_and_ADIDAS_PUMA_Summaries.md",
+    "kb": 38
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/credit/2026-09-22_BloombergIntel_SECTOR_Retail_Bonds_Reward_Long_End_Quality_and_Select_High_Yield.md",
+    "kb": 5
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/credit/2026-09-25_BloombergIntel_SECTOR_Paramount_Debt_Needs_AI_Woes_Retail_Rewards_Best_of_US_Credit.md",
+    "kb": 29
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/credit/2026-09-30_BloombergIntel_SECTOR_Pockets_of_Risk_Can_Weigh_On_-20_Billion_of_Retail_Rating_Risk.md",
+    "kb": 9
+   },
+   {
+    "source": "SOURCE/05_SECTOR_MACRO/credit/2026-10-02_BloombergIntel_SECTOR_Paramount_Woes_Force_Majeure_Citadel_Securities_Credit_Best.md",
+    "kb": 30
+   }
+  ]
+ },
+ {
+  "id": "W21",
+  "tier": "WORKING",
+  "output": "WORKING_NOTES/W21_PEER_CONSENSUS_FINANCIALS_AND_PEER_MARKET_DATA.md",
+  "note": "Bloomberg tables: transcribe every number (compact tables). Peer CSVs: raw files are copied to CORE_NOTES/data/; write columns/coverage plus derived facts (monthly closes per ticker, YTD/1y/3y returns, drawdowns, full valuation snapshot table).",
+  "files": [
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/DECK/DECK_Bloomberg-Financials_Annual_FY2022-FY2031E.md",
+    "kb": 25
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/DECK/DECK_Bloomberg-Financials_Quarterly_FY26Q1-FY28Q2E.md",
+    "kb": 24
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/DECK/DECK_Bloomberg-Financials_Quarterly_FY27Q4E-FY30Q1E.md",
+    "kb": 24
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/NKE/NKE_Bloomberg-Financials_Annual.md",
+    "kb": 31
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/NKE/NKE_Bloomberg-Financials_Quarterly_FY27Q2E-FY29Q3E.md",
+    "kb": 33
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/NKE/NKE_Bloomberg-Financials_Quarterly_setA.md",
+    "kb": 29
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/NKE/NKE_Bloomberg-Financials_TRANSCRIBED_Annual_and_Quarterly.md",
+    "kb": 80
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/ONON/ONON_Bloomberg-Financials_Annual_2022-2031E_CHF.md",
+    "kb": 21
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/ONON/ONON_Bloomberg-Financials_Quarterly_2025Q1-2027Q2E_CHF.md",
+    "kb": 21
+   },
+   {
+    "source": "SOURCE/06_BLOOMBERG_FINANCIALS/ONON/ONON_Bloomberg-Financials_Quarterly_2027Q1E-2029Q2E_CHF.md",
+    "kb": 21
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/peer_daily_closes_2021-2026-10-05.csv",
+    "kb": 502
+   },
+   {
+    "source": "SOURCE/08_MARKET_DATA/csv/peer_valuation_snapshot.csv",
+    "kb": 2
+   }
+  ]
+ }
+]

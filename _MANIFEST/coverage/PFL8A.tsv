@@ -1,0 +1,31 @@
+source	mode(full|delta|lines a-b)	total_lines	last_line_read	dropped_as_boilerplate(short description)	output_file	notes_chars_for_this_source
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-01-26.md	delta	67	67	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	923
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-02-21.md	delta	34	34	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	1170
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-10.md	delta	26	26	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	685
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-10_EX-99-1_AGREEMENT-WITH-ANDREW-I-GRAY-DATED-MARCH-2-2023.md	delta	602	602	generic release/statutory lists, 409A, notices, signature/notary blocks, page headers, personal email	WORKING_NOTES/P_FL_8K_A.md	8779
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-20.md	delta	36	36	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	625
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-20_EX-99-1_PRESS-RELEASE-DATED-MARCH-20-2023.md	delta	347	347	FLS safe harbor, non-GAAP boilerplate, call dial-in numbers, page markers	WORKING_NOTES/P_FL_8K_A.md	12568
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-20_EX-99-2_INVESTOR-PRESENTATION-DATED-MARCH-20-2023.md	delta	136	136	FLS safe harbor, non-GAAP boilerplate, call dial-in numbers, page markers	WORKING_NOTES/P_FL_8K_A.md	18795
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-24.md	delta	18	18	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	597
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-03-24_EX-99-1_AGREEMENT-WITH-ANDREW-PAGE-DATED-MARCH-20-2023.md	delta	444	444	generic release/statutory lists, 409A, notices, signature/notary blocks, page headers, personal email	WORKING_NOTES/P_FL_8K_A.md	4677
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-04-25.md	delta	26	26	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	858
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-05-19.md	delta	69	69	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	2736
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-05-19_EX-99-1_EXHIBIT-99-1.md	delta	238	238	FLS safe harbor, non-GAAP boilerplate, call dial-in numbers, page markers	WORKING_NOTES/P_FL_8K_A.md	8938
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-05-19_EX-99-2_EXHIBIT-99-2.md	delta	9	9	image-only exhibit (no text); filing header	WORKING_NOTES/P_FL_8K_A.md	238
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-08-23.md	delta	21	21	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	343
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-08-23_EX-99-1_EXHIBIT-99-1.md	delta	201	201	FLS safe harbor, non-GAAP boilerplate, call dial-in numbers, page markers	WORKING_NOTES/P_FL_8K_A.md	10175
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-08-23_EX-99-2_EXHIBIT-99-2.md	delta	8	8	image-only exhibit (no text); filing header	WORKING_NOTES/P_FL_8K_A.md	210
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-09-22.md	delta	19	19	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	558
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-11-29.md	delta	17	17	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	323
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-11-29_EX-99-1_EXHIBIT-99-1.md	delta	194	194	FLS safe harbor, non-GAAP boilerplate, call dial-in numbers, page markers	WORKING_NOTES/P_FL_8K_A.md	11262
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2023-11-29_EX-99-2_EXHIBIT-99-2.md	delta	8	8	image-only exhibit (no text); filing header	WORKING_NOTES/P_FL_8K_A.md	210
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-03-06.md	delta	18	18	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	325
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-03-06_EX-99-1_EXHIBIT-99-1.md	delta	203	203	FLS safe harbor, non-GAAP boilerplate, call dial-in numbers, page markers	WORKING_NOTES/P_FL_8K_A.md	12380
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-03-06_EX-99-2_EXHIBIT-99-2.md	delta	8	8	image-only exhibit (no text); filing header	WORKING_NOTES/P_FL_8K_A.md	210
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-05-23.md	delta	38	38	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	1247
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-05-30.md	delta	20	20	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	322
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-05-30_EX-99-1_EXHIBIT-99-1.md	delta	160	160	FLS safe harbor, non-GAAP boilerplate, call dial-in numbers, page markers	WORKING_NOTES/P_FL_8K_A.md	7881
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-05-30_EX-99-2_EXHIBIT-99-2.md	delta	26	26	FLS safe harbor, non-GAAP boilerplate, call dial-in numbers, page markers	WORKING_NOTES/P_FL_8K_A.md	2485
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-06-25.md	delta	22	22	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	835
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-08-28.md	delta	19	19	SEC cover page, checkboxes, Item 2.02/7.01 not-filed language, signature block	WORKING_NOTES/P_FL_8K_A.md	355
+SOURCE/04_PEERS/FL/sec_filings/8-K/FL_8-K_2024-08-28_EX-99-1_EXHIBIT-99-1.md	delta	191	191	FLS safe harbor, non-GAAP boilerplate, call dial-in numbers, page markers	WORKING_NOTES/P_FL_8K_A.md	10778
