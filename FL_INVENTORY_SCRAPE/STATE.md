@@ -1,5 +1,5 @@
 # STATE: FL inventory-shift overnight scrape (FL_INVENTORY_SCRAPE)
-STATUS: STOPPED BY USER (cost) ~21:45 UTC; watchdog disabled
+STATUS: DONE — memo published https://claude.ai/artifact/1gpuwF3fHz8PoeMJgY3F2U (cheap rerun: W01, W03, W05, W15 on Sonnet)
 STARTED: 2026-10-07 ~21:10 UTC (user said "go")
 CURRENT_WAVE: 0+1 (30 agents: F01-F15 folder sweep, W01-W15 web)
 DRY_STREAK: 0 (stop after 2 consecutive dry waves; dry = <2 new A and <4 new B findings)

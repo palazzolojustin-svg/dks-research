@@ -1,0 +1,146 @@
+<title>Foot Locker Inventory Shift</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column, memo style; one chart, two tables, appendix at the bottom */
+:root{
+  --bg:#f6f7f5; --surface:#ffffff; --fg:#1d2321; --muted:#5b6662; --line:#d7ddda;
+  --accent:#b8322a; --good:#2f7a4f; --bad:#b8322a; --chip:#eef1ef;
+  --display:"Fraunces",Georgia,serif; --body:"IBM Plex Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141917; --surface:#1c2220; --fg:#e6ebe8; --muted:#9aa6a1; --line:#33403b;
+  --accent:#f0786d; --good:#6cc492; --bad:#f0786d; --chip:#25302c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141917; --surface:#1c2220; --fg:#e6ebe8; --muted:#9aa6a1; --line:#33403b;
+  --accent:#f0786d; --good:#6cc492; --bad:#f0786d; --chip:#25302c; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--body);padding-inline:16px;padding-block:28px 60px}
+main{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:26px}
+h1{font:600 2rem/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 1.3rem/1.25 var(--display);margin:0 0 8px;text-wrap:balance}
+.eyebrow{font:500 .72rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+p{margin:0 0 10px} ul{margin:0;padding-left:20px} li{margin-bottom:6px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px 18px}
+.verdict{border-left:4px solid var(--accent)}
+.tag{font:500 .7rem var(--mono);padding:1px 6px;border-radius:3px;background:var(--chip);white-space:nowrap}
+.for{color:var(--good)} .against{color:var(--bad)}
+.tw{overflow-x:auto} table{border-collapse:collapse;width:100%;font-size:.88rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 .72rem var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.num{text-align:right;white-space:nowrap}
+.note{font-size:.82rem;color:var(--muted)}
+svg text{fill:var(--muted);font:11px var(--mono)}
+.appendix li{font-size:.86rem}
+</style>
+<main>
+<header>
+  <div class="eyebrow">DKS · Foot Locker Business · data as of 2026-10-07</div>
+  <h1>Foot Locker inventory shift: what the new data shows</h1>
+</header>
+
+<section class="box verdict">
+  <h2>Bottom line</h2>
+  <ul>
+    <li><b>The "less discounting" half of the thesis has new hard support.</b> On footlocker.com, the share of men's shoes on sale fell from 26–33% every month of 2024–Aug 2025 to 9–16% since Dec 2025 (14.8% on Oct 3, 2026). The number of men's shoe listings fell about a third (≈3,400 → ≈2,300).</li>
+    <li><b>Foot Locker now discounts far less than Nike's own site.</b> 13.9% of FL men's shoes are on sale vs 46.9% on nike.com; on 20 matched Nike/Jordan styles the average discount is 13.4% at FL vs 31.4% at nike.com.</li>
+    <li><b>The "higher uptake" half is not proven.</b> We found no new hard comp, traffic or sell-through data. Search, social, review and card-data avenues were stopped for cost or blocked.</li>
+    <li><b>Timing matters for the variance.</b> The sale-share drop happened in Dec 2025, so Q4 FY26 and Q1 FY27 compare against periods that already had it. The y/y benefit shows up in <b>Q3 FY26</b> and in the <b>FY27 margin level</b>.</li>
+    <li><b>Our variance (inference):</b> FL gross margin +100–150bps vs consensus in 3Q26 (≈+$0.14–0.21 EPS) and +70–150bps in FY27 (≈+$0.42–0.90 EPS). No comp variance called.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Footlocker.com men's shoes: listings and share on sale</h2>
+  <p class="note">Wayback Machine captures, about one per month. Bars = listings (left scale). Line = share of listings on sale (right scale). Gap = no clean capture.</p>
+  <div class="tw"><svg id="chart" viewBox="0 0 720 260" width="100%" role="img" aria-label="Listings and on-sale share by month, 2024 to Oct 2026"></svg></div>
+  <p class="note">Source: FL_INVENTORY_SCRAPE/data/W03_timeseries.csv (266 captures, footlocker.com and champssports.com). Champs men's shoes show the same move (≈31% → ≈15% on sale). The footlocker.com sale page fell from ≈6,200 items (2024 H1) to ≈1,700 (2026 Q1) and is rebuilding (2,306 on Sep 23, 2026).</p>
+</section>
+
+<section>
+  <h2>What consensus has, and where we differ</h2>
+  <p class="note">Bloomberg consensus pulled 2026-10-04. FL gross margin by year is the corrected alignment (the raw Bloomberg row is shifted one year). EPS at $1M pre-tax ≈ $0.008/share.</p>
+  <div class="tw"><table>
+    <tr><th>Period</th><th>Consensus</th><th>Our view</th><th>Why</th><th class="num">EPS impact</th></tr>
+    <tr><td>3Q26 (Aug–Oct 26)</td><td>FL GM 24.37%; comp +0.34%; FL OI −$71M</td><td>GM 25.4–25.9%</td><td>Sale share in Jul–Oct 2026 (15–16%) matches Q2 (14–16%, GM 25.66%) and is far below Aug–Oct 2025 (≈26–33%). Consensus has GM falling 130bps q/q.</td><td class="num">+$0.14–0.21</td></tr>
+    <tr><td>4Q26 (Nov–Jan)</td><td>GM 25.63% (+60bps y/y); comp +0.97%</td><td>In line</td><td>Dec 2025 already had an 11% sale share, though at 42–47% depth. No clear y/y edge.</td><td class="num">—</td></tr>
+    <tr><td>1Q27</td><td>GM 27.87% (flat y/y)</td><td>In line</td><td>Q1 FY26 already had a 9–16% sale share, so a flat GM is fair.</td><td class="num">—</td></tr>
+    <tr><td>FY27</td><td>FL GM ≈26.8–27.0%; FL OI $19.7M (0.23%)</td><td>GM 27.6–28.4%</td><td>FY24 FL GM was ≈27.6% (DKS-style basis) with roughly twice today's sale share. Consensus sits below that level.</td><td class="num">+$0.42–0.90</td></tr>
+  </table></div>
+  <p class="note">FY27 arithmetic: +70 to +150bps × $7,366.8M FL revenue = +$52M to +$110M operating income, on FY27E EPS $13.36. All "our view" figures are inference, not reported data.</p>
+</section>
+
+<section>
+  <h2>New evidence, ranked</h2>
+  <div class="tw"><table>
+    <tr><th>Grade</th><th>Finding</th><th>Source</th></tr>
+    <tr><td><span class="tag for">A</span></td><td>FL men's shoes on sale: 26–33% monthly (Jan 2024–Aug 2025) → 11% (Dec 11, 2025), 9% (Feb 10, 2026), 14.8% (Oct 3, 2026).</td><td>Wayback, W03</td></tr>
+    <tr><td><span class="tag for">A</span></td><td>FL men's shoe listings: ≈3,400 (2024 avg) → 2,978 (Aug 2025) → 1,639 low (Feb 2026) → 2,305 (Oct 2026). Brands 33 → 23.</td><td>Wayback, W03</td></tr>
+    <tr><td><span class="tag for">A</span></td><td>FL sale-page items: 6,227 (2024 H1 avg) → 4,608 (2025 Q3) → 1,715 (2026 Q1) → 2,306 (Sep 23, 2026).</td><td>Wayback, W03</td></tr>
+    <tr><td><span class="tag for">A</span></td><td>On sale today: 13.9% of FL men's shoes vs 46.9% at nike.com and 56.6% at Zappos. Matched Nike/Jordan styles: 13.4% average discount at FL vs 31.4% at nike.com; FL priced higher on 13 of 20.</td><td>Live scrape, W05</td></tr>
+    <tr><td><span class="tag for">B</span></td><td>Full catalog today: 11,288 listings, 17.6% on sale. Footwear 6,303 at 11.0%; Champs footwear 9.1%. Newer brands are ≈40% of FL footwear and 10.6% on sale vs 13.2% for Nike+Jordan. Salomon 1 of 28.</td><td>Live scrape, W01</td></tr>
+    <tr><td><span class="tag for">B</span></td><td>New store concepts: Champs "Game Day & Everyday" licensed-apparel walls (Aug 2026); Crenshaw Rec by Foot Locker with store-exclusive product (opened Aug 22, 2026).</td><td>News, W15</td></tr>
+  </table></div>
+</section>
+
+<section class="box">
+  <h2>Evidence against</h2>
+  <ul>
+    <li><span class="against">Discount depth did not shrink.</span> On-sale items are cut 21–45% in 2026 vs 20–29% in 2024–25. Fewer items are on sale, but those that are go deeper.</li>
+    <li><span class="against">Checkout promotions are invisible to listing data.</span> Late September: up to 30% off Nike/Jordan applied at checkout, 50% off NB 9060 and adidas Samba (Sep 25). Hoka up to 51% off (Sep 8). Tiered 20/25/30% BTS codes.</li>
+    <li><span class="against">Low sale share already coexisted with a weak quarter.</span> Q2 FY26 FL GM fell to 25.66% and comp was −3.6% while online sale share was 14–16%.</li>
+    <li><span class="against">Newer brands are not clean.</span> Hoka (19–24%) and New Balance (21–27%) are on sale more than Nike. Apparel is promo-heavy, with private label 88–97% on sale at 40–50% off.</li>
+    <li><span class="against">The mix is still Nike-heavy.</span> Nike+Jordan share of FL men's shoe listings rose from 34.3% to 38.9%; Champs is 48.6%.</li>
+    <li><span class="against">The shift predates the DKS-bought assortment.</span> The listing cut and sale-share drop were visible by Dec 11, 2025, before Fast Break scaled and before the BTS 2026 assortment. Some of it is clean-out, not new product.</li>
+    <li><span class="against">FL is pricier than Nike.</span> Being priced above nike.com on 13 of 20 styles protects margin but risks traffic.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Best avenues to keep tracking</h2>
+  <ul>
+    <li><b>Weekly catalog census</b> (scripts/W01_census.py, ≈12 min): sale share and depth by brand through the Q3 print (~Nov 24). The holiday benchmark is Dec 2025: 2,608–2,866 sale-page items at 42–47% depth.</li>
+    <li><b>Wayback pipeline</b> (scripts/W03_*.py): extend to new-arrival dates (share of catalog added after Sep 2025), kidsfootlocker.com and footlocker.ca.</li>
+    <li><b>Cross-retailer prices:</b> Finish Line, JD, Hibbett and DICK'S blocked plain requests; a headless browser would be needed.</li>
+    <li><b>Not run:</b> review counts (blocked; needs your decision), Google Trends, Reddit/social, import records, Fast Break store list. These are the ways to test the uptake half.</li>
+  </ul>
+</section>
+
+<section class="box appendix">
+  <h2>Appendix: evidence already in the folder</h2>
+  <p class="note">From the folder sweep (wave0/F01–F09). Not new; listed for completeness.</p>
+  <ul>
+    <li>Fast Break: ~30% SKU cut, wall reset, apparel re-added; 11-store pilot → 21 (Feb 2026) → ~100 (Q1 FY26) → >250 by BTS → "north of 300, 350" by year-end; "more editing to be done."</li>
+    <li>Fast Break comps: Q4 FY25 "meaningfully exceeding" core DICK'S; Q1 FY26 double-digit with merch-margin gains; Q1 FY26 US FL banner comp +6.4% (FL total +0.6%).</li>
+    <li>Brokers said the Q1 FY26 gains came from presentation of legacy product ("little change to its assortment", JPM; "not new product", UBS). BTS 2026 is the first DKS-bought assortment; new product "started hitting August."</li>
+    <li>Management: new product sells at "basically full price"; old inventory cleared via Going Going Gone; FL inventory "cleanest it has ever been" (Mar 2026); exclusives to grow "to even greater degree in Q1 of next year."</li>
+    <li>UGG-category expert (Jul 29, 2026): "edit to amplify," 20–30% SKU cut with no lower revenue expectations, fewer closeouts, "much stronger margin."</li>
+    <li>UBS Fast Break comp contribution: 60bps → 120bps (FY26), ~210bps (FY27).</li>
+    <li>Wells Fargo (Aug 10, 2026): Nike high-heat to FL cut from ~40% to ~20%; FL markdown rate 16.0% → 17.7% (FY21–23); bull case FL OM 7.5% by FY28 vs Street ~5%.</li>
+    <li>FL history: GM 34.4% (2021) → 27.7% (2023), 590bps from merch margin; Q3–Q4 FY24 GM +230–300bps "led by reduced markdowns"; turns 4.3x → 2.8x; Nike share of purchases 75% → 59%; apparel 16% of sales.</li>
+    <li>FL guidance path FY26: comp +1–3% / OI $100–150M (Mar) → +1.5–3% / $110–150M (May) → −2–0% / −$80 to −$40M (Aug).</li>
+    <li>FL actuals: GM 23.02% (Q3 FY25 stub), 25.04% (Q4), 27.90% (Q1 FY26), 25.66% (Q2). Inventory $1.8B → $1.5B → $1.7B → $2.0B. Write-downs $218M (Q4 FY25), $43M (Q1 FY26).</li>
+    <li>Broker FL comp models post-Aug: JPM −2.0/0.0/+1.0/+4.0% (3Q26–2Q27), Barclays −1.5/0.0/+2.5/+4.0%; FY27 JPM +2.8%, Barclays +3.2%, WF +1.1%. JPM cut FY27 FL OP by more than half to $103M; "turnaround pushed back a year."</li>
+    <li>Against (known): promos "at least through Q4"; Q3 "a bit more difficult than Q4"; allocation transition "taking longer than we anticipated"; "New Balance is a bit more difficult at Foot Locker"; EMEA ~6 months behind; JPM tracker FL up to 50% off (May/Aug 2026); BSM card spend −3% weekly post-anniversary (Sep 2026).</li>
+    <li>Insiders: CFO Gupta $999,983 (Sep 22); FL Intl President Barnes $499,869 (Sep 30).</li>
+  </ul>
+</section>
+</main>
+<script>
+(function(){
+  var d=[["2024-01",3452,33.3],["2024-02",3449,28.9],["2024-03",3483,25.6],["2024-04",3414,22.2],["2024-05",3386,26.6],["2024-06",3377,28.4],["2024-07",3351,29.5],["2024-08",3223,30.5],["2024-09",3176,32.0],["2024-10",3520,27.1],["2024-11",null,null],["2024-12",3423,34.4],["2025-01",3286,29.9],["2025-02",null,null],["2025-03",3356,32.7],["2025-04",3263,30.4],["2025-05",3198,29.1],["2025-06",3088,33.1],["2025-07",null,null],["2025-08",2978,25.5],["2025-09",null,null],["2025-10",null,null],["2025-11",null,null],["2025-12",1959,11.3],["2026-01",1845,10.0],["2026-02",1639,9.0],["2026-03",1880,15.6],["2026-04",2117,14.5],["2026-05",1962,13.5],["2026-06",null,null],["2026-07",2153,16.3],["2026-08",null,null],["2026-09",null,null],["2026-10",2305,14.8]];
+  var s=document.getElementById("chart"),NS="http://www.w3.org/2000/svg";
+  var L=48,R=672,T=14,B=220,w=(R-L)/d.length;
+  function el(n,a,t){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(t!=null)e.textContent=t;s.appendChild(e);return e}
+  function yl(v){return B-(v/4000)*(B-T)} function yr(v){return B-(v/40)*(B-T)}
+  [0,1000,2000,3000,4000].forEach(function(v){el("line",{x1:L,x2:R,y1:yl(v),y2:yl(v),stroke:"var(--line)","stroke-width":1});el("text",{x:L-6,y:yl(v)+4,"text-anchor":"end"},v.toLocaleString())});
+  [0,10,20,30,40].forEach(function(v){el("text",{x:R+6,y:yr(v)+4},v+"%")});
+  var pts=[];
+  d.forEach(function(r,i){var x=L+i*w;if(r[1]!=null){el("rect",{x:x+2,y:yl(r[1]),width:w-4,height:B-yl(r[1]),fill:"var(--line)"});pts.push([x+w/2,yr(r[2])]);}else{if(pts.length>1)drawLine(pts);pts=[];}
+    if(r[0].slice(5)==="01"||i===d.length-1)el("text",{x:x+w/2,y:B+16,"text-anchor":"middle"},r[0].slice(0,4)==="2026"&&i===d.length-1?"Oct-26":r[0].slice(0,4));});
+  if(pts.length>1)drawLine(pts);
+  d.forEach(function(r,i){if(r[2]!=null)el("circle",{cx:L+i*w+w/2,cy:yr(r[2]),r:3,fill:"var(--accent)"})});
+  function drawLine(p){el("polyline",{points:p.map(function(q){return q.join(",")}).join(" "),fill:"none",stroke:"var(--accent)","stroke-width":2})}
+  var xs=L+23*w;el("line",{x1:xs,x2:xs,y1:T,y2:B,stroke:"var(--fg)","stroke-dasharray":"3 3","stroke-width":1});
+  el("text",{x:xs+4,y:T+10},"DKS owns FL, Dec 2025 capture");
+  el("text",{x:L,y:B+34},"Listings (bars)");el("text",{x:R,y:B+34,"text-anchor":"end"},"On sale % (line)");
+})();
+</script>
