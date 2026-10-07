@@ -17,6 +17,12 @@ for pt in slices:
             h = F.get_html(url)
             st = F.hydration(h) if h else None
             s = st.get('search') if st else None
+            if s and s.get('pagination',{}).get('currentPage') != page:
+                print("mismatch-retry", pt, page, flush=True)
+                h = F.get_html(url + f"&_={int(time.time())}")
+                st = F.hydration(h) if h else None
+                s = st.get('search') if st else None
+                if s and s['pagination']['currentPage'] != page: s = None
             if not s or 'pagination' not in s:
                 print("fail", pt, page, flush=True); time.sleep(10); continue
             d = {"pagination": s['pagination'], "products": s['products'], "fetched": time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}

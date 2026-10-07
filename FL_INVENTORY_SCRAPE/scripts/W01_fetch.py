@@ -1,6 +1,8 @@
 import re, json, sys, time
 from curl_cffi import requests as cr
-S = cr.Session(impersonate="chrome")
+import requests
+S = requests.Session()
+S.headers.update({"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36","Accept":"text/html,application/xhtml+xml","Accept-Language":"en-US,en;q=0.9"})
 BASE = "https://www.footlocker.com"
 def get_html(url):
     for i in range(4):

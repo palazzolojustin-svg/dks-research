@@ -18,3 +18,9 @@ Max 20 concurrent background agents. First launch: W01-W15 + F01-F05 (20). As sl
 
 ## Wave log
 (wave | productive/dry | #A #B new | notes)
+
+## Needs user decision
+- W06 reviews avenue: bulk pull of footlocker.com reviews via the Bazaarvoice API key found in the site's page config was BLOCKED by the session's safety classifier. Not worked around. Ask the user in the morning whether they want it (or a key-free alternative). Do not relaunch W06 without the user's say-so.
+
+## Launch log
+- First 20 launched ~21:15 UTC. F01, F04, W06 done. F05, F06, F07 launched into freed slots. Queue: F08-F14.
