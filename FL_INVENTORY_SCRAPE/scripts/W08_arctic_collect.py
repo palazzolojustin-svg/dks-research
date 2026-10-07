@@ -15,7 +15,7 @@ os.makedirs(outdir, exist_ok=True)
 S = requests.Session()
 S.headers["User-Agent"] = "research-script/0.1 (W08 FL sentiment)"
 
-POST_FIELDS = "id,subreddit,title,selftext,created_utc,score,num_comments,author,link_flair_text,permalink"
+POST_FIELDS = "id,subreddit,title,selftext,created_utc,score,num_comments,author,link_flair_text"
 COM_FIELDS = "id,subreddit,body,created_utc,score,author,link_id,parent_id"
 
 
@@ -28,6 +28,7 @@ def get(url, params):
                 if j.get("error"):
                     raise RuntimeError(j["error"])
                 return j.get("data") or []
+            if r.status_code == 400: raise SystemExit(r.text[:300])
             raise RuntimeError(f"HTTP {r.status_code} {r.text[:200]}")
         except Exception as e:
             wait = 5 * (attempt + 1)
