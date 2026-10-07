@@ -8,7 +8,7 @@ import requests
 BASE = "https://arctic-shift.photon-reddit.com/api"
 outdir = sys.argv[1]
 subs = sys.argv[2].split(",") if len(sys.argv) > 2 else ["Sneakers"]
-terms = sys.argv[3].split(",") if len(sys.argv) > 3 else ["foot locker", "footlocker"]
+terms = [t if t != "ALL" else "" for t in sys.argv[3].split(",")] if len(sys.argv) > 3 else ["foot locker", "footlocker"]
 AFTER = sys.argv[4] if len(sys.argv) > 4 else "2024-01-01"
 BEFORE = sys.argv[5] if len(sys.argv) > 5 else "2026-10-08"
 os.makedirs(outdir, exist_ok=True)
@@ -37,30 +37,35 @@ def get(url, params):
 
 
 def collect(kind, sub, term):
-    slug = re.sub(r"\W+", "_", f"{kind}_{sub}_{term}")
+    slug = re.sub(r"\W+", "_", f"{kind}_{sub}_{term or 'ALL'}")
     path = os.path.join(outdir, slug + ".jsonl")
     done = path + ".done"
     if os.path.exists(done):
         print("skip", slug)
         return
-    after = AFTER
+    before = BEFORE
     seen = set()
     if os.path.exists(path):
+        mins = []
         with open(path) as f:
             for line in f:
                 d = json.loads(line)
                 seen.add(d["id"])
-                after = max(after, str(d["created_utc"])) if isinstance(after, str) and after.isdigit() else str(d["created_utc"])
+                mins.append(int(d["created_utc"]))
+        if mins:
+            before = str(min(mins) + 1)
     n = 0
     with open(path, "a") as out:
         while True:
-            params = {"subreddit": sub, "limit": 100, "sort": "asc", "after": after, "before": BEFORE}
+            params = {"subreddit": sub, "limit": 100, "after": AFTER, "before": before}
             if kind == "posts":
-                params["query"] = term
+                if term:
+                    params["query"] = term
                 params["fields"] = POST_FIELDS
                 url = BASE + "/posts/search"
             else:
-                params["body"] = term
+                if term:
+                    params["body"] = term
                 params["fields"] = COM_FIELDS
                 url = BASE + "/comments/search"
             data = get(url, params)
@@ -68,11 +73,12 @@ def collect(kind, sub, term):
             for d in new:
                 seen.add(d["id"])
                 out.write(json.dumps(d) + "\n")
+            out.flush()
             n += len(new)
             if len(data) < 100 or not new:
                 break
-            after = str(max(int(d["created_utc"]) for d in data))
-            time.sleep(0.7)
+            before = str(min(int(d["created_utc"]) for d in data) + 1)
+            time.sleep(1.5)
     open(done, "w").write(str(n))
     print(f"{slug}: {n} rows", flush=True)
 
