@@ -25,6 +25,29 @@ def get(s, dom, lang, q):
         time.sleep(5)
     return u, None
 
+def facet_queries(sr):
+    """map (code,name)->(query value, expected count) from the facets of a search result"""
+    out = {}
+    for f in sr.get("facets", []) or []:
+        for v in f.get("values", []):
+            try: out[(f.get("code"), v["name"])] = (v["query"]["query"]["value"], v.get("count"))
+            except Exception: pass
+    return out
+
+def get_checked(s, dom, lang, q, expected=None):
+    best = None
+    for attempt in range(4):
+        u, sr = get(s, dom, lang, q)
+        if sr is None: continue
+        t = (sr.get("pagination") or {}).get("totalResults")
+        if expected is None or (t is not None and abs(t - expected) <= max(5, 0.15*expected)):
+            return u, sr, True
+        best = (u, sr); time.sleep(3)
+    return (best[0], best[1], False) if best else (None, None, False)
+
+def pack(u, sr, ok, exp):
+    return {"url": u, "ok": ok, "expected": exp, "pagination": sr and sr.get("pagination"), "facets": sr and facets(sr), "products": sr and products(sr)}
+
 def main():
     out = sys.argv[1]; os.makedirs(out, exist_ok=True)
     doms = sys.argv[2:] or list(SITES)
@@ -34,23 +57,28 @@ def main():
         if os.path.exists(fn): continue
         res = {}
         base = ":relevance:group_id:all"
-        qs = {"all": base, "sale": base+":saleProduct:True", "new": base+":newProduct:True",
-              "new_sale": base+":newProduct:True:saleProduct:True", "shoes": base+":productTypes:Shoes",
-              "clothing": base+":productTypes:Clothing", "flonly": base+":footLockerOnly:True"}
-        for k, q in qs.items():
-            u, sr = get(s, dom, lang, q)
-            res[k] = {"url": u, "pagination": sr and sr.get("pagination"), "facets": sr and facets(sr), "products": sr and products(sr)}
-            time.sleep(1.0)
-        bf = (res["all"]["facets"] or {}).get("brand", {})
-        for b in BRANDS:
-            name = next((n for n in bf if n.lower() == b), None)
-            if not name: continue
-            u, sr = get(s, dom, lang, base + ":brand:" + name)
-            res["brand:" + name] = {"url": u, "pagination": sr and sr.get("pagination"), "facets": sr and facets(sr), "products": sr and products(sr)}
-            time.sleep(1.0)
+        u, sr, ok = get_checked(s, dom, lang, base)
+        u2, sr2, ok2 = get_checked(s, dom, lang, base)
+        if sr2 and sr and (sr2["pagination"].get("totalResults") or 0) > (sr["pagination"].get("totalResults") or 0): u, sr = u2, sr2
+        if not sr: print(dom, "FAIL", flush=True); continue
+        res["all"] = pack(u, sr, True, None)
+        fq = facet_queries(sr)
+        todo = {}
+        for (code, name), (qv, cnt) in fq.items():
+            if code == "miscellaneous": todo["misc:" + qv.split(":")[-2]] = (qv, cnt)
+            elif code in ("productType", "productTypes") and cnt and cnt > 50: todo["ptype:" + name] = (qv, cnt)
+            elif code == "gender": todo["gender:" + name] = (qv, cnt)
+            elif code == "style" and cnt and cnt >= 150: todo["style:" + name] = (qv, cnt)
+            elif code == "brand" and name.lower() in BRANDS: todo["brand:" + name] = (qv, cnt)
+        todo["new_sale"] = (base + ":newProduct:True:saleProduct:True", None)
+        for k, (qv, cnt) in todo.items():
+            u, sr, ok = get_checked(s, dom, lang, qv, cnt)
+            res[k] = pack(u, sr, ok, cnt)
+            time.sleep(0.8)
         res["_fetched"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
         with gzip.open(fn, "wt") as f: json.dump(res, f)
-        print(dom, "done", res["all"]["pagination"], flush=True)
+        bad = [k for k, v in res.items() if isinstance(v, dict) and v.get("ok") is False]
+        print(dom, "done", res["all"]["pagination"].get("totalResults"), "queries", len(todo), "not_ok", bad, flush=True)
 
 if __name__ == "__main__":
     main()
