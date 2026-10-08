@@ -8,3 +8,4 @@ Output: summary Artifact (HoS store productivity) + FL section + appendix of all
 Raw from earlier run: THESIS_SCRAPE/raw/*.csv (B5/B8/B9/B10/H04/H07) streamed from release raw-data.
 
 ## Wave log
+- 2026-10-08: user said credits too fast. Stopped J04-J09 (low yield/heavy). Kept J02, J13, M01, M03, M05. Plan: no big wave 2; at most 3-4 targeted agents (Haiku/Sonnet, ~25 calls), then memo. Orchestrator stays terse.
