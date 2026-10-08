@@ -25,7 +25,10 @@ done=set()
 if os.path.exists(OUT):
     for l in open(OUT):
         r=json.loads(l); done.add((r['dom'],r['path'],r['ts']))
-jobs=[(d,p,ts,u) for (d,p),m in sel.items() for ts,u in m.values() if (d,p,ts) not in done]
+CORE={'/category/sale.html','/category/mens/shoes.html','/category/womens/shoes.html','/category/kids/shoes.html','/category/shoes.html','/category/mens/clothing.html','/category/womens/clothing.html','/category/mens.html','/category/womens.html','/category/kids.html'}
+def want(p,ts): return (p in CORE and ts>='20240101') or ts>='20250801'
+jobs=[(d,p,ts,u) for (d,p),m in sel.items() for ts,u in m.values() if (d,p,ts) not in done and want(p,ts)]
+jobs.sort(key=lambda j:(j[1] not in CORE, j[0]!='footlocker.ca', j[2]))
 print('paths',len(sel),'jobs',len(jobs),flush=True)
 def work(j):
     d,p,ts,u=j
