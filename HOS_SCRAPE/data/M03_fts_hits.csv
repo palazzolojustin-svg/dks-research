@@ -1,0 +1,247 @@
+city,mall,date,form,filer,known_acc,url
+Salem NH,Rockingham Park,2019-03-01,10-K,"Seritage Growth Properties  (SRG, SRG-PA",True,https://www.sec.gov/Archives/edgar/data/1628063/000156459019005833/srg-10k_20181231.htm
+Johnson City,Oakdale Commons,2024-08-07,FWP,Benchmark 2024-V9 Mortgage Trust  (CIK 0,True,https://www.sec.gov/Archives/edgar/data/2030476/000153949724001583/n4397_x3-ts.htm
+Johnson City,Oakdale Commons,2024-08-15,424B2,GS MORTGAGE SECURITIES CORP II  (CIK 000,True,https://www.sec.gov/Archives/edgar/data/1004158/000153949724001728/n4397_x28-424b2.htm
+Johnson City,Oakdale Commons,2024-08-08,424H,GS MORTGAGE SECURITIES CORP II  (CIK 000,True,https://www.sec.gov/Archives/edgar/data/1004158/000153949724001599/n4397_x8-424h.htm
+Kennesaw,Town Center at Cobb,2023-07-25,FWP,BMO 2023-5C1 Mortgage Trust  (CIK 000198,True,https://www.sec.gov/Archives/edgar/data/1984246/000153949723001301/n3688-x10_fwp.htm
+Tulsa,Woodland Hills Mall,2019-07-31,8-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000104746919004452/a2239288zex-99_1.htm
+Tulsa,Woodland Hills Mall,2020-02-04,8-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000110465920010115/a2240552zex-99_1.htm
+Tulsa,Woodland Hills Mall,2019-10-30,8-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000110465919057499/a2239895zex-99_1.htm
+Tulsa,Woodland Hills Mall,2019-02-22,10-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000155837019000875/spg-20181231x10k.htm
+Tulsa,Woodland Hills Mall,2019-02-22,10-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000155837019000875/spg-20181231x10k.pdf
+Tulsa,Woodland Hills Mall,2019-04-30,8-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000104746919002724/a2238492zex-99_1.htm
+Tulsa,Woodland Hills Mall,2019-02-01,8-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000104746919000321/a2237580zex-99_1.htm
+Tulsa,Woodland Hills Mall,2020-05-11,8-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000110465920059554/a2241394zex-99_1.htm
+Tulsa,Woodland Hills Mall,2021-02-25,10-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000155837021001700/spg-20201231x10k.pdf
+Tulsa,Woodland Hills Mall,2020-11-09,8-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",False,https://www.sec.gov/Archives/edgar/data/1063761/000110465920123110/tm2033401d1_ex99-1.htm
+Tulsa,Woodland Hills Mall,2020-08-10,8-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",False,https://www.sec.gov/Archives/edgar/data/1063761/000110465920092742/tm2025091d1_ex99-1.htm
+Kennesaw,Town Center at Cobb,2023-10-13,FWP,BBCMS Mortgage Trust 2023-C22  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1994342/000153949723001716/n3791_x3-ts.htm
+Kennesaw,Town Center at Cobb,2023-05-03,FWP,Benchmark 2023-V2 Mortgage Trust  (CIK 0,True,https://www.sec.gov/Archives/edgar/data/1970781/000153949723000828/n3566_x5-ts.htm
+Kennesaw,Town Center at Cobb,2023-05-25,424B2,CITIGROUP COMMERCIAL MORTGAGE SECURITIES,True,https://www.sec.gov/Archives/edgar/data/1258361/000153949723001002/n3566_x13-424b2.htm
+Kennesaw,Town Center at Cobb,2023-05-04,424H,CITIGROUP COMMERCIAL MORTGAGE SECURITIES,True,https://www.sec.gov/Archives/edgar/data/1258361/000153949723000844/n3566-x9_424h.htm
+Strongsville,SouthPark Mall,2023-07-24,424H,BMO Commercial Mortgage Securities LLC  ,True,https://www.sec.gov/Archives/edgar/data/1861132/000153949723001299/n3688-x7_424h.htm
+Strongsville,SouthPark Mall,2023-08-16,424B2,BMO Commercial Mortgage Securities LLC  ,True,https://www.sec.gov/Archives/edgar/data/1861132/000153949723001475/n3688_x15-424b2.htm
+Kennesaw,Town Center at Cobb,2023-10-23,424B2,Barclays Commercial Mortgage Securities ,True,https://www.sec.gov/Archives/edgar/data/1541480/000153949723001782/n3791_x14-424b2.htm
+Kennesaw,Town Center at Cobb,2023-10-16,424H,Barclays Commercial Mortgage Securities ,True,https://www.sec.gov/Archives/edgar/data/1541480/000153949723001750/n3791-x7_424h.htm
+Tampa,International Plaza,2023-07-28,424H,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949723001334/n3701_x8-424h.htm
+Tampa,International Plaza,2023-08-10,424B2,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949723001390/n3701-x16_424b2.htm
+Kennesaw,Town Center at Cobb,2019-03-05,424B2,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949719000379/n1501_424b2-x15.htm
+Strongsville,SouthPark Mall,2023-05-11,424H,Morgan Stanley Capital I Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1547361/000153949723000883/n3582_x4-424h.htm
+Strongsville,SouthPark Mall,2023-05-25,424B2,Morgan Stanley Capital I Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1547361/000153949723001012/n3582_x12-424b2.htm
+Tulsa,Woodland Hills Mall,2022-02-24,10-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000155837022001845/spg-20211231x10k.pdf
+Knoxville,West Town Mall,2026-03-12,10-K,TIAA REAL ESTATE ACCOUNT  (CIK 000094615,False,https://www.sec.gov/Archives/edgar/data/946155/000094615526000019/tiaareal-20251231.htm
+Knoxville,West Town Mall,2025-03-06,10-K,TIAA REAL ESTATE ACCOUNT  (CIK 000094615,False,https://www.sec.gov/Archives/edgar/data/946155/000162828025010848/tiaareal-20241231.htm
+Tulsa,Woodland Hills Mall,2026-02-25,10-K,"SIMON PROPERTY GROUP INC.  (SPG, SPG-PJ)",True,https://www.sec.gov/Archives/edgar/data/1063761/000110465926019419/spg-20251231x10k.pdf
+Tulsa,Woodland Hills Mall,2026-04-01,ARS,"SIMON PROPERTY GROUP INC.  (SPG, SPG-PJ)",True,https://www.sec.gov/Archives/edgar/data/1063761/000110465926038323/spg-20251231xars.pdf
+Tulsa,Woodland Hills Mall,2026-02-25,10-K,"SIMON PROPERTY GROUP INC.  (SPG, SPG-PJ)",True,https://www.sec.gov/Archives/edgar/data/1063761/000110465926019419/spg-20251231x10k.htm
+Tulsa,Woodland Hills Mall,2024-02-22,10-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000155837024001532/spg-20231231x10k.pdf
+Tulsa,Woodland Hills Mall,2023-02-23,10-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000155837023001840/spg-20221231x10k.pdf
+Tulsa,Woodland Hills Mall,2025-02-21,10-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000155837025001271/spg-20241231x10k.htm
+Tulsa,Woodland Hills Mall,2024-02-22,10-K,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000155837024001532/spg-20231231x10k.htm
+Tulsa,Woodland Hills Mall,2024-03-27,ARS,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000110465924039710/tm244821d2_ars.pdf
+Tulsa,Woodland Hills Mall,2023-03-23,ARS,"SIMON PROPERTY GROUP INC /DE/  (SPG, SPG",True,https://www.sec.gov/Archives/edgar/data/1063761/000110465923036090/tm236206d2_ars.pdf
+Knoxville,West Town Mall,2019-03-14,10-K,TIAA REAL ESTATE ACCOUNT  (CIK 000094615,False,https://www.sec.gov/Archives/edgar/data/946155/000162828019002918/tiaa-1231201810xk.htm
+Knoxville,West Town Mall,2023-03-09,10-K,TIAA REAL ESTATE ACCOUNT  (CIK 000094615,False,https://www.sec.gov/Archives/edgar/data/946155/000162828023007206/tiaareal-20221231.htm
+Knoxville,West Town Mall,2021-03-11,10-K,TIAA REAL ESTATE ACCOUNT  (CIK 000094615,False,https://www.sec.gov/Archives/edgar/data/946155/000162828021004496/tiaareal-20201231.htm
+Knoxville,West Town Mall,2020-03-12,10-K,TIAA REAL ESTATE ACCOUNT  (CIK 000094615,False,https://www.sec.gov/Archives/edgar/data/946155/000162828020003434/tiaa-1231201910xk.htm
+Knoxville,West Town Mall,2021-03-16,S-1,TIAA REAL ESTATE ACCOUNT  (CIK 000094615,False,https://www.sec.gov/Archives/edgar/data/946155/000162828021004767/tiaareal-20210315_d2.htm
+Knoxville,West Town Mall,2022-03-14,S-1,TIAA REAL ESTATE ACCOUNT  (CIK 000094615,False,https://www.sec.gov/Archives/edgar/data/946155/000162828022005978/tiaareal-20220312_d2.htm
+Knoxville,West Town Mall,2026-06-04,FWP,Wells Fargo Commercial Mortgage Trust 20,True,https://www.sec.gov/Archives/edgar/data/2136440/000153949726001656/n5926_x2-premrktts.htm
+Knoxville,West Town Mall,2022-03-10,10-K,TIAA REAL ESTATE ACCOUNT  (CIK 000094615,False,https://www.sec.gov/Archives/edgar/data/946155/000162828022005665/tiaareal-20211231.htm
+Knoxville,West Town Mall,2024-03-14,10-K,TIAA REAL ESTATE ACCOUNT  (CIK 000094615,False,https://www.sec.gov/Archives/edgar/data/946155/000162828024011115/tiaareal-20231231.htm
+Knoxville,West Town Mall,2026-06-10,FWP,Wells Fargo Commercial Mortgage Trust 20,True,https://www.sec.gov/Archives/edgar/data/2136440/000153949726001713/n5926_x6-termsheet.htm
+Knoxville,West Town Mall,2026-06-10,424H,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949726001721/n5926_x7-424h.htm
+Knoxville,West Town Mall,2026-06-23,424B2,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949726001846/n5926_x24-424b2.htm
+Leawood,Town Center Plaza Leawood,2025-10-31,8-K,"FEDERAL REALTY INVESTMENT TRUST  (FRT, F",True,https://www.sec.gov/Archives/edgar/data/34903/000003490325000062/frt-9302025xex991.htm
+Leawood,Town Center Plaza Leawood,2026-02-12,8-K,"FEDERAL REALTY INVESTMENT TRUST  (FRT, F",True,https://www.sec.gov/Archives/edgar/data/34903/000003490326000016/frt-12312025xex991.htm
+Leawood,Town Center Plaza Leawood,2026-02-12,10-K,"FEDERAL REALTY INVESTMENT TRUST  (FRT, F",True,https://www.sec.gov/Archives/edgar/data/34903/000003490326000017/frt-20251231.htm
+Leawood,Town Center Plaza Leawood,2026-03-27,ARS,"FEDERAL REALTY INVESTMENT TRUST  (FRT, F",True,https://www.sec.gov/Archives/edgar/data/34903/000119312526127648/d32922dars.pdf
+Live Oak,Rolling Oaks Mall,2021-05-10,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468621000013/a2021q1ex992supplemental.htm
+Live Oak,Rolling Oaks Mall,2021-03-16,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468621000007/a2020q4ex992supplemental.htm
+Live Oak,Rolling Oaks Mall,2021-08-09,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468621000019/a2021q2ex992supplemental.htm
+Live Oak,Rolling Oaks Mall,2020-05-08,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468620000014/a2019q4exhibit992suppl.htm
+Live Oak,Rolling Oaks Mall,2019-04-25,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468619000015/a2019q1exhibit992supplemen.htm
+Live Oak,Rolling Oaks Mall,2019-10-24,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468619000030/a2019q3exhibit992suppl.htm
+Live Oak,Rolling Oaks Mall,2019-02-21,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468619000003/a2018q4exhibit992supplemen.htm
+Live Oak,Rolling Oaks Mall,2020-02-27,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468620000004/a2019q4exhibit992suppl.htm
+Live Oak,Rolling Oaks Mall,2020-11-05,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468620000031/a2020q3ex992supplement.htm
+Live Oak,Rolling Oaks Mall,2020-08-11,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468620000026/a2020q2exhibit992suppl.htm
+Live Oak,Rolling Oaks Mall,2019-07-25,8-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468619000023/a2019q2exhibit992suppl.htm
+Live Oak,Rolling Oaks Mall,2020-02-27,10-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468620000008/wpg201910-k.htm
+Live Oak,Rolling Oaks Mall,2019-02-21,10-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468619000007/wpg201810-k.htm
+Live Oak,Rolling Oaks Mall,2021-03-16,10-K,WASHINGTON PRIME GROUP INC.  (CIK 000159,True,https://www.sec.gov/Archives/edgar/data/1594686/000159468621000006/wpg-20201231.htm
+Live Oak,Rolling Oaks Mall,2021-05-10,10-Q,WASHINGTON PRIME GROUP INC.  (CIK 000159,False,https://www.sec.gov/Archives/edgar/data/1594686/000159468621000014/wpg-20210331.htm
+Live Oak,Rolling Oaks Mall,2021-08-09,10-Q,WASHINGTON PRIME GROUP INC.  (CIK 000159,False,https://www.sec.gov/Archives/edgar/data/1594686/000159468621000020/wpg-20210630.htm
+Miami,Dadeland Mall,2025-08-11,424H,GS MORTGAGE SECURITIES CORP II  (CIK 000,True,https://www.sec.gov/Archives/edgar/data/1004158/000153949725002080/n5230_x5-424h.htm
+Miami,Dadeland Mall,2025-08-19,424B2,GS MORTGAGE SECURITIES CORP II  (CIK 000,True,https://www.sec.gov/Archives/edgar/data/1004158/000153949725002182/n5230_x23-424b2.htm
+Minnetonka,Ridgedale Center,2025-09-19,FWP,BANK5 2025-5YR17  (CIK 0002084969),True,https://www.sec.gov/Archives/edgar/data/2084969/000153949725002406/n5297_x3-premkta1.htm
+Minnetonka,Ridgedale Center,2025-06-23,FWP,BANK5 2025-5YR15  (CIK 0002071746),True,https://www.sec.gov/Archives/edgar/data/2071746/000153949725001687/n5132_x3-annexa1.htm
+Minnetonka,Ridgedale Center,2025-09-23,FWP,BANK5 2025-5YR17  (CIK 0002084969),True,https://www.sec.gov/Archives/edgar/data/2084969/000153949725002466/n5297_x5-annexa1.htm
+Minnetonka,Ridgedale Center,2025-08-05,FWP,BANK5 2025-5YR16  (CIK 0002078775),True,https://www.sec.gov/Archives/edgar/data/2078775/000153949725002016/n5210_x4-annexa1.htm
+Minnetonka,Ridgedale Center,2025-09-23,424H,JP MORGAN CHASE COMMERCIAL MORTGAGE SECU,True,https://www.sec.gov/Archives/edgar/data/1013611/000153949725002470/n5297_x4-424h.htm
+Minnetonka,Ridgedale Center,2025-09-30,424B2,JP MORGAN CHASE COMMERCIAL MORTGAGE SECU,True,https://www.sec.gov/Archives/edgar/data/1013611/000153949725002563/n5297_x15-424b2.htm
+Minnetonka,Ridgedale Center,2025-07-01,424B2,Morgan Stanley Capital I Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1547361/000153949725001744/n5132_x17-424b2.htm
+Minnetonka,Ridgedale Center,2025-08-13,424B2,Banc of America Merrill Lynch Commercial,True,https://www.sec.gov/Archives/edgar/data/1005007/000153949725002118/n5210_x12-424b2.htm
+Minnetonka,Ridgedale Center,2025-06-23,424H,Morgan Stanley Capital I Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1547361/000153949725001691/n5132_x5-424h.htm
+Minnetonka,Ridgedale Center,2025-08-05,424H,Banc of America Merrill Lynch Commercial,True,https://www.sec.gov/Archives/edgar/data/1005007/000153949725002024/n5210_x6-424h.htm
+Wilmington,Christiana Mall,2019-03-01,10-K,Brookfield Property REIT Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1496048/000149604819000003/bpr12311810k.htm
+Wilmington,Christiana Mall,2020-02-28,10-K,Brookfield Property REIT Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1496048/000149604820000004/bpr12311910k.htm
+Wilmington,Christiana Mall,2021-02-26,10-K,Brookfield Property REIT Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1496048/000149604821000006/ggp-20201231.htm
+Mobile,Bel Air Mall,2024-07-23,FWP,BANK5 2024-5YR8  (CIK 0002012481),True,https://www.sec.gov/Archives/edgar/data/2012481/000153949724001481/n4400-x4ts.htm
+Mobile,Bel Air Mall,2024-07-23,424H,Banc of America Merrill Lynch Commercial,True,https://www.sec.gov/Archives/edgar/data/1005007/000153949724001492/n4400_x6-424h.htm
+Mobile,Bel Air Mall,2024-07-30,424B2,Banc of America Merrill Lynch Commercial,True,https://www.sec.gov/Archives/edgar/data/1005007/000153949724001533/n4400_x11-424b2.htm
+Salem NH,Rockingham Park,2020-03-02,10-K,"Seritage Growth Properties  (SRG, SRG-PA",True,https://www.sec.gov/Archives/edgar/data/1628063/000156459020008210/srg-10k_20191231.htm
+Victor,Eastview Mall,2022-11-09,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000095017022023550/srg-ex99_2.htm
+Victor,Eastview Mall,2021-11-03,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000095017021002859/srg-ex99_2.htm
+Victor,Eastview Mall,2022-08-09,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000095017022016160/srg-ex99_2.htm
+Victor,Eastview Mall,2022-05-10,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000095017022009029/srg-ex99_2.htm
+Victor,Eastview Mall,2023-03-14,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000095017023007884/srg-ex99_2.htm
+Victor,Eastview Mall,2020-02-28,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459020007605/srg-ex992_6.htm
+Victor,Eastview Mall,2019-08-01,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459019028026/srg-ex992_7.htm
+Victor,Eastview Mall,2019-11-01,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459019039223/srg-ex992_6.htm
+Victor,Eastview Mall,2019-05-03,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459019015413/srg-ex992_6.htm
+Victor,Eastview Mall,2019-02-28,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459019005521/srg-ex992_7.htm
+Victor,Eastview Mall,2020-05-08,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459020023026/srg-ex992_6.htm
+Victor,Eastview Mall,2020-11-05,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459020051459/srg-ex992_7.htm
+Victor,Eastview Mall,2020-08-06,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459020037902/srg-ex992_6.htm
+Scranton,Viewmont Mall,2021-03-12,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459021012814/pei-ex991_90.htm
+Scranton,Viewmont Mall,2020-11-06,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459020051890/pei-ex991_51.htm
+Scranton,Viewmont Mall,2023-05-04,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017023017943/pret-ex99_1.htm
+Scranton,Viewmont Mall,2022-11-09,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017022023959/pei-ex99_1.htm
+Scranton,Viewmont Mall,2019-07-31,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459019027195/pei-ex991_6.htm
+Scranton,Viewmont Mall,2019-08-01,8-K/A,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459019027618/pei-ex991_6.htm
+Scranton,Viewmont Mall,2019-05-03,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000007728119000030/a2019q1exhibit991supplemen.htm
+Scranton,Viewmont Mall,2020-05-21,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459020026530/pei-ex991_132.htm
+Scranton,Viewmont Mall,2021-05-06,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459021024691/pei-ex991_80.htm
+Scranton,Viewmont Mall,2023-08-03,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017023038140/pret-ex99_1.htm
+Scranton,Viewmont Mall,2023-11-14,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017023063357/pret-ex99_1.htm
+Scranton,Viewmont Mall,2021-08-05,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459021041524/pei-ex991_81.htm
+Scranton,Viewmont Mall,2023-03-22,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017023009232/pret-ex99_1.htm
+Scranton,Viewmont Mall,2021-08-06,8-K/A,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459021041956/pei-ex991_7.htm
+Scranton,Viewmont Mall,2020-08-11,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459020039177/pei-ex991_56.htm
+Scranton,Viewmont Mall,2019-10-31,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459019038898/pei-ex991_74.htm
+Scranton,Viewmont Mall,2019-02-15,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000007728119000009/a2018q4exhibit991supplemen.htm
+Scranton,Viewmont Mall,2020-02-27,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459020007096/pei-ex991_16.htm
+Scranton,Viewmont Mall,2022-08-09,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017022016103/pei-ex99_1.htm
+Scranton,Viewmont Mall,2022-05-05,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017022007928/pei-ex99_1.htm
+Scranton,Viewmont Mall,2022-03-15,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017022003788/pei-ex99_1.htm
+Scranton,Viewmont Mall,2021-11-04,8-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017021003126/pei-ex99_1.htm
+Scranton,Viewmont Mall,2019-02-25,10-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000007728119000017/a2018q410-k.htm
+Scranton,Viewmont Mall,2020-03-16,10-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459020010906/pei-10k_20191231.htm
+Scranton,Viewmont Mall,2022-03-15,10-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017022003786/pei-20211231.htm
+Scranton,Viewmont Mall,2019-05-07,10-Q,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000007728119000034/a2019q110q03-31x19.htm
+Scranton,Viewmont Mall,2021-03-16,10-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459021013558/pei-10k_20201231.htm
+Scranton,Viewmont Mall,2019-08-02,10-Q,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459019028323/pei-10q_20190630.htm
+Scranton,Viewmont Mall,2023-03-27,10-K,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000095017023010004/pret-20221231.htm
+Scranton,Viewmont Mall,2023-04-18,ARS,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000119312523104345/d501101dars.pdf
+Scranton,Viewmont Mall,2019-11-04,10-Q,PENNSYLVANIA REAL ESTATE INVESTMENT TRUS,True,https://www.sec.gov/Archives/edgar/data/77281/000156459019039818/pei-10q_20190930.htm
+Strongsville,SouthPark Mall,2026-02-13,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000119312526050190/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2026-05-08,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000119312526213437/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2025-11-07,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000119312525272111/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2026-08-07,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000119312526339362/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2025-11-07,10-Q,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000119312525272118/cbl-20250930.htm
+Strongsville,SouthPark Mall,2021-05-18,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459021028605/cbl-ex991_6.htm
+Strongsville,SouthPark Mall,2026-03-03,10-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000119312526087049/cbl-20251231.htm
+Strongsville,SouthPark Mall,2019-05-01,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000091061219000043/ex991erandsupplemental-331.htm
+Strongsville,SouthPark Mall,2022-08-16,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459022029560/cbl-ex991_63.htm
+Strongsville,SouthPark Mall,2019-11-01,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000091061219000074/ex991erandsupplemental.htm
+Strongsville,SouthPark Mall,2019-08-01,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000091061219000061/ex991erandsupplemental-630.htm
+Strongsville,SouthPark Mall,2023-05-10,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017023020607/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2019-11-13,8-K/A,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000091061219000080/ex991erandsupplemental.htm
+Strongsville,SouthPark Mall,2020-03-11,8-K/A,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459020009889/cbl-ex991_7.htm
+Strongsville,SouthPark Mall,2020-08-18,8-K/A,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459020040477/cbl-ex991_6.htm
+Strongsville,SouthPark Mall,2020-08-06,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459020037874/cbl-ex991_6.htm
+Strongsville,SouthPark Mall,2020-11-17,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459020054261/cbl-ex991_6.htm
+Strongsville,SouthPark Mall,2020-05-26,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459020026885/cbl-ex991_7.htm
+Strongsville,SouthPark Mall,2021-04-09,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459021018305/cbl-ex991_6.htm
+Strongsville,SouthPark Mall,2022-11-15,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017022025165/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2023-08-09,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017023040696/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2021-08-17,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459021044795/cbl-ex991_6.htm
+Strongsville,SouthPark Mall,2024-02-12,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017024013599/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2025-08-06,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017025103587/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2023-11-09,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017023062165/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2020-02-07,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459020003845/cbl-ex991_6.htm
+Strongsville,SouthPark Mall,2023-02-21,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017023003357/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2021-11-16,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459021057244/cbl-ex991_6.htm
+Strongsville,SouthPark Mall,2024-05-10,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017024057514/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2022-05-17,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459022020518/cbl-ex991_6.htm
+Strongsville,SouthPark Mall,2025-05-05,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017025063227/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2019-02-08,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000091061219000008/ex991erandsupplementalcbl4.htm
+Strongsville,SouthPark Mall,2024-08-09,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017024094441/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2024-11-12,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017024125320/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2025-02-14,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017025020526/cbl-ex99_1.htm
+Strongsville,SouthPark Mall,2026-05-08,10-Q,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000119312526214023/cbl-20260331.htm
+Strongsville,SouthPark Mall,2022-04-01,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459022013159/cbl-ex991_6.htm
+Strongsville,SouthPark Mall,2026-08-07,10-Q,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000119312526339651/cbl-20260630.htm
+Strongsville,SouthPark Mall,2019-02-25,10-K,MACERICH CO  (MAC)  (CIK 0000912242),True,https://www.sec.gov/Archives/edgar/data/912242/000091224219000004/mac-2018x1231x10k.htm
+Strongsville,SouthPark Mall,2022-08-15,10-Q,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,False,https://www.sec.gov/Archives/edgar/data/910612/000156459022029498/cbl-ex41_181.htm
+Strongsville,SouthPark Mall,2022-08-15,424B3,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459022029522/cbl-ex41_10.htm
+Strongsville,SouthPark Mall,2020-02-25,10-K,MACERICH CO  (MAC)  (CIK 0000912242),True,https://www.sec.gov/Archives/edgar/data/912242/000091224220000004/mac-20191231.htm
+Strongsville,SouthPark Mall,2023-04-24,ARS,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017023014061/cbl-ars-10k-2022.pdf
+Strongsville,SouthPark Mall,2024-02-29,10-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017024023267/cbl-20231231.htm
+Strongsville,SouthPark Mall,2023-03-01,424B3,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017023005474/cbl-424b3_prosupp17.htm
+Strongsville,SouthPark Mall,2023-03-01,10-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017023005470/cbl-20221231.htm
+Strongsville,SouthPark Mall,2021-02-24,10-K,MACERICH CO  (MAC)  (CIK 0000912242),True,https://www.sec.gov/Archives/edgar/data/912242/000091224221000004/mac-20201231.htm
+Strongsville,SouthPark Mall,2026-02-20,10-K,MACERICH CO  (MAC)  (CIK 0000912242),True,https://www.sec.gov/Archives/edgar/data/912242/000091224226000016/mac-20251231.htm
+Strongsville,SouthPark Mall,2025-03-03,10-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000095017025030677/cbl-20241231.htm
+Strongsville,SouthPark Mall,2020-03-09,10-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459020009393/cbl-20191231.htm
+Strongsville,SouthPark Mall,2022-03-31,10-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459022013053/cbl-10k_20211231.htm
+Strongsville,SouthPark Mall,2019-03-01,10-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000091061219000023/cbl-12312018x10k.htm
+Strongsville,SouthPark Mall,2020-08-19,8-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,False,https://www.sec.gov/Archives/edgar/data/910612/000156459020040603/cbl-ex101_433.htm
+Strongsville,SouthPark Mall,2023-02-24,10-K,MACERICH CO  (MAC)  (CIK 0000912242),True,https://www.sec.gov/Archives/edgar/data/912242/000091224223000007/mac-20221231.htm
+Strongsville,SouthPark Mall,2024-02-26,10-K,MACERICH CO  (MAC)  (CIK 0000912242),True,https://www.sec.gov/Archives/edgar/data/912242/000091224224000026/mac-20231231.htm
+Strongsville,SouthPark Mall,2021-04-08,10-K,CBL & ASSOCIATES PROPERTIES INC  (CBL)  ,True,https://www.sec.gov/Archives/edgar/data/910612/000156459021018200/cbl-10k_20201231.htm
+Strongsville,SouthPark Mall,2022-02-25,10-K,MACERICH CO  (MAC)  (CIK 0000912242),True,https://www.sec.gov/Archives/edgar/data/912242/000091224222000003/mac-20211231.htm
+Strongsville,SouthPark Mall,2025-02-28,10-K,MACERICH CO  (MAC)  (CIK 0000912242),True,https://www.sec.gov/Archives/edgar/data/912242/000091224225000023/mac-20241231.htm
+Strongsville,SouthPark Mall,2023-02-06,FWP,BANK 2023-BNK45  (CIK 0001958501),True,https://www.sec.gov/Archives/edgar/data/1958501/000153949723000137/n3430-x4ts.htm
+Strongsville,SouthPark Mall,2022-11-09,FWP,3650R 2022-PF2 Commercial Mortgage Trust,True,https://www.sec.gov/Archives/edgar/data/1948175/000153949722001770/n3331-x3ts.htm
+Strongsville,SouthPark Mall,2023-02-23,424B2,Banc of America Merrill Lynch Commercial,True,https://www.sec.gov/Archives/edgar/data/1005007/000153949723000335/n3430_x10-424b2.htm
+Strongsville,SouthPark Mall,2023-02-06,424H,Banc of America Merrill Lynch Commercial,True,https://www.sec.gov/Archives/edgar/data/1005007/000153949723000147/n3430-x5_424h.htm
+Strongsville,SouthPark Mall,2022-11-22,424B2,Morgan Stanley Capital I Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1547361/000153949722001847/n3327_x9-424b2.htm
+Strongsville,SouthPark Mall,2023-11-27,FWP,BANK5 2023-5YR4  (CIK 0001996001),True,https://www.sec.gov/Archives/edgar/data/1996001/000153949723002007/n3807-x6_ts.htm
+Strongsville,SouthPark Mall,2022-11-30,424B2,3650 REIT Commercial Mortgage Securities,True,https://www.sec.gov/Archives/edgar/data/1856217/000153949722001884/n3331-x11_424b2.htm
+Strongsville,SouthPark Mall,2022-11-09,424H,3650 REIT Commercial Mortgage Securities,True,https://www.sec.gov/Archives/edgar/data/1856217/000153949722001768/n3331-x4_424h.htm
+Strongsville,SouthPark Mall,2023-12-04,424B2,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949723002091/n3807_x16-424b2.htm
+Strongsville,SouthPark Mall,2023-11-27,424H,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949723002016/n3807-x7_424h.htm
+Strongsville,SouthPark Mall,2022-11-03,424B2,GS MORTGAGE SECURITIES CORP II  (CIK 000,True,https://www.sec.gov/Archives/edgar/data/1004158/000153949722001737/n3300-x16_424b2.htm
+Strongsville,SouthPark Mall,2022-10-18,424H,GS MORTGAGE SECURITIES CORP II  (CIK 000,True,https://www.sec.gov/Archives/edgar/data/1004158/000153949722001677/n3300-x7_424h.htm
+Strongsville,SouthPark Mall,2023-09-12,424H,Banc of America Merrill Lynch Commercial,True,https://www.sec.gov/Archives/edgar/data/1005007/000153949723001585/n3753-x6_424h.htm
+Strongsville,SouthPark Mall,2023-09-21,424B2,Banc of America Merrill Lynch Commercial,True,https://www.sec.gov/Archives/edgar/data/1005007/000153949723001628/n3753-x11_424b2.htm
+Tampa,International Plaza,2025-11-13,FWP,BANK5 2025-5YR18  (CIK 0002096187),True,https://www.sec.gov/Archives/edgar/data/2096187/000153949725002936/n5416_x2-annexa1.htm
+Tampa,International Plaza,2025-11-13,FWP,BANK5 2025-5YR18  (CIK 0002096187),True,https://www.sec.gov/Archives/edgar/data/2096187/000153949725002924/n5416_x3-ts.htm
+Tampa,International Plaza,2025-12-04,FWP,BANK5 2025-5YR19  (CIK 0002098810),True,https://www.sec.gov/Archives/edgar/data/2098810/000153949725003139/n5484_x2-annexa1.htm
+Tampa,International Plaza,2025-10-31,FWP,BBCMS Mortgage Trust 2025-5C38  (CIK 000,True,https://www.sec.gov/Archives/edgar/data/2091664/000153949725002823/n5388_x3-ts.htm
+Tampa,International Plaza,2024-11-08,FWP,Wells Fargo Commercial Mortgage Trust 20,True,https://www.sec.gov/Archives/edgar/data/2039768/000153949724002371/n4545_x2-premkta1.htm
+Tampa,International Plaza,2024-09-26,FWP,BANK5 2024-5YR10  (CIK 0002037111),True,https://www.sec.gov/Archives/edgar/data/2037111/000153949724002013/n4517_x2-ts.htm
+Tampa,International Plaza,2025-11-21,424B2,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949725003047/n5416_x23-424b2.htm
+Tampa,International Plaza,2024-11-12,FWP,Wells Fargo Commercial Mortgage Trust 20,True,https://www.sec.gov/Archives/edgar/data/2039768/000153949724002388/n4545_x5-annexa1.htm
+Tampa,International Plaza,2025-11-13,424H,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949725002946/n5416_x4-424h.htm
+Tampa,International Plaza,2025-11-10,424B2,Barclays Commercial Mortgage Securities ,True,https://www.sec.gov/Archives/edgar/data/1541480/000153949725002879/n5388_x11-424b2.htm
+Tampa,International Plaza,2025-11-03,424H,Barclays Commercial Mortgage Securities ,True,https://www.sec.gov/Archives/edgar/data/1541480/000153949725002837/n5388_x4-424h.htm
+Tampa,International Plaza,2025-12-11,424B2,Morgan Stanley Capital I Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1547361/000153949725003257/n5484_x16-424b2.htm
+Tampa,International Plaza,2025-12-04,424H,Morgan Stanley Capital I Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1547361/000153949725003143/n5484_x5-424h.htm
+Tampa,International Plaza,2024-10-04,424B2,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949724002109/n4517_x22-424b2.htm
+Tampa,International Plaza,2024-09-26,424H,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949724002023/n4517_x5-424h.htm
+Tampa,International Plaza,2024-11-19,424B2,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949724002471/n4545_x19-424b2.htm
+Tampa,International Plaza,2024-11-12,424H,WELLS FARGO COMMERCIAL MORTGAGE SECURITI,True,https://www.sec.gov/Archives/edgar/data/850779/000153949724002396/n4545_x7-424h.htm
+Tampa,International Plaza,2024-09-11,FWP,BBCMS Mortgage Trust 2024-5C29  (CIK 000,True,https://www.sec.gov/Archives/edgar/data/2034721/000153949724001903/n4462_x5-ts.htm
+Tampa,International Plaza,2025-12-04,FWP,BANK5 2025-5YR19  (CIK 0002098810),True,https://www.sec.gov/Archives/edgar/data/2098810/000153949725003141/n5484_x3-ts.htm
+Tampa,International Plaza,2024-09-18,424B2,Barclays Commercial Mortgage Securities ,True,https://www.sec.gov/Archives/edgar/data/1541480/000153949724001951/n4462_x12-424b2.htm
+Tampa,International Plaza,2024-09-11,424H,Barclays Commercial Mortgage Securities ,True,https://www.sec.gov/Archives/edgar/data/1541480/000153949724001907/n4462_x6-424h.htm
+Tampa,International Plaza,2023-06-20,424H,Morgan Stanley Capital I Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1547361/000153949723001134/n3498_x4-424h.htm
+Tampa,International Plaza,2023-07-11,424B2,Morgan Stanley Capital I Inc.  (CIK 0001,True,https://www.sec.gov/Archives/edgar/data/1547361/000153949723001217/n3498_x11-424b2.htm
+Tulsa,Woodland Hills Mall,2021-04-30,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459021022244/srg-ex992_12.htm
+Tulsa,Woodland Hills Mall,2021-08-09,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459021042681/srg-ex992_6.htm
+Tulsa,Woodland Hills Mall,2021-03-11,8-K,"Seritage Growth Properties  (SRG, SRG-PA",False,https://www.sec.gov/Archives/edgar/data/1628063/000156459021012168/srg-ex992_6.htm
+Wilmington,Brandywine Town Center,2023-05-05,8-K,ACADIA REALTY TRUST  (AKR)  (CIK 0000899,True,https://www.sec.gov/Archives/edgar/data/899629/000095017023018301/akr-ex99_1.htm
+Wilmington,Brandywine Town Center,2026-02-13,10-K,ACADIA REALTY TRUST  (AKR)  (CIK 0000899,False,https://www.sec.gov/Archives/edgar/data/899629/000119312526051677/akr-20251231.htm
+Wilmington,Brandywine Town Center,2024-02-16,10-K,ACADIA REALTY TRUST  (AKR)  (CIK 0000899,True,https://www.sec.gov/Archives/edgar/data/899629/000095017024016567/akr-20231231.htm
+Wilmington,Brandywine Town Center,2025-02-14,10-K,ACADIA REALTY TRUST  (AKR)  (CIK 0000899,False,https://www.sec.gov/Archives/edgar/data/899629/000095017025021145/akr-20241231.htm
+Wilmington,Brandywine Town Center,2023-03-01,10-K,ACADIA REALTY TRUST  (AKR)  (CIK 0000899,False,https://www.sec.gov/Archives/edgar/data/899629/000095017023005499/akr-20221231.htm
+Wilmington,Brandywine Town Center,2021-02-22,10-K,ACADIA REALTY TRUST  (AKR)  (CIK 0000899,False,https://www.sec.gov/Archives/edgar/data/899629/000156459021007196/akr-10k_20201231.htm
+Wilmington,Brandywine Town Center,2022-03-01,10-K,ACADIA REALTY TRUST  (AKR)  (CIK 0000899,False,https://www.sec.gov/Archives/edgar/data/899629/000095017022002570/akr-20211231.htm
+Wilmington,Christiana Mall,2021-04-26,SC 13E3,Brookfield Property Partners L.P.  (BPYP,False,https://www.sec.gov/Archives/edgar/data/1545772/000110465921055002/tm2112801d2_ex99-c3.htm
+Wilmington,Christiana Mall,2021-04-26,SC 13E3,Brookfield Property Partners L.P.  (BPYP,False,https://www.sec.gov/Archives/edgar/data/1545772/000110465921055002/tm2112801d2_ex99-c4.htm
+Wilmington,Christiana Mall,2025-12-03,FWP,Benchmark 2025-V19 Mortgage Trust  (CIK ,True,https://www.sec.gov/Archives/edgar/data/2093117/000153949725003117/n5481_x4-ts.htm
+Wilmington,Christiana Mall,2025-12-03,424H,CITIGROUP COMMERCIAL MORTGAGE SECURITIES,True,https://www.sec.gov/Archives/edgar/data/1258361/000153949725003123/n5481_x5-424h.htm
+Wilmington,Christiana Mall,2025-12-11,424B2,CITIGROUP COMMERCIAL MORTGAGE SECURITIES,True,https://www.sec.gov/Archives/edgar/data/1258361/000153949725003258/n5481_x12-424b2.htm

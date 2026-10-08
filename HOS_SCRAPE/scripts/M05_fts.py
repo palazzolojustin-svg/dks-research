@@ -15,10 +15,10 @@ for q in qs:
         for h in hits:
           s=h["_source"];i=h["_id"]
           if s["form"] in("FWP","424B2","424H","424B5","424B3","424B4","ABS-15G","8-K","10-D","10-K"):
-            rows[i]=(s["file_date"],s["form"],s["display_names"][0][:60],i)
+            rows[i]=(s["file_date"],s["form"],s["display_names"][0][:60],i,s["ciks"][0])
         time.sleep(.2)
         if len(hits)<100:break
-w=csv.writer(open("data/M05_fts_hits.csv","w"));w.writerow("file_date form filer id".split())
+w=csv.writer(open("data/M05_fts_hits.csv","w"));w.writerow("file_date form filer id cik".split())
 for v in sorted(rows.values()):w.writerow(v)
 print(len(rows))
 import collections;print(collections.Counter(v[1] for v in rows.values()))
