@@ -1,0 +1,36 @@
+store,opened,kind,sources,jobs,excluded
+Knoxville,2021Q2,conversion/relocation,QCEW y1 +228,227.66011408790465,
+Victor,2021Q2,conversion/relocation,QCEW y1 +128,128.49647497288066,
+Minnetonka,2022Q2,conversion/relocation,QCEW y1 +151,150.58910080260296,
+Harris(Baybrook+Katy),2023Q2,conversion/relocation,QCEW y1 +72,72.18230882603257,"two HoS plus a Field & Stream conversion in one county, same quarter"
+Champaign,2023Q3,conversion/relocation,QCEW y1 +70,70.47096499414589,
+Chesapeake,2023Q3,conversion/relocation,QCEW y1 +42,41.9222689749429,
+Davenport,2023Q3,conversion/relocation,QCEW y1 +82,82.26385094924724,
+Fayetteville,2023Q3,conversion/relocation,QCEW y1 +69,68.69427813869575,
+Johnson City,2023Q3,conversion/relocation,QCEW y1 +124,124.32601127891772,
+Latham,2023Q3,conversion/relocation,QCEW y1 +19,19.429085028168583,
+Scranton,2023Q3,conversion/relocation,QCEW y1 +122,122.46402027716188,
+Boston(Prudential),2024Q2,net-new,QCEW y1 +286,286.1949682666158,
+Pittsburgh(Ross Park),2024Q2,net-new,QCEW y1 +49,48.59281410638778,
+Oklahoma City,2024Q4,conversion/relocation,QCEW y1 +219,218.7108878011054,
+Salem,2024Q4,conversion/relocation,QCEW y1 +102,101.74344393592295,
+Tampa(Intl Plaza),2024Q4,conversion/relocation,QCEW y1 +123,122.70535792382356,
+Tulsa,2024Q4,conversion/relocation,QCEW y1 +485,485.451568703215,Scheels opened in the same county the same quarter
+Wilmington(Brandywine),2024Q4,conversion/relocation,QCEW y1 +42,41.80711572378569,
+Beavercreek,2025Q1,conversion/relocation,QCEW y1 +62,61.69183273733491,
+Miami(Kendall),2025Q1,conversion/relocation,"QCEW y1 +85, QWI -105",-9.939940824143662,
+Baton Rouge,2025Q2,conversion/relocation,QCEW y1 +99,99.3027955118908,
+Columbus(Polaris),2025Q3,conversion/relocation,"QCEW y1 +108, QCEW Feb-Mar +140",123.79149465287453,
+Dallas(Galleria),2025Q3,conversion/relocation,"QCEW y1 -72, QCEW Feb-Mar -25, QWI -307",-134.66741618515218,large county with unrelated sporting-goods closures; flagged contaminated
+Jersey City,2025Q3,net-new,"QCEW y1 +151, QCEW Feb-Mar +170",160.29713904185672,
+Leawood,2025Q3,conversion/relocation,"QCEW y1 +94, QCEW Feb-Mar +59, QWI +176",110.01738526122303,
+Brandon,2025Q4,conversion/relocation,"QCEW y1 +101, QCEW Feb-Mar +20, QWI -62",19.713707811586083,
+Charlottesville,2025Q4,conversion/relocation,"QCEW y1 -14, QCEW Feb-Mar -3",-8.268218828597316,store sits on the city/county line; jobs likely booked in the adjacent county
+Durham,2025Q4,conversion/relocation,"QCEW y1 +114, QCEW Feb-Mar +105",109.53680509809008,
+Freehold,2025Q4,conversion/relocation,"QCEW y1 +179, QCEW Feb-Mar +187, QWI +158",174.40495747712959,
+Glendale,2025Q4,net-new,"QCEW y1 +227, QCEW Feb-Mar +168",197.50113077788,"Maricopa County: ~9,000 base jobs, county noise far larger than one store"
+Kennesaw,2025Q4,conversion/relocation,"QCEW y1 +124, QCEW Feb-Mar +45, QWI +245",137.87414717195426,
+Live Oak(San Antonio),2025Q4,net-new,"QCEW y1 +238, QCEW Feb-Mar +175, QWI +94",168.99477884752548,
+Mobile,2025Q4,conversion/relocation,"QCEW y1 +69, QCEW Feb-Mar +64",66.38376099326783,
+Strongsville,2025Q4,conversion/relocation,"QCEW y1 +39, QCEW Feb-Mar +56",47.731783328834865,
+Amherst,2026Q1,conversion/relocation,"QCEW y1 +111, QCEW Feb-Mar +141",126.23612747636784,
