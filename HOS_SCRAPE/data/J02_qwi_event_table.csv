@@ -1,0 +1,37 @@
+city,open_q,base_emp(k-4..-1),Emp k0..k4,base_hires,HirA k0..k2,last_k,dEmp_last_vs_base,ctl_idx_last
+Victor,2021Q2,nodata,,,,,,
+Knoxville,2021Q2,nodata,,,,,,
+Minnetonka,2022Q2,nodata,,,,,,
+Harris(Baybrook+Katy),2023Q2,nodata,,,,,,
+Davenport,2023Q3,nodata,,,,,,
+Latham,2023Q3,nodata,,,,,,
+Fayetteville,2023Q3,516.0,"[586, 598, 611, 588, 587]",138.0,"[160, 165, 109]",9.0,-59.0,0.983
+Johnson City,2023Q3,nodata,,,,,,
+Chesapeake,2023Q3,368.0,"[421, 416, 452, 412, 386]",96.0,"[97, 115, 43]",9.0,30.0,0.95
+Champaign,2023Q3,nodata,,,,,,
+Scranton,2023Q3,nodata,,,,,,
+Pittsburgh(Ross Park),2024Q2,nodata,,,,,,
+Boston(Prudential),2024Q2,nodata,,,,,,
+Wilmington(Brandywine),2024Q4,nodata,,,,,,
+Tampa(Intl Plaza),2024Q4,2309.0,"[2256, 2258, 2186, 1990, 2043]",436.0,"[551, 245, 313]",4.0,-266.0,0.912
+Oklahoma City,2024Q4,nodata,,,,,,
+Tulsa,2024Q4,nodata,,,,,,
+Salem,2024Q4,nodata,,,,,,
+Miami(Kendall),2025Q1,2766.0,"[2665, 2551, 2405, 2380, None]",560.0,"[312, 383, 435]",3.0,-386.0,0.912
+Beavercreek,2025Q1,361.0,"[429, 412, 337, 341, None]",78.0,"[66, 62, 82]",3.0,-20.0,0.931
+Baton Rouge,2025Q2,nodata,,,,,,
+Columbus(Polaris),2025Q3,790.0,"[714, 752, None, None, None]",129.0,"[188, 225, None]",1.0,-38.0,0.939
+Dallas(Galleria),2025Q3,nodata,,,,,,
+Leawood,2025Q3,2310.0,"[2281, 2301, None, None, None]",457.0,"[542, 536, None]",1.0,-9.0,0.937
+Jersey City,2025Q3,224.0,"[232, 275, None, None, None]",42.0,"[68, 103, None]",1.0,51.0,0.988
+Durham,2025Q4,585.0,"[616, None, None, None, None]",94.0,"[137, None, None]",0.0,31.0,0.979
+Live Oak(San Antonio),2025Q4,nodata,,,,,,
+Glendale,2025Q4,9045.0,"[8905, None, None, None, None]",1718.0,"[2479, None, None]",0.0,-140.0,0.967
+Charlottesville,2025Q4,174.0,"[166, None, None, None, None]",35.0,"[41, None, None]",0.0,-8.0,0.978
+Strongsville,2025Q4,1586.0,"[1604, None, None, None, None]",297.0,"[406, None, None]",0.0,18.0,0.955
+Freehold,2025Q4,1040.0,"[1170, None, None, None, None]",214.0,"[330, None, None]",0.0,130.0,0.996
+Brandon,2025Q4,2172.0,"[2043, None, None, None, None]",372.0,"[458, None, None]",0.0,-130.0,0.958
+Kennesaw,2025Q4,nodata,,,,,,
+Mobile,2025Q4,553.0,"[574, None, None, None, None]",126.0,"[148, None, None]",0.0,21.0,0.996
+Amherst,2026Q1,nodata,,,,,,
+Arlington TX,2026Q2,nodata,,,,,,
