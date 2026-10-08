@@ -30,3 +30,7 @@ Max 20 concurrent background agents. First launch: W01-W15 + F01-F05 (20). As sl
 - V2 DKS core Q3/early-Q4 sale share (extend PB_SCRAPE X11 Common Crawl series for last weeks only + Wayback + one live try)
 - V3 FL review velocity: launch DENIED by the auto-mode safety classifier even with user authorization (2026-10-08). Not worked around.
 - V4 Uptake: Google Trends + Reddit mentions + Fast Break store list (FL focus; note DKS items)
+
+## Weekly census (set up 2026-10-08)
+- Scripts: scripts/weekly_fl.py (FL pages + brand census → data/weekly/), scripts/weekly_dks.py (new Common Crawl crawl → data/V2_dks_sale_share.csv)
+- Routine trig_01S7uPoF2fi5jporJiXQDd6s: Mondays 14:07 UTC, fresh session each run, through 2026-11-30; push + email notification.
