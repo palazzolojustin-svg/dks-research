@@ -1,0 +1,23 @@
+fiscal_q,period_end,actual_comp,consensus_comp,beat_pp,consensus_source
+FY21Q1,2021-05-01,115.0,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY21Q2,2021-07-31,19.2,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY21Q3,2021-10-30,12.2,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY21Q4,2022-01-29,5.0,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY22Q1,2022-04-30,-8.4,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY22Q2,2022-07-30,-5.4,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY22Q3,2022-10-29,6.5,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY22Q4,2023-01-28,5.3,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY23Q1,2023-04-29,3.4,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY23Q2,2023-07-29,1.8,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY23Q3,2023-10-28,1.7,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY23Q4,2024-02-03,2.8,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY24Q1,2024-05-04,5.3,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY24Q2,2024-08-03,4.5,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY24Q3,2024-11-02,4.3,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY24Q4,2025-02-01,6.6,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY25Q1,2025-05-03,4.5,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY25Q2,2025-08-02,5.0,3.2,1.8,"C01_SYNTHESIS_B L1217-1219/C06_R1 › JPM Consensus Metrix 3.3, Wells FactSet 3.2, Barclays BBG 3.1 (SRC 03 2025-09-05 Barclays; 09-03 JPM; 09-04 WF); mean of 3"
+FY25Q3,2025-11-01,5.7,3.5,2.2,"C06_R1 L467/693, C01_SYNTHESIS_B L1118 › JPM Consensus Metrix 3.3, Barclays BBG 3.5, one broker 3.7 (R1 L693); mean of 3"
+FY25Q4,2026-01-31,3.1,2.13,0.97,"C06_R2 L47,125,365; C01_SYNTHESIS_B L1465 › JPM Consensus Metrix 2.1, UBS 2.1 (pre) / 2.2 (post-print); buyside bar ~3.0; mean of 3"
+FY26Q1,2026-05-02,6.0,3.4,2.6,"C06_R3 L223,296; C06_R4 L110 › UBS cons 3.3, JPM Consensus Metrix 3.4 (5/22) / 3.5 (5/27); buyside bar ~5.0; mean of 3"
+FY26Q2,2026-08-01,4.9,4.6,0.3,"C01_SYNTHESIS_B L1240,1241; SRC UBS 2026-08-18/08-30 › UBS cons 4.7 (8/12 preview), 4.5 (8/30 pre-print, JPM mkt bar ~4.5); mean of 2; broker/Consensus-Metrix only, no direct Bloomberg line"
