@@ -1,5 +1,5 @@
 # STATE: House of Sport jobs + mall-loan scrape (HOS_SCRAPE)
-STATUS: RUNNING (user "go" 2026-10-08)
+STATUS: DONE 2026-10-08 — memo https://claude.ai/artifact/7MMyjjEkp5MrF5rueWHjDJ (wave 2 dry; mall loans dry x2)
 Method: cost-conserving — Sonnet agents, ~40 tool calls each, scripts print compact tables, no watchdog routine.
 Wave 1: 20 agents J01-J15 (jobs, HoS only, other job sources), M01-M05 (EDGAR CMBS HoS sales; M05 = Foot Locker store sales, separate section).
 Later waves: 6-10 agents from leads. If EDGAR mall-loan search finds nothing new → rating-agency presale reports (KBRA/Moody's/Fitch), servicer reports, mall REIT disclosures, Trepp/CRED iQ.
