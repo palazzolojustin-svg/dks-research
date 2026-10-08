@@ -7,12 +7,14 @@ OUT=D+'/snaps.jsonl'
 cdx=json.load(open(D+'/cdx_all.json'))
 KEEP=re.compile(r'^/category/(sale|(mens|womens|kids|boys|girls)/(shoes|clothing)|(mens|womens|kids)/shoes/[a-z-]+|mens|womens|kids|shoes|clothing|brands/[a-z-]+|sale/[a-z/-]+)\.html$')
 def ok(u):
+    if 'footlocker.ca' in u: return True
     p=urllib.parse.urlsplit(u); q=urllib.parse.parse_qs(p.query)
     if not KEEP.match(p.path.lower()): return False
-    return not any(k.lower() in('query','facets','q') or ':' in ''.join(v) for k,v in q.items())
+    return not any(k.lower() in('query','facets','q','currentpage','page') or ':' in ''.join(v) for k,v in q.items())
 sel={}
 for d,rows in cdx.items():
     for ts,u in rows:
+        if not (ts.isdigit() and len(ts)==14 and u.startswith('http')): continue
         if not ok(u): continue
         p=urllib.parse.urlsplit(u); key=(d,p.path.lower())
         sel.setdefault(key,{})
