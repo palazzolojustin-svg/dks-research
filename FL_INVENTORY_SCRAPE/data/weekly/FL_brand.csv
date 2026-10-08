@@ -1,0 +1,209 @@
+date,site,collection,brand,listings,on_sale,sale_share,depth_n,depth_median,depth_mean
+2026-10-08,footlocker.com,Men Shoes,Jordan,171,32,0.1871,32,16.9,17.6
+2026-10-08,footlocker.com,Men Shoes,Nike,719,126,0.1752,72,15.9,17.9
+2026-10-08,footlocker.com,Men Shoes,New Balance,125,27,0.216,27,28.2,24.9
+2026-10-08,footlocker.com,Men Shoes,Timberland,32,7,0.2188,7,28.6,30.3
+2026-10-08,footlocker.com,Men Shoes,adidas,379,42,0.1108,42,19.4,19.2
+2026-10-08,footlocker.com,Men Shoes,ASICS,0,0,,0,,
+2026-10-08,footlocker.com,Men Shoes,Vans,29,2,0.069,2,24.8,24.8
+2026-10-08,footlocker.com,Men Shoes,On,59,8,0.1356,8,20.5,21.7
+2026-10-08,footlocker.com,Men Shoes,Salomon,12,1,0.0833,1,24.1,24.1
+2026-10-08,footlocker.com,Men Shoes,PUMA,59,19,0.322,19,25.9,24.8
+2026-10-08,footlocker.com,Men Shoes,Mizuno,80,0,0.0,0,,
+2026-10-08,footlocker.com,Men Shoes,Crocs,48,7,0.1458,7,25.7,25.0
+2026-10-08,footlocker.com,Men Shoes,Saucony,147,3,0.0204,3,28.9,27.3
+2026-10-08,footlocker.com,Men Shoes,Reebok,46,9,0.1957,9,17.7,15.2
+2026-10-08,footlocker.com,Men Shoes,HOKA,84,20,0.2381,20,13.6,18.4
+2026-10-08,footlocker.com,Men Shoes,Under Armour,32,0,0.0,0,,
+2026-10-08,footlocker.com,Men Shoes,Converse,36,5,0.1389,5,18.8,14.4
+2026-10-08,footlocker.com,Men Shoes,UGG,53,3,0.0566,3,50.0,42.8
+2026-10-08,footlocker.com,Men Shoes,K-Swiss,9,0,0.0,0,,
+2026-10-08,footlocker.com,Men Shoes,Merrell,33,0,0.0,0,,
+2026-10-08,footlocker.com,Men Shoes,Brooks,62,3,0.0484,3,25.0,17.7
+2026-10-08,footlocker.com,Men Shoes,Birkenstock,20,0,0.0,0,,
+2026-10-08,footlocker.com,Men Shoes,Lacoste,4,0,0.0,0,,
+2026-10-08,footlocker.com,Women Shoes,adidas,355,23,0.0648,23,18.2,19.7
+2026-10-08,footlocker.com,Women Shoes,Nike,518,48,0.0927,48,18.4,24.6
+2026-10-08,footlocker.com,Women Shoes,ASICS,0,0,,0,,
+2026-10-08,footlocker.com,Women Shoes,New Balance,90,26,0.2889,26,30.3,36.1
+2026-10-08,footlocker.com,Women Shoes,PUMA,68,7,0.1029,7,18.8,19.2
+2026-10-08,footlocker.com,Women Shoes,On,55,11,0.2,11,20.0,20.6
+2026-10-08,footlocker.com,Women Shoes,Jordan,91,16,0.1758,16,21.2,20.9
+2026-10-08,footlocker.com,Women Shoes,Vans,28,7,0.25,7,8.3,12.9
+2026-10-08,footlocker.com,Women Shoes,HOKA,57,8,0.1404,8,20.0,23.7
+2026-10-08,footlocker.com,Women Shoes,Saucony,117,11,0.094,11,30.3,32.9
+2026-10-08,footlocker.com,Women Shoes,Salomon,15,0,0.0,0,,
+2026-10-08,footlocker.com,Women Shoes,Converse,13,4,0.3077,4,30.0,32.2
+2026-10-08,footlocker.com,Women Shoes,Mizuno,82,1,0.0122,1,52.0,52.0
+2026-10-08,footlocker.com,Women Shoes,UGG,83,6,0.0723,6,24.2,28.7
+2026-10-08,footlocker.com,Women Shoes,Crocs,19,1,0.0526,1,30.0,30.0
+2026-10-08,footlocker.com,Women Shoes,Birkenstock,38,0,0.0,0,,
+2026-10-08,footlocker.com,Women Shoes,Timberland,11,1,0.0909,1,40.0,40.0
+2026-10-08,footlocker.com,Women Shoes,Merrell,44,0,0.0,0,,
+2026-10-08,footlocker.com,Women Shoes,Brooks,70,6,0.0857,6,22.2,22.2
+2026-10-08,footlocker.com,Women Shoes,Reebok,68,8,0.1176,8,15.4,17.7
+2026-10-08,footlocker.com,Women Shoes,Under Armour,9,0,0.0,0,,
+2026-10-08,footlocker.com,Women Shoes,Havaianas,14,1,0.0714,1,11.4,11.4
+2026-10-08,footlocker.com,Women Shoes,Lacoste,4,0,0.0,0,,
+2026-10-08,footlocker.com,Women Shoes,K-Swiss,1,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,Jordan,389,43,0.1105,43,16.7,18.2
+2026-10-08,footlocker.com,Kids Shoes,Timberland,25,1,0.04,1,22.2,22.2
+2026-10-08,footlocker.com,Kids Shoes,Nike,716,74,0.1034,54,22.2,26.3
+2026-10-08,footlocker.com,Kids Shoes,adidas,265,13,0.0491,13,30.0,27.2
+2026-10-08,footlocker.com,Kids Shoes,New Balance,200,15,0.075,15,26.7,30.1
+2026-10-08,footlocker.com,Kids Shoes,Crocs,85,4,0.0471,4,25.0,29.5
+2026-10-08,footlocker.com,Kids Shoes,ASICS,0,0,,0,,
+2026-10-08,footlocker.com,Kids Shoes,Steve Madden,46,1,0.0217,1,16.7,16.7
+2026-10-08,footlocker.com,Kids Shoes,Vans,37,2,0.0541,2,39.4,39.4
+2026-10-08,footlocker.com,Kids Shoes,PUMA,65,7,0.1077,7,40.0,38.1
+2026-10-08,footlocker.com,Kids Shoes,UGG,104,5,0.0481,5,40.0,36.4
+2026-10-08,footlocker.com,Kids Shoes,HOKA,40,4,0.1,4,20.0,25.0
+2026-10-08,footlocker.com,Kids Shoes,Michael Kors,11,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,On,37,1,0.027,1,20.0,20.0
+2026-10-08,footlocker.com,Kids Shoes,Reebok,26,3,0.1154,3,30.0,31.7
+2026-10-08,footlocker.com,Kids Shoes,Saucony,43,8,0.186,8,22.7,22.5
+2026-10-08,footlocker.com,Kids Shoes,Converse,35,1,0.0286,1,42.9,42.9
+2026-10-08,footlocker.com,Kids Shoes,Ground Up,1,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,Skechers,3,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,Mizuno,1,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,Birkenstock,5,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,Champion,2,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,Under Armour,19,1,0.0526,1,50.0,50.0
+2026-10-08,footlocker.com,Kids Shoes,Polo,17,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,K-Swiss,3,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,Keds,4,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,Lacoste,2,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Shoes,Native,1,0,0.0,0,,
+2026-10-08,footlocker.com,Men Apparel,LCKR,91,82,0.9011,73,50.0,38.4
+2026-10-08,footlocker.com,Men Apparel,Nike,1339,315,0.2353,178,25.0,33.9
+2026-10-08,footlocker.com,Men Apparel,Jordan,221,70,0.3167,70,25.0,33.5
+2026-10-08,footlocker.com,Men Apparel,New Balance,86,50,0.5814,50,25.0,32.5
+2026-10-08,footlocker.com,Men Apparel,PSD,32,20,0.625,20,36.7,33.0
+2026-10-08,footlocker.com,Men Apparel,adidas,212,65,0.3066,62,40.0,39.0
+2026-10-08,footlocker.com,Men Apparel,CSG,23,5,0.2174,5,25.0,25.0
+2026-10-08,footlocker.com,Men Apparel,UGG,30,3,0.1,3,50.0,39.1
+2026-10-08,footlocker.com,Men Apparel,Pro Standard,633,172,0.2717,119,25.0,34.6
+2026-10-08,footlocker.com,Men Apparel,PUMA,52,7,0.1346,7,50.0,43.6
+2026-10-08,footlocker.com,Men Apparel,Under Armour,209,4,0.0191,4,26.1,29.3
+2026-10-08,footlocker.com,Men Apparel,NOxID,10,0,0.0,0,,
+2026-10-08,footlocker.com,Men Apparel,New Era,151,134,0.8874,97,40.0,36.8
+2026-10-08,footlocker.com,Men Apparel,Deuce,2,1,0.5,1,40.0,40.0
+2026-10-08,footlocker.com,Men Apparel,Overtime,4,3,0.75,3,40.0,40.0
+2026-10-08,footlocker.com,Men Apparel,Fanatics,6,4,0.6667,4,37.5,37.5
+2026-10-08,footlocker.com,Men Apparel,Champion,1,0,0.0,0,,
+2026-10-08,footlocker.com,Men Apparel,Timberland,9,2,0.2222,2,50.0,50.0
+2026-10-08,footlocker.com,Men Apparel,Ball Is Life,1,0,0.0,0,,
+2026-10-08,footlocker.com,Men Apparel,Mitchell & Ness,2,0,0.0,0,,
+2026-10-08,footlocker.com,Men Apparel,BY KIY,5,0,0.0,0,,
+2026-10-08,footlocker.com,Men Apparel,For The Fan,6,3,0.5,3,30.0,30.0
+2026-10-08,footlocker.com,Men Apparel,Future Is Color,1,0,0.0,0,,
+2026-10-08,footlocker.com,Men Apparel,SIDEMONEY,3,0,0.0,0,,
+2026-10-08,footlocker.com,Men Apparel,Graphic Tees,2,2,1.0,2,50.0,50.0
+2026-10-08,footlocker.com,Men Apparel,Grady Baby Co,7,0,0.0,0,,
+2026-10-08,footlocker.com,Women Apparel,Cozi,68,66,0.9706,59,50.0,41.4
+2026-10-08,footlocker.com,Women Apparel,Nike,502,74,0.1474,69,25.0,29.0
+2026-10-08,footlocker.com,Women Apparel,adidas,139,34,0.2446,34,25.0,31.2
+2026-10-08,footlocker.com,Women Apparel,New Balance,20,15,0.75,15,25.0,32.4
+2026-10-08,footlocker.com,Women Apparel,UGG,25,3,0.12,3,25.0,26.7
+2026-10-08,footlocker.com,Women Apparel,Jordan,134,26,0.194,26,25.0,27.3
+2026-10-08,footlocker.com,Women Apparel,Under Armour,43,0,0.0,0,,
+2026-10-08,footlocker.com,Women Apparel,Reebok,1,0,0.0,0,,
+2026-10-08,footlocker.com,Women Apparel,PUMA,12,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Apparel,Nike,545,47,0.0862,47,25.0,30.9
+2026-10-08,footlocker.com,Kids Apparel,Jordan,110,48,0.4364,48,25.0,31.1
+2026-10-08,footlocker.com,Kids Apparel,adidas,91,5,0.0549,5,25.0,25.0
+2026-10-08,footlocker.com,Kids Apparel,LCKR,4,3,0.75,3,25.0,33.3
+2026-10-08,footlocker.com,Kids Apparel,New Balance,13,13,1.0,13,25.0,25.0
+2026-10-08,footlocker.com,Kids Apparel,Ethika,4,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Apparel,Pro Standard,64,1,0.0156,1,25.0,25.0
+2026-10-08,footlocker.com,Kids Apparel,PUMA,2,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Apparel,Under Armour,21,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Apparel,New Era,1,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Apparel,PSD,1,0,0.0,0,,
+2026-10-08,footlocker.com,Kids Apparel,JuJuBeez,1,0,0.0,0,,
+2026-10-08,champssports.com,Men Shoes,Brooks,25,6,0.24,6,20.0,15.0
+2026-10-08,champssports.com,Men Shoes,adidas,381,33,0.0866,33,25.0,25.0
+2026-10-08,champssports.com,Men Shoes,ASICS,0,0,,0,,
+2026-10-08,champssports.com,Men Shoes,Birkenstock,5,0,0.0,0,,
+2026-10-08,champssports.com,Men Shoes,Converse,22,0,0.0,0,,
+2026-10-08,champssports.com,Men Shoes,Crocs,80,6,0.075,6,33.5,30.4
+2026-10-08,champssports.com,Men Shoes,HOKA,75,5,0.0667,5,20.0,20.0
+2026-10-08,champssports.com,Men Shoes,Jordan,177,29,0.1638,29,16.3,16.6
+2026-10-08,champssports.com,Men Shoes,K-Swiss,13,0,0.0,0,,
+2026-10-08,champssports.com,Men Shoes,Merrell,33,0,0.0,0,,
+2026-10-08,champssports.com,Men Shoes,Mizuno,89,1,0.0112,1,6.0,6.0
+2026-10-08,champssports.com,Men Shoes,New Balance,96,30,0.3125,30,36.5,32.3
+2026-10-08,champssports.com,Men Shoes,Nike,759,58,0.0764,51,20.0,23.0
+2026-10-08,champssports.com,Men Shoes,PUMA,63,24,0.381,24,32.8,33.2
+2026-10-08,champssports.com,Men Shoes,Reebok,49,6,0.1224,6,17.7,20.1
+2026-10-08,champssports.com,Men Shoes,Saucony,145,10,0.069,10,20.4,18.3
+2026-10-08,champssports.com,Men Shoes,Timberland,30,4,0.1333,4,11.9,18.9
+2026-10-08,champssports.com,Men Shoes,Under Armour,38,0,0.0,0,,
+2026-10-08,champssports.com,Women Shoes,HOKA,52,3,0.0577,3,20.0,20.0
+2026-10-08,champssports.com,Women Shoes,adidas,304,16,0.0526,16,27.3,26.5
+2026-10-08,champssports.com,Women Shoes,ASICS,0,0,,0,,
+2026-10-08,champssports.com,Women Shoes,Birkenstock,5,0,0.0,0,,
+2026-10-08,champssports.com,Women Shoes,Brooks,30,2,0.0667,2,21.8,21.8
+2026-10-08,champssports.com,Women Shoes,Havaianas,1,0,0.0,0,,
+2026-10-08,champssports.com,Women Shoes,Converse,4,2,0.5,2,30.6,30.6
+2026-10-08,champssports.com,Women Shoes,Crocs,14,1,0.0714,1,10.0,10.0
+2026-10-08,champssports.com,Women Shoes,Jordan,86,12,0.1395,12,23.7,23.1
+2026-10-08,champssports.com,Women Shoes,K-Swiss,3,0,0.0,0,,
+2026-10-08,champssports.com,Women Shoes,Merrell,43,0,0.0,0,,
+2026-10-08,champssports.com,Women Shoes,Mizuno,93,0,0.0,0,,
+2026-10-08,champssports.com,Women Shoes,New Balance,82,15,0.1829,15,41.9,41.5
+2026-10-08,champssports.com,Women Shoes,Nike,515,29,0.0563,29,24.1,25.3
+2026-10-08,champssports.com,Women Shoes,PUMA,64,3,0.0469,3,30.0,37.4
+2026-10-08,champssports.com,Women Shoes,Reebok,65,0,0.0,0,,
+2026-10-08,champssports.com,Women Shoes,RYKÄ,114,0,0.0,0,,
+2026-10-08,champssports.com,Women Shoes,Saucony,125,10,0.08,10,30.0,32.6
+2026-10-08,champssports.com,Women Shoes,Timberland,12,4,0.3333,4,42.9,41.1
+2026-10-08,champssports.com,Women Shoes,Under Armour,9,0,0.0,0,,
+2026-10-08,champssports.com,Kids Shoes,HOKA,20,0,0.0,0,,
+2026-10-08,champssports.com,Kids Shoes,adidas,210,27,0.1286,27,20.0,23.4
+2026-10-08,champssports.com,Kids Shoes,ASICS,0,0,,0,,
+2026-10-08,champssports.com,Kids Shoes,Birkenstock,4,0,0.0,0,,
+2026-10-08,champssports.com,Kids Shoes,Champion,2,0,0.0,0,,
+2026-10-08,champssports.com,Kids Shoes,Converse,23,6,0.2609,6,32.9,32.3
+2026-10-08,champssports.com,Kids Shoes,Crocs,58,0,0.0,0,,
+2026-10-08,champssports.com,Kids Shoes,Jordan,315,48,0.1524,48,18.0,19.1
+2026-10-08,champssports.com,Kids Shoes,Mizuno,1,0,0.0,0,,
+2026-10-08,champssports.com,Kids Shoes,New Balance,151,16,0.106,16,25.0,27.7
+2026-10-08,champssports.com,Kids Shoes,Nike,764,54,0.0707,48,21.9,23.5
+2026-10-08,champssports.com,Kids Shoes,PUMA,56,19,0.3393,19,22.2,27.1
+2026-10-08,champssports.com,Kids Shoes,Reebok,16,0,0.0,0,,
+2026-10-08,champssports.com,Kids Shoes,Saucony,26,7,0.2692,7,20.0,22.3
+2026-10-08,champssports.com,Kids Shoes,Timberland,19,5,0.2632,5,33.3,36.2
+2026-10-08,champssports.com,Kids Shoes,Under Armour,18,0,0.0,0,,
+2026-10-08,champssports.com,Men Apparel,47 Brand,352,0,0.0,0,,
+2026-10-08,champssports.com,Men Apparel,adidas,255,44,0.1725,44,38.9,37.7
+2026-10-08,champssports.com,Men Apparel,Graphic Tees,12,12,1.0,12,57.2,57.2
+2026-10-08,champssports.com,Men Apparel,Eastbay,4,0,0.0,0,,
+2026-10-08,champssports.com,Men Apparel,Steve Selvin,4,4,1.0,4,42.9,42.9
+2026-10-08,champssports.com,Men Apparel,Champion,120,0,0.0,0,,
+2026-10-08,champssports.com,Men Apparel,Colosseum,3,0,0.0,0,,
+2026-10-08,champssports.com,Men Apparel,CSG,279,262,0.9391,131,48.9,47.5
+2026-10-08,champssports.com,Men Apparel,Fanatics,125,0,0.0,0,,
+2026-10-08,champssports.com,Men Apparel,Jordan,269,65,0.2416,56,38.5,36.6
+2026-10-08,champssports.com,Men Apparel,Mitchell & Ness,11,0,0.0,0,,
+2026-10-08,champssports.com,Men Apparel,New Balance,61,48,0.7869,48,40.0,38.1
+2026-10-08,champssports.com,Men Apparel,New Era,103,9,0.0874,9,30.6,39.8
+2026-10-08,champssports.com,Men Apparel,Nike,1624,143,0.0881,72,38.5,37.6
+2026-10-08,champssports.com,Men Apparel,Pro Standard,356,0,0.0,0,,
+2026-10-08,champssports.com,Men Apparel,PSD,38,6,0.1579,6,28.6,30.2
+2026-10-08,champssports.com,Men Apparel,PUMA,65,9,0.1385,9,30.8,35.6
+2026-10-08,champssports.com,Men Apparel,Timberland,1,0,0.0,0,,
+2026-10-08,champssports.com,Men Apparel,Under Armour,258,34,0.1318,34,50.0,43.2
+2026-10-08,champssports.com,Women Apparel,47 Brand,5,0,0.0,0,,
+2026-10-08,champssports.com,Women Apparel,adidas,1,0,0.0,0,,
+2026-10-08,champssports.com,Women Apparel,Fanatics,1,0,0.0,0,,
+2026-10-08,champssports.com,Women Apparel,New Balance,6,0,0.0,0,,
+2026-10-08,champssports.com,Women Apparel,New Era,1,0,0.0,0,,
+2026-10-08,champssports.com,Women Apparel,Nike,31,0,0.0,0,,
+2026-10-08,champssports.com,Women Apparel,Pro Standard,1,0,0.0,0,,
+2026-10-08,champssports.com,Kids Apparel,adidas,1,0,0.0,0,,
+2026-10-08,champssports.com,Kids Apparel,Fanatics,1,0,0.0,0,,
+2026-10-08,champssports.com,Kids Apparel,Jordan,5,3,0.6,3,50.0,44.5
+2026-10-08,champssports.com,Kids Apparel,Nike,153,4,0.0261,4,40.0,38.8
+2026-10-08,champssports.com,Kids Apparel,Outerstuff,12,0,0.0,0,,
+2026-10-08,champssports.com,Kids Apparel,Pro Standard,7,0,0.0,0,,
