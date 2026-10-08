@@ -13,7 +13,7 @@ pat=re.compile(r"[^.]{0,200}\b(hir\w+|jobs?|employ\w+|teammates?|team members|as
 for l,(c,t,p) in seen.items():
     try:
         r=gnewsdecoder(l,interval=0.3)
-        u=r.get('decoded_url') if r.get('status') else None
+        u=r.get('decoded_url') if r.get('success') else None
         if not u: continue
         h=requests.get(u,timeout=20,headers={"User-Agent":"Mozilla/5.0"}).text
         tx=trafilatura.extract(h) or ''
