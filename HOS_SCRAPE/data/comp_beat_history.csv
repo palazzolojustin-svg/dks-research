@@ -1,19 +1,31 @@
 fiscal_q,period_end,actual_comp,consensus_comp,beat_pp,consensus_source
+FY18Q1,2018-05-05,-2.5,,,no consensus comp found in public search | actual: 13wk-adj basis; unshifted -0.9; https://au.fashionunited.com/news/business/dick-s-sporting-goods-q1-net-income-rises-to-60-1-mn-dollars/201805304866
+FY18Q2,2018-08-04,-4.0,,,no consensus comp found in public search | actual: calendar-adj; unshifted -1.9; per search snippet + FashionUnited 2019 article
+FY18Q3,2018-11-03,-3.9,,,no consensus comp found in public search | actual: calendar-adj; unshifted -6.1; https://sgbonline.com/?p=144528
+FY18Q4,2019-02-02,-2.2,-3.3,1.10,Coresight (consensus est.) -3.3 https://coresight.com/?p=80143 | actual: shifted basis; https://coresight.com/?p=80143
+FY19Q1,2019-05-04,0.0,-1.3,1.30,"Coresight (consensus est.) -1.3 https://coresight.com/?p=89419; Chain Store Age (analysts expected) -1.3 https://chainstoreage.com/finance-0/dicks-q1-tops-street-raises-outlook | ChainStoreAge URL: figure per search snippet, not confirmed on fetch | median of 2 | actual: flat"
+FY19Q2,2019-08-03,3.2,,,no consensus comp found in public search | actual: https://fashionunited.com/executive/management/dick-s-sporting-goods-reports-rise-in-q2-same-store-sales-raises-outlook/2019082229563
+FY19Q3,2019-11-02,6.0,2.9,3.10,"Wall Street avg (SGB, provider unnamed) 2.9 https://sgbonline.com/?p=172222 | actual: https://sgbonline.com/?p=172222"
+FY19Q4,2020-02-01,5.3,,,no consensus comp found in public search | actual: https://sgbonline.com/?p=181459
+FY20Q1,2020-05-02,,,,actual not found in searches
+FY20Q2,2020-08-01,20.7,,,no consensus comp found in public search | actual: search snippet (alphastreet/fashionunited)
+FY20Q3,2020-10-31,23.2,,,no consensus comp found in public search | actual: SEC 8-K https://www.sec.gov/Archives/edgar/data/1089063/000108906320000140/dks-20201031xex991earn.htm
+FY20Q4,2021-01-30,19.3,,,no consensus comp found in public search | actual: https://devel-news.alphastreet.com/key-highlights-from-dicks-sporting-goods-dks-q4-2020-earnings-results
 FY21Q1,2021-05-01,115.0,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
 FY21Q2,2021-07-31,19.2,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
 FY21Q3,2021-10-30,12.2,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
 FY21Q4,2022-01-29,5.0,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
 FY22Q1,2022-04-30,-8.4,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
 FY22Q2,2022-07-30,-5.4,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
-FY22Q3,2022-10-29,6.5,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
-FY22Q4,2023-01-28,5.3,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY22Q3,2022-10-29,6.5,-2.2,8.70,"Schaeffers Research (analysts, provider unnamed) -2.2 https://www.schaeffersresearch.com/content/news/2022/11/22/dicks-sporting-goods-reports-q3-beat-and-raise | Bloomberg -3.1 reported in search snippet only (https://www.bloomberg.com/news/articles/2022-11-22/dick-s-boosts-forecast-after-sales-earnings-beat-estimates; not fetchable) excluded from value"
+FY22Q4,2023-01-28,5.3,2.1,3.20,CNBC via Retail Customer Experience 2.1 https://www.retailcustomerexperience.com/news/dicks-sporting-goods-q4-sales-are-a-hit-out-of-the-park/ | CNBC original not fetched
 FY23Q1,2023-04-29,3.4,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
 FY23Q2,2023-07-29,1.8,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
-FY23Q3,2023-10-28,1.7,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
-FY23Q4,2024-02-03,2.8,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
-FY24Q1,2024-05-04,5.3,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY23Q3,2023-10-28,1.7,-1.9,3.60,"Analysts avg (SGB, provider unnamed) -1.9 https://sgbonline.com/?p=298541 | sign looks odd vs actual +1.7 but as printed by SGB"
+FY23Q4,2024-02-03,2.8,0.8,2.00,Wall Street (Bloomberg headline article) 0.8 https://www.bloomberg.com/news/articles/2024-03-14/dick-s-sporting-goods-dks-rises-as-sales-surpass-expectations | figure from search snippet; Bloomberg page not fetchable
+FY24Q1,2024-05-04,5.3,2.45,2.85,Sportico (expected) 2.4 https://www.sportico.com/business/finance/2024/dicks-stock-surges-amid-positive-outlook-1234782191/; Bloomberg via Spokesman-Review/WaPo 2.5 https://www.spokesman.com/stories/2024/may/29/dicks-sporting-goods-defies-woes-of-athletic-wear-/ | median of 2
 FY24Q2,2024-08-03,4.5,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
-FY24Q3,2024-11-02,4.3,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
+FY24Q3,2024-11-02,4.3,2.5,1.80,Investing.com (forecast) 2.5 https://www.tradingkey.com/news/stocks/240213650-investing | company release says 4.2% (CSV actual 4.3 left unchanged)
 FY24Q4,2025-02-01,6.6,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
 FY25Q1,2025-05-03,4.5,,,no consensus comp figure found in workspace (broker research starts Aug-2025)
 FY25Q2,2025-08-02,5.0,3.2,1.8,"C01_SYNTHESIS_B L1217-1219/C06_R1 › JPM Consensus Metrix 3.3, Wells FactSet 3.2, Barclays BBG 3.1 (SRC 03 2025-09-05 Barclays; 09-03 JPM; 09-04 WF); mean of 3"
