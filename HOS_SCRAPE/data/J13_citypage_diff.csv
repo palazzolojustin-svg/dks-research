@@ -1,0 +1,54 @@
+hos_store,city,open_date,n_pre,n_now,gone_since_pre,new_since_pre
+1500,victor,2021-04-09,1,1,,
+1500,farmington,2021-04-09,None,None,,
+1500,canandaigua,2021-04-09,None,None,,
+1372,knoxville,2021-05-19,2,2,"Knoxville 221 North Peters Road Knoxville , TN 37923 US","The Commons-knoxville 221 North Peters Road, The Commons-knoxville Kno"
+1514,minnetonka,2022-06-03,1,1,"WEST RIDGE MARKET 11260 WAYZATA BLVD MINNETONKA , MN 55305 US","Ridgedale Center 12437 Wayzata Boulevard, Ridgedale Center Minnetonka "
+1514,hopkins,2022-06-03,None,None,,
+1514,plymouth,2022-06-03,None,None,,
+1587,houston,2023-05-15,None,"['Willowbrook Mall 7925 Fm 1960 Road W, #9000 Houston , TX 77070 US', 'Post Oak Shopping Center 2131 Post Oak Boulevard, Post Oak Shopping Ce', 'Westlake Marketplace 14359 E Sam Houston Pkwy, Westlake Marketplace Ho', 'Copperfield Marketplace 16343 Fm 529 Road, Copperfield Marketplace Hou', 'Meyerland Plaza 700 Meyerland Plaza, Meyerland Plaza Houston , TX 7709']",,
+1587,webster,2023-05-15,1,1,"Baybrook Passage 19431 Gulf Fwy Webster , TX 77598 US","19801 Gulf Freeway 19801 Gulf Freeway, 19801 Gulf Freeway Webster , TX"
+1587,friendswood,2023-05-15,1,1,,
+1587,katy,2023-05-15,1,1,,
+1587,pearland,2023-05-15,None,"['Pearland Town Center 11200 Broadway Street, Pearland Town Center Pearl']",,
+1582,davenport,2023-07-21,1,1,"DAVENPORT 320 W Kimberly Road DAVENPORT , IA 52806 US","Davenport Commons 5511 Elmore Avenue, Davenport Commons Davenport , IA"
+1584,latham,2023-07-28,1,1,,
+1584,albany,2023-07-28,2,2,"Albany One Crossgates Mall Road Albany , NY 12203 US","Crossgates Mall One Crossgates Mall Road, Suite 99x04b, Crossgates Mal"
+1584,colonie,2023-07-28,"['LATHAM FARMS SHOPPING CENTER 579 TROY/SCHENECTADY ROAD #124 COLONIE , ']",None,,
+1581,fayetteville,2023-07-28,1,2,,"Fayetteville 1918-b Skibo Rd., Fayetteville Fayetteville , NC 28314 US"
+1546,johnson-city,2023-08-18,1,1,,
+1546,vestal,2023-08-18,1,1,,
+1546,binghamton,2023-08-18,"['BINGHAMTON 347 COURT ST. BINGHAMTON , NY 13904 US']",None,,
+1580,chesapeake,2023-08-18,1,1,,
+1583,champaign,2023-08-18,2,1,"63 E. Marketview Drive Champaign , IL 61820 US",
+1579,scranton,2023-08-18,2,2,,
+1579,dickson-city,2023-08-18,"['DICKSON CITY CROSSING 600 COMMERCE BLVD. DICKSON CITY , PA 18519 US']",None,,
+1548,pittsburgh,2024-04-05,5,6,,"877 Freeport Road, Pittsburgh , PA 15238 US"
+1536,boston,2024-04-19,1,1,,
+1593,wilmington,2024-10-11,1,1,"BRANDYWINE TOWNE CENTER 1000 BRANDYWINE PARKWAY WILMINGTON , DE 19803 ","Brandywine Town Center 1000 Brandywine Parkway, Brandywine Town Center"
+1572,tampa,2024-10-18,2,2,"WESTSHORE PLAZA 258 WESTSHORE PLAZA TAMPA , FL 33609 US","International Plaza 2223 N. Westshore Blvd, International Plaza Tampa "
+1592,oklahoma-city,2024-10-04,3,3,"Oklahoma City 3000 NW 59th Oklahoma City , OK 73112 US; SHOPS AT QUAIL SPRING 14200 N PENNSYLVANIA AVENUE OKLAHOMA CITY , OK 7","North Oklahoma City 13145 N. Pennsylvania Ave, North Oklahoma City Okl; Oklahoma City 14200 Pennsylvania Ave, Oklahoma City Oklahoma City , OK"
+1620,tulsa,2024-11-08,1,2,,"Union Plaza 10021 E 71st Steet, Union Plaza Tulsa , OK 74133 US"
+1561,salem,2024-11-15,1,1,,
+1571,miami,2025-02-12,3,4,,"Dadeland Mall 7239 N. Kendall Drive, Dadeland Mall Miami , FL 33156 US"
+1601,beavercreek,2025-03-07,1,1,,
+1601,dayton,2025-03-07,1,1,,
+1611,baton-rouge,2025-05-16,None,"['Baton Rouge 6501 Blue Bonnet Blvd, Baton Rouge Baton Rouge , LA 70836 ']",,
+1666,columbus,2025-08-15,1,2,"EASTON TOWN CENTER 4304 EASTON GATEWAY DRIVE COLUMBUS , OH 43219 US","Polaris Fashion Place 1510 Polaris Parkway, Polaris Fashion Place Colu; Easton Town Center 4280 Easton Gateway Drive, Easton Town Center Colum"
+1619,dallas,2025-09-10,2,3,"GALLERIA 13838 DALLAS PARKWAY DALLAS , TX 75240 US","Dallas Parkway 13900 Dallas Parkway, Dallas Parkway Dallas , TX 75240 ; Alpha Parkway Plaza 13838 Dallas Parkway, Alpha Parkway Plaza Dallas ,"
+1623,leawood,2025-09-12,1,1,,
+1623,overland-park,2025-09-12,None,None,,
+1567,jersey-city,2025-09-18,1,1,,
+1607,durham,2025-10-10,1,2,,"New Hope Commons 5422 New Hope Commons Drive, New Hope Commons Durham "
+1602,san-antonio,2025-10-15,3,4,,"Live Oak Town Center 4100 Ikea-rbfcu Parkway, Live Oak Town Center San"
+1602,live-oak,2025-10-15,None,None,,
+1594,glendale,2025-10-20,1,2,,"Westgate 6385 N. 99th Avenue, Westgate Glendale , AZ 85305 US"
+1665,charlottesville,2025-10-31,None,"['5th Street Station Suite 200, 120 Wegmans Way, 5th Street Station Char']",,
+1569,strongsville,2025-10-31,2,1,"Westfield Shoppingtown South Park 17071 Southpark Center, Westfield Sh",
+1574,freehold,2025-11-01,2,2,"Freehold Raceway Mall 650 Trotter's Way, Freehold Raceway Mall Freehol","Freehold Raceway Mall 3710 Us Highway 9, Freehold Raceway Mall Freehol"
+1633,brandon,2025-11-07,1,1,"BRANDON TOWN CENTER 901 BRANDON TOWNE CENTER MALL BRANDON , FL 33511 U","Brandon Exchange 686 Brandon Town Center Dr, Brandon Exchange Brandon "
+1664,kennesaw,2025-11-07,1,1,,
+1647,mobile,2025-10-15,1,1,,
+1565,amherst,2026-03-13,1,1,"Boulevard Mall 640 Alberta Drive, Boulevard Mall Amherst , NY 14226 US","The Boulevard 4200 Ridge Lea Road, The Boulevard Amherst , NY 14228 US"
+1565,buffalo,2026-03-13,2,1,"Buffalo 2000 Walden Galleria, Buffalo Buffalo , NY 14225 US",
+1568,cedar-rapids,2026-06-03,1,1,"MARKET PLACE 4601 1ST AVENUE SE CEDAR RAPIDS , IA 52402 US","Lindale Mall 4600 1st Avenue Ne, Lindale Mall Cedar Rapids , IA 52402 "
