@@ -1,0 +1,83 @@
+status,store_no,center_or_note,city,state,county,fips,open_date,open_q,date_conf,type,replaced_store,qcew_event,in_locator_HoS,source
+open,1500,DSG relocated from plaza across Rt 96,Victor,NY,Ontario,36069,2021-04-09,2021Q2,H,relocation-same-county,prior DSG in plaza across Rt 96 (store # n/a),in_B5_summary; relocation/conversion; n_post_q=20.0,Y,MPNnow 2021-04-09 (H02_gnews_titles)
+open,1372,West Town Mall,Knoxville,TN,Knox,47093,2021-05-19,2021Q2,H,conversion/relocation,,in_B5_summary; relocation/conversion; n_post_q=20.0,Y,Knoxville News Sentinel 2021-05-19
+open,1514,Ridgedale Center,Minnetonka,MN,Hennepin,27053,2022-06-03,2022Q2,H,unknown,,in_B5_summary; unknown; n_post_q=16.0,Y,Twin Cities Business 2022-06-03
+open,1587+1586,TX permit: F&S outlet converted May-2023; DSG #5415 closed 2023-06-30 ,Harris(Baybrook+Katy),TX,Harris,48201,2023-05-15,2023Q2,M,2 HoS in same county same quarter: Baybrook 2-into-1 consolidation + Katy F&S conversion (TX permit county 101),"DSG #5415 (Gulf Fwy, closed 2023-06-30) + Field&Stream outlet converted (Katy)",in_B5_summary; relocation/conversion [contaminated/large]; n_post_q=12.0,Y,H07 TX permits
+open,1582,'Renovated DICK'S re-opens in Davenport',Davenport,IA,Scott,19163,2023-07-21,2023Q3,H,in-place remodel,,in_B5_summary; relocation/conversion; n_post_q=11.0,Y,KWQC 2023-07-21
+open,1584,,Latham,NY,Albany,36001,2023-07-28,2023Q3,H,unknown,,in_B5_summary; unknown; n_post_q=11.0,Y,WRGB 2023-07-28
+open,1581,,Fayetteville,NC,Cumberland,37051,2023-07-28,2023Q3,H,relocation (old Skibo Rd listing survives),,in_B5_summary; relocation/conversion; n_post_q=11.0,Y,Greater Fayetteville Business Journal 2023-07-28
+open,1546,replaced 47K Vestal store,Johnson City,NY,Broome,36007,2023-08-18,2023Q3,H,relocation-same-county,Vestal NY DSG 47K sf (opened 1992; store # n/a),in_B5_summary; relocation/conversion; n_post_q=9.0,Y,WBNG 2023-08-18
+open,1580,part of 9-store Aug-2023 PR,Chesapeake,VA,Chesapeake city,51550,2023-08-18,2023Q3,M,in-place (old listing same address),,in_B5_summary; relocation/conversion; n_post_q=11.0,Y,PR Newswire 2023-08-18
+open,1583,part of 9-store Aug-2023 PR,Champaign,IL,Champaign,17019,2023-08-18,2023Q3,M,unknown,,in_B5_summary; unknown; n_post_q=7.0,Y,PR Newswire 2023-08-18
+open,1579,Viewmont Mall; part of 9-store Aug-2023 PR,Scranton,PA,Lackawanna,42069,2023-08-18,2023Q3,M,unknown,,in_B5_summary; unknown; n_post_q=11.0,Y,PR Newswire 2023-08-18
+open,1548,,Pittsburgh(Ross Park),PA,Allegheny,42003,2024-04-05,2024Q2,H,net-new in mall (50K DSG <1 mile stays),none: 50K DSG <1 mi stays,in_B5_summary; net-new; n_post_q=8.0,Y,TribLIVE 2024-04-05
+open,1536,,Boston(Prudential),MA,Suffolk,25025,2024-04-19,2024Q2,M,net-new,none: net-new,in_B5_summary; net-new; n_post_q=8.0,Y,MassLive 2024-04-19
+open,1593,,Wilmington(Brandywine),DE,New Castle,10003,2024-10-11,2024Q4,H,unknown,,in_B5_summary; unknown; n_post_q=4.0,Y,News Journal 2024-10-11
+open,1572,,Tampa(Intl Plaza),FL,Hillsborough,12057,2024-10-18,2024Q4,H,unknown,,in_B5_summary; unknown; n_post_q=6.0,Y,That's So Tampa 2024-10-21
+open,1592,,Oklahoma City,OK,Oklahoma,40109,2024-10-04,2024Q4,M,unknown,,in_B5_summary; unknown; n_post_q=6.0,Y,Journal Record 2024-10-02
+open,1620,,Tulsa,OK,Tulsa,40143,2024-11-08,2024Q4,M,unknown,,in_B5_summary; unknown [contaminated/large]; n_post_q=6.0,Y,TulsaKids 2024-11-13
+open,1561,,Salem,NH,Rockingham,33015,2024-11-15,2024Q4,M,in-place (old listing same address),,in_B5_summary; relocation/conversion; n_post_q=6.0,Y,WZID 2024-11-15; Union Leader 2024-11-22
+open,1571,ex-Nordstrom Dadeland,Miami(Kendall),FL,Miami-Dade,12086,2025-02-12,2025Q1,H,unknown,,in_B5_summary; unknown; n_post_q=5.0,Y,Business Journals 2025-02-12
+open,1601,Fairfield Commons,Beavercreek,OH,Greene,39057,2025-03-07,2025Q1,H,unknown,,in_B5_summary; unknown; n_post_q=3.0,Y,WDTN 2025-03-07
+open,1611,ex-Sears Mall of Louisiana,Baton Rouge,LA,East Baton Rouge,22033,2025-05-16,2025Q2,H,in-place/relocation (old listing same address),,in_B5_summary; relocation/conversion; n_post_q=4.0,Y,The Advocate 2025-05-16
+open,1666,,Columbus(Polaris),OH,Delaware,39041,2025-08-15,2025Q3,H,2-into-1 (DSG + Public Lands),DSG + Public Lands (2-into-1),in_B5_summary; unknown; n_post_q=3.0,Y,Columbus Dispatch 2025-08-14
+open,1619,TX permit first sale 2025-09-10,Dallas(Galleria),TX,Dallas,48113,2025-09-10,2025Q3,H,unknown,,in_B5_summary; unknown [contaminated/large]; n_post_q=3.0,Y,H07 TX permits
+open,1623,,Leawood,KS,Johnson,20091,2025-09-12,2025Q3,H,unknown,,in_B5_summary; unknown; n_post_q=3.0,Y,Axios 2025-09-18; FOX4 2025-09-09
+open,1567,Newport Centre,Jersey City,NJ,Hudson,34017,2025-09-18,2025Q3,H,net-new,,in_B5_summary; net-new; n_post_q=1.0,Y,KNOWN_BRIEF
+open,1607,Southpoint,Durham,NC,Durham,37063,2025-10-10,2025Q4,H,unknown,,in_B5_summary; unknown; n_post_q=2.0,Y,ABC11 2025-10-11
+open,1602,TX permit first sale 2025-10-15,Live Oak(San Antonio),TX,Bexar,48029,2025-10-15,2025Q4,H,net-new,,in_B5_summary; net-new; n_post_q=2.0,Y,H07 TX permits
+open,1594,,Glendale,AZ,Maricopa,04013,2025-10-20,2025Q4,H,net-new,,in_B5_summary; net-new [contaminated/large]; n_post_q=2.0,Y,KTAR 2025-10-21
+open,1665,,Charlottesville,VA,Albemarle,51003,2025-10-31,2025Q4,H,unknown,,in_B5_summary; unknown; n_post_q=2.0,Y,WVIR 2025-10-31
+open,1569,SouthPark Mall,Strongsville,OH,Cuyahoga,39035,2025-10-31,2025Q4,H,unknown,,in_B5_summary; unknown; n_post_q=2.0,Y,WKYC 2025-10-31
+open,1574,,Freehold,NJ,Monmouth,34025,2025-11-01,2025Q4,H,in-place conversion,,in_B5_summary; relocation/conversion; n_post_q=2.0,Y,Asbury Park Press 2025-11-01
+open,1633,,Brandon,FL,Hillsborough,12057,2025-11-07,2025Q4,M,in-place conversion,,in_B5_summary; relocation/conversion; n_post_q=2.0,Y,Business Journals 2025-10-22
+open,1664,,Kennesaw,GA,Cobb,13067,2025-11-07,2025Q4,M,reopened ex-Public Lands store,ex-Public Lands store reopened as HoS,in_B5_summary; relocation/conversion; n_post_q=2.0,Y,WSB 2025-11-02; Business Journals 2025-10-24
+open,1647,date not found; open by Jan-2026 (Senior Bowl event); counted in FY25 ,Mobile,AL,Mobile,01097,2025-10-15,2025Q4,L,unknown,,in_B5_summary; unknown; n_post_q=2.0,Y,Fox10 2026-01-07
+open,1565,,Amherst,NY,Erie,36029,2026-03-13,2026Q1,H,unknown,,in_B5_summary; unknown; n_post_q=1.0,Y,WGRZ 2026-03-12
+open?,1563,SanTan Village; planned 166 employees (126 PT/31 FT),Gilbert,AZ,Maricopa,04013,,,L,unknown,,NO (not in B5; undated),Y,J01 google-news 2026-10-08 / locator
+open,1612,first sale per TX permits (H07); ex-Sears 120K sf; net-new to city,Arlington (Parks Mall),TX,Tarrant,48439,2026-06-17,2026Q2,H,unknown,,NO (after 2026Q1),Y,J01 google-news 2026-10-08 / locator
+open,1610,"first HoS in Colorado; opening ~8/14-15 (9News 8/14, CBS 8/15)",Thornton (Larkridge),CO,Adams,08001,2026-08-14,2026Q3,M,unknown,,NO (after 2026Q1),Y,J01 google-news 2026-10-08 / locator
+open,1661,"soft open 6/3, grand open 6/12-14; ex-Sears 120K sf; ~200 employees",Cedar Rapids (Lindale Mall),IA,Linn,19113,2026-06-03,2026Q2,H,unknown,"DSG at 4601 First Ave NE (store # n/a), relocated",NO (after 2026Q1),Y,J01 google-news 2026-10-08 / locator
+open,1634,in-place conversion $10.2M (mocoshow 2026-06-04),Gaithersburg (Rio Lakefront),MD,Montgomery,24031,2026-06-05,2026Q2,H,in-place conversion,in-place conversion of existing DSG (Rio Lakefront),NO (after 2026Q1),Y,J01 google-news 2026-10-08 / locator
+open,1660,opens July 24 (Youth Sports Business 2026-07-21),"Schaumburg (Streets of Woodfield area, 601 N Martingale)",IL,Cook,17031,2026-07-24,2026Q3,H,unknown,,NO (after 2026Q1),Y,J01 google-news 2026-10-08 / locator
+open,1617,"soft open ~7/30, grand open 8/7 (Hoodline/TribLIVE); ex-Sears",Greensburg (Westmoreland Mall),PA,Westmoreland,42129,2026-08-07,2026Q3,H,unknown,,NO (after 2026Q1),Y,J01 google-news 2026-10-08 / locator
+open,1648,ex-JCPenney; acquired by Macerich/Brookfield deal; grand open 8/14 (Baltimore Sun),Annapolis Mall,MD,Anne Arundel,24003,2026-08-14,2026Q3,H,unknown,,NO (after 2026Q1),Y,J01 google-news 2026-10-08 / locator
+pipeline,1608,net-new infill 6 mi from DSG; ex-Sears >100K sf; grand opening 10/9,Raleigh (Crabtree Valley),NC,Wake,37183,2026-10-09,FY26Q3-4,,see note,,NO (not open),pre-open page,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,1677,relocation (DSG #421 next door); ex-Sears 142K sf; TABS $16.0M,Frisco (Stonebriar),TX,Collin,48085,2026-10-23,FY26Q3-4,,see note,,NO (not open),pre-open page,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (DSG #260 1.5 mi); 'Opening in 2026',Cherry Hill Mall,NJ,Camden,34007,,FY26Q3-4,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (DSG #432 0.8 mi); hiring under way,Novi (Twelve Oaks area),MI,Oakland,26125,,FY26Q3-4,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (DSG #1124 0.1 mi); hiring under way,Sioux Falls,SD,Minnehaha,46099,,FY26Q3-4,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,"DSG Danvers #435 0.8 mi; CMBS says Feb-2027, mall says fall 2027",Peabody (Northshore),MA,Essex,25009,,2027,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (DSG #1110),King of Prussia,PA,Montgomery,42091,,2027,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental infill,Tysons Corner Center,VA,Fairfax,51059,,2027,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,first-in-market (nearest DSG 76 mi),Springfield MO (Battlefield),MO,Greene,29077,,2027,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental infill,St. Louis Galleria,MO,St. Louis Co.,29189,,2027,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental infill,San Diego Mission Valley,CA,San Diego,06073,,2027,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,likely relocation (#1239); city $37M GO bonds,Joliet (Rock Run),IL,Will,17197,,2027,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,DSG #342 may stay (month-to-month),Washington Square (Tigard),OR,Washington,41067,,2027,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental infill,Barton Creek (Austin),TX,Travis,48453,,2027,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental infill,Arden Fair (Sacramento),CA,Sacramento,06067,,2027,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (DSG #196),Rockaway Townsquare,NJ,Morris,34027,,2027?,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (#1348),Sarasota UTC,FL,Sarasota,12115,,2027?,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,first-in-market (105 mi),Lubbock,TX,Lubbock,48303,,2027?,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (#16),Poughkeepsie Galleria,NY,Dutchess,36027,,2027?,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental,Hollywood (Oakwood Plaza),FL,Broward,12011,,2027?,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (#423),Broomfield (FlatIron),CO,Broomfield,08014,,2027?,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental,Braintree (South Shore Plaza),MA,Norfolk,25021,,2027?,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (#1141),Springfield Town Center,VA,Fairfax,51059,,FY27-28,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (#1409),San Jose,CA,Santa Clara,06085,,FY27-28,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (#128),Short Pump,VA,Henrico,51087,,FY27-28,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental,Holyoke,MA,Hampden,25013,,FY27-28,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (#1118),Mentor,OH,Lake,39085,,FY27-28,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,demolition Jul-26,Fresno,CA,Fresno,06019,,late2027/early2028,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (#285),Franklin (CoolSprings),TN,Williamson,47187,,early 2028,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,relocation (#1195); slipped from late 2027,Los Cerritos,CA,Los Angeles,06037,,2028,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental,Eugene,OR,Lane,41039,,spring 2028,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,first-in-market (65 mi),Lowell AR,AR,Benton,05007,,Mar 2028,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental,Palm Beach Gardens,FL,Palm Beach,12099,,spring 2028,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,approval Aug-Sep 2026,Boardman,OH,Mahoning,39099,,2028,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,"relocation (#1113); DKS projects ~$20M -> $40M, staff 72 -> 147",Corpus Christi (La Palmera),TX,Nueces,48355,,2028,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,approval Sep 2026,Maple Grove,MN,Hennepin,27053,,2028,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,incremental; approval Sep 2026,Costa Mesa,CA,Orange,06059,,2028,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,existing store stays,Orland Park,IL,Cook,17031,,2029,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
+pipeline,,format unknown; Nordstrom bldg bought Jul-26,Christiana Mall,DE,New Castle,10003,,?,,see note,,NO (not open),N,THESIS_SCRAPE H02/H03/H04 notes (FIPS = J01 general knowledge)
