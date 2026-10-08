@@ -1,0 +1,9 @@
+store,mall,city_state,deal,filing_date,metric,period,value,sales_psf,occ_cost,source_url
+Foot Locker,Northwoods Mall,North Charleston SC,BMO 2026-5C15,2026-06-08,sales psf,2019/2020/2021/2022/2023/2024/TTM 12-2025,868.98/797.01/834.65/926.79/843.13/837.46/825.75,825.75,,https://www.sec.gov/Archives/edgar/data/1539497/000153949726001682/ (BMO 2026-5C15 424B2 n5939_x10)
+Champs Sports,Northwoods Mall,North Charleston SC,BMO 2026-5C15,2026-06-08,sales psf,2019/2020/2021/2022/2023/2024/TTM 12-2025,418.13/408.97/507.81/475.75/316.56/295.38/294.95,294.95,,same
+Foot Locker,Mall at Prince George's,Hyattsville MD,Wells Fargo 2026-C(n5864),2026-05-04,tenant sales $,2022/2023/2024/2025,5165353/5286371/5618803/5256040,657,10.0%,https://www.sec.gov/Archives/edgar/data/1539497/000153949726001330/ (n5864_x5-ts)
+Foot Locker,Brandon Mall,Brandon FL,BANK5 2023-5YR2,2023-06-20,sales psf,2020/2021/2022/TTM 2-2023,930/1140/1089/1072,1072,10.1%,EDGAR 0001539497-23-001126 n3498_x3-ts
+Champs Sports,Brandon Mall,Brandon FL,BANK5 2023-5YR2,2023-06-20,sales psf,2020/2021/2022/TTM 2-2023,529/733/600/573,573,17.0%,same
+Foot Locker,Westfarms,West Hartford CT,BANK5 2023-5YR3,2023-09-12,sales psf,2020/2021/2022,512/620/677,677,16.6%,EDGAR 0001539497-23-001573 n3753-x5ts
+Foot Locker,Shingle Creek Crossing,Kissimmee FL,MSC 2019-L2,2019-02-20,tenant sales $ and psf,3 annual periods ~2016-2018 (header parse unclear),2153237/2333500/2334849,680,6.6%,EDGAR 0001539497-19-000306 n1528_ts-x2
+Kids Foot Locker,Shingle Creek Crossing,Kissimmee FL,MSC 2019-L2,2019-02-20,tenant sales $ and psf,same,1427927/1416407/1385969,464,9.6%,same
