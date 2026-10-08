@@ -10,3 +10,4 @@ THESIS_SCRAPE/raw/
 __pycache__/
 *.pyc
 FL_INVENTORY_SCRAPE/raw/
+HOS_SCRAPE/raw/
