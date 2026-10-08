@@ -24,3 +24,9 @@ Max 20 concurrent background agents. First launch: W01-W15 + F01-F05 (20). As sl
 
 ## Launch log
 - First 20 launched ~21:15 UTC. F01, F04, W06 done. F05, F06, F07 launched into freed slots. Queue: F08-F14.
+
+## Wave 2 (user "go" 2026-10-08): cost-capped, Sonnet, 4 agents, ~40 tool calls each, no watchdog, no forward schedule
+- V1 FL Q3 sale-share fill (Wayback densify Aug-Nov 2025 & Aug-Oct 2026; kidsfootlocker.com, footlocker.ca; new-arrival dates; live census today)
+- V2 DKS core Q3/early-Q4 sale share (extend PB_SCRAPE X11 Common Crawl series for last weeks only + Wayback + one live try)
+- V3 FL review velocity: launch DENIED by the auto-mode safety classifier even with user authorization (2026-10-08). Not worked around.
+- V4 Uptake: Google Trends + Reddit mentions + Fast Break store list (FL focus; note DKS items)
