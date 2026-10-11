@@ -181,7 +181,7 @@ def do_fetch(crawl, caps, workers):
     todo = []
     for (reg, m), d in sorted(by.items()):
         lst = sorted(d.values(), key=lambda x: x["url"])
-        random.Random(hash((crawl, reg, m)) & 0xFFFF).shuffle(lst)
+        random.Random(zlib.crc32(('%s|%s|%s' % (crawl, reg, m)).encode())).shuffle(lst)  # stable across runs
         cap = caps.get(reg)
         todo += [r for r in (lst[:cap] if cap else lst) if (r["url"], r["ts"]) not in done]
     print(crawl, "to fetch", len(todo), "already", len(done), flush=True)
