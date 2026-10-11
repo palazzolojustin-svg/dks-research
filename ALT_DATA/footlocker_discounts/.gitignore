@@ -1,0 +1,4 @@
+logs/
+raw/
+__pycache__/
+*.tmp
