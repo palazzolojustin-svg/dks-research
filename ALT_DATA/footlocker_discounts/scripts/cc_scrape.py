@@ -47,7 +47,7 @@ def sess():
     return _local.s
 
 
-def get(url, rng=None, tries=6, timeout=120):
+def get(url, rng=None, tries=12, timeout=120):
     h = {"Range": "bytes=%d-%d" % rng} if rng else {}
     for i in range(tries):
         try:
@@ -58,7 +58,8 @@ def get(url, rng=None, tries=6, timeout=120):
                 return None
         except requests.RequestException:
             pass
-        time.sleep(min(60, 2 ** (i + 1)) + random.random())
+        # CC 503 SlowDown is intermittent: short jittered waits beat long exponential ones
+        time.sleep(2 + random.random() * 4 + (10 if i >= 8 else 0))
     return None
 
 
