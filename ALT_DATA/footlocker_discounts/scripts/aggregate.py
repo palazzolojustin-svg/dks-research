@@ -28,7 +28,9 @@ def main():
     prods = defaultdict(list)                            # (region, month, fmt, key) -> [disc]
     meta = {}
     seen_pages = set()
-    for f in sorted(glob.glob(os.path.join(DATA, "pages", "*.jsonl"))):
+    live = os.path.normpath(os.path.join(HERE, "..", "live", "pages"))
+    src = live if glob.glob(os.path.join(live, "*.jsonl")) else os.path.join(DATA, "pages")
+    for f in sorted(glob.glob(os.path.join(src, "*.jsonl"))):
         for line in open(f):
             try:
                 j = json.loads(line)

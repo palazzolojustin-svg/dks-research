@@ -27,6 +27,7 @@ from flparse import DOMAINS, page_type, parse_products, region_of  # noqa: E402
 BASE = "https://data.commoncrawl.org/"
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.normpath(os.path.join(HERE, "..", "data"))
+LIVE = os.path.normpath(os.path.join(HERE, "..", "live"))  # gitignored work dir; sync.sh snapshots to data/
 CRAWLS = [
     "CC-MAIN-2024-38", "CC-MAIN-2024-42", "CC-MAIN-2024-46", "CC-MAIN-2024-51",
     "CC-MAIN-2025-05", "CC-MAIN-2025-08", "CC-MAIN-2025-13", "CC-MAIN-2025-18",
@@ -159,7 +160,7 @@ def do_fetch(crawl, caps, workers):
     if not os.path.exists(idx):
         do_index(crawl)
     rows = [json.loads(l) for l in open(idx)]
-    out = os.path.join(DATA, "pages", "cc_%s.jsonl" % crawl)
+    out = os.path.join(LIVE, "pages", "cc_%s.jsonl" % crawl)
     os.makedirs(os.path.dirname(out), exist_ok=True)
     done = set()
     if os.path.exists(out):
