@@ -49,6 +49,9 @@ def main():
             if j.get("n", 0) <= 0:
                 continue
             c["pages_with_products"] += 1
+            d8 = int(j["ts"][:8])
+            c["first_capture"] = min(c.get("first_capture") or d8, d8)
+            c["last_capture"] = max(c.get("last_capture") or d8, d8)
             c["src_" + j.get("src", "?")] += 1
             c["fmt_" + j.get("fmt", "?")] += 1
             for p in j["products"]:
@@ -82,7 +85,8 @@ def main():
         for (reg, m, seg), (n, ns, sd, sds) in sorted(agg.items()):
             w.writerow([reg, m[:4] + "-" + m[4:], seg, n, round(ns / n, 4), round(sd / n, 4),
                         round(sds / ns, 4) if ns else ""])
-    cols = ["pages_fetched", "pages_with_products", "src_cc", "src_wb", "fmt_cat", "fmt_seo", "fmt_rx", "product_obs"]
+    cols = ["pages_fetched", "pages_with_products", "src_cc", "src_wb", "fmt_cat", "fmt_seo", "fmt_rx", "product_obs",
+            "first_capture", "last_capture"]
     months = []
     y, mo = int(START[:4]), int(START[4:])
     while "%04d%02d" % (y, mo) <= END:
